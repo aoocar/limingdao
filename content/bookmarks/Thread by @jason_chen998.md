@@ -1,10 +1,10 @@
 ---
 title: "Thread by @jason_chen998"
-url: "https://x.com/home"
+sitelink: "https://x.com/home"
 description:
 logo:
-taxonomy: "未分类"
-term: "默认"
+categories: ["未分类"]
+tags: ["默认"]
 icon: "far fa-star"
 ---
 **陈剑Jason** @jason\_chen998 [2026-02-22](https://x.com/jason_chen998/status/2025527748287152625)

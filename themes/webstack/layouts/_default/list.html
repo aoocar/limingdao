@@ -1,23 +1,23 @@
-<div id="content" class="content-site customize-site">
+{{ partial "header.html" . }}
 
-    {{ range $category_name, $taxonomy := .Site.Taxonomies.categories }}
-    <div class="d-flex flex-fill align-items-center mb-4">
-        <h4 class="text-gray text-lg m-0">
-            <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 $category_name }}"></i>
-            {{ $category_name }}
-        </h4>
-        <div class="flex-fill"></div>
-        <a class='btn-move text-xs' href="{{ " categories/" | relLangURL }}{{ $category_name | urlize }}/">查看更多 <i
-                class="iconfont icon-arrow-r-m"></i></a>
+{{ partial "sidebar.html" . }}
+
+{{ partial "content_header.html" . }}
+
+<div id="content" class="content-site customize-site">
+    <div class="d-flex flex-fill">
+        <h1 class="text-gray text-lg mb-4">
+            <i class="site-tag iconfont icon-tag icon-lg mr-1"></i>
+            分类: {{ .Title }}
+        </h1>
     </div>
 
     <div class="row">
-        {{ range first 6 $taxonomy }}
+        {{ range .Pages }}
         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
             <div class="url-body default">
-
                 <a href="{{ .Permalink }}" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom"
-                    title="查看详情：{{ .Params.description }}">
+                    title="{{ .Params.description }}">
                     <div class="card-body">
                         <div class="url-content d-flex align-items-center">
                             <div class="url-img mr-2 d-flex align-items-center justify-content-center">
@@ -41,22 +41,13 @@
                     data-toggle="tooltip" data-placement="right" title="直达跳转" rel="nofollow">
                     <i class="iconfont icon-goto"></i>
                 </a>
-
             </div>
         </div>
         {{ end }}
     </div>
-    <br />
-    {{ end }}
 
-    <h4 class="text-gray text-lg mb-4 mt-5">
-        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
-    </h4>
-    <div class="friendlink text-xs card">
-        <div class="card-body">
-            {{ range .Site.Data.friendlinks }}
-            <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
-            {{ end }}
-        </div>
-    </div>
 </div>
+
+{{ partial "content_footer.html" . }}
+
+{{ partial "footer.html" . }}

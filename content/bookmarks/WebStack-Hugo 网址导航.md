@@ -1,10 +1,10 @@
 ---
 title: "WebStack-Hugo 网址导航"
-url: "https://limingdao.vercel.app/"
+sitelink: "https://limingdao.vercel.app/"
 description:
 logo:
-taxonomy: "未分类"
-term: "默认"
+categories: ["未分类"]
+tags: ["默认"]
 icon: "far fa-star"
 ---
 #### 开发工具

@@ -1,0 +1,134 @@
+{{ partial "header.html" . }}
+
+{{ partial "content_header.html" . }}
+
+<body class="page-body boxed-container">
+    <main role="main" class="flex-shrink-0">
+        <div class="container" style="max-width: 900px; padding-top: 50px;">
+
+            <!-- Site Header/Hero Section -->
+            <div class="site-detail-header card text-center mb-4" style="padding: 40px 20px;">
+                <div class="site-logo mb-3">
+                    {{ if .Params.logo }}
+                    <img src="{{ .Params.logo }}" alt="{{ .Title }}" width="120"
+                        style="border-radius: 20%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    {{ else }}
+                    <img src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}" width="120"
+                        style="border-radius: 20%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    {{ end }}
+                </div>
+                <h1 class="font-weight-bold">{{ .Title }}</h1>
+                <p class="text-muted" style="font-size: 1.1rem;">{{ .Params.description }}</p>
+
+                <div class="mt-4">
+                    <a href="{{ .Params.sitelink }}" target="_blank" class="btn btn-primary btn-lg"
+                        style="border-radius: 30px; padding: 10px 40px; background-color: #f1404b; border-color: #f1404b;">
+                        <i class="iconfont icon-goto mr-2"></i> 直达网站
+                    </a>
+                </div>
+
+                <div class="mt-3">
+                    {{ range .Params.categories }}
+                    <a href="{{ " categories/" | relLangURL }}{{ . | urlize }}"
+                        class="badge badge-light p-2 text-muted"><i class="iconfont icon-classification mr-1"></i>{{ .
+                        }}</a>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Ad Slot 1 (Top) -->
+            <div class="ad-slot-top mb-4 text-center">
+                <!-- ========== 广告预留位：Google AdSense (顶部) ========== -->
+                <div style="background: rgba(0,0,0,0.03); border: 1px dashed #ccc; padding: 20px; color: #999;">
+                    [广告位：请在此插入您的 Google AdSense 代码]
+                </div>
+                <!-- ======================================================= -->
+            </div>
+
+            <!-- Markdown Content -->
+            <div class="card mb-4" style="padding: 40px;">
+                <h3 class="font-weight-bold mb-4">关于本站</h3>
+                <div class="content">
+                    {{ if .Content }}
+                    {{ .Content | markdownify | safeHTML }}
+                    {{ else }}
+                    <p class="text-muted text-center py-5">站长还在赶稿中，暂无详细介绍...</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Ad Slot 2 (Bottom) -->
+            <div class="ad-slot-bottom mb-4 text-center">
+                <!-- ========== 广告预留位：Google AdSense (底部) ========== -->
+                <div style="background: rgba(0,0,0,0.03); border: 1px dashed #ccc; padding: 20px; color: #999;">
+                    [广告位：请在此插入您的 Google AdSense 代码]
+                </div>
+                <!-- ======================================================= -->
+            </div>
+
+        </div>
+    </main>
+
+    <style>
+        .content {
+            font-size: 16px;
+            color: #444;
+        }
+
+        .io-black-mode .content {
+            color: #ccc;
+        }
+
+        .io-black-mode .site-detail-header {
+            background: #2c2e2f;
+            border: none;
+        }
+
+        .io-black-mode .card {
+            background: #2c2e2f;
+            border: none;
+        }
+
+        .content a {
+            color: #f1404b;
+        }
+
+        .content a:hover {
+            color: #d0303a;
+            text-decoration: underline;
+        }
+
+        .content h1,
+        .content h2,
+        .content h3,
+        .content h4 {
+            margin: 25px 0 15px 0;
+            font-weight: bold;
+        }
+
+        .content p {
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+
+        .big-header-banner .page-header {
+            background: gray;
+        }
+
+        .main-content {
+            margin-left: 0px;
+        }
+
+        .page-header {
+            left: 0px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+
+    {{ partial "content_footer.html" . }}
+
+    {{ partial "footer.html" . }}
