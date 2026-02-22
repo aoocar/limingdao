@@ -1,6 +1,6 @@
 ---
 title: 测试网站
-url: https://example.com/test
+url: https://www.limingdao.com
 logo: https://example.com/logo.png
 description: 这是一个测试网站的描述信息
 taxonomy: 常用推荐
