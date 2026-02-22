@@ -1,0 +1,11 @@
+---
+
+- taxonomy: 常用推荐
+  icon: far fa-star
+  list:
+    - term: 开发工具
+      links:
+        - title: 测试网站
+          url: https://example.com/test
+          logo: https://example.com/logo.png
+          description: 这是一个测试网站的描述信息
