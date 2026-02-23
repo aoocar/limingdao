@@ -20,7 +20,7 @@
                     font-family: helvetica, arial, sans-serif;
                     font-weight: 900;
                     color: #f1404b;
-                    letter-spacing: 0.2em
+                    letter-spacing: .2em
                 }
 
                 .loader::before,
@@ -72,33 +72,70 @@
                     {{ end }}
                     <div class="modal-dialog h-100 sidebar-nav-inner">
                         <div class="sidebar-logo border-bottom border-color">
-                            <!-- logo -->
                             <div class="logo overflow-hidden">
-                                <a href="" class="logo-expanded">
+                                <a href="/" class="logo-expanded">
                                     <img src="{{ absURL $.Site.Params.images.logoExpandLight }}" height="40"
                                         class="logo-light" alt="{{ .Site.Title }}">
                                     <img src="{{ absURL $.Site.Params.images.logoExpandDark }}" height="40"
                                         class="logo-dark d-none" alt="{{ .Site.Title }}">
                                 </a>
-                                <a href="" class="logo-collapsed">
+                                <a href="/" class="logo-collapsed">
                                     <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" height="40"
                                         class="logo-light" alt="{{ .Site.Title }}">
                                     <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" height="40"
                                         class="logo-dark d-none" alt="{{ .Site.Title }}">
                                 </a>
                             </div>
-                            <!-- logo end -->
                         </div>
                         <div class="sidebar-menu flex-fill">
                             <div class="sidebar-scroll">
                                 <div class="sidebar-menu-inner">
                                     <ul>
-                                        {{ range $category_name, $taxonomy := .Site.Taxonomies.categories }}
-                                        <li class="sidebar-item">
-                                            <a href="{{ " categories/" | relLangURL }}{{ $category_name | urlize }}/">
+                                        {{/* Build sidebar from category/sub-category fields */}}
+                                        {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
+                                        {{ $c1List := slice }}
+                                        {{ range $allPages }}
+                                        {{ if .Params.category }}
+                                        {{ $c1List = $c1List | append .Params.category }}
+                                        {{ end }}
+                                        {{ end }}
+                                        {{ $c1List = $c1List | uniq }}
+
+                                        {{/* Link generation logic depends on whether we are on the homepage or not */}}
+                                        {{ $isHome := .IsHome }}
+
+                                        {{ range $c1 := $c1List }}
+                                        {{ $c1Pages := where $allPages ".Params.category" $c1 }}
+                                        {{ $c2List := slice }}
+                                        {{ range $c1Pages }}
+                                        {{ if index .Params "sub-category" }}
+                                        {{ $c2List = $c2List | append (index .Params "sub-category") }}
+                                        {{ end }}
+                                        {{ end }}
+                                        {{ $c2List = $c2List | uniq }}
+
+                                        <li class="sidebar-item has-sub">
+                                            <a href="{{ if not $isHome }}/{{ end }}#{{ md5 $c1 }}"
+                                                class="sidebar-link-toggle smooth">
                                                 <i class="iconfont icon-classification fa-lg icon-fw icon-lg mr-2"></i>
-                                                <span>{{ $category_name }}</span>
+                                                <span>{{ $c1 }}</span>
+                                                {{ if $c2List }}
+                                                <i class="iconfont icon-arrow-d-m sidebar-arrow"></i>
+                                                {{ end }}
                                             </a>
+                                            {{ if $c2List }}
+                                            <ul class="sidebar-sub">
+                                                {{ range $c2 := $c2List }}
+                                                {{/* Create an anchor hash that precisely matches the homepage blocks
+                                                */}}
+                                                {{ $hash := md5 (print $c1 "-" $c2) }}
+
+                                                {{/* If on homepage, just href to hash. If not, href to /#hash */}}
+                                                <li><a href="{{ if not $isHome }}/{{ end }}#term-{{
+                                                        $hash }}" class="smooth"><span>{{ $c2 }}</span></a></li>
+                                                {{ end }}
+                                            </ul>
+                                            {{ end }}
                                         </li>
                                         {{ end }}
                                     </ul>
@@ -108,8 +145,7 @@
                         <div class="border-top py-2 border-color">
                             <div class="flex-bottom">
                                 <ul>
-                                    <li id="menu-item-213"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213 sidebar-item">
+                                    <li class="sidebar-item">
                                         <a target="_blank" rel="noopener" href="{{ $.Site.Params.about }}">
                                             <i class="fa fa-info-circle icon-fw icon-lg mr-2"></i>
                                             <span>关于我们</span></a>
@@ -119,3 +155,42 @@
                         </div>
                     </div>
                 </div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        // Handle Sidebar Expand/Collapse Click
+                        document.querySelectorAll('.sidebar-link-toggle').forEach(function (link) {
+                            link.addEventListener('click', function (e) {
+                                var parentLi = this.closest('.sidebar-item.has-sub');
+                                if (parentLi && parentLi.querySelector('.sidebar-sub')) {
+                                    // We keep default behavior to allow anchor hashing but also toggle menu visually
+                                    parentLi.classList.toggle('open');
+                                }
+                            });
+                        });
+
+                        // Handle Smooth Anchor Scrolling for all .smooth links
+                        document.querySelectorAll('a.smooth').forEach(function (anchor) {
+                            anchor.addEventListener('click', function (e) {
+                                // Only hijacking if linking to same page hash
+                                if (this.getAttribute('href').startsWith('#')) {
+                                    e.preventDefault();
+                                    var targetId = this.getAttribute('href').substring(1);
+                                    var targetElement = document.getElementById(targetId);
+                                    if (targetElement) {
+                                        // Provide smooth auto-scroll to the section
+                                        targetElement.scrollIntoView({
+                                            behavior: 'smooth',
+                                            block: 'start'
+                                        });
+                                    }
+
+                                    // Update URL without page jump
+                                    if (history.pushState) {
+                                        history.pushState(null, null, '#' + targetId);
+                                    }
+                                }
+                            });
+                        });
+                    });
+                </script>

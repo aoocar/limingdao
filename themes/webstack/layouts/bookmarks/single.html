@@ -1,75 +1,161 @@
 {{ partial "header.html" . }}
-
+{{ partial "sidebar.html" . }}
 {{ partial "content_header.html" . }}
 
 <body class="page-body boxed-container">
     <main role="main" class="flex-shrink-0">
-        <div class="container" style="max-width: 900px; padding-top: 50px;">
+        <div class="container" style="max-width: 1000px; padding-top: 40px;">
 
-            <!-- Site Header/Hero Section -->
-            <div class="site-detail-header card text-center mb-4" style="padding: 40px 20px;">
-                <div class="site-logo mb-3">
-                    {{ if .Params.logo }}
-                    <img src="{{ .Params.logo }}" alt="{{ .Title }}" width="120"
-                        style="border-radius: 20%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                    {{ else }}
-                    <img src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}" width="120"
-                        style="border-radius: 20%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="mb-3">
+                <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
+                    <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+                    {{ with .Params.category }}
+                    <li class="breadcrumb-item"><a href="/categories/{{ . | urlize }}/">{{ . }}</a>
+                    </li>
                     {{ end }}
-                </div>
-                <h1 class="font-weight-bold">{{ .Title }}</h1>
-                <p class="text-muted" style="font-size: 1.1rem;">{{ .Params.description }}</p>
-
-                <div class="mt-4">
-                    <a href="{{ .Params.sitelink }}" target="_blank" class="btn btn-primary btn-lg"
-                        style="border-radius: 30px; padding: 10px 40px; background-color: #f1404b; border-color: #f1404b;">
-                        <i class="iconfont icon-goto mr-2"></i> 直达网站
-                    </a>
-                </div>
-
-                <div class="mt-3">
-                    {{ range .Params.categories }}
-                    <a href="{{ " categories/" | relLangURL }}{{ . | urlize }}"
-                        class="badge badge-light p-2 text-muted"><i class="iconfont icon-classification mr-1"></i>{{ .
-                        }}</a>
+                    {{ with (index .Params "sub-category") }}
+                    <li class="breadcrumb-item"><a href="/sub-categories/{{ . | urlize }}/">{{ .
+                            }}</a></li>
                     {{ end }}
-                </div>
-            </div>
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                </ol>
+            </nav>
 
-            <!-- Ad Slot 1 (Top) -->
-            <div class="ad-slot-top mb-4 text-center">
-                <!-- ========== 广告预留位：Google AdSense (顶部) ========== -->
-                <div style="background: rgba(0,0,0,0.03); border: 1px dashed #ccc; padding: 20px; color: #999;">
-                    [广告位：请在此插入您的 Google AdSense 代码]
+            <!-- Site Hero Card -->
+            <div class="card mb-4 site-hero-card"
+                style="border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <div class="card-body p-4 p-md-5">
+                    <div class="row align-items-center">
+                        <div class="col-auto mb-4 mb-md-0 text-center">
+                            <div class="hero-logo-wrapper"
+                                style="width: 140px; height: 140px; border-radius: 20px; overflow: hidden; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                                {{ if .Params.logo }}
+                                <img src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else if .Params.sitelink }}
+                                <img src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
+                                    alt="{{ .Title }}" style="max-width: 100%; max-height: 100%;"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else }}
+                                <img src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;">
+                                {{ end }}
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h1 class="font-weight-bold mb-2">{{ .Title }}</h1>
+                            <p class="text-muted mb-3" style="font-size: 1.1rem; line-height: 1.6;">{{
+                                .Params.description }}</p>
+
+                            <div class="site-tags mb-4">
+                                {{ with .Params.category }}
+                                <a href="/categories/{{ . | urlize }}/"
+                                    class="badge badge-light p-2 text-muted mr-2 hover-red"><i
+                                        class="iconfont icon-classification mr-1"></i>{{ . }}</a>
+                                {{ end }}
+                                {{ with (index .Params "sub-category") }}
+                                <a href="/sub-categories/{{ . | urlize }}/"
+                                    class="badge badge-light p-2 text-muted mr-2 hover-red"><i
+                                        class="iconfont icon-tag mr-1"></i>{{ . }}</a>
+                                {{ end }}
+                                {{ if .Params.tags }}
+                                {{ range .Params.tags }}
+                                <span class="badge badge-secondary p-1 px-2 text-xs mr-1" style="opacity: 0.6;">#{{ .
+                                    }}</span>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+
+                            <div>
+                                <a href="{{ .Params.sitelink }}" target="_blank" class="btn btn-primary btn-lg"
+                                    style="border-radius: 30px; padding: 10px 40px; background-color: #f1404b; border-color: #f1404b; box-shadow: 0 4px 10px rgba(241, 64, 75, 0.4);">
+                                    <i class="iconfont icon-goto mr-2"></i> 直达网站
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- ======================================================= -->
             </div>
 
             <!-- Markdown Content -->
-            <div class="card mb-4" style="padding: 40px;">
-                <h3 class="font-weight-bold mb-4">关于本站</h3>
+            <div class="card mb-5" style="border-radius: 12px; padding: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.02);">
+                <h3 class="font-weight-bold mb-4 border-bottom pb-3"><i
+                        class="iconfont icon-book-mark-line mr-2 text-primary"
+                        style="color:#f1404b!important;"></i>站点详情介绍</h3>
                 <div class="content">
                     {{ if .Content }}
                     {{ .Content | markdownify | safeHTML }}
                     {{ else }}
-                    <p class="text-muted text-center py-5">站长还在赶稿中，暂无详细介绍...</p>
+                    <p class="text-muted py-4">站长还在赶稿中，暂无详细介绍...</p>
                     {{ end }}
                 </div>
             </div>
 
-            <!-- Ad Slot 2 (Bottom) -->
-            <div class="ad-slot-bottom mb-4 text-center">
-                <!-- ========== 广告预留位：Google AdSense (底部) ========== -->
-                <div style="background: rgba(0,0,0,0.03); border: 1px dashed #ccc; padding: 20px; color: #999;">
-                    [广告位：请在此插入您的 Google AdSense 代码]
+            <!-- Related Sites -->
+            {{ $currentCat2 := index .Params "sub-category" }}
+            {{ $currentUrl := .RelPermalink }}
+            {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
+
+            {{ $relatedPages := slice }}
+            {{ range $allPages }}
+            {{ if and (eq (index .Params "sub-category") $currentCat2) (ne .RelPermalink $currentUrl) }}
+            {{ $relatedPages = $relatedPages | append . }}
+            {{ end }}
+            {{ end }}
+
+            {{ if gt (len $relatedPages) 0 }}
+            <h4 class="font-weight-bold text-gray mb-4 mt-5"><i class="iconfont icon-link mr-2"></i>相关导航推荐</h4>
+            <div class="row">
+                {{ range first 6 $relatedPages }}
+                <div class="url-card col-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
+                    <div class="url-body default">
+                        <a href="{{ .RelPermalink }}" class="card no-c mb-4" data-toggle="tooltip"
+                            data-placement="bottom" title="查看详情：{{ .Params.description }}">
+                            <div class="card-body">
+                                <div class="url-content d-flex align-items-center">
+                                    <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                        {{ if .Params.logo }}
+                                        <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                            onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                        {{ else if .Params.sitelink }}
+                                        <img class="lazy"
+                                            src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
+                                            alt="{{ .Title }}"
+                                            onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                        {{ else }}
+                                        <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
+                                        {{ end }}
+                                    </div>
+                                    <div class="url-info flex-fill">
+                                        <div class="text-sm overflowClip_1">
+                                            <strong>{{ .Title }}</strong>
+                                        </div>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{ .Params.sitelink }}" target="_blank" class="togo text-center text-muted is-views"
+                            data-toggle="tooltip" data-placement="right" title="直达跳转" rel="nofollow">
+                            <i class="iconfont icon-goto"></i>
+                        </a>
+                    </div>
                 </div>
-                <!-- ======================================================= -->
+                {{ end }}
             </div>
+            {{ end }}
 
         </div>
     </main>
 
     <style>
+        .hover-red:hover {
+            background-color: #f1404b !important;
+            color: white !important;
+        }
+
         .content {
             font-size: 16px;
             color: #444;
@@ -79,9 +165,15 @@
             color: #ccc;
         }
 
-        .io-black-mode .site-detail-header {
+        .io-black-mode .site-hero-card {
             background: #2c2e2f;
             border: none;
+        }
+
+        .io-black-mode .hero-logo-wrapper {
+            background: #1a1c1d !important;
+            box-shadow: none !important;
+            border: 1px solid #3a3f41;
         }
 
         .io-black-mode .card {
@@ -111,24 +203,19 @@
             margin: 15px 0;
         }
 
-        .big-header-banner .page-header {
-            background: gray;
+        .breadcrumb-item a {
+            color: #f1404b;
         }
 
-        .main-content {
-            margin-left: 0px;
+        .breadcrumb-item a:hover {
+            color: #d0303a;
         }
 
-        .page-header {
-            left: 0px;
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 8px;
+        /* Reset global link style inside content */
+        .content ul li {
+            margin-bottom: 8px;
         }
     </style>
 
     {{ partial "content_footer.html" . }}
-
     {{ partial "footer.html" . }}

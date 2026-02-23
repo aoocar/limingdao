@@ -1,49 +1,119 @@
 /*调整全局字体大小*/
-body,html{font-size:14px;}
+body,
+html {
+    font-size: 14px;
+}
 
 /*左导航悬浮sidebar-menu-inner宽度调整为90px*/
-.sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:90px;z-index:99}
-.sidebar-popup.sidebar-menu-inner ul{width:90px}
-.sidebar-popup.sidebar-menu-inner ul li{width:90px}
+.sidebar-popup.sidebar-menu-inner>div>ul>li.sidebar-item>ul {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 90px;
+    z-index: 99
+}
+
+.sidebar-popup.sidebar-menu-inner ul {
+    width: 90px
+}
+
+.sidebar-popup.sidebar-menu-inner ul li {
+    width: 90px
+}
 
 /*隐藏左导航scrollbar*/
-.sidebar-menu.flex-fill::-webkit-scrollbar{display:none}
+.sidebar-menu.flex-fill::-webkit-scrollbar {
+    display: none
+}
 
 /*搜索框搜索图标颜色*/
-#search button i{color:#6C757D;font-size:18px}
+#search button i {
+    color: #6C757D;
+    font-size: 18px
+}
 
 /*顶部导航栏字体+图标颜色*/
-.big-header-banner .page-header{color:#ffffff;background:rgba(255,255,255,0);box-shadow:none;transition:color .3s,background-color .3s}
-.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#ffffff;}
-.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#dc3545;}
-.big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#ffffff;}
-.big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#ffffff;}
+.big-header-banner .page-header {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    transition: color .3s, background-color .3s
+}
+
+.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a,
+.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item) {
+    color: #ffffff;
+}
+
+.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,
+.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover {
+    color: #dc3545;
+}
+
+.big-header-banner:not(.header-bg) .header-mini-btn path {
+    stroke: #ffffff;
+}
+
+.big-header-banner:not(.header-bg) .header-mini-btn label:hover path {
+    stroke: #ffffff;
+}
 
 /*搜索栏字体+背景*/
-.header-big #search-text{color:#6C757D;}
-.io-black-mode .header-big #search-text{color:#fff;}
+.header-big #search-text {
+    color: #6C757D;
+}
+
+.io-black-mode .header-big #search-text {
+    color: #fff;
+}
 
 /*搜索activate图标颜色*/
-.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#ffffff transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
+.header-big .search-type input:checked+label:before {
+    content: '';
+    border-width: 8px 8px 0px 8px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -8px
+}
 
 /*主页搜索搜索框(头+底部)字体颜色*/
-.header-big:not(.no-bg) .s-type-list{color:#20c997}
-.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
+.header-big:not(.no-bg) .s-type-list {
+    color: #20c997
+}
+
+.header-big:not(.no-bg) .text-muted,
+.header-big:not(.no-bg) .search-type .menu-item a,
+.header-big:not(.no-bg) .big-title .h1 {
+    color: #ffffff !important
+}
 
 /*主页header-banner底部宽度*/
-.post-top{padding-bottom:50px}
+.post-top {
+    padding-bottom: 50px
+}
 
 /*左导航二级导航标题左侧距离*/
-.sidebar-menu-inner ul li ul li a{margin-left:30px;}
+.sidebar-menu-inner ul li ul li a {
+    margin-left: 30px;
+}
 
 /*头部导航二级导航iconfont图标*/
-.navbar-collapse ul li.menu-item-has-children:after{content:'\e612';}
+.navbar-collapse ul li.menu-item-has-children:after {
+    content: '\e612';
+}
 
 /*搜索部分背景样式*/
-.header-big.css-color{background-size:unset;background-position:unset;animation:unset;}
+.header-big.css-color {
+    background-size: unset;
+    background-position: unset;
+    animation: unset;
+}
 
 /*搜索热词样式调整*/
-.search-hot-text{
+.search-hot-text {
     position: absolute;
     z-index: 100;
     width: 100%;
@@ -52,30 +122,36 @@ body,html{font-size:14px;}
     box-shadow: 0px 4px 5px 0px #cccccc94;
     overflow: hidden;
 }
-.search-hot-text ul{
+
+.search-hot-text ul {
     margin: 0;
     padding: 5px 0;
 }
-.search-hot-text ul li{
+
+.search-hot-text ul li {
     line-height: 30px;
     font-size: 14px;
     padding: 0px 25px;
     color: #777;
     cursor: pointer;
 }
-.io-black-mode .search-hot-text ul li{
+
+.io-black-mode .search-hot-text ul li {
     color: #fff;
-}    
-.search-hot-text ul li.current{
+}
+
+.search-hot-text ul li.current {
     background: #f1f1f1;
     color: #2196f3;
 }
-.search-hot-text ul li:hover{
+
+.search-hot-text ul li:hover {
     background: #f1f1f1;
     color: #2196f3;
     cursor: pointer;
 }
-.search-hot-text ul li span{
+
+.search-hot-text ul li span {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -91,40 +167,197 @@ body,html{font-size:14px;}
 footer.main-footer .footer-text {
     text-align: center;
 }
+
 footer.main-footer .footer-text a {
     color: #007bff;
 }
+
 footer.main-footer .footer-text a:hover {
     color: red;
 }
 
 /*About页面*/
-.panel .panel-body a {color: #007bff;}
-.panel .panel-body a:hover {color: #979898;}
+.panel .panel-body a {
+    color: #007bff;
+}
+
+.panel .panel-body a:hover {
+    color: #979898;
+}
 
 /*网格背景*/
 .io-grey-mode .page-container .grid-bg {
-    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
+    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0);
     background-size: 15px 15px;
     background-color: #d8d8d8;
 }
 
 /*导航 Logo 图标裁剪边角*/
-.url-card .url-img > img {
+.url-card .url-img>img {
     border-radius: 20%;
 }
 
+/* ========== Slider Tab 标签切换样式 (参考 nav.iowen.cn) ========== */
+.content-card {
+    margin-bottom: 30px;
+}
 
+.io-slider-tab {
+    padding: 8px 0;
+}
 
+.tab-title {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.slider-tab.slider-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 4px;
+    position: relative;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
+.slider-tab.slider-ul::-webkit-scrollbar {
+    display: none;
+}
 
+.slider-li.tab-item {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 15px;
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    user-select: none;
+    white-space: nowrap;
+}
 
+.slider-li.tab-item:hover {
+    color: #f1404b;
+    background: rgba(241, 64, 75, 0.06);
+}
 
+.slider-li.tab-item.active {
+    color: #fff;
+    background: #f1404b;
+    font-weight: 500;
+}
 
+.io-black-mode .slider-li.tab-item {
+    color: #999;
+}
 
+.io-black-mode .slider-li.tab-item:hover {
+    color: #f1404b;
+    background: rgba(241, 64, 75, 0.12);
+}
 
+.io-black-mode .slider-li.tab-item.active {
+    color: #fff;
+    background: #f1404b;
+}
 
+.tab-more.btn-more {
+    white-space: nowrap;
+    color: #f1404b;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(241, 64, 75, 0.3);
+    transition: all 0.2s;
+}
 
+.tab-more.btn-more:hover {
+    background: #f1404b;
+    color: #fff;
+    border-color: #f1404b;
+    text-decoration: none;
+}
 
+.tab-pane-custom {
+    display: none;
+}
 
+.tab-pane-custom.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========== 侧边栏折叠样式 ========== */
+.sidebar-item.has-sub .sidebar-sub {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar-item.has-sub.open .sidebar-sub {
+    display: block;
+}
+
+.sidebar-sub li a {
+    padding: 5px 15px 5px 45px;
+    display: block;
+    font-size: 12px;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.sidebar-sub li a:hover {
+    color: #f1404b;
+    text-decoration: none;
+}
+
+.sidebar-arrow {
+    float: right;
+    transition: transform 0.2s;
+    font-size: 10px;
+}
+
+.sidebar-item.has-sub.open .sidebar-arrow {
+    transform: rotate(180deg);
+}
+
+.sidebar-link-toggle {
+    cursor: pointer;
+}
+
+/* ========== 面包屑样式 ========== */
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: #999;
+}
+
+.breadcrumb-item a {
+    color: #f1404b;
+}
+
+.breadcrumb-item a:hover {
+    color: #d0303a;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #888;
+}

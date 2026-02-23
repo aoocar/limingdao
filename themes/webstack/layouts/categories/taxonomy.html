@@ -1,25 +1,24 @@
 {{ partial "header.html" . }}
-
 {{ partial "sidebar.html" . }}
-
 {{ partial "content_header.html" . }}
 
 <div id="content" class="content-site customize-site">
 
-    {{/* Collect all bookmark pages */}}
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4 mt-2">
+        <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
+            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><i class="iconfont icon-classification mr-1"></i>{{
+                .Title }} (一级分类)</li>
+        </ol>
+    </nav>
+
+    {{/* Get the current L1 category name from the Term (Title) */}}
+    {{ $currentCat := .Title }}
+
+    {{/* Collect all bookmark pages in this category */}}
     {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
-
-    {{/* Get unique category values */}}
-    {{ $c1List := slice }}
-    {{ range $allPages }}
-    {{ if .Params.category }}
-    {{ $c1List = $c1List | append .Params.category }}
-    {{ end }}
-    {{ end }}
-    {{ $c1List = $c1List | uniq }}
-
-    {{ range $l1idx, $c1 := $c1List }}
-    {{ $c1Pages := where $allPages ".Params.category" $c1 }}
+    {{ $c1Pages := where $allPages ".Params.category" $currentCat }}
 
     {{/* Get unique sub-category values within this category */}}
     {{ $c2List := slice }}
@@ -29,7 +28,6 @@
     {{ end }}
     {{ end }}
     {{ $c2List = $c2List | uniq }}
-
 
     {{/* === Loop through each Sub-Category as a vertical block === */}}
     {{ range $l2idx, $c2 := $c2List }}
@@ -42,10 +40,9 @@
     {{ end }}
     {{ end }}
 
-    <!-- Anchor strictly matching the sidebar href logic -->
-    <h4 class="text-gray text-lg mb-4 mt-5" id="term-{{ md5 (print $c1 " -" $c2) }}"
+    <h4 class="text-gray text-lg mb-4 mt-5" id="term-{{ md5 (print $currentCat " -" $c2) }}"
         style="display: block; scroll-margin-top: 90px;">
-        <i class="site-tag iconfont icon-tag icon-lg mr-2" id="{{ md5 $c1 }}"></i>{{ $c2 }}
+        <i class="site-tag iconfont icon-tag icon-lg mr-2"></i>{{ $c2 }}
     </h4>
 
     <div class="row">
@@ -86,10 +83,9 @@
         {{ end }}
     </div>
 
-    {{/* Show more button if there are more than 12 pages in this sub-category block */}}
+    {{/* Show more button if there are more than 12 pages */}}
     {{ if gt (len $c2Pages) 12 }}
     <div class="text-center mb-4">
-        {{/* Link to the generated taxonomy page */}}
         <a class="btn btn-outline-primary text-xs" href="/sub-categories/{{ $c2 | urlize }}/"
             style="border-radius: 20px; padding: 5px 20px; border-color: #f1404b; color: #f1404b;">
             查看全部 {{ len $c2Pages }} 个「{{ $c2 }}」网址 →
@@ -98,33 +94,14 @@
     {{ end }}
 
     {{ end }} {{/* End Sub-Category Loop */}}
-    {{ end }} {{/* End Category Loop */}}
 
-
-    <h4 class="text-gray text-lg mb-4 mt-5">
-        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
-    </h4>
-    <div class="friendlink text-xs card">
-        <div class="card-body">
-            {{ range .Site.Data.friendlinks }}
-            <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
-            {{ end }}
-        </div>
+    {{ if eq (len $c2List) 0 }}
+    <div class="card card-body text-center text-muted py-5 mt-4">
+        暂无子分类或网址数据。
     </div>
+    {{ end }}
+
 </div>
 
-<style>
-    /* Smooth scrolling for anchor links */
-    html {
-        scroll-behavior: smooth;
-    }
-
-    /* Optimize anchor margin for sticky headers if any */
-    h4[id^="term-"] {
-        scroll-margin-top: 80px;
-    }
-</style>
-
 {{ partial "content_footer.html" . }}
-
 {{ partial "footer.html" . }}
