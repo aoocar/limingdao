@@ -9,7 +9,9 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 
 [params]
-    author        = "Limingdao"
+    [params.author]
+        name  = "Limingdao"
+        email = "aoobee@example.com"
     description   = "Limingdao 网址导航 | 您的高效数字工作台"
     upload        = "mailto:aoobee@example.com"      # 左侧导航栏的"网站提交"
     about         = "/about"	          # 左侧导航栏的"关于导航"页面(./about)
