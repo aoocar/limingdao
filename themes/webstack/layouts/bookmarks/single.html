@@ -15,8 +15,7 @@
                     </li>
                     {{ end }}
                     {{ with (index .Params "sub-category") }}
-                    <li class="breadcrumb-item"><a href="/sub-categories/{{ . | urlize }}/">{{ .
-                            }}</a></li>
+                    <li class="breadcrumb-item"><a href="/sub-categories/{{ . | urlize }}/">{{ . }}</a></li>
                     {{ end }}
                     <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                 </ol>
