@@ -35,8 +35,8 @@ jobs:
         env:
           # SSH 私钥，稍后我们在 GitHub Secrets 里配置
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
-          # 传递给 rsync 的参数，保持两边目录一致
-          ARGS: "-rltgoDzvO --delete"
+          # 传递给 rsync 的参数，保持两边目录一致，同时排除宝塔自带的伪静态防跨站文件
+          ARGS: "-rltgoDzvO --delete --exclude='.user.ini'"
           # 仅上传 /public 文件夹里的纯静态文件！
           SOURCE: "public/"
           # 您的宝塔服务器公网 IP，在 Secrets 中配置 
