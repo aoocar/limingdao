@@ -1,0 +1,47 @@
+name: Deploy to Aliyun Baota Server
+
+on:
+  push:
+    branches:
+      - main  # 当代码推送到 main 分支时自动触发
+  workflow_dispatch: # 也可以随时在 GitHub 网页上手动点击运行
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 第一步：拉取仓库的最新源码
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # 如果你的主题是 submodule，这句会把它一起拉拉取下来
+          fetch-depth: 0
+
+      # 第二步：安装指定版本的 Hugo 环境编译你的站点
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.120.0' # 确保这里使用的版本支持 extended
+          extended: true
+          
+      # 第三步：运行构建命令生成最终的静态 public 文件夹
+      - name: Build Hugo Site
+        run: hugo --gc --minify -D
+
+      # 第四步：通过 SSH 与 Rsync 自动将 public/ 的内容推入你的阿里云宝塔根目录
+      - name: Deploy to Aliyun Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          # SSH 私钥，稍后我们在 GitHub Secrets 里配置
+          SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          # 传递给 rsync 的参数，保持两边目录一致
+          ARGS: "-rltgoDzvO --delete"
+          # 仅上传 /public 文件夹里的纯静态文件！
+          SOURCE: "public/"
+          # 您的宝塔服务器公网 IP，在 Secrets 中配置 
+          REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
+          # 您的服务器访问用户名，通常是 root，也是在 Secrets 中配置
+          REMOTE_USER: ${{ secrets.ALIYUN_SERVER_USER }}
+          # 您在宝塔建立的网站绝对路径！例如: /www/wwwroot/limingdao.com/ 
+          TARGET: ${{ secrets.ALIYUN_TARGET_DIR }}
