@@ -8,7 +8,7 @@ logo:
 tags:
   - "直播"
 weight: "10"
-recommend: "0"
+recommend: 2
 ---
 ## 🔐 接口生成工具
 

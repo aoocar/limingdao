@@ -6,26 +6,70 @@
 
 <div id="content" class="content-site customize-site">
 
-    {{/* Collect all bookmark pages */}}
-    {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
+    {{/* Collect all bookmark pages, explicitly sorted by weight (default Hugo sorting handles Weight asc > Date desc >
+    Title asc) */}}
+    {{ $allPages := (where .Site.RegularPages "Section" "bookmarks").ByWeight }}
+
+    {{/* 1. Filter pages for Homepage (recommend >= 2) */}}
+    {{ $homePages := slice }}
+    {{ range $allPages }}
+    {{ $rec := int (default 0 .Params.recommend) }}
+    {{ if ge $rec 2 }}
+    {{ $homePages = $homePages | append . }}
+    {{ end }}
+    {{ end }}
+
+
 
     {{/* Get unique category values */}}
     {{ $c1List := slice }}
-    {{ range $allPages }}
-    {{ if .Params.category }}
-    {{ $c1List = $c1List | append .Params.category }}
+    {{ range $homePages }}
+    {{ if .Params.categories }}
+    {{ $catName := "" }}
+    {{ if eq (printf "%T" .Params.categories) "[]string" }}
+    {{ $catName = index .Params.categories 0 }}
+    {{ else }}
+    {{ $catName = .Params.categories }}
+    {{ end }}
+    {{ $c1List = $c1List | append $catName }}
     {{ end }}
     {{ end }}
     {{ $c1List = $c1List | uniq }}
 
     {{ range $l1idx, $c1 := $c1List }}
-    {{ $c1Pages := where $allPages ".Params.category" $c1 }}
+    {{ $c1Pages := slice }}
+    {{ range $homePages }}
+    {{ $pageC1 := "" }}
+    {{ if .Params.categories }}
+    {{ if eq (printf "%T" .Params.categories) "[]string" }}
+    {{ $pageC1 = index .Params.categories 0 }}
+    {{ else }}
+    {{ $pageC1 = .Params.categories }}
+    {{ end }}
+    {{ end }}
+    {{ if eq $pageC1 $c1 }}
+    {{ $c1Pages = $c1Pages | append . }}
+    {{ end }}
+    {{ end }}
+
+    <!-- Primary Category Header -->
+    <div class="d-flex flex-fill align-items-center mb-4 mt-5" id="{{ md5 $c1 }}" style="scroll-margin-top: 90px;">
+        <h4 class="text-gray text-lg m-0">
+            <i class="site-tag iconfont icon-tag icon-lg mr-2"></i>{{ $c1 }}
+        </h4>
+        <a href="/categories/{{ $c1 | urlize }}/" class="btn btn-sm btn-outline-primary ml-auto"
+            style="border-radius: 20px; padding: 2px 15px; font-weight: normal;">
+            查看频道 <i class="iconfont icon-arrow-r-m"></i>
+        </a>
+    </div>
 
     {{/* Get unique sub-category values within this category */}}
     {{ $c2List := slice }}
     {{ range $c1Pages }}
     {{ if index .Params "sub-category" }}
     {{ $c2List = $c2List | append (index .Params "sub-category") }}
+    {{ else }}
+    {{ $c2List = $c2List | append "" }}
     {{ end }}
     {{ end }}
     {{ $c2List = $c2List | uniq }}
@@ -37,16 +81,22 @@
     {{/* Filter pages for this specific sub-category */}}
     {{ $c2Pages := slice }}
     {{ range $c1Pages }}
-    {{ if eq (index .Params "sub-category") $c2 }}
+    {{ $pageC2 := "" }}
+    {{ if index .Params "sub-category" }}
+    {{ $pageC2 = index .Params "sub-category" }}
+    {{ end }}
+    {{ if eq $pageC2 $c2 }}
     {{ $c2Pages = $c2Pages | append . }}
     {{ end }}
     {{ end }}
 
+    {{ if ne $c2 "" }}
+
     <!-- Anchor strictly matching the sidebar href logic -->
-    <h4 class="text-gray text-lg mb-4 mt-5" id="term-{{ md5 (print $c1 " -" $c2) }}"
-        style="display: block; scroll-margin-top: 90px;">
-        <i class="site-tag iconfont icon-tag icon-lg mr-2" id="{{ md5 $c1 }}"></i>{{ $c2 }}
-    </h4>
+    <h5 class="text-gray text-md mb-3 mt-4" id="term-{{ md5 (print $c1 " -" $c2) }}"
+        style="display: block; scroll-margin-top: 90px; margin-left: 10px;">
+        <i class="site-tag iconfont icon-tag icon-md mr-2"></i>{{ $c2 }}
+    </h5>
 
     <div class="row">
         {{ range first 12 $c2Pages }}
@@ -61,9 +111,12 @@
                                 <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
                                     onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else if .Params.sitelink }}
-                                <img class="lazy"
-                                    src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
-                                    alt="{{ .Title }}" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else }}
                                 <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
                                 {{ end }}
@@ -72,7 +125,8 @@
                                 <div class="text-sm overflowClip_1">
                                     <strong>{{ .Title }}</strong>
                                 </div>
-                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description | truncate 20 }}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -90,13 +144,14 @@
     {{ if gt (len $c2Pages) 12 }}
     <div class="text-center mb-4">
         {{/* Link to the generated taxonomy page */}}
-        <a class="btn btn-outline-primary text-xs" href="/sub-categories/{{ $c2 | urlize }}/"
+        <a class="btn btn-outline-primary text-xs" href="/sub-category/{{ $c2 | urlize }}/"
             style="border-radius: 20px; padding: 5px 20px; border-color: #f1404b; color: #f1404b;">
             查看全部 {{ len $c2Pages }} 个「{{ $c2 }}」网址 →
         </a>
     </div>
     {{ end }}
 
+    {{ end }}
     {{ end }} {{/* End Sub-Category Loop */}}
     {{ end }} {{/* End Category Loop */}}
 

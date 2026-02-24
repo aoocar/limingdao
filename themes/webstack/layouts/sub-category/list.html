@@ -1,30 +1,39 @@
 {{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
+{{ partial "sidebar_empty.html" . }}
 {{ partial "content_header.html" . }}
 
 <div id="content" class="content-site customize-site">
 
     <!-- Breadcrumb -->
+    {{ $c2Pages := .Pages }}
+    {{ $parentCategory := "" }}
+    {{ if gt (len $c2Pages) 0 }}
+    {{ $samplePage := index $c2Pages 0 }}
+    {{ $parentCategory = $samplePage.Params.category }}
+    {{ end }}
     <nav aria-label="breadcrumb" class="mb-4 mt-2">
         <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
             <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+            {{ if $parentCategory }}
+            <li class="breadcrumb-item"><a href="/categories/{{ $parentCategory | urlize }}/"><i
+                        class="iconfont icon-classification mr-1"></i>{{ $parentCategory }}</a></li>
+            {{ end }}
             <li class="breadcrumb-item active" aria-current="page"><i class="iconfont icon-tag mr-1"></i>{{ .Title }}
-                (二级分类)</li>
+            </li>
         </ol>
     </nav>
+    <style>
+        .page-container {
+            padding-left: 0 !important;
+        }
+
+        .header-mini-btn {
+            display: none !important;
+        }
+    </style>
 
     {{/* Get the current L2 category name from the Term (Title) */}}
     {{ $currentCat2 := .Title }}
-
-    {{/* Collect all bookmark pages in this sub-category directly */}}
-    {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
-
-    {{ $c2Pages := slice }}
-    {{ range $allPages }}
-    {{ if eq (index .Params "sub-category") $currentCat2 }}
-    {{ $c2Pages = $c2Pages | append . }}
-    {{ end }}
-    {{ end }}
 
     <h4 class="text-gray text-lg mb-4 mt-4">
         <i class="site-tag iconfont icon-tag icon-lg mr-2"></i>全部 {{ $currentCat2 }} 网址 <span
@@ -44,9 +53,12 @@
                                 <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
                                     onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else if .Params.sitelink }}
-                                <img class="lazy"
-                                    src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
-                                    alt="{{ .Title }}" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else }}
                                 <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
                                 {{ end }}
@@ -55,7 +67,8 @@
                                 <div class="text-sm overflowClip_1">
                                     <strong>{{ .Title }}</strong>
                                 </div>
-                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description | truncate 20 }}
+                                </p>
                             </div>
                         </div>
                     </div>

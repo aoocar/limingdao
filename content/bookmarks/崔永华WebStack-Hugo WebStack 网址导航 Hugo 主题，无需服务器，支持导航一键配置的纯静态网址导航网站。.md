@@ -8,7 +8,7 @@ logo:
 tags:
   - "默认分类"
 weight: 10
-recommend: 0
+recommend: 2
 ---
 [Gitee 2025年度个人数据报告已发布，快来看看你的成长👉](https://gitee.com/activity/bye2025?from=code)
 

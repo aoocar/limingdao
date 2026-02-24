@@ -8,7 +8,7 @@ logo:
 tags:
   - "电视盒子"
 weight: "10"
-recommend: "0"
+recommend: 2
 ---
 『 [影视](https://wmdz.top/fm.html) 』  
 影视FongMi简写FM，亦有称蜂蜜影视，是基于TVBox优化再开发的开源智能电视应用，有自动跳过失效播放线路的功能。 [\[配置参考\]](https://wmdz.top/tvbox-sz.html)  

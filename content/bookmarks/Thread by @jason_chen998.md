@@ -3,12 +3,12 @@ title: "Thread by @jason_chen998"
 sitelink: "https://x.com/home"
 description:
 logo:
-category: "社交媒体"
+categories: "社交媒体"
 sub-category: "x推特收藏"
 tags:
   - "默认"
 weight: 10
-recommend: 0
+recommend: 2
 ---
 **陈剑Jason** @jason\_chen998 [2026-02-22](https://x.com/jason_chen998/status/2025527748287152625)
 

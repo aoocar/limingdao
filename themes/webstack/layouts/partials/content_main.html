@@ -7,7 +7,7 @@
             {{ $category_name }}
         </h4>
         <div class="flex-fill"></div>
-        <a class='btn-move text-xs' href="{{ "/categories/" | relURL }}{{ $category_name | urlize }}/">查看更多 <i
+        <a class='btn-move text-xs' href="{{ " /categories/" | relURL }}{{ $category_name | urlize }}/">查看更多 <i
                 class="iconfont icon-arrow-r-m"></i></a>
     </div>
 
@@ -25,9 +25,12 @@
                                 <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
                                     onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else if .Params.sitelink }}
-                                <img class="lazy"
-                                    src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
-                                    alt="{{ .Title }}" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else }}
                                 <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
                                 {{ end }}

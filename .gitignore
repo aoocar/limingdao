@@ -3,3 +3,10 @@ public/
 .hugo_build.lock
 .obsidian/workspace
 .obsidian/workspace.json
+*.js
+*.ps1
+*.py
+*.log
+*.html.bak
+ref.html
+test.html

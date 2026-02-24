@@ -9,7 +9,7 @@ tags:
   - "撸毛"
   - "网赚"
 weight: "10"
-recommend: "0"
+recommend: 2
 ---
 ## 稳定度看板
 

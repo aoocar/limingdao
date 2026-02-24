@@ -3,12 +3,12 @@ title: "WebStack-Hugo 网址导航"
 sitelink: "https://limingdao.vercel.app/"
 description:
 logo:
-category: "常用推荐"
+categories: "常用推荐"
 sub-category: "资源"
 tags:
   - "默认"
 weight: 10
-recommend: 0
+recommend: 2
 ---
 #### 开发工具
 

@@ -125,6 +125,8 @@
                                             </a>
                                             {{ if $c2List }}
                                             <ul class="sidebar-sub">
+                                                <li><a href="/categories/{{ $c1 | urlize }}/"><span>📌 全部「{{ $c1
+                                                            }}」</span></a></li>
                                                 {{ range $c2 := $c2List }}
                                                 {{/* Create an anchor hash that precisely matches the homepage blocks
                                                 */}}

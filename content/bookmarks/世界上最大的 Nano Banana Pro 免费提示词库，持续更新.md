@@ -8,7 +8,8 @@ sub-category: "资源"
 tags:
   - "默认"
 weight: 10
-recommend: 0
+recommend: 2
+categories: 未分类
 ---
 精选
 

@@ -1,8 +1,17 @@
 {{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
+{{ partial "sidebar_empty.html" . }}
 {{ partial "content_header.html" . }}
 
-<body class="page-body boxed-container">
+<style>
+    .page-container {
+        padding-left: 0 !important;
+    }
+
+    .header-mini-btn {
+        display: none !important;
+    }
+</style>
+<div class="page-body boxed-container">
     <main role="main" class="flex-shrink-0">
         <div class="container" style="max-width: 1000px; padding-top: 40px;">
 
@@ -11,13 +20,16 @@
                 <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
                     <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
                     {{ with .Params.category }}
-                    <li class="breadcrumb-item"><a href="/categories/{{ . | urlize }}/">{{ . }}</a>
+                    <li class="breadcrumb-item"><a href="/categories/{{ . | urlize }}/"><i
+                                class="iconfont icon-classification mr-1"></i>{{ . }}</a>
                     </li>
                     {{ end }}
                     {{ with (index .Params "sub-category") }}
-                    <li class="breadcrumb-item"><a href="/sub-categories/{{ . | urlize }}/">{{ . }}</a></li>
+                    <li class="breadcrumb-item"><a href="/sub-category/{{ . | urlize }}/"><i
+                                class="iconfont icon-tag mr-1"></i>{{ . }}</a></li>
                     {{ end }}
-                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                    <li class="breadcrumb-item active" aria-current="page"><i
+                            class="iconfont icon-book-mark-line mr-1"></i>{{ .Title }}</li>
                 </ol>
             </nav>
 
@@ -34,8 +46,12 @@
                                     style="max-width: 100%; max-height: 100%;"
                                     onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else if .Params.sitelink }}
-                                <img src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
-                                    alt="{{ .Title }}" style="max-width: 100%; max-height: 100%;"
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;"
                                     onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                 {{ else }}
                                 <img src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}"
@@ -119,9 +135,12 @@
                                         <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
                                             onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                         {{ else if .Params.sitelink }}
-                                        <img class="lazy"
-                                            src="{{ $.Site.Params.faviconAPI }}{{ (urls.Parse .Params.sitelink).Host }}"
-                                            alt="{{ .Title }}"
+                                        {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse
+                                        .Params.sitelink).Host }}
+                                        {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                        {{ $faviconUrl = print $faviconUrl ".png" }}
+                                        {{ end }}
+                                        <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
                                             onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
                                         {{ else }}
                                         <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
@@ -148,73 +167,73 @@
 
         </div>
     </main>
+</div>
+<style>
+    .hover-red:hover {
+        background-color: #f1404b !important;
+        color: white !important;
+    }
 
-    <style>
-        .hover-red:hover {
-            background-color: #f1404b !important;
-            color: white !important;
-        }
+    .content {
+        font-size: 16px;
+        color: #444;
+    }
 
-        .content {
-            font-size: 16px;
-            color: #444;
-        }
+    .io-black-mode .content {
+        color: #ccc;
+    }
 
-        .io-black-mode .content {
-            color: #ccc;
-        }
+    .io-black-mode .site-hero-card {
+        background: #2c2e2f;
+        border: none;
+    }
 
-        .io-black-mode .site-hero-card {
-            background: #2c2e2f;
-            border: none;
-        }
+    .io-black-mode .hero-logo-wrapper {
+        background: #1a1c1d !important;
+        box-shadow: none !important;
+        border: 1px solid #3a3f41;
+    }
 
-        .io-black-mode .hero-logo-wrapper {
-            background: #1a1c1d !important;
-            box-shadow: none !important;
-            border: 1px solid #3a3f41;
-        }
+    .io-black-mode .card {
+        background: #2c2e2f;
+        border: none;
+    }
 
-        .io-black-mode .card {
-            background: #2c2e2f;
-            border: none;
-        }
+    .content a {
+        color: #f1404b;
+    }
 
-        .content a {
-            color: #f1404b;
-        }
+    .content a:hover {
+        color: #d0303a;
+        text-decoration: underline;
+    }
 
-        .content a:hover {
-            color: #d0303a;
-            text-decoration: underline;
-        }
+    .content h1,
+    .content h2,
+    .content h3,
+    .content h4 {
+        margin: 25px 0 15px 0;
+        font-weight: bold;
+    }
 
-        .content h1,
-        .content h2,
-        .content h3,
-        .content h4 {
-            margin: 25px 0 15px 0;
-            font-weight: bold;
-        }
+    .content p {
+        line-height: 1.8;
+        margin: 15px 0;
+    }
 
-        .content p {
-            line-height: 1.8;
-            margin: 15px 0;
-        }
+    .breadcrumb-item a {
+        color: #f1404b;
+    }
 
-        .breadcrumb-item a {
-            color: #f1404b;
-        }
+    .breadcrumb-item a:hover {
+        color: #d0303a;
+    }
 
-        .breadcrumb-item a:hover {
-            color: #d0303a;
-        }
+    /* Reset global link style inside content */
+    .content ul li {
+        margin-bottom: 8px;
+    }
+</style>
 
-        /* Reset global link style inside content */
-        .content ul li {
-            margin-bottom: 8px;
-        }
-    </style>
-
-    {{ partial "content_footer.html" . }}
-    {{ partial "footer.html" . }}
+{{ partial "content_footer.html" . }}
+{{ partial "footer.html" . }}

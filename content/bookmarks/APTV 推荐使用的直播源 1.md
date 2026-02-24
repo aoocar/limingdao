@@ -8,7 +8,7 @@ logo:
 tags:
   - "直播"
 weight: "10"
-recommend: "0"
+recommend: 2
 ---
 ## 📢APTV技术支持小助手已上线，您可以向她询问任何与APTV相关的问题，包括教程、常见问题等等：https://copilot.aptv.app/chat
 

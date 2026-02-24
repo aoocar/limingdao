@@ -5,11 +5,21 @@
 <div id="content" class="content-site customize-site">
 
     <!-- Breadcrumb -->
+    {{ $c2Pages := .Pages.ByWeight }}
+    {{ $parentCategory := "" }}
+    {{ if gt (len $c2Pages) 0 }}
+    {{ $samplePage := index $c2Pages 0 }}
+    {{ $parentCategory = $samplePage.Params.category }}
+    {{ end }}
     <nav aria-label="breadcrumb" class="mb-4 mt-2">
         <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
             <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><i class="iconfont icon-classification mr-1"></i>{{
-                .Title }}</li>
+            {{ if $parentCategory }}
+            <li class="breadcrumb-item"><a href="/categories/{{ $parentCategory | urlize }}/"><i
+                        class="iconfont icon-classification mr-1"></i>{{ $parentCategory }}</a></li>
+            {{ end }}
+            <li class="breadcrumb-item active" aria-current="page"><i class="iconfont icon-tag mr-1"></i>{{ .Title }}
+            </li>
         </ol>
     </nav>
     <style>
@@ -22,54 +32,16 @@
         }
     </style>
 
-    {{/* Get the current L1 category name from the Term (Title) */}}
-    {{ $currentCat := .Title }}
+    {{/* Get the current L2 category name from the Term (Title) */}}
+    {{ $currentCat2 := .Title }}
 
-    {{/* Collect all bookmark pages in this category */}}
-    {{ $c1Pages := .Pages }}
-
-    {{/* Get unique sub-category values within this category */}}
-    {{ $c2List := slice }}
-    {{ range $c1Pages }}
-    {{ if index .Params "sub-category" }}
-    {{ $c2List = $c2List | append (index .Params "sub-category") }}
-    {{ else }}
-    {{ $c2List = $c2List | append "" }}
-    {{ end }}
-    {{ end }}
-    {{ $c2List = $c2List | uniq }}
-
-    <!-- Primary Category Header -->
-    <h4 class="text-gray text-lg mb-4 mt-5" id="{{ md5 $currentCat }}" style="display: block; scroll-margin-top: 90px;">
-        <i class="site-tag iconfont icon-tag icon-lg mr-2"></i>{{ $currentCat }}
+    <h4 class="text-gray text-lg mb-4 mt-4">
+        <i class="site-tag iconfont icon-tag icon-lg mr-2"></i>全部 {{ $currentCat2 }} 网址 <span
+            class="badge badge-light text-xs ml-2">{{ len $c2Pages }} 个站点</span>
     </h4>
 
-    {{/* === Loop through each Sub-Category as a vertical block === */}}
-    {{ range $l2idx, $c2 := $c2List }}
-
-    {{/* Filter pages for this specific sub-category */}}
-    {{ $c2Pages := slice }}
-    {{ range $c1Pages }}
-    {{ if eq $c2 "" }}
-    {{ if not (index .Params "sub-category") }}
-    {{ $c2Pages = $c2Pages | append . }}
-    {{ end }}
-    {{ else }}
-    {{ if eq (index .Params "sub-category") $c2 }}
-    {{ $c2Pages = $c2Pages | append . }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-
-    {{ if ne $c2 "" }}
-    <h5 class="text-gray text-md mb-3 mt-4" id="term-{{ md5 (print $currentCat " -" $c2) }}"
-        style="display: block; scroll-margin-top: 90px; margin-left: 10px;">
-        <i class="site-tag iconfont icon-tag icon-md mr-2"></i>{{ $c2 }}
-    </h5>
-    {{ end }}
-
     <div class="row">
-        {{ range first 12 $c2Pages }}
+        {{ range $c2Pages }}
         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
             <div class="url-body default">
                 <a href="{{ .RelPermalink }}" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom"
@@ -110,21 +82,9 @@
         {{ end }}
     </div>
 
-    {{/* Show more button if there are more than 12 pages */}}
-    {{ if gt (len $c2Pages) 12 }}
-    <div class="text-center mb-4">
-        <a class="btn btn-outline-primary text-xs" href="/sub-categories/{{ $c2 | urlize }}/"
-            style="border-radius: 20px; padding: 5px 20px; border-color: #f1404b; color: #f1404b;">
-            查看全部 {{ len $c2Pages }} 个「{{ $c2 }}」网址 →
-        </a>
-    </div>
-    {{ end }}
-
-    {{ end }} {{/* End Sub-Category Loop */}}
-
-    {{ if eq (len $c2List) 0 }}
+    {{ if eq (len $c2Pages) 0 }}
     <div class="card card-body text-center text-muted py-5 mt-4">
-        暂无子分类或网址数据。
+        当前分类下暂无任何网址。
     </div>
     {{ end }}
 

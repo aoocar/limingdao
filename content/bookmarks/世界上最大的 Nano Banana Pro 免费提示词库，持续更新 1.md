@@ -8,7 +8,7 @@ logo:
 tags:
   - "默认分类"
 weight: "10"
-recommend: "0"
+recommend: 2
 ---
 精选
 

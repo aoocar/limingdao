@@ -3,12 +3,12 @@ title: "Thread by @berryxia"
 sitelink: "https://x.com/berryxia/status/2025589710375281074"
 description:
 logo:
-category: "社交媒体"
+categories: "社交媒体"
 sub-category: "x推特收藏"
 tags:
   - "默认"
 weight: 10
-recommend: 0
+recommend: 2
 ---
 **Berryxia.AI** @berryxia [2026-02-22](https://x.com/berryxia/status/2025589710375281074)
 
