@@ -2,7 +2,7 @@
 title: "ZHOU.XIAOYU"
 sitelink: "https://www.zhouwaiwei.net/"
 description: "ZHOU.XIAOYU MODEL STUDIO - 专业外围模特服务 | 商务模特服务北京、上海、广州、深圳"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "zhou-xiaoyu"

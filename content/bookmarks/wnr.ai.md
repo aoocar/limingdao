@@ -2,7 +2,7 @@
 title: "wnr.ai"
 sitelink: "https://wnr.ai/explore"
 description: "Explore Discover top templates and creators"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "wnr-ai"

@@ -2,7 +2,7 @@
 title: "JustPaid io"
 sitelink: "https://justpaid.io"
 description: "JustPaid io 重点：人工智能驱动的财务控制器，自动化账单支付和发票。 地点：加州山景城 Mountain View 网址："
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI领域实用"
 tags:
   - "justpaid-io"

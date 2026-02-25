@@ -2,7 +2,7 @@
 title: "最好的AI导航站和AI工具列表 - Toolify"
 sitelink: "https://www.toolify.ai/zh/"
 description: "发现最好的AI网站和AI工具"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "aiai-toolify"

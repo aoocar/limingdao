@@ -2,7 +2,7 @@
 title: "MFSC123-免版权商用素材导航网站"
 sitelink: "https://www.mfsc123.com/"
 description: "MFSC123-免版权商用素材导航网站"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "mfsc123"

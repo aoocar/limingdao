@@ -2,7 +2,7 @@
 title: "XAudioPro"
 sitelink: "https://www.xaudiopro.com/cn/"
 description: "XAudioPro是一款先进的在线音频实时剪辑转码工具，兼具专业化与便携化，能快捷高效地完成音频的常规剪辑操作及在线实时转码"
-categories: "音频工具"
+category: "音频工具"
 sub-category: "默认"
 tags:
   - "xaudiopro"

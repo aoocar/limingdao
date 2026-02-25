@@ -2,7 +2,7 @@
 title: "Youtube4KDownloader"
 sitelink: "https://youtube4kdownloader.com/"
 description: "从以下位置下载 4K 视频 YouTube, Facebook, Instagram 和其他网站 Youtube4KDownloader您的在线视频下载器"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "youtube4kdownloader"

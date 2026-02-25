@@ -2,7 +2,7 @@
 title: "Telegraph图床"
 sitelink: "https://im.gurl.eu.org/"
 description: "基于 Telegraph 的图片上传工具"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "telegraph__trashed"

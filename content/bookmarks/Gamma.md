@@ -2,7 +2,7 @@
 title: "Gamma"
 sitelink: "https://gamma.app/spsvjo9umqdbl3q/join?code=cnmt272ug4m70d8"
 description: "Gamma是一个强大的人工智能生成器，可以在几秒钟内创建演示文稿、文档或网页"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "gamma"

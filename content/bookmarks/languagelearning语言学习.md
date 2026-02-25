@@ -2,7 +2,7 @@
 title: "languagelearning语言学习"
 sitelink: "https://languagelearning.site/"
 description: "语言学习 – 从初级到高级的所有资源"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "1622"

@@ -2,7 +2,7 @@
 title: "Runway TV"
 sitelink: "https://www.runway.tv/"
 description: "AI 生成视频"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "runway-tv"

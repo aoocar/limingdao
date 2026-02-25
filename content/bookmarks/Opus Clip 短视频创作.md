@@ -2,7 +2,7 @@
 title: "Opus Clip 短视频创作"
 sitelink: "https://www.opus.pro/"
 description: "Opus Clip 是一种生成式 AI 视频工具，只需单击一下即可将长视频重新调整为短片。OpenAI支持"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "opus-clip"

@@ -2,7 +2,7 @@
 title: "AI研习社"
 sitelink: "https://zl49so8lbq.feishu.cn/wiki/wikcnu3kSXr75E50w8PFefhJMYf"
 description: "AI研习社是一个致力于推动AI行业发展的专题知识兴趣小组"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "ai-3"

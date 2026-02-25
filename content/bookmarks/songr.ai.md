@@ -2,7 +2,7 @@
 title: "songr.ai"
 sitelink: "https://app.songr.ai/"
 description: "借助 AI 的力量创作您自己的完全定制的歌曲"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "songr-ai"

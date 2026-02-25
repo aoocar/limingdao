@@ -2,7 +2,7 @@
 title: "Civitai"
 sitelink: "https://civitai.com/"
 description: "Civitai | Stable Diffusion models, embeddings, LoRAs and more"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "civitai"

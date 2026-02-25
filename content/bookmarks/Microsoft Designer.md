@@ -2,7 +2,7 @@
 title: "Microsoft Designer"
 sitelink: "https://designer.microsoft.com/"
 description: "微軟再度出招！全新 AI 平面設計工具直衝著 Canva 而來 | Microsoft Designer   不说了 好用"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "microsoft-designer"

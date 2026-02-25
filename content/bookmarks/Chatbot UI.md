@@ -2,7 +2,7 @@
 title: "Chatbot UI"
 sitelink: "https://chatbot.limingdao.com/zh"
 description: "Chatbot UI 是 OpenAI 用户可以使用自己的 API 密钥将此界面与其 API 集成"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "chatbot-ui"

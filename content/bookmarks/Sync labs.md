@@ -2,7 +2,7 @@
 title: "Sync labs"
 sitelink: "https://synclabs.so/"
 description: "Sync labs-视频与任何语言实时口型同步AI工具 唇型同步"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "sync-labs"

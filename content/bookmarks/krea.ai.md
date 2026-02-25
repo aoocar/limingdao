@@ -2,7 +2,7 @@
 title: "krea.ai"
 sitelink: "krea.ai"
 description: "这里有一个免费的AI图片修复工具KREA，模糊图片瞬间变高清，看视频效果好像很强，和付费软件Magnific对比"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "krea-ai"

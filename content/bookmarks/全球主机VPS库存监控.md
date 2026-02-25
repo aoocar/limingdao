@@ -2,7 +2,7 @@
 title: "全球主机VPS库存监控"
 sitelink: "https://stock.hostmonit.com/CloudFlareYes"
 description: "全球主机监控 - 国内外VPS、云服务器的库存监控和优惠信息"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "vps"

@@ -2,7 +2,7 @@
 title: "秘塔AI搜索"
 sitelink: "https://metaso.cn/"
 description: "秘塔AI搜索，没有广告，直达结果"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "ai-15"

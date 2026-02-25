@@ -2,7 +2,7 @@
 title: "AIGC中文工具导航"
 sitelink: "https://www.aigc.cn/"
 description: "AIGC.CN发现全球优质AI工具，与创作者一同成长!"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "aigc"

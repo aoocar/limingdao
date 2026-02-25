@@ -2,7 +2,7 @@
 title: "Lepton AI"
 sitelink: "https://www.lepton.ai/"
 description: "Build AI The Simple Way | Lepton AI"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "lepton-ai"

@@ -2,7 +2,7 @@
 title: "100+老师ChatGPT提示模版：100+ Teachers Prompt Templates"
 sitelink: "https://ignacio-velasquez.notion.site/100-Teachers-Prompt-Templates-697882b7b57e4396af16b8e93554b510"
 description: "100+老师ChatGPT提示模版：100+ Teachers Prompt Templates"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "100chatgpt100-teachers-prompt-templates"

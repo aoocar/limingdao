@@ -2,7 +2,7 @@
 title: "Turntable"
 sitelink: "https://turntable.so"
 description: "Turntable 重点：为数据分析团队准备的 AI 原生操作系统。 地点：纽约 网址：https://turntable.so"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "turntable"

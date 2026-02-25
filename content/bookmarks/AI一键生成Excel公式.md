@@ -2,7 +2,7 @@
 title: "AI一键生成Excel公式"
 sitelink: "https://helloai.wiki/tools/Q-B47xYrm"
 description: "AI一键生成Excel公式"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "aiexcel"

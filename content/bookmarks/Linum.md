@@ -2,7 +2,7 @@
 title: "Linum"
 sitelink: "https://linum.ai"
 description: "Linum 重点：视频方向的Midjourney 地点：旧金山 网站："
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "linum"

@@ -2,7 +2,7 @@
 title: "哆啦猫fxopenai"
 sitelink: "https://fxopenai.com/"
 description: "哆啦猫小铺:购买属于自己的ChatGPT账号和API key ,特价直登chatgpt账号9.9,chatgpt plus最低价格49,新上架18美金apikey账号14.9 全网价格最低,售后最快"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "fxopenai"

@@ -2,7 +2,7 @@
 title: "QQ皇族馆"
 sitelink: "https://www.hzg3.com/"
 description: "QQ皇族馆(www.hzg3.com)多年一直努力专注免费分享QQ技术娱乐！免费分享破解游戏辅助外挂优质资源。自学教程网不定时分享各行各业的自学教程视频，QQ皇族多年来每天坚持分享网络技术资源，努力为各位网友呈现最好的资源，一切竟在QQ皇族馆。"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "qq"

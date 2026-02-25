@@ -2,7 +2,7 @@
 title: "up云搜官网"
 sitelink: "https://www.upyunso.com/"
 description: "最好的阿里云硬盘搜索服务平..."
-categories: "网盘搜索"
+category: "网盘搜索"
 sub-category: "默认"
 tags:
   - "up"

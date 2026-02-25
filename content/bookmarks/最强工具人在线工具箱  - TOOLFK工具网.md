@@ -2,7 +2,7 @@
 title: "最强工具人在线工具箱  - TOOLFK工具网"
 sitelink: "https://www.toolfk.com/"
 description: "最强工具人在线工具箱  - TOOLFK工具网"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "toolfk"

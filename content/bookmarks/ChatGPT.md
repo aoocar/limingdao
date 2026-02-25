@@ -2,7 +2,7 @@
 title: "ChatGPT"
 sitelink: "https://chat.openai.com/"
 description: "ChatGPT是由OpenAI开发的一个人工智能聊天机器人程序，于2022年11月推出。该程序使用基于GPT-3.5架构的大型语言模型并通过强化学习进行训练。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "chatgpt"

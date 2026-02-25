@@ -2,7 +2,7 @@
 title: "智谱AI大模型MaaS"
 sitelink: "https://open.bigmodel.cn/"
 description: "基于领先的千亿级多语言、多模态预训练模型，打造高效率、通用化的“模型即服务”AI开发新范式"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "aimaas"

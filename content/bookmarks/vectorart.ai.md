@@ -2,7 +2,7 @@
 title: "vectorart.ai"
 sitelink: "https://vectorart.ai"
 description: "AI生成可以根据文本生成SVG矢量图片"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "vectorart-ai"

@@ -2,7 +2,7 @@
 title: "Persana AI"
 sitelink: "https://persana.ai"
 description: "Persana AI 重点：由fine-tuned模型提供支持的智能销售助理 地点：旧金山 网址："
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI领域实用"
 tags:
   - "persana-ai"

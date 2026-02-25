@@ -2,7 +2,7 @@
 title: "Adobe Podcast"
 sitelink: "https://podcast.adobe.com/"
 description: "Adobe Podcast AI工作室 是一个专门用于制作Podcast播客的神器"
-categories: "音频工具"
+category: "音频工具"
 sub-category: "默认"
 tags:
   - "adobe-podcast"

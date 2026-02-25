@@ -2,7 +2,7 @@
 title: "Type 焦点"
 sitelink: "https://type.ai"
 description: "Type 焦点：人工智能辅助的文档编辑器 地点：纽约 网址："
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "type"

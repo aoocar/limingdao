@@ -2,7 +2,7 @@
 title: "ToolBaz"
 sitelink: "https://toolbaz.com/"
 description: "免费的人工智能写作工具 使用人工智能工具更快、更轻松地完成写作，帮助您写得更好。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "toolbaz"

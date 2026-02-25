@@ -2,7 +2,7 @@
 title: "xunshu寻书"
 sitelink: "https://www.xunshu.xyz/"
 description: "xunshu寻书-免费电子书聚合搜索引擎 找书不求人"
-categories: "网盘搜索"
+category: "网盘搜索"
 sub-category: "默认"
 tags:
   - "xunshu"

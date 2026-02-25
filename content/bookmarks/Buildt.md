@@ -2,7 +2,7 @@
 title: "Buildt"
 sitelink: "https://buildt.ai"
 description: "Buildt 重点：用于搜索和理解大型代码库的 AI 开发工具。 地点：旧金山 网址："
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "buildt"

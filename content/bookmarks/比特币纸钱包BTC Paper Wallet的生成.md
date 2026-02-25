@@ -2,7 +2,7 @@
 title: "比特币纸钱包BTC Paper Wallet的生成"
 sitelink: "https://www.bitaddress.org/"
 description: "最安全的比特币钱包生成工具"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "btc-paper-wallet"

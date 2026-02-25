@@ -2,7 +2,7 @@
 title: "免费在线邮件HZ机 邮件发送器-Mailbo"
 sitelink: "https://www.mailbo.cc/"
 description: "Mailbo是一个免费在线邮件HZ机，是基于Mailman的Fast Mail Bomber（FMB）是一个用PHP编写的电子邮件HZ机脚本"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "hz-mailbo"

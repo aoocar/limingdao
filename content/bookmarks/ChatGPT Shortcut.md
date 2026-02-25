@@ -2,7 +2,7 @@
 title: "ChatGPT Shortcut"
 sitelink: "https://www.aishort.top/"
 description: "让生产力加倍的 ChatGPT 快捷指令"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "chatgpt-shortcut"

@@ -2,7 +2,7 @@
 title: "POE"
 sitelink: "https://poe.com/"
 description: "综合AI客户端"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "poe"

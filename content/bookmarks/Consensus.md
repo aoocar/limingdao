@@ -2,7 +2,7 @@
 title: "Consensus"
 sitelink: "https://consensus.app/"
 description: "Consensus是一个搜索引擎，使用人工智能从科学研究中直接提取和梳理结果，只搜索经过同行评审的已发表的来源，并展示来自科学家而非营销团队的结果。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "consensus"

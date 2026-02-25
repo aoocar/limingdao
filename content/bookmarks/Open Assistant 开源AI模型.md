@@ -2,7 +2,7 @@
 title: "Open Assistant 开源AI模型"
 sitelink: "https://open-assistant.io/zh"
 description: "Open Assistant  面向所有人的对话式人工智能."
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "open-assistant-ai"

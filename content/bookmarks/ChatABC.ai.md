@@ -2,7 +2,7 @@
 title: "ChatABC.ai"
 sitelink: "https://aoobee.chatabc.ai/"
 description: "ChatABC.ai"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "chatabc-ai"

@@ -2,7 +2,7 @@
 title: "Gamma  AI一键制作PPT"
 sitelink: "https://gamma.app/"
 description: "Gamma  AI一键制作PPT"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "gamma-aippt"

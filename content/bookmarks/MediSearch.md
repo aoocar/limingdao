@@ -2,7 +2,7 @@
 title: "MediSearch"
 sitelink: ""
 description: "直接的科学为基础的 医疗问题回答"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "medisearch"

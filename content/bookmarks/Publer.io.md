@@ -2,7 +2,7 @@
 title: "Publer.io"
 sitelink: "https://publer.io/tools/youtube-short-downloader"
 description: "下载高清 YouTube Shorts | Publisher 提供的免费工具"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "publer-io"

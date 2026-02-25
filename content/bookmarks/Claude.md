@@ -2,7 +2,7 @@
 title: "Claude"
 sitelink: "https://claude.ai/chats"
 description: "Talk with Claude, an AI assistant from Anthropic"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "claude"

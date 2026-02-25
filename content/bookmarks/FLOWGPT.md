@@ -2,7 +2,7 @@
 title: "FLOWGPT"
 sitelink: "https://flowgpt.com/"
 description: "Prompt集合导航你的人工智能的入口"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "flowgpt"

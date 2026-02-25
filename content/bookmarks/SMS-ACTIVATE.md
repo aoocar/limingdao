@@ -2,7 +2,7 @@
 title: "SMS-ACTIVATE"
 sitelink: "https://sms-activate.io/?ref=2692664"
 description: "SMS-Activate是在线接受短信的虚拟号码服务 ，"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "sms-activate"

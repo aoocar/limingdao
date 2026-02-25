@@ -2,7 +2,7 @@
 title: "AI创客社区"
 sitelink: "https://lablab.ai/"
 description: "在 lablab，我们致力于建立一个由创造 AI Native 未来的制造商和创新者组成的社区。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "ai-4"

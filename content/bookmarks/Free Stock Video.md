@@ -2,7 +2,7 @@
 title: "Free Stock Video"
 sitelink: "https://free-stock.video/"
 description: "无水印免费4K视频素材网站 可商用-Free Stock Video"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "free-stock-video"

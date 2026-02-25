@@ -2,7 +2,7 @@
 title: "Recipe-p.com"
 sitelink: "https://recipe-p.com/"
 description: "Recipe-p.com : 一个AI图像平台，专门提供AI生成的人像图片。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "recipe-p-com"

@@ -2,7 +2,7 @@
 title: "从所有网络提取视频/图像，TikTok、Twitter、Instagram、VK视频下载"
 sitelink: "https://tiqu.cc/"
 description: "从所有网络下载视频/提取图像"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "tiktoktwitterinstagramvk"

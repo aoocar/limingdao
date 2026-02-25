@@ -1,7 +1,7 @@
 ---
 title: "promptsora"
 sitelink: "https://promptsora.com/"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "promptsora"

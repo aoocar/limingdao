@@ -2,7 +2,7 @@
 title: "BingAI - 聊天"
 sitelink: "https://chat.mimiby.com/web/#/"
 description: "欢迎使用新必应 由 AI 支持的网页版 Copilot"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "bingai"

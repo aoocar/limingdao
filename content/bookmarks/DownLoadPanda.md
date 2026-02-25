@@ -2,7 +2,7 @@
 title: "DownLoadPanda"
 sitelink: "https://dlpanda.com/"
 description: "抖音TikTok无水印下载"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "downloadpanda"

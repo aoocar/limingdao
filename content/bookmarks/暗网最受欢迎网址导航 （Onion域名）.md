@@ -2,7 +2,7 @@
 title: "暗网最受欢迎网址导航 （Onion域名）"
 sitelink: "https://onion666.com/"
 description: "暗网最受欢迎网址导航 （Onion域名）"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "onion"

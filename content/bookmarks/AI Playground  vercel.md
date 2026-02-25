@@ -2,7 +2,7 @@
 title: "AI Playground  vercel"
 sitelink: "https://play.vercel.ai/"
 description: "比较、调整和使用最新的 AI 语言模型。"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "ai-playground-vercel"

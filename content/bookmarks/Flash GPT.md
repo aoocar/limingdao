@@ -2,7 +2,7 @@
 title: "Flash GPT"
 sitelink: "https://www.deflash.ai/"
 description: "Your personal Flash GPT Bot."
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "flash-gpt"

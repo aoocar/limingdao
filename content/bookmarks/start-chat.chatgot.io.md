@@ -2,7 +2,7 @@
 title: "start-chat.chatgot.io"
 sitelink: "https://start-chat.chatgot.io/"
 description: "AI大乱斗"
-categories: "AI导航"
+category: "AI导航"
 sub-category: "默认"
 tags:
   - "start-chat-chatgot-io"

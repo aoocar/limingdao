@@ -2,7 +2,7 @@
 title: "AdGuard 匿名邮箱"
 sitelink: "https://adguard.com/zh_cn/adguard-temp-mail/overview.html"
 description: "AdGuard 匿名邮箱：免费一次性电子信箱生成器"
-categories: "未分类"
+category: "未分类"
 sub-category: "默认"
 tags:
   - "adguard"
