@@ -95,8 +95,14 @@
                                         {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
                                         {{ $c1List := slice }}
                                         {{ range $allPages }}
-                                        {{ if .Params.category }}
-                                        {{ $c1List = $c1List | append .Params.category }}
+                                        {{ if .Params.categories }}
+                                        {{ $catName := "" }}
+                                        {{ if eq (printf "%T" .Params.categories) "[]string" }}
+                                        {{ $catName = index .Params.categories 0 }}
+                                        {{ else }}
+                                        {{ $catName = .Params.categories }}
+                                        {{ end }}
+                                        {{ $c1List = $c1List | append $catName }}
                                         {{ end }}
                                         {{ end }}
                                         {{ $c1List = $c1List | uniq }}
@@ -105,7 +111,23 @@
                                         {{ $isHome := .IsHome }}
 
                                         {{ range $c1 := $c1List }}
-                                        {{ $c1Pages := where $allPages ".Params.category" $c1 }}
+                                        {{/* Filter pages by category array manually since where doesn't work perfectly
+                                        with mixed string/array types */}}
+                                        {{ $c1Pages := slice }}
+                                        {{ range $allPages }}
+                                        {{ $pageC1 := "" }}
+                                        {{ if .Params.categories }}
+                                        {{ if eq (printf "%T" .Params.categories) "[]string" }}
+                                        {{ $pageC1 = index .Params.categories 0 }}
+                                        {{ else }}
+                                        {{ $pageC1 = .Params.categories }}
+                                        {{ end }}
+                                        {{ end }}
+                                        {{ if eq $pageC1 $c1 }}
+                                        {{ $c1Pages = $c1Pages | append . }}
+                                        {{ end }}
+                                        {{ end }}
+
                                         {{ $c2List := slice }}
                                         {{ range $c1Pages }}
                                         {{ if index .Params "sub-category" }}

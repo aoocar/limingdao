@@ -2,7 +2,7 @@
 title: "quazel"
 sitelink: "https://www.quazel.com/"
 description: "https://www.quazel.com/"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "quazel"

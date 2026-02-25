@@ -2,7 +2,7 @@
 title: "Learning Prompt"
 sitelink: "https://learning-pt.limingdao.com/"
 description: "免费的 Prompt Engineering 教程 现已包含 ChatGPT 和 Midjourney 教程"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "learning-prompt"

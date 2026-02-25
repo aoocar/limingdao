@@ -2,7 +2,7 @@
 title: "DO GPT"
 sitelink: "https://www.dogpt.ai/"
 description: "自动化的GPT助手，点击试用，无需API。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "do-gpt"

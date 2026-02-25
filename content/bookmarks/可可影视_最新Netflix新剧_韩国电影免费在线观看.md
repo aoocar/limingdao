@@ -2,7 +2,7 @@
 title: "可可影视_最新Netflix新剧_韩国电影免费在线观看"
 sitelink: "https://www.keke2.app/"
 description: "可可影视_最新Netflix新剧_韩国电影免费在线观看"
-category: "娱乐休闲"
+categories: "娱乐休闲"
 sub-category: "默认"
 tags:
   - "_netflix_"

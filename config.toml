@@ -1,6 +1,6 @@
 baseURL               = "https://limingdao.vercel.app/"
 languageCode          = "zh-CN"
-title                 = "Limingdao 网址导航"
+title                 = "Limingdao 黎明岛"
 theme                 = "webstack"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -10,8 +10,8 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params]
 
-    description   = "Limingdao 网址导航 | 您的高效数字工作台"
-    upload        = "mailto:aoobee@example.com"      # 左侧导航栏的"网站提交"
+    description   = "Limingdao 黎明岛 | 记录旧时代"
+    upload        = "mailto:aoobee@sina.com"      # 左侧导航栏的"网站提交"
     about         = "/about"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/aoocar/limingdao"  
     enablePreLoad = true					# 网站完全打开前预加载动画
@@ -26,7 +26,7 @@ publishDir            = "public"				# 站点静态文件保存目录
 
     [params.author]
         name  = "Limingdao"
-        email = "aoobee@example.com"
+        email = "aoobee@sina.com"
 [params.seo]    
     baiduhmid       = 'efccc04cb44fc49faddac5876180b369'	# 百度统计 hm.src 的 ID
     baiduSiteVer    = 'codeva-cCAOSG8MBO'			# 百度HTML标签验证(baidu-site-verification)
@@ -57,4 +57,4 @@ publishDir            = "public"				# 站点静态文件保存目录
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：aoobee@example.com <br/>&copy; 2026 - {year} By [Limingdao](https://github.com/aoocar/limingdao)<br/>'
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：aoobee@sina.com Copyright & limingdao.com [网站备案/许可证号京ICP备13052378号](https://beian.miit.gov.cn/)<br/>&copy; 2006 - {year} By [Limingdao](https://github.com/aoocar/limingdao)<br/>'

@@ -2,7 +2,7 @@
 title: "gptshunter"
 sitelink: "https://www.gptshunter.com/"
 description: "Share and discover the best custom GPTs in GPT store by OpenAI"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "gptshunter"

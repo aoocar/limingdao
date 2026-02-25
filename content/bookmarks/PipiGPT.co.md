@@ -2,7 +2,7 @@
 title: "PipiGPT.co"
 sitelink: "https://bibigpt.co/pipigpt"
 description: "让每张照片，都有故事可讲 AI 一键生成 朋友圈 文案"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "pipigpt-co"

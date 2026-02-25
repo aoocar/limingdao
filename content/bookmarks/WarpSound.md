@@ -2,7 +2,7 @@
 title: "WarpSound"
 sitelink: "https://www.warpsound.ai/"
 description: "WarpSound 使用尖端的生成 AI 技术释放无限音乐播放和创造力的新形式。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "warpsound"

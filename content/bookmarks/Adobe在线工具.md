@@ -2,7 +2,7 @@
 title: "Adobe在线工具"
 sitelink: "https://new.express.adobe.com/"
 description: "Adobe在线工具"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "adobe"

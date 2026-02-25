@@ -2,7 +2,7 @@
 title: "AI导航"
 sitelink: "https://www.ainavpro.com/"
 description: "这是一个专注于人工智能产品的导航站。"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "ai"

@@ -2,7 +2,7 @@
 title: "DeepFashion.us"
 sitelink: "https://deepfashion.us/"
 description: "10 分钟内将 5 个设计转变为 AI 助手"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "deepfashion-us"

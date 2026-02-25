@@ -2,7 +2,7 @@
 title: "小K网"
 sitelink: "https://www.xkwo.com/"
 description: "小K网专注于免费提供最新的QQ技术分享拥有独特领域的游戏资源,专业负责人掌控QQ活动动态,多方面性质资源分享,免费源码交流学习基地,绿色、安全、搞笑的软件基地."
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "k"

@@ -2,7 +2,7 @@
 title: "原生ChatGPT"
 sitelink: "https://chatbot.limingdao.com/zh"
 description: "原生ChatGPT"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "chatgpt-2"

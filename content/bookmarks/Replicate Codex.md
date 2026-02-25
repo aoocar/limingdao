@@ -2,7 +2,7 @@
 title: "Replicate Codex"
 sitelink: "https://www.replicatecodex.com/"
 description: "搜索、筛选和排序 AI 模型。为您的 AI 项目找到合适的选择"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "replicate-codex"

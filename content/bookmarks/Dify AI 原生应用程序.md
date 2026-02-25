@@ -2,7 +2,7 @@
 title: "Dify AI 原生应用程序"
 sitelink: "https://dify.ai/"
 description: "简单地创建和操作 基于 GPT-4 的 AI 原生应用"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "dify-ai"

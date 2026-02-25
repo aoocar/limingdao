@@ -2,7 +2,7 @@
 title: "Pixabay"
 sitelink: "https://pixabay.com/zh/"
 description: "精彩的免版税图片和免版税库存Pixabay拥有超过4.2百万张优质图片和视频素材，让你轻松应对各种设计场景"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "pixabay"

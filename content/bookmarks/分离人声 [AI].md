@@ -1,7 +1,7 @@
 ---
 title: "分离人声 [AI]"
 sitelink: "https://vocalremover.org/zh/"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "ai-12"

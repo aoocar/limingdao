@@ -2,7 +2,7 @@
 title: "Perplexity"
 sitelink: "https://www.perplexity.ai/"
 description: "Where knowledge begins Perplexity AI unlocks the power of knowledge with information discovery and sharing."
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "perplexity"

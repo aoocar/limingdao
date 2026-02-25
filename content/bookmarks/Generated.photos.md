@@ -2,7 +2,7 @@
 title: "Generated.photos"
 sitelink: "https://generated.photos/"
 description: "生成的照片 |  独特、无忧的模特照片"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "generated-photos"

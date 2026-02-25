@@ -2,7 +2,7 @@
 title: "rask.ai"
 sitelink: "https://zh.rask.ai/"
 description: "用AI翻译视频和音频。快速。有趣。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "rask-ai"

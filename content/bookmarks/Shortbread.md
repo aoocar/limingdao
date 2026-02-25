@@ -2,7 +2,7 @@
 title: "Shortbread"
 sitelink: "Shortbread.ai"
 description: "http://Shortbread.ai ：一键漫画生成平台 你只需文字描述你的创意和想法即可，Shortbread 便能快速地将其转化为一个完整的漫画页面。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "shortbread"

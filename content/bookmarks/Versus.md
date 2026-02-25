@@ -2,7 +2,7 @@
 title: "Versus"
 sitelink: "https://versus.com/cn"
 description: "Versus：在线全球物品可视化比较平台"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "versus"

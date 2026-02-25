@@ -2,7 +2,7 @@
 title: "fliki"
 sitelink: "https://fliki.ai/"
 description: "fliki将文本变成带有 AI 语音的视频"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "fliki"

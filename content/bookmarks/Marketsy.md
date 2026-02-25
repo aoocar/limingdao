@@ -1,7 +1,7 @@
 ---
 title: "Marketsy"
 sitelink: "https://marketsy.ai/"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI领域实用"
 tags:
   - "marketsy"

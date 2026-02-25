@@ -2,7 +2,7 @@
 title: "mitce"
 sitelink: "https://mitce.com/aff.php?aff=3743"
 description: "2023 科学上网机场推荐，2元一个月超便宜"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "mitce"

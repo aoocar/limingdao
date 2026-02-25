@@ -2,7 +2,7 @@
 title: "ChatGPT Next Web"
 sitelink: "https://chat.limingdao.com/"
 description: "ChatGPT Next Web是一个创建个人ChatAI的在线平台，允许用户为自己的Chat Bot添加答案、回复、问答，"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "chatgpt-next-web"

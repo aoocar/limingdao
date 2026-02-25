@@ -2,7 +2,7 @@
 title: "Blockai.Pro 批量检查网站"
 sitelink: "https://blockai.pro/alpha-tool/commandcenter"
 description: "可视化效果和交易竞赛数据很不错"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 weight: 10
 recommend: 2

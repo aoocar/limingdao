@@ -2,7 +2,7 @@
 title: "PromptHero"
 sitelink: "https://prompthero.com/"
 description: "提示工程课程 - AI 艺术速成课程 - PromptHero"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "prompthero"

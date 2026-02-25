@@ -2,7 +2,7 @@
 title: "Mango AI - AI視訊生成器 - Mango Animate"
 sitelink: "https://mangoanimate.com/"
 description: "<meta name=\"keywords\" content=\"免費的人工智慧視訊生成器，人工智慧視訊製作器，人工智慧視訊創建者，人工智慧語音產生器，人工智慧頭像，數位頭像，換臉，人工智慧文字到語音免費\">"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "mango-ai-ai-mango-animate"

@@ -2,7 +2,7 @@
 title: "PDF 工具 - HodlSoftware"
 sitelink: "https://www.pdftool.org/zh"
 description: "免费编辑 PDF 的简单工具，集成了隐私保护功能。"
-category: "PDF工具"
+categories: "PDF工具"
 sub-category: "默认"
 tags:
   - "pdf-hodlsoftware"

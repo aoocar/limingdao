@@ -2,7 +2,7 @@
 title: "Layup"
 sitelink: "https://layupai.com"
 description: "Layup 重点：跨公司应用程序构建工作流的 AI 地点：旧金山。 网址：https://layupai.com"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "layup"

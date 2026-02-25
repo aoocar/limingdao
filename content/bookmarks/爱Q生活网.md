@@ -2,7 +2,7 @@
 title: "爱Q生活网"
 sitelink: "https://www.iqnew.com/"
 description: "爱Q生活网 - 亮亮'blog - 关注最新QQ活动动态,掌握QQ第一资讯"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "q"

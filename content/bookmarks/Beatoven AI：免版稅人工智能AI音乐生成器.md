@@ -2,7 +2,7 @@
 title: "Beatoven AI：免版稅人工智能AI音乐生成器"
 sitelink: "https://www.beatoven.ai/"
 description: "Beatoven AI：免版稅人工智能AI音乐生成器"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "beatoven-aiai"

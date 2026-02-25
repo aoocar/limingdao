@@ -2,7 +2,7 @@
 title: "CognosysAI"
 sitelink: "https://www.cognosys.ai/"
 description: "Cognosys 致力于优先关注客户，确保跨平台的无缝和直观的用户体验。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "cognosysai"

@@ -2,7 +2,7 @@
 title: "Astira"
 sitelink: "https://www.astria.ai/"
 description: "Astira 让照片动起来"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "astira"

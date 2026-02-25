@@ -1,7 +1,7 @@
 ---
 title: "MoeMail"
 sitelink: "https://nhhawa.edu.kg/"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 weight: 10
 recommend: 2

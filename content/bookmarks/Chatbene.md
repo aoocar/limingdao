@@ -2,7 +2,7 @@
 title: "Chatbene"
 sitelink: "https://chatbene.com/"
 description: "Chatbene, ChatGPT, GPT-3, GPT-4, GPT-5, 生成式模型，人工智能，人工智能产品，最新产品，Prompt, Prompts, AI 提示词，AI 产品"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "chatbene"

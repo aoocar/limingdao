@@ -2,7 +2,7 @@
 title: "forefront.ai"
 sitelink: "https://chat.forefront.ai/"
 description: "免费的chatGPT4试用"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "forefront-ai"

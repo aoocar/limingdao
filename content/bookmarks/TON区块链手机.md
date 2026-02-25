@@ -2,7 +2,7 @@
 title: "TON区块链手机"
 sitelink: "https://universalphone.xyz/"
 description: "通用基本智能手机  适合每个人的智能手机"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "ton"

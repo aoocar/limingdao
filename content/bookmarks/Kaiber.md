@@ -2,7 +2,7 @@
 title: "Kaiber"
 sitelink: "https://kaiber.ai/"
 description: "把你的梦想变成现实 利用我们先进的人工智能生成引擎以前所未有的方式讲述故事"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "kaiber"

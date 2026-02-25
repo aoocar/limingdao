@@ -2,7 +2,7 @@
 title: "Clipchamp"
 sitelink: "https://app.clipchamp.com/"
 description: "使用Clipchamp从头开始制作精彩视频或选择模板以节省时间。无需付费，即可像专业人士那样编辑视频、音频轨道和图像。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "clipchamp"

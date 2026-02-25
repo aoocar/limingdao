@@ -2,7 +2,7 @@
 title: "InfinityFree"
 sitelink: "https://www.infinityfree.com/"
 description: "免费网站托管  PHP 和 MySQL |您的网站上没有广告 |超过 500,000 用户"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "infinityfree"

@@ -2,7 +2,7 @@
 title: "ispunk Video - 免费的 AI 视频制作工具"
 sitelink: "http://vispunk.com"
 description: "ispunk Video - 免费的 AI 视频制作工具"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "ispunk-video-ai"

@@ -2,7 +2,7 @@
 title: "LLaVA：大型语言和视觉助手"
 sitelink: "https://llava.hliu.cc/"
 description: "LLaVA：大型语言和视觉助手"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "llava"

@@ -2,7 +2,7 @@
 title: "Magicflow"
 sitelink: "https://chat.quazel.com/chat"
 description: "功能：用于 AI 开发的 Webflow。 地点：以色列"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "magicflow"

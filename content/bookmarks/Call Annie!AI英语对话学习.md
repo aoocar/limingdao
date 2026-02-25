@@ -2,7 +2,7 @@
 title: "Call Annie!AI英语对话学习"
 sitelink: "https://callsam.ai/"
 description: "Call Annie!AI英语对话学习"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "call-annieai"

@@ -2,7 +2,7 @@
 title: "白瓜AI助手"
 sitelink: "https://baigua.com/"
 description: "白瓜AI助手，工作好帮手"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "ai-5"

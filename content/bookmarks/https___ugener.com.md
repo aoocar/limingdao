@@ -2,7 +2,7 @@
 title: "https://ugener.com"
 sitelink: "https://ugener.com"
 description: "在线各国虚拟身份信息生成工具 包括随机信用卡号码生成器 虚假随机用户名生成器， 还提供临时邮件和在线短信接码"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "https-ugener-com"

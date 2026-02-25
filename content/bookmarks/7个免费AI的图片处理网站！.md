@@ -2,7 +2,7 @@
 title: "7个免费AI的图片处理网站！"
 sitelink: "https://www.pixelcut.ai/"
 description: "7个最强免费模糊照片AI把你模糊的圖片秒變清晰，無損放大！"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "7ai"

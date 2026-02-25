@@ -2,7 +2,7 @@
 title: "NoteAI.com"
 sitelink: "NoteAI.com"
 description: "NoteAI.com 一个很简洁但是很好用的搜索总结工具 你"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "noteai-com"

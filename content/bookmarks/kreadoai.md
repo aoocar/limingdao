@@ -2,7 +2,7 @@
 title: "kreadoai"
 sitelink: "https://www.kreadoai.com/"
 description: "只需输入文本或关键词，即可创作真实/虚拟人物的多语言口播视频，"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "kreadoai"

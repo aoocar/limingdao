@@ -2,7 +2,7 @@
 title: "Ideogram-免费AI图像生成器"
 sitelink: "https://ideogram.ai/"
 description: "Ideogram-免费AI图像生成器 文字数字logo设计轻松搞定"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "ideogram-ai"

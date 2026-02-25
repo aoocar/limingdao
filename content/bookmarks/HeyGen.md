@@ -2,7 +2,7 @@
 title: "HeyGen"
 sitelink: "https://www.heygen.com/"
 description: "使用 AI将引人入胜的视频制作速度提高 10 倍"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI视频生成"
 tags:
   - "heygen"

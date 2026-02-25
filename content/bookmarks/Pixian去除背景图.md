@@ -2,7 +2,7 @@
 title: "Pixian去除背景图"
 sitelink: "https://pixian.ai/"
 description: "#AI工具推荐 刚刚发现了一款超级好用的去除背景图片的工具，速度快，质量高。比 http://remove.bg 效果更好，而且完全免费"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "pixian"

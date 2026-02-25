@@ -2,7 +2,7 @@
 title: "LLaVA-AI识图"
 sitelink: "https://llava-vl.github.io/"
 description: "开源且完全免费使用。  隆重推出 LLaVA：大型语言和视觉助手。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "llava-ai"

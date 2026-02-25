@@ -2,7 +2,7 @@
 title: "Whisper JAX"
 sitelink: "https://huggingface.co/spaces/sanchit-gandhi/whisper-jax"
 description: "Whisper JAX：最快的 Whisper API"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "whisper-jax"

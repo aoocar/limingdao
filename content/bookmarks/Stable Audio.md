@@ -2,7 +2,7 @@
 title: "Stable Audio"
 sitelink: ""
 description: "Stable Audio-免费人工智能AI音乐生产器 可商用"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "AI音频创作"
 tags:
   - "stable-audio"

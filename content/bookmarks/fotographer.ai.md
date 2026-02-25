@@ -2,7 +2,7 @@
 title: "fotographer.ai"
 sitelink: "https://fotographer.ai/"
 description: "用于 EC 和营销的产品摄影 摄影师人工智能 交给我 只需上传样本照片， 您就可以非常轻松地创建有吸引力的产品照片。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "fotographer-ai"

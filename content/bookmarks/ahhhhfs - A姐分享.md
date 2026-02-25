@@ -2,7 +2,7 @@
 title: "ahhhhfs - A姐分享"
 sitelink: "https://www.ahhhhfs.com/"
 description: "ahhhhfs - A姐分享"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "ahhhhfs-a"

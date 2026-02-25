@@ -2,7 +2,7 @@
 title: "vectorizer.ai"
 sitelink: "https://vectorizer.ai/"
 description: "把任意 jpg/png 转化为真正的 svg 矢量图(最高 2w 像素)"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "vectorizer-ai"

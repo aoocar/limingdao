@@ -2,7 +2,7 @@
 title: "LMSYS 组织"
 sitelink: "https://lmsys.org/"
 description: "Large Model Systems Organization 开发开放、可访问和可扩展的大型模型和系统。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "lmsys"

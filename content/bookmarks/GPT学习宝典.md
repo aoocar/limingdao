@@ -2,7 +2,7 @@
 title: "GPT学习宝典"
 sitelink: "https://gpt.candobear.com/"
 description: "宝典也提出了一个“GPT增强学习宣言”，强调AI技术应该辅助人类而非替代人类。尽管本法则是理想状态，但GPT学习宝典的存在旨在实现这一目标。"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "gpt"

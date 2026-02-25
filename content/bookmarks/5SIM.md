@@ -2,7 +2,7 @@
 title: "5SIM"
 sitelink: "https://5sim.net/"
 description: "最全最大的虚拟手机号码接码平台 -  5SIM  可以接收全球各国各种服务的注册验证"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "5sim"

@@ -2,7 +2,7 @@
 title: "TinyWow"
 sitelink: "https://tinywow.com"
 description: "免费 AI 写作、PDF、图像和其他在线工具 -"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "tinywow"

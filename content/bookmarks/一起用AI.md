@@ -2,7 +2,7 @@
 title: "一起用AI"
 sitelink: "https://17yongai.com/"
 description: "一起用AI | AI副业搞钱套路集合站点"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "ai-11"

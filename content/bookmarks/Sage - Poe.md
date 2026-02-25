@@ -2,7 +2,7 @@
 title: "Sage - Poe"
 sitelink: "https://poe.com/sage"
 description: "Ask questions and get answers"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "sage-poe"

@@ -2,7 +2,7 @@
 title: "Stack AI"
 sitelink: "https://stack-ai.com"
 description: "功能：在几分钟内构建 LLM 应用程序（即 ChatGPT）。      地点：旧金山"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "stack-ai"

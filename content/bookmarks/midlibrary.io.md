@@ -2,7 +2,7 @@
 title: "midlibrary.io"
 sitelink: "https://midlibrary.io/"
 description: "Midjourney 作品集风格AI图库 Midjourney提示词资源-Midlibrary"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "1715"

@@ -2,7 +2,7 @@
 title: "Binance Alpha 手续费返佣"
 sitelink: "https://br.bedrockdao.com/alpha"
 description: "刷 BR 的话每 15 分现在返现 0.2- 0.3 USDT"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 weight: 10
 recommend: 2

@@ -2,7 +2,7 @@
 title: "Elsaspeak"
 sitelink: "https://elsaspeak.com/"
 description: "ELSA，英语语言语音助手，是一款有趣且引人入胜的应用程序，专为帮助您提高英语发音而设计"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "elsaspeak"

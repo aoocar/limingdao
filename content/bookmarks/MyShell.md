@@ -2,7 +2,7 @@
 title: "MyShell"
 sitelink: "https://app.myshell.ai/"
 description: "可以语音交互的学习工具  好用"
-category: "AI导航"
+categories: "AI导航"
 sub-category: "默认"
 tags:
   - "myshell"

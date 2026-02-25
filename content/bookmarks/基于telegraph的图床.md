@@ -2,7 +2,7 @@
 title: "基于telegraph的图床"
 sitelink: ""
 description: "基于telegraph的图床"
-category: "未分类"
+categories: "未分类"
 sub-category: "默认"
 tags:
   - "telegraph-3__trashed"
