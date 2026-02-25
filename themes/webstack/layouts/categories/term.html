@@ -62,11 +62,11 @@
     {{ end }}
 
     {{ $pageC1 := "" }}
-    {{ if .Params.categories }}
-    {{ if eq (printf "%T" .Params.categories) "[]string" }}
-    {{ $pageC1 = index .Params.categories 0 }}
+    {{ if .Params.category }}
+    {{ if eq (printf "%T" .Params.category) "[]string" }}
+    {{ $pageC1 = index .Params.category 0 }}
     {{ else }}
-    {{ $pageC1 = .Params.categories }}
+    {{ $pageC1 = .Params.category }}
     {{ end }}
     {{ end }}
 

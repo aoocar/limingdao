@@ -24,12 +24,12 @@
     {{/* Get unique category values */}}
     {{ $c1List := slice }}
     {{ range $homePages }}
-    {{ if .Params.categories }}
+    {{ if .Params.category }}
     {{ $catName := "" }}
-    {{ if eq (printf "%T" .Params.categories) "[]string" }}
-    {{ $catName = index .Params.categories 0 }}
+    {{ if eq (printf "%T" .Params.category) "[]string" }}
+    {{ $catName = index .Params.category 0 }}
     {{ else }}
-    {{ $catName = .Params.categories }}
+    {{ $catName = .Params.category }}
     {{ end }}
     {{ $c1List = $c1List | append $catName }}
     {{ end }}
@@ -40,11 +40,11 @@
     {{ $c1Pages := slice }}
     {{ range $homePages }}
     {{ $pageC1 := "" }}
-    {{ if .Params.categories }}
-    {{ if eq (printf "%T" .Params.categories) "[]string" }}
-    {{ $pageC1 = index .Params.categories 0 }}
+    {{ if .Params.category }}
+    {{ if eq (printf "%T" .Params.category) "[]string" }}
+    {{ $pageC1 = index .Params.category 0 }}
     {{ else }}
-    {{ $pageC1 = .Params.categories }}
+    {{ $pageC1 = .Params.category }}
     {{ end }}
     {{ end }}
     {{ if eq $pageC1 $c1 }}
