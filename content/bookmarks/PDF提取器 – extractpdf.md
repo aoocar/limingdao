@@ -1,11 +1,11 @@
 ---
-title: "PDF提取器 – extractpdf"
-sitelink: "https://www.extractpdf.com/zh.html"
-description: "免费的在线PDF提取器。可从PDF文件中提取图像，文本和字体。无需安装，无需注册。"
-categories: "PDF工具"
-sub-category: "默认"
+title: PDF提取器 – extractpdf
+sitelink: https://www.extractpdf.com/zh.html
+description: 免费的在线PDF提取器。可从PDF文件中提取图像，文本和字体。无需安装，无需注册。
+categories: 在线工具
+sub-category: PDF工具
 tags:
-  - "pdf-extractpdf"
+  - pdf-extractpdf
 weight: 10
 recommend: 2
 ---

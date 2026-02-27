@@ -7,9 +7,55 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
-    <title>{{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     <link rel="shortcut icon" href="{{ absURL $.Site.Params.images.favicon }}" />
-    <meta name="keywords" content="{{ .Site.Title }}" />
+    <meta name="keywords" content="{{ .Site.Title }}, 网址导航, 书签推荐, 导航站" />
+    
+    <!-- 核心 SEO TDK -->
+    {{- $description := .Description | default .Site.Params.description -}}
+    <meta name="description" content="{{ $description }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Open Graph (Facebook/微信/Telegram 分享卡片) -->
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+    <meta property="og:description" content="{{ $description }}" />
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    {{- if .Params.logo -}}
+    <meta property="og:image" content="{{ .Params.logo }}" />
+    {{- else -}}
+    <meta property="og:image" content="{{ absURL $.Site.Params.images.searchImageD }}" />
+    {{- end -}}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ $description }}">
+    {{- if .Params.logo -}}
+    <meta name="twitter:image" content="{{ .Params.logo }}" />
+    {{- else -}}
+    <meta name="twitter:image" content="{{ absURL $.Site.Params.images.searchImageD }}" />
+    {{- end -}}
+
+    <!-- 结构化数据 (JSON-LD) -->
+    {{ if .IsHome }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ $description }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ .Site.BaseURL }}?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    {{ end }}
+
     {{ if $.Site.Params.seo.baiduSiteVer }}
     <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />
     {{ end }}

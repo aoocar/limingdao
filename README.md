@@ -1,6 +1,6 @@
 # Limingdao 网址导航 (WebStack-Hugo 定制版)
 
-> **🎉 新版本发布**: 请阅读最新生成的完整的 [**Limingdao 项目整体报告 (Beta 1.0.1)**](./Project_Report_Beta_1.0.1.md)，内含详尽的建站规则、网站运营手法以及包括本地、Vercel、阿里云宝塔 (GitHub Actions) 在内的自动化一键部署配置指南。
+> **🎉 新版本发布**: 请阅读最新生成的完整的 [**Limingdao 项目整体报告 (Beta 1.0.2)**](./Project_Report_Beta_1.0.2.md)，内含详尽的建站规则、网站运营手法以及包括本地、Vercel、阿里云宝塔 (GitHub Actions) 在内的自动化一键部署配置指南。
 
 本项目基于开源的 [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) 主题进行了深度的二次开发与重构，旨在提供一个结构严谨、支持多级分类、且高度可定制的纯静态网址导航站。
 
