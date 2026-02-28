@@ -1,6 +1,6 @@
 # Limingdao 网址导航 (WebStack-Hugo 定制版)
 
-> **🎉 新版本发布**: 请阅读最新生成的完整的 [**Limingdao 项目整体报告 (Beta 1.0.2)**](./Project_Report_Beta_1.0.2.md)，内含详尽的建站规则、网站运营手法以及包括本地、Vercel、阿里云宝塔 (GitHub Actions) 在内的自动化一键部署配置指南。
+> **🎉 v1.1 新版本发布**：新增 [**站内网站提交系统**](#五-用户提交网站收录系统-v11-新增)！用户可直接在网站上提交网址，管理员通过 GitHub PR 审核后自动收录上线并同步到本地 Obsidian。完整技术文档请参阅 [**项目运维手册**](./Limingdao_Project_Manual.md)。
 
 本项目基于开源的 [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) 主题进行了深度的二次开发与重构，旨在提供一个结构严谨、支持多级分类、且高度可定制的纯静态网址导航站。
 
@@ -125,6 +125,42 @@ recommend: 2                 # 必填。站内展示级别 (决定了卡片能�
     tag = "tags"
     sub-category = "sub-category" 
 ```
+
+## 五、 用户提交网站收录系统 (v1.1 新增)
+
+本站新增了**站内网站提交功能**，外部用户无需注册任何账号即可推荐优质网站，管理员审核后自动上线。
+
+### 功能亮点
+
+*   🌐 **站内提交**：用户在 `www.limingdao.com/submit/` 填写表单即可提交，无需访问 GitHub
+*   🔒 **PR 审核制**：每条提交自动生成 GitHub Pull Request，管理员审核合并后才会上线
+*   📝 **自动生成书签**：PHP 脚本自动生成符合项目规范的 `.md` 文件（含 YAML Frontmatter）
+*   🔄 **Obsidian 同步**：通过 Obsidian Git 插件自动拉取，合并后的书签直接出现在本地 Obsidian 仓库
+*   🇨🇳 **中国友好**：后端 PHP 运行在阿里云宝塔服务器上，通过服务器端 cURL 调用 GitHub API，内置重试机制
+
+### 审核流程
+
+```
+用户提交 → PHP 创建 PR → 管理员在 GitHub 审核
+  ├── ✅ Merge → Actions 自动部署 → 网站更新 + Obsidian 同步
+  ├── ✏️ 修改后 Merge → 可在线调整 recommend/分类等字段
+  └── ❌ Close → 拒绝收录
+```
+
+### 技术栈
+
+| 组件 | 技术 | 位置 |
+|---|---|---|
+| **前端表单** | HTML + CSS (glassmorphism 暗色主题) + Vanilla JS | `static/submit/index.html` |
+| **后端接口** | PHP 7.x + cURL（含重试与 XSS 防护） | `static/api/submit.php` |
+| **密钥存储** | JSON 配置文件（服务器本地，不入 Git） | `api/.submit_config.json` |
+| **代码管理** | GitHub API v3（分支 + 文件 + PR） | 远程 |
+| **自动部署** | GitHub Actions + rsync → 宝塔面板 | `.github/workflows/deploy.yml` |
+| **本地同步** | Obsidian Git 插件（每 10 分钟自动 pull） | `.obsidian/plugins/obsidian-git/` |
+
+> 详细的架构说明、服务器配置步骤和防坑指南请参阅 [Limingdao 项目运维手册 §六](./Limingdao_Project_Manual.md)。
+
+---
 
 ## 结语
 享受管理属于您的新一代、强劲拓展能力的 URL 导航站吧！如有深层模板需求，您可以在 `themes/webstack/layouts/` 内任意覆盖并扩展核心。
