@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提交网站 - Limingdao 黎明岛</title>
+    <link rel="shortcut icon" href="/assets/images/bi-favicon.png">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min-4.3.1.css">
+    <link rel="stylesheet" href="/assets/fontawesome-5.15.4/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* 背景动画 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(120, 40, 200, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(255, 50, 80, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(40, 120, 255, 0.06) 0%, transparent 50%);
+            z-index: 0;
+            animation: bgShift 15s ease-in-out infinite alternate;
+        }
+
+        @keyframes bgShift {
+            0% { opacity: 0.6; }
+            100% { opacity: 1; }
+        }
+
+        .submit-container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 640px;
+        }
+
+        /* 返回按钮 */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #888;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 24px;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: #e94560; text-decoration: none; }
+
+        /* 标题区 */
+        .form-header {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .form-header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #e94560, #f59e0b, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+        .form-header p {
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* 表单卡片 */
+        .form-card {
+            background: rgba(25, 25, 40, 0.85);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 36px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: #b0b0c0;
+            margin-bottom: 8px;
+            letter-spacing: 0.3px;
+        }
+
+        .form-group label .required {
+            color: #e94560;
+            margin-left: 2px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: #e0e0e0;
+            font-size: 14px;
+            transition: all 0.25s ease;
+            outline: none;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: #e94560;
+            box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.15);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #555;
+        }
+
+        .form-group select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23777' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            padding-right: 40px;
+            cursor: pointer;
+        }
+
+        .form-group select option {
+            background: #1a1a2e;
+            color: #e0e0e0;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .form-group .hint {
+            font-size: 12px;
+            color: #555;
+            margin-top: 6px;
+        }
+
+        /* 两列布局 */
+        .form-row {
+            display: flex;
+            gap: 16px;
+        }
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        /* 提交按钮 */
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            background: linear-gradient(135deg, #e94560, #c73659);
+            color: #fff;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            margin-top: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(233, 69, 96, 0.35);
+        }
+
+        .submit-btn:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .submit-btn .spinner {
+            display: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .submit-btn.loading .spinner { display: inline-block; }
+        .submit-btn.loading .btn-text { display: none; }
+        .submit-btn.loading .btn-loading-text { display: inline; }
+        .submit-btn .btn-loading-text { display: none; }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* 结果提示 */
+        .result-msg {
+            margin-top: 20px;
+            padding: 14px 18px;
+            border-radius: 10px;
+            font-size: 14px;
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .result-msg.success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.25);
+            color: #4ade80;
+        }
+
+        .result-msg.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.25);
+            color: #f87171;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 底部 */
+        .form-footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 12px;
+            color: #444;
+        }
+        .form-footer a {
+            color: #666;
+            text-decoration: none;
+        }
+        .form-footer a:hover { color: #e94560; }
+
+        /* 响应式 */
+        @media (max-width: 480px) {
+            .form-card { padding: 24px 20px; }
+            .form-row { flex-direction: column; gap: 0; }
+            .form-header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="submit-container">
+        <a href="/" class="back-link">
+            <i class="fas fa-arrow-left"></i>
+            <span>返回首页</span>
+        </a>
+
+        <div class="form-header">
+            <h1>🌐 提交网站收录</h1>
+            <p>向 Limingdao 黎明岛推荐优质网站，审核通过后将自动收录上线</p>
+        </div>
+
+        <div class="form-card">
+            <form id="submitForm">
+                <div class="form-group">
+                    <label>网站名称 <span class="required">*</span></label>
+                    <input type="text" id="title" name="title" placeholder="例：YouTube" required maxlength="80">
+                </div>
+
+                <div class="form-group">
+                    <label>网站链接 <span class="required">*</span></label>
+                    <input type="url" id="sitelink" name="sitelink" placeholder="https://www.youtube.com/" required>
+                    <div class="hint">请填写完整链接，包含 https://</div>
+                </div>
+
+                <div class="form-group">
+                    <label>网站简介 <span class="required">*</span></label>
+                    <textarea id="description" name="description" placeholder="用一两句话描述这个网站的功能或特点..." required maxlength="200"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>一级分类 <span class="required">*</span></label>
+                        <select id="category" name="category" required>
+                            <option value="">请选择分类</option>
+                            <option value="AI导航">AI导航</option>
+                            <option value="API接口">API接口</option>
+                            <option value="在线工具">在线工具</option>
+                            <option value="娱乐休闲">娱乐休闲</option>
+                            <option value="教程">教程</option>
+                            <option value="教育导航">教育导航</option>
+                            <option value="网盘搜索">网盘搜索</option>
+                            <option value="网络创业">网络创业</option>
+                            <option value="网络生活">网络生活</option>
+                            <option value="行业导航">行业导航</option>
+                            <option value="音频工具">音频工具</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>二级分类 <span class="required">*</span></label>
+                        <input type="text" id="subCategory" name="subCategory" placeholder="例：视频、翻译工具..." required maxlength="30">
+                        <div class="hint">填写更具体的子分类</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Logo 图片链接 <span style="color:#555;font-weight:400">(可选)</span></label>
+                    <input type="url" id="logo" name="logo" placeholder="https://example.com/logo.png">
+                    <div class="hint">留空将自动抓取网站图标</div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <span class="spinner"></span>
+                    <span class="btn-text"><i class="fas fa-paper-plane"></i>&nbsp; 提交收录</span>
+                    <span class="btn-loading-text">正在提交...</span>
+                </button>
+            </form>
+
+            <div class="result-msg" id="resultMsg"></div>
+        </div>
+
+        <div class="form-footer">
+            <p>Powered by <a href="/">Limingdao 黎明岛</a> · 提交后由管理员审核</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('submitForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const btn = document.getElementById('submitBtn');
+            const resultMsg = document.getElementById('resultMsg');
+
+            // 防止重复提交
+            if (btn.disabled) return;
+
+            btn.disabled = true;
+            btn.classList.add('loading');
+            resultMsg.style.display = 'none';
+
+            const data = {
+                title: document.getElementById('title').value.trim(),
+                sitelink: document.getElementById('sitelink').value.trim(),
+                description: document.getElementById('description').value.trim(),
+                category: document.getElementById('category').value,
+                subCategory: document.getElementById('subCategory').value.trim(),
+                logo: document.getElementById('logo').value.trim() || ''
+            };
+
+            try {
+                const response = await fetch('/api/submit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    resultMsg.className = 'result-msg success';
+                    resultMsg.innerHTML = '<i class="fas fa-check-circle"></i> ' + result.message;
+                    resultMsg.style.display = 'block';
+                    // 清空表单
+                    document.getElementById('submitForm').reset();
+                } else {
+                    resultMsg.className = 'result-msg error';
+                    resultMsg.innerHTML = '<i class="fas fa-exclamation-circle"></i> ' + (result.error || '提交失败，请稍后重试');
+                    resultMsg.style.display = 'block';
+                }
+            } catch (err) {
+                resultMsg.className = 'result-msg error';
+                resultMsg.innerHTML = '<i class="fas fa-exclamation-circle"></i> 网络连接失败，请检查网络后重试';
+                resultMsg.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.classList.remove('loading');
+            }
+        });
+    </script>
+</body>
+</html>
