@@ -123,11 +123,79 @@ hugo server -D
 
 ---
 
-## 六、 针对后续重构的前瞻性建议
+## 六、 用户提交网站收录系统 (v1.1 新增)
 
-*   **数据迁移**：如果您将来打算脱离静态框架，转向 Laravel / Vue 的全栈动态方案。您可以编写一个简单的 Node.js 或 Python 脚本，以批量读取 `content/bookmarks/` 下的 Markdown 文件解析其 YAML 特性，然后写入到 MySQL 或 MongoDB 库中。数据具有高度规范化，迁移成本极低。
-*   **UI 升级**：所有的组件都已经被抽取，如果需要增加暗黑模式调整或改变网格系统，请重点关照 `themes/webstack/assets/css/` 下的源文件，并且 Hugo 打包时会自动将它们 minify 压缩。
-*   **对 AI 的寄语**：在分析代码时，请始终谨记本项目是 **静态编译** 的逻辑。不要试图尝试加入 PHP/NodeJS 后端请求代码，所有的动态能力如果需要引入，必须依赖前端 JavaScript 发起的第三方 API 调用结构。
+本系统允许外部用户在网站上直接提交网址收录请求，管理员审核通过后自动上线，同时同步到本地 Obsidian 仓库。
 
-> *文档生成日期：2026年02月*
+### 6.1 系统架构
+
+```
+用户访问 www.limingdao.com/submit/
+        ↓
+  填写站内提交表单（暗色主题）
+        ↓
+  前端 JS → POST /api/submit.php
+        ↓
+  PHP 脚本（宝塔服务器端执行）
+  ├── 校验表单数据
+  ├── 调用 GitHub API（cURL + 重试机制）
+  │   ├── 获取 main 分支 SHA
+  │   ├── 创建提交分支 submit/xxx
+  │   ├── 在新分支创建 .md 书签文件
+  │   └── 创建 Pull Request
+  └── 返回提交结果
+        ↓
+  管理员在 GitHub 审核 PR → 合并 → 自动部署 → Obsidian 同步
+```
+
+### 6.2 核心文件
+
+| 文件 | 职责 |
+|---|---|
+| `static/submit/index.html` | 提交表单前端页面 |
+| `static/api/submit.php` | PHP 后端接口（含 cURL 重试、XSS 防护） |
+| 服务器: `api/.submit_config.json` | 🔒 密钥配置（不在 Git 中） |
+
+### 6.3 管理员审核流程
+
+当用户通过网站提交网站后，系统会自动在 GitHub 仓库创建一个 Pull Request。管理员按以下流程审核：
+
+**第一步：查看 PR 列表**
+*   登录 GitHub → 进入仓库 `aoocar/limingdao` → 点击 **Pull requests** 标签页
+*   提交生成的 PR 标题格式为：`📎 收录网站: XXX`
+
+**第二步：审核 PR 内容**
+*   点击进入 PR，查看自动生成的信息表格（网站名称、链接、分类、简介等）
+*   点击 **Files changed** 标签页，查看将要添加的 `.md` 书签文件内容
+*   确认：网站链接可访问且无恶意、分类准确、描述合理
+
+**第三步：处理 PR**
+*   ✅ **通过**：点击 **Merge pull request** → **Confirm merge** → 自动部署上线
+*   ❌ **拒绝**：点击 **Close pull request** 关闭
+*   ✏️ **修改后收录**：在 **Files changed** 中点击铅笔图标，可在线编辑 `recommend`、`categories` 等字段后再合并
+
+**第四步：同步到 Obsidian**
+*   Obsidian Git 插件每 10 分钟自动拉取，合并后新文件自动出现在 `content/bookmarks/`
+*   也可在 Obsidian 中 `Ctrl+P` → `Obsidian Git: Pull` 手动拉取
+
+### 6.4 提交入口
+*   **侧边栏**：左侧导航栏底部红色「✈ 提交网站」链接
+*   **直达**：`https://www.limingdao.com/submit/`
+
+### 6.5 服务器维护提醒 (🚨 AI/运维必读)
+*   `api/.submit_config.json` 是手动创建在服务器上的敏感文件，**绝不能**纳入 Git
+*   `deploy.yml` 中 `--exclude='api/.submit_config.json'` 参数**不可移除**
+*   宝塔面板上该站点必须启用 PHP（非纯静态模式）
+*   PHP 脚本内置 cURL 2 次重试（间隔 2 秒），适应中国到 GitHub 的网络波动
+
+---
+
+## 七、 针对后续重构的前瞻性建议
+
+*   **数据迁移**：如果将来打算转向 Laravel / Vue 全栈方案，可编写脚本批量读取 `content/bookmarks/` 下的 Markdown YAML 写入 MySQL/MongoDB。数据高度规范化，迁移成本极低。
+*   **UI 升级**：重点关照 `themes/webstack/assets/css/` 下的源文件。
+*   **对 AI 的寄语**：本项目是 **静态编译 + 轻量 PHP** 混合架构。Hugo 负责前端渲染，唯一的 PHP 后端仅用于用户提交接口 (`api/submit.php`)。不要引入重量级后端框架。
+
+> *文档更新日期：2026年02月*
 > *最终解释权归 Limingdao 开发与运维团队所有。*
+
