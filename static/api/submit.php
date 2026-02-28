@@ -192,7 +192,8 @@ if ($branchResult['error']) {
 }
 
 // --- 3. 在新分支创建文件 ---
-$fileResult = githubApi("{$apiBase}/contents/{$fileName}", $githubToken, 'PUT', [
+$encodedPath = implode('/', array_map('rawurlencode', explode('/', $fileName)));
+$fileResult = githubApi("{$apiBase}/contents/{$encodedPath}", $githubToken, 'PUT', [
     'message' => "📎 用户提交网站: {$title}",
     'content' => base64_encode($mdContent),
     'branch'  => $branchName
@@ -204,7 +205,8 @@ if ($fileResult['error']) {
         echo json_encode(['error' => '该网站名称已被收录，请更换名称或联系管理员']);
     } else {
         http_response_code(500);
-        echo json_encode(['error' => '创建书签文件失败']);
+        $detail = $fileResult['data']['message'] ?? '';
+        echo json_encode(['error' => '创建书签文件失败' . ($detail ? '：' . $detail : '')]);
     }
     error_log('[Limingdao Submit] 创建文件失败: ' . ($fileResult['raw'] ?? ''));
     exit;
