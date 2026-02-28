@@ -3,11 +3,5 @@
     "env": {
       "HUGO_VERSION": "0.120.0"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/api/submit",
-      "destination": "/api/submit"
-    }
-  ]
+  }
 }
