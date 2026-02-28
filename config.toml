@@ -1,4 +1,4 @@
-baseURL               = "https://limingdao.vercel.app/"
+baseURL               = "https://wwwlimingdao.com/"
 languageCode          = "zh-CN"
 title                 = "Limingdao 黎明岛"
 theme                 = "webstack"
@@ -11,7 +11,7 @@ publishDir            = "public"				# 站点静态文件保存目录
 [params]
 
     description   = "Limingdao 黎明岛 | 记录旧时代"
-    upload        = "mailto:aoobee@sina.com"      # 左侧导航栏的"网站提交"
+    upload        = "https://github.com/aoocar/limingdao/issues/new?template=submit-website.yml&title=%5B提交网站%5D+"      # 左侧导航栏的"网站提交" → GitHub Issue 表单
     about         = "/about"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/aoocar/limingdao"  
     enablePreLoad = true					# 网站完全打开前预加载动画

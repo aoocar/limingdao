@@ -1,0 +1,183 @@
+name: Auto Create Bookmark from Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-bookmark:
+    # 仅处理带有 "submit-website" 标签的 Issue
+    if: contains(github.event.issue.labels.*.name, 'submit-website')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Parse Issue and Create Bookmark
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueBody = context.payload.issue.body;
+            const issueNumber = context.payload.issue.number;
+            const issueUser = context.payload.issue.user.login;
+
+            // --- 解析 Issue 表单字段 ---
+            function parseField(body, fieldLabel) {
+              // GitHub Issue forms render as: ### Label\n\nValue\n\n
+              const regex = new RegExp(`### ${fieldLabel}\\s*\\n\\n([\\s\\S]*?)(?=\\n\\n###|$)`, 'i');
+              const match = body.match(regex);
+              if (match) {
+                return match[1].trim();
+              }
+              return '';
+            }
+
+            const title = parseField(issueBody, '网站名称');
+            const sitelink = parseField(issueBody, '网站链接');
+            const description = parseField(issueBody, '网站简介');
+            let category = parseField(issueBody, '一级分类（频道）');
+            const subCategory = parseField(issueBody, '二级分类（子类）') || '默认';
+            const logo = parseField(issueBody, 'Logo 图片链接（可选）');
+            const reason = parseField(issueBody, '推荐理由（可选）');
+
+            // --- 字段校验 ---
+            if (!title || !sitelink) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: '❌ **提交失败**：网站名称和链接为必填项，请补充后重新提交。'
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                state: 'closed',
+                labels: ['submit-website', 'invalid']
+              });
+              return;
+            }
+
+            // 处理 "其他" 分类的情况
+            if (category.includes('其他')) {
+              category = '未分类';
+            }
+
+            // --- 生成安全的文件名 ---
+            const safeTitle = title
+              .replace(/[<>:"/\\|?*\x00-\x1f]/g, '')  // 移除非法字符
+              .replace(/\s+/g, ' ')                      // 合并空格
+              .trim()
+              .substring(0, 80);                         // 限制长度
+
+            const fileName = `content/bookmarks/${safeTitle}.md`;
+
+            // --- 生成 Markdown 内容 ---
+            const logoLine = logo && logo !== '_No response_' ? `logo: "${logo}"` : '';
+            const now = new Date().toISOString();
+
+            let mdContent = `---
+            title: "${title}"
+            sitelink: "${sitelink}"
+            description: "${description.substring(0, 200)}"
+            categories: "${category}"
+            sub-category: "${subCategory}"
+            ${logoLine}
+            weight: 10
+            recommend: 0
+            date: ${now}
+            submitted_by: "${issueUser}"
+            ---
+
+            ${description}
+            `.replace(/^            /gm, '').trim() + '\n';
+
+            // --- 创建 PR 分支 ---
+            const branchName = `submit/issue-${issueNumber}-${safeTitle.substring(0, 30).replace(/\s/g, '-')}`;
+
+            // 获取 main 分支的最新 SHA
+            const { data: ref } = await github.rest.git.getRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'heads/main'
+            });
+
+            // 创建新分支
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/heads/${branchName}`,
+              sha: ref.object.sha
+            });
+
+            // 在新分支上创建文件
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: fileName,
+              message: `📎 收录网站: ${title} (from issue #${issueNumber})`,
+              content: Buffer.from(mdContent).toString('base64'),
+              branch: branchName
+            });
+
+            // --- 创建 Pull Request ---
+            const { data: pr } = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📎 收录网站: ${title}`,
+              head: branchName,
+              base: 'main',
+              body: [
+                `## 用户提交的网站收录`,
+                ``,
+                `| 字段 | 内容 |`,
+                `|---|---|`,
+                `| **网站名称** | ${title} |`,
+                `| **链接** | ${sitelink} |`,
+                `| **简介** | ${description.substring(0, 100)} |`,
+                `| **一级分类** | ${category} |`,
+                `| **二级分类** | ${subCategory} |`,
+                `| **Logo** | ${logo || '自动抓取'} |`,
+                `| **提交人** | @${issueUser} |`,
+                `| **推荐理由** | ${reason || '无'} |`,
+                ``,
+                `> 来自 Issue #${issueNumber}`,
+                ``,
+                `### 生成的文件`,
+                `\`${fileName}\``,
+                ``,
+                `---`,
+                `✅ 合并此 PR 即完成网站收录，书签将在下次部署时自动上线。`,
+              ].join('\n')
+            });
+
+            // --- 回复 Issue 并关闭 ---
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                `🎉 **感谢提交！** 你的网站已自动生成收录文件。`,
+                ``,
+                `📋 **审核 PR**: ${pr.html_url}`,
+                ``,
+                `管理员审核通过并合并后，网站将自动上线到 [Limingdao 黎明岛](https://limingdao.vercel.app/)。`
+              ].join('\n')
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed',
+              labels: ['submit-website', 'pending-review']
+            });
+
+            console.log(`✅ PR created: ${pr.html_url}`);

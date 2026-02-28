@@ -1,0 +1,85 @@
+name: "\U0001F310 提交网站"
+description: "向 Limingdao 导航站提交一个新网站收录"
+title: "[提交网站] "
+labels: ["submit-website"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢你向 Limingdao 黎明岛提交网站！
+        请尽量完整填写以下信息，我们审核通过后会自动收录。
+
+  - type: input
+    id: site_title
+    attributes:
+      label: "网站名称"
+      description: "请填写网站的中文或英文名称"
+      placeholder: "例：YouTube"
+    validations:
+      required: true
+
+  - type: input
+    id: site_link
+    attributes:
+      label: "网站链接"
+      description: "请填写完整的网站 URL（包含 https://）"
+      placeholder: "https://www.youtube.com/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: site_description
+    attributes:
+      label: "网站简介"
+      description: "用一两句话描述这个网站的功能或特色（建议20字以内）"
+      placeholder: "在 YouTube 上畅享你喜爱的视频和音乐..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: site_category
+    attributes:
+      label: "一级分类（频道）"
+      description: "选择最匹配的大类分类"
+      options:
+        - "AI导航"
+        - "API接口"
+        - "在线工具"
+        - "娱乐休闲"
+        - "教程"
+        - "教育导航"
+        - "网盘搜索"
+        - "网络创业"
+        - "网络生活"
+        - "行业导航"
+        - "音频工具"
+        - "其他（请在下方说明）"
+    validations:
+      required: true
+
+  - type: input
+    id: site_subcategory
+    attributes:
+      label: "二级分类（子类）"
+      description: "填写更具体的子分类名，如不确定可填 '默认'"
+      placeholder: "例：视频、搜索引擎、翻译工具..."
+    validations:
+      required: true
+
+  - type: input
+    id: site_logo
+    attributes:
+      label: "Logo 图片链接（可选）"
+      description: "网站 Logo 的图片 URL，留空将自动抓取网站图标"
+      placeholder: "https://example.com/logo.png"
+    validations:
+      required: false
+
+  - type: textarea
+    id: site_reason
+    attributes:
+      label: "推荐理由（可选）"
+      description: "告诉我们为什么推荐这个网站"
+      placeholder: "这个网站很好用因为..."
+    validations:
+      required: false
