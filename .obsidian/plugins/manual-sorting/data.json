@@ -437,6 +437,8 @@
     },
     "public": {
       "children": [
+        "public/api",
+        "public/submit",
         "public/about",
         "public/assets",
         "public/bookmarks",
@@ -454,6 +456,13 @@
     "public/about": {
       "children": [
         "public/about/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/api": {
+      "children": [
+        "public/api/diagnose.php",
+        "public/api/submit.php"
       ],
       "sortOrder": "custom"
     },
@@ -5291,6 +5300,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/submit": {
+      "children": [
+        "public/submit/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags": {
       "children": [
         "public/tags/__",
@@ -8065,7 +8080,21 @@
     },
     "static": {
       "children": [
+        "static/api",
+        "static/submit",
         "static/robots.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "static/api": {
+      "children": [
+        "static/api/submit.php"
+      ],
+      "sortOrder": "custom"
+    },
+    "static/submit": {
+      "children": [
+        "static/submit/index.html"
       ],
       "sortOrder": "custom"
     },
