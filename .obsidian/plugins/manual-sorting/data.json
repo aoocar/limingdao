@@ -64,6 +64,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/中文操作手册.md",
         "content/bookmarks/「神奇海螺」梗图生成器.md",
         "content/bookmarks/2,500+ ChatGPT Prompt Templates.md",
         "content/bookmarks/5SIM.md",
@@ -2625,6 +2626,7 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/网站名称",
         "public/bookmarks/5SIM",
         "public/bookmarks/7个免费AI的图片处理网站",
         "public/bookmarks/16K-图片资源库",
@@ -3693,6 +3695,12 @@
     "public/bookmarks/万能对话生成器": {
       "children": [
         "public/bookmarks/万能对话生成器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/网站名称": {
+      "children": [
+        "public/bookmarks/网站名称/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5215,6 +5223,7 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/测试",
         "public/sub-category/电子书刊",
         "public/sub-category/教育导航",
         "public/sub-category/默认",
@@ -5227,6 +5236,13 @@
         "public/sub-category/PDF工具",
         "public/sub-category/index.html",
         "public/sub-category/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/测试": {
+      "children": [
+        "public/sub-category/测试/index.html",
+        "public/sub-category/测试/index.xml"
       ],
       "sortOrder": "custom"
     },
