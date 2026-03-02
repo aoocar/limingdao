@@ -2626,6 +2626,7 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/中文操作手册",
         "public/bookmarks/网站名称",
         "public/bookmarks/5SIM",
         "public/bookmarks/7个免费AI的图片处理网站",
@@ -3932,6 +3933,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/中文操作手册": {
+      "children": [
+        "public/bookmarks/中文操作手册/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/装逼模拟器": {
       "children": [
         "public/bookmarks/装逼模拟器/index.html"
@@ -5104,6 +5111,7 @@
     },
     "public/categories": {
       "children": [
+        "public/categories/AI人工智能",
         "public/categories/教程",
         "public/categories/教育导航",
         "public/categories/网络创业",
@@ -5207,6 +5215,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/categories/AI人工智能": {
+      "children": [
+        "public/categories/AI人工智能/index.html",
+        "public/categories/AI人工智能/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/categories/API接口": {
       "children": [
         "public/categories/API接口/index.html",
@@ -5223,6 +5238,7 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/AI应用",
         "public/sub-category/测试",
         "public/sub-category/电子书刊",
         "public/sub-category/教育导航",
@@ -5306,6 +5322,13 @@
       "children": [
         "public/sub-category/AI音频创作/index.html",
         "public/sub-category/AI音频创作/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/AI应用": {
+      "children": [
+        "public/sub-category/AI应用/index.html",
+        "public/sub-category/AI应用/index.xml"
       ],
       "sortOrder": "custom"
     },
