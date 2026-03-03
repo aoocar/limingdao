@@ -2628,6 +2628,8 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网",
+        "public/bookmarks/WeLib-4300万本书籍9800万篇论文全部免费尽在掌握",
         "public/bookmarks/中文操作手册",
         "public/bookmarks/网站名称",
         "public/bookmarks/5SIM",
@@ -3776,6 +3778,12 @@
     "public/bookmarks/小K网": {
       "children": [
         "public/bookmarks/小K网/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网": {
+      "children": [
+        "public/bookmarks/小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5039,6 +5047,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/WeLib-4300万本书籍9800万篇论文全部免费尽在掌握": {
+      "children": [
+        "public/bookmarks/WeLib-4300万本书籍9800万篇论文全部免费尽在掌握/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Whisper-JAX": {
       "children": [
         "public/bookmarks/Whisper-JAX/index.html"
@@ -5113,6 +5127,7 @@
     },
     "public/categories": {
       "children": [
+        "public/categories/网络资源",
         "public/categories/AI人工智能",
         "public/categories/教程",
         "public/categories/教育导航",
@@ -5158,6 +5173,13 @@
       "children": [
         "public/categories/网络创业网络生活/index.html",
         "public/categories/网络创业网络生活/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/网络资源": {
+      "children": [
+        "public/categories/网络资源/index.html",
+        "public/categories/网络资源/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5240,6 +5262,7 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/资源站",
         "public/sub-category/AI应用",
         "public/sub-category/测试",
         "public/sub-category/电子书刊",
@@ -5296,6 +5319,13 @@
       "children": [
         "public/sub-category/在线现在/index.html",
         "public/sub-category/在线现在/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/资源站": {
+      "children": [
+        "public/sub-category/资源站/index.html",
+        "public/sub-category/资源站/index.xml"
       ],
       "sortOrder": "custom"
     },
