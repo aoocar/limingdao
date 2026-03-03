@@ -71,14 +71,15 @@
                                         class="iconfont icon-classification mr-1"></i>{{ . }}</a>
                                 {{ end }}
                                 {{ with (index .Params "sub-category") }}
-                                <a href="/sub-categories/{{ . | urlize }}/"
+                                <a href="/sub-category/{{ . | urlize }}/"
                                     class="badge badge-light p-2 text-muted mr-2 hover-red"><i
                                         class="iconfont icon-tag mr-1"></i>{{ . }}</a>
                                 {{ end }}
                                 {{ if .Params.tags }}
                                 {{ range .Params.tags }}
-                                <span class="badge badge-secondary p-1 px-2 text-xs mr-1" style="opacity: 0.6;">#{{ .
-                                    }}</span>
+                                <a href="/tags/{{ . | urlize }}/"
+                                    class="badge badge-secondary p-1 px-2 text-xs mr-1 hover-red"
+                                    style="opacity: 0.6;">#{{ . }}</a>
                                 {{ end }}
                                 {{ end }}
                             </div>

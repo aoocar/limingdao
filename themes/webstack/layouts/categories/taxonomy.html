@@ -113,7 +113,7 @@
     {{/* Show more button if there are more than 12 pages */}}
     {{ if gt (len $c2Pages) 12 }}
     <div class="text-center mb-4">
-        <a class="btn btn-outline-primary text-xs" href="/sub-categories/{{ $c2 | urlize }}/"
+        <a class="btn btn-outline-primary text-xs" href="/sub-category/{{ $c2 | urlize }}/"
             style="border-radius: 20px; padding: 5px 20px; border-color: #f1404b; color: #f1404b;">
             查看全部 {{ len $c2Pages }} 个「{{ $c2 }}」网址 →
         </a>

@@ -2629,6 +2629,7 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/cobalt",
         "public/bookmarks/小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网",
         "public/bookmarks/WeLib-4300万本书籍9800万篇论文全部免费尽在掌握",
         "public/bookmarks/中文操作手册",
@@ -4265,6 +4266,12 @@
     "public/bookmarks/Clipdrop": {
       "children": [
         "public/bookmarks/Clipdrop/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/cobalt": {
+      "children": [
+        "public/bookmarks/cobalt/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -8210,6 +8217,7 @@
     },
     "themes/webstack/layouts": {
       "children": [
+        "themes/webstack/layouts/tags",
         "themes/webstack/layouts/_default",
         "themes/webstack/layouts/bookmarks",
         "themes/webstack/layouts/categories",
@@ -8268,6 +8276,13 @@
         "themes/webstack/layouts/sub-category/list.html",
         "themes/webstack/layouts/sub-category/taxonomy.html",
         "themes/webstack/layouts/sub-category/term.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "themes/webstack/layouts/tags": {
+      "children": [
+        "themes/webstack/layouts/tags/taxonomy.html",
+        "themes/webstack/layouts/tags/term.html"
       ],
       "sortOrder": "custom"
     },
