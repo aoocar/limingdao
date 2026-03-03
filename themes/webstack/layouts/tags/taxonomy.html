@@ -356,7 +356,7 @@
             {{ else if ge $ratio 15 }}
             {{ $sizeClass = 2 }}
             {{ end }}
-            <a href="{{ " /tags/" | relURL }}{{ $name | urlize }}/" class="tag-size-{{ $sizeClass }}"
+            <a href="/tags/{{ $name | urlize }}/" class="tag-size-{{ $sizeClass }}"
                 title="{{ $name }} ({{ $count }} 个网站)">
                 #{{ $name }}
                 <span class="tag-count-badge">{{ $count }}</span>
@@ -399,7 +399,7 @@
             <div class="tag-group-letter">{{ $letter }}</div>
             <div class="tag-group-items">
                 {{ range $matchedTags }}
-                <a href="{{ " /tags/" | relURL }}{{ .name | urlize }}/" title="{{ .name }} ({{ .count }} 个网站)">
+                <a href="/tags/{{ .name | urlize }}/" title="{{ .name }} ({{ .count }} 个网站)">
                     #{{ .name }}
                     <span class="item-count">({{ .count }})</span>
                 </a>
