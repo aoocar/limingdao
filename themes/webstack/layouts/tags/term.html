@@ -1,0 +1,248 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar_empty.html" . }}
+{{ partial "content_header.html" . }}
+
+<div id="content" class="content-site customize-site">
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4 mt-2">
+        <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
+            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+            <li class="breadcrumb-item"><a href="/tags/"><i class="fa fa-tags mr-1"></i>标签云</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-tag mr-1"></i>{{ .Title }}</li>
+        </ol>
+    </nav>
+    <style>
+        .page-container {
+            padding-left: 0 !important;
+        }
+
+        .header-mini-btn {
+            display: none !important;
+        }
+
+        /* ── Term Header ── */
+        .tag-term-header {
+            text-align: center;
+            padding: 30px 20px 15px;
+        }
+
+        .tag-term-header .tag-name {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .tag-term-header .tag-name .hash {
+            color: #f1404b;
+        }
+
+        .tag-term-header .tag-desc {
+            font-size: 0.95rem;
+            opacity: 0.55;
+        }
+
+        .tag-term-header .tag-count-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 18px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #f1404b, #e73c47);
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 12px;
+            box-shadow: 0 3px 10px rgba(241, 64, 75, 0.35);
+        }
+
+        /* ── Related Tags ── */
+        .related-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin: 20px 0 30px;
+        }
+
+        .related-tags a {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+        }
+
+        .io-black-mode .related-tags a {
+            background: rgba(255, 255, 255, 0.08);
+            color: #aaa;
+        }
+
+        .io-black-mode .related-tags a:hover {
+            background: rgba(241, 64, 75, 0.15);
+            color: #f1404b;
+        }
+
+        .io-grey-mode .related-tags a {
+            background: #f0f0f0;
+            color: #666;
+        }
+
+        .io-grey-mode .related-tags a:hover {
+            background: #f1404b;
+            color: #fff;
+        }
+
+        .related-tags a.active-tag {
+            background: #f1404b !important;
+            color: #fff !important;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(241, 64, 75, 0.3);
+        }
+
+        /* ── Bookmark List ── */
+        .tag-bookmark-grid {
+            margin-top: 10px;
+        }
+
+        .tag-section-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* ── Back button ── */
+        .back-to-tags {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(241, 64, 75, 0.3);
+            color: #f1404b;
+            margin-top: 20px;
+        }
+
+        .back-to-tags:hover {
+            background: #f1404b;
+            color: #fff !important;
+            border-color: #f1404b;
+        }
+
+        @media (max-width: 576px) {
+            .tag-term-header .tag-name {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+
+    {{ $currentTag := .Title }}
+    {{ $pages := .Pages }}
+    {{ $totalCount := len $pages }}
+
+    <!-- Term Header -->
+    <div class="tag-term-header">
+        <div class="tag-name"><span class="hash">#</span>{{ $currentTag }}</div>
+        <p class="tag-desc">以下是包含该标签的所有网站和资源</p>
+        <div class="tag-count-pill">
+            <i class="fa fa-bookmark"></i> 共 {{ $totalCount }} 个网站
+        </div>
+    </div>
+
+    <!-- Related Tags (other tags that appear on these pages) -->
+    {{ $relatedTags := slice }}
+    {{ range $pages }}
+    {{ if .Params.tags }}
+    {{ range .Params.tags }}
+    {{ if ne (lower .) (lower $currentTag) }}
+    {{ $relatedTags = $relatedTags | append . }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ $relatedTags = $relatedTags | uniq }}
+
+    {{ if gt (len $relatedTags) 0 }}
+    <div class="related-tags">
+        <a href="/tags/{{ $currentTag | urlize }}/" class="active-tag">#{{ $currentTag }}</a>
+        {{ range first 15 $relatedTags }}
+        <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Bookmark Grid -->
+    {{ if gt $totalCount 0 }}
+    <div class="tag-bookmark-grid">
+        <div class="tag-section-title">
+            <i class="fa fa-th-large" style="color:#f1404b;"></i>
+            「{{ $currentTag }}」相关网站
+        </div>
+        <div class="row">
+            {{ range $pages.ByWeight }}
+            <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                <div class="url-body default">
+                    <a href="{{ .RelPermalink }}" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom"
+                        title="查看详情：{{ .Params.description }}">
+                        <div class="card-body">
+                            <div class="url-content d-flex align-items-center">
+                                <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                    {{ if .Params.logo }}
+                                    <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                        onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                    {{ else if .Params.sitelink }}
+                                    {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host
+                                    }}
+                                    {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                    {{ $faviconUrl = print $faviconUrl ".png" }}
+                                    {{ end }}
+                                    <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                        onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                    {{ else }}
+                                    <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
+                                    {{ end }}
+                                </div>
+                                <div class="url-info flex-fill">
+                                    <div class="text-sm overflowClip_1">
+                                        <strong>{{ .Title }}</strong>
+                                    </div>
+                                    <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="{{ .Params.sitelink }}" target="_blank" class="togo text-center text-muted is-views"
+                        data-toggle="tooltip" data-placement="right" title="直达跳转" rel="nofollow">
+                        <i class="iconfont icon-goto"></i>
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ else }}
+    <div class="card card-body text-center text-muted py-5 mt-4" style="border-radius: 12px;">
+        <i class="fa fa-inbox fa-3x mb-3" style="opacity:0.2;"></i>
+        <p class="mb-0">该标签下暂无网站数据</p>
+    </div>
+    {{ end }}
+
+    <!-- Back to Tags -->
+    <div class="text-center mb-4">
+        <a href="/tags/" class="back-to-tags">
+            <i class="fa fa-arrow-left"></i> 返回标签云
+        </a>
+    </div>
+
+</div>
+
+{{ partial "content_footer.html" . }}
+{{ partial "footer.html" . }}

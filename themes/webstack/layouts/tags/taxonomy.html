@@ -1,0 +1,424 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar_empty.html" . }}
+{{ partial "content_header.html" . }}
+
+<div id="content" class="content-site customize-site">
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-4 mt-2">
+        <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
+            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-tags mr-1"></i>标签云</li>
+        </ol>
+    </nav>
+    <style>
+        .page-container {
+            padding-left: 0 !important;
+        }
+
+        .header-mini-btn {
+            display: none !important;
+        }
+
+        /* ── Tag Cloud Hero ── */
+        .tags-hero {
+            text-align: center;
+            padding: 40px 20px 30px;
+        }
+
+        .tags-hero h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .tags-hero .tags-summary {
+            font-size: 1rem;
+            opacity: 0.65;
+        }
+
+        /* ── Statistics Row ── */
+        .tag-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0 35px;
+            flex-wrap: wrap;
+        }
+
+        .tag-stat-item {
+            text-align: center;
+        }
+
+        .tag-stat-num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #f1404b;
+            line-height: 1;
+        }
+
+        .tag-stat-label {
+            font-size: 0.8rem;
+            opacity: 0.55;
+            margin-top: 4px;
+        }
+
+        /* ── Tag Cloud ── */
+        .tag-cloud-section {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            padding: 30px 25px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .tag-cloud-section .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            line-height: 1.8;
+        }
+
+        .tag-cloud a {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 14px;
+            border-radius: 20px;
+            text-decoration: none !important;
+            transition: all 0.25s ease;
+            font-weight: 500;
+            border: 1px solid transparent;
+        }
+
+        .tag-cloud a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(241, 64, 75, 0.3);
+        }
+
+        /* Size classes */
+        .tag-size-1 {
+            font-size: 0.75rem;
+            opacity: 0.55;
+        }
+
+        .tag-size-2 {
+            font-size: 0.82rem;
+            opacity: 0.65;
+        }
+
+        .tag-size-3 {
+            font-size: 0.9rem;
+            opacity: 0.75;
+        }
+
+        .tag-size-4 {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .tag-size-5 {
+            font-size: 1.12rem;
+            opacity: 0.95;
+            font-weight: 600;
+        }
+
+        .tag-count-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 18px;
+            height: 18px;
+            padding: 0 5px;
+            border-radius: 9px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            background: rgba(241, 64, 75, 0.15);
+            color: #f1404b;
+        }
+
+        /* ── Tag Group List ── */
+        .tag-group-section {
+            margin-bottom: 30px;
+        }
+
+        .tag-group-section .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tag-group-letter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f1404b, #e73c47);
+            color: #fff;
+            font-weight: 800;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            margin-right: 15px;
+            box-shadow: 0 3px 8px rgba(241, 64, 75, 0.3);
+        }
+
+        .tag-group {
+            margin-bottom: 20px;
+            padding: 18px 20px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .tag-group-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            flex: 1;
+        }
+
+        .tag-group-items a {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .tag-group-items a:hover {
+            background: rgba(241, 64, 75, 0.12);
+            border-color: rgba(241, 64, 75, 0.3);
+            color: #f1404b !important;
+        }
+
+        .tag-group-items .item-count {
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+
+        /* ── Light mode overrides ── */
+        .io-grey-mode .tag-cloud-section,
+        .io-grey-mode .tag-group {
+            background: rgba(0, 0, 0, 0.02);
+            border-color: rgba(0, 0, 0, 0.06);
+        }
+
+        .io-grey-mode .tag-cloud a {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .io-grey-mode .tag-cloud a:hover {
+            background: #f1404b;
+            color: #fff !important;
+        }
+
+        .io-grey-mode .tag-group-items a {
+            background: rgba(0, 0, 0, 0.04);
+            border-color: rgba(0, 0, 0, 0.08);
+            color: #555;
+        }
+
+        /* ── Dark mode overrides ── */
+        .io-black-mode .tag-cloud a {
+            background: rgba(255, 255, 255, 0.08);
+            color: #ccc;
+        }
+
+        .io-black-mode .tag-cloud a:hover {
+            background: #f1404b;
+            color: #fff !important;
+        }
+
+        .io-black-mode .tag-group-items a {
+            color: #aaa;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 576px) {
+            .tags-hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .tag-stats {
+                gap: 24px;
+            }
+
+            .tag-stat-num {
+                font-size: 1.5rem;
+            }
+
+            .tag-cloud {
+                gap: 8px;
+            }
+
+            .tag-cloud a {
+                padding: 4px 10px;
+            }
+
+            .tag-group {
+                flex-direction: column;
+            }
+
+            .tag-group-letter {
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+        }
+    </style>
+
+    {{/* ── Collect tag data ── */}}
+    {{ $tags := .Site.Taxonomies.tags }}
+    {{ $totalTags := len $tags }}
+    {{ $totalPages := 0 }}
+    {{ range $tags }}
+    {{ $totalPages = add $totalPages (len .Pages) }}
+    {{ end }}
+
+    {{/* Find max count for sizing */}}
+    {{ $maxCount := 1 }}
+    {{ range $tags }}
+    {{ if gt (len .Pages) $maxCount }}
+    {{ $maxCount = len .Pages }}
+    {{ end }}
+    {{ end }}
+
+    <!-- Hero Section -->
+    <div class="tags-hero">
+        <h1><i class="fa fa-tags mr-2" style="color:#f1404b;"></i>标签云</h1>
+        <p class="tags-summary">浏览所有标签，发现更多有趣的网站和资源</p>
+    </div>
+
+    <!-- Statistics -->
+    <div class="tag-stats">
+        <div class="tag-stat-item">
+            <div class="tag-stat-num">{{ $totalTags }}</div>
+            <div class="tag-stat-label">标签总数</div>
+        </div>
+        <div class="tag-stat-item">
+            <div class="tag-stat-num">{{ $totalPages }}</div>
+            <div class="tag-stat-label">标记次数</div>
+        </div>
+        <div class="tag-stat-item">
+            {{ if gt $totalTags 0 }}
+            <div class="tag-stat-num">{{ div $totalPages $totalTags }}</div>
+            {{ else }}
+            <div class="tag-stat-num">0</div>
+            {{ end }}
+            <div class="tag-stat-label">平均每标签</div>
+        </div>
+    </div>
+
+    {{ if gt $totalTags 0 }}
+
+    <!-- Tag Cloud -->
+    <div class="tag-cloud-section">
+        <div class="section-title">
+            <i class="fa fa-cloud" style="color:#f1404b;"></i> 标签云总览
+        </div>
+        <div class="tag-cloud">
+            {{ range $name, $taxonomy := $tags }}
+            {{ $count := len $taxonomy.Pages }}
+            {{/* Calculate size class 1-5 based on count relative to max */}}
+            {{ $ratio := 1 }}
+            {{ if gt $maxCount 1 }}
+            {{ $ratio = div (mul $count 100) $maxCount }}
+            {{ end }}
+            {{ $sizeClass := 1 }}
+            {{ if ge $ratio 80 }}
+            {{ $sizeClass = 5 }}
+            {{ else if ge $ratio 55 }}
+            {{ $sizeClass = 4 }}
+            {{ else if ge $ratio 35 }}
+            {{ $sizeClass = 3 }}
+            {{ else if ge $ratio 15 }}
+            {{ $sizeClass = 2 }}
+            {{ end }}
+            <a href="{{ " /tags/" | relURL }}{{ $name | urlize }}/" class="tag-size-{{ $sizeClass }}"
+                title="{{ $name }} ({{ $count }} 个网站)">
+                #{{ $name }}
+                <span class="tag-count-badge">{{ $count }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- Tag List Grouped by First Character -->
+    <div class="tag-group-section">
+        <div class="section-title">
+            <i class="fa fa-list-ul" style="color:#f1404b;"></i> 标签分组索引
+        </div>
+
+        {{ $letters := slice "#" "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V"
+        "W" "X" "Y" "Z" }}
+
+        {{ range $letter := $letters }}
+        {{/* Collect tags matching this letter */}}
+        {{ $matchedTags := slice }}
+        {{ range $name, $taxonomy := $tags }}
+        {{ $firstChar := upper (substr $name 0 1) }}
+        {{/* Check if it's a letter A-Z */}}
+        {{ $isAZ := false }}
+        {{ $azLetters := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V"
+        "W" "X" "Y" "Z" }}
+        {{ range $azLetters }}
+        {{ if eq $firstChar . }}{{ $isAZ = true }}{{ end }}
+        {{ end }}
+        {{ if not $isAZ }}
+        {{ $firstChar = "#" }}
+        {{ end }}
+        {{ if eq $firstChar $letter }}
+        {{ $matchedTags = $matchedTags | append (dict "name" $name "count" (len $taxonomy.Pages)) }}
+        {{ end }}
+        {{ end }}
+
+        {{ if gt (len $matchedTags) 0 }}
+        <div class="tag-group">
+            <div class="tag-group-letter">{{ $letter }}</div>
+            <div class="tag-group-items">
+                {{ range $matchedTags }}
+                <a href="{{ " /tags/" | relURL }}{{ .name | urlize }}/" title="{{ .name }} ({{ .count }} 个网站)">
+                    #{{ .name }}
+                    <span class="item-count">({{ .count }})</span>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+
+    {{ else }}
+    <!-- Empty State -->
+    <div class="card card-body text-center text-muted py-5 mt-4" style="border-radius: 12px;">
+        <i class="fa fa-tags fa-3x mb-3" style="opacity:0.2;"></i>
+        <p class="mb-0">暂无标签数据</p>
+    </div>
+    {{ end }}
+
+</div>
+
+{{ partial "content_footer.html" . }}
+{{ partial "footer.html" . }}
