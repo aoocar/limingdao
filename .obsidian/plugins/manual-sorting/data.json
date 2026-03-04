@@ -2629,6 +2629,8 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/Thread-by-@yuashwe",
+        "public/bookmarks/Thread-by-@yuashwe-1",
         "public/bookmarks/cobalt",
         "public/bookmarks/小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网",
         "public/bookmarks/WeLib-4300万本书籍9800万篇论文全部免费尽在掌握",
@@ -4965,6 +4967,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Thread-by-@yuashwe": {
+      "children": [
+        "public/bookmarks/Thread-by-@yuashwe/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Thread-by-@yuashwe-1": {
+      "children": [
+        "public/bookmarks/Thread-by-@yuashwe-1/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/TinyWow": {
       "children": [
         "public/bookmarks/TinyWow/index.html"
@@ -5387,6 +5401,9 @@
     },
     "public/tags": {
       "children": [
+        "public/tags/标签测试",
+        "public/tags/标签测试推特",
+        "public/tags/推特标签",
         "public/tags/__",
         "public/tags/__-2",
         "public/tags/_netflix_",
@@ -5819,10 +5836,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/标签测试": {
+      "children": [
+        "public/tags/标签测试/index.html",
+        "public/tags/标签测试/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/标签测试推特": {
+      "children": [
+        "public/tags/标签测试推特/index.html",
+        "public/tags/标签测试推特/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/默认分类": {
       "children": [
         "public/tags/默认分类/index.html",
         "public/tags/默认分类/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/推特标签": {
+      "children": [
+        "public/tags/推特标签/index.html",
+        "public/tags/推特标签/index.xml"
       ],
       "sortOrder": "custom"
     },
