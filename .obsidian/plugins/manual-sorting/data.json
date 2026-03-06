@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "skills",
         "未命名.base",
         "未命名 1.base",
         "未命名 2.base",
@@ -8194,6 +8195,52 @@
     },
     "resources/_gen/images": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "skills": {
+      "children": [
+        "skills/limingdao-navigator"
+      ],
+      "sortOrder": "custom"
+    },
+    "skills/limingdao-navigator": {
+      "children": [
+        "skills/limingdao-navigator/data",
+        "skills/limingdao-navigator/scripts",
+        "skills/limingdao-navigator/config.yml",
+        "skills/limingdao-navigator/SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skills/limingdao-navigator/data": {
+      "children": [
+        "skills/limingdao-navigator/data/crawl_results",
+        "skills/limingdao-navigator/data/reports",
+        "skills/limingdao-navigator/data/bookmarks.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "skills/limingdao-navigator/data/crawl_results": {
+      "children": [
+        "skills/limingdao-navigator/data/crawl_results/crawl_20260305134856..json"
+      ],
+      "sortOrder": "custom"
+    },
+    "skills/limingdao-navigator/data/reports": {
+      "children": [
+        "skills/limingdao-navigator/data/reports/health_20260305.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skills/limingdao-navigator/scripts": {
+      "children": [
+        "skills/limingdao-navigator/scripts/crawl_sites.js",
+        "skills/limingdao-navigator/scripts/crawl_sites.py",
+        "skills/limingdao-navigator/scripts/fetch_bookmarks.js",
+        "skills/limingdao-navigator/scripts/fetch_bookmarks.py",
+        "skills/limingdao-navigator/scripts/generate_report.js",
+        "skills/limingdao-navigator/scripts/generate_report.py"
+      ],
       "sortOrder": "custom"
     },
     "static": {

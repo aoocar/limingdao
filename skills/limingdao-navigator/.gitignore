@@ -1,0 +1,4 @@
+# OpenClaw Skill - 数据缓存（不提交到 Git）
+data/bookmarks.json
+data/crawl_results/
+data/reports/
