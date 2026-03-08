@@ -65,6 +65,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）.md",
         "content/bookmarks/可能是全网最保姆级的 Obsidian 图床教程了.md",
         "content/bookmarks/Anna’s Archive LibGen (Library Genesis), Sci-Hub, Z-Library in one place - 安娜的档案.md",
         "content/bookmarks/cobalt.md",
