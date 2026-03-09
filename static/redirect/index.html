@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>即将离开 黎明岛</title>
+    <!-- 引入 FontAwesome 图标库，和原站保持一致 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #f5f6f7;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-secondary: #8590a6;
+            --primary-color: #f1404b;
+            /* 黎明岛主题红 */
+            --primary-hover: #d0303a;
+            --border-color: #ebebeb;
+            --warning-bg: #fffbe6;
+            --warning-border: #ffe58f;
+            --warning-text: #faad14;
+        }
+
+        /* 暗色主题支持 */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --card-bg: #242424;
+                --text-main: #e0e0e0;
+                --text-secondary: #999999;
+                --border-color: #333333;
+                --warning-bg: #2b2514;
+                --warning-border: #5c4b16;
+                --warning-text: #e6a23c;
+            }
+        }
+
+        body.io-black-mode {
+            --bg-color: #1a1a1a;
+            --card-bg: #242424;
+            --text-main: #e0e0e0;
+            --text-secondary: #999999;
+            --border-color: #333333;
+            --warning-bg: #2b2514;
+            --warning-border: #5c4b16;
+            --warning-text: #e6a23c;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+            padding: 40px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .icon-wrapper {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background: rgba(241, 64, 75, 0.1);
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto 24px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .url-box {
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            text-align: left;
+            word-break: break-all;
+        }
+
+        .url-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .url-text {
+            color: var(--primary-color);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .warning-box {
+            background: var(--warning-bg);
+            border: 1px solid var(--warning-border);
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: var(--warning-text);
+            font-size: 14px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            text-align: left;
+        }
+
+        .warning-box i {
+            margin-top: 3px;
+        }
+
+        .countdown {
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .countdown span {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 32px;
+            border-radius: 24px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            outline: none;
+            text-decoration: none;
+        }
+
+        .btn-default {
+            background: var(--bg-color);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-default:hover {
+            background: var(--border-color);
+            color: var(--text-main);
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 4px 12px rgba(241, 64, 75, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn-primary:disabled {
+            background: #cccccc;
+            box-shadow: none;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 30px 20px;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="icon-wrapper">
+                <i class="fas fa-external-link-alt"></i>
+            </div>
+            <h2>即将离开 黎明岛</h2>
+
+            <div class="url-box">
+                <div class="url-label">
+                    <i class="fas fa-link"></i> 您即将访问：
+                </div>
+                <div class="url-text" id="targetUrl">...</div>
+            </div>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>
+                    请注意您的账号和财产安全，该链接将跳转到第三方网站，黎明岛不保证其安全性或内容准确性。
+                </div>
+            </div>
+
+            <div class="countdown" id="countdownWrapper">
+                <span id="countdown">5</span> 秒后可点击继续访问
+            </div>
+
+            <div class="actions">
+                <button class="btn btn-default" onclick="goBack()">取消并返回</button>
+                <a href="#" class="btn btn-primary" id="confirmBtn" disabled>继续访问 (5s)</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 获取 URL 参数
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return decodeURIComponent(pair[1]);
+                }
+            }
+            return false;
+        }
+
+        // 初始化
+        window.onload = function () {
+            // 同步网站的夜间模式状态
+            var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+            if (night == '1') {
+                document.body.classList.add('io-black-mode');
+            }
+
+            var targetUrl = getQueryVariable("target");
+            var confirmBtn = document.getElementById("confirmBtn");
+            var targetUrlEl = document.getElementById("targetUrl");
+
+            // 安全性校验：仅允许 http:// 和 https:// 协议
+            function isValidUrl(url) {
+                if (!url) return false;
+                try {
+                    var parsed = new URL(url);
+                    return parsed.protocol === "http:" || parsed.protocol === "https:";
+                } catch (e) {
+                    return false;
+                }
+            }
+
+            if (isValidUrl(targetUrl)) {
+                // 安全渲染 URL 文本，防止 XSS
+                targetUrlEl.textContent = targetUrl;
+
+                // 倒计时逻辑
+                var count = 5;
+                var countdownEl = document.getElementById("countdown");
+
+                var timer = setInterval(function () {
+                    count--;
+                    countdownEl.innerText = count;
+                    confirmBtn.innerText = "继续访问 (" + count + "s)";
+
+                    if (count <= 0) {
+                        clearInterval(timer);
+                        confirmBtn.removeAttribute("disabled");
+                        confirmBtn.innerText = "继续访问";
+                        confirmBtn.href = targetUrl; // 只有校验通过的才允许设置 href
+                        document.getElementById("countdownWrapper").style.display = "none";
+                    }
+                }, 1000);
+            } else {
+                targetUrlEl.textContent = "无效链接，出错了！";
+                document.getElementById("countdownWrapper").style.display = "none";
+                confirmBtn.innerText = "返回主页";
+                confirmBtn.removeAttribute("disabled");
+                confirmBtn.onclick = function (e) {
+                    e.preventDefault();
+                    window.location.href = "/";
+                };
+            }
+        };
+
+        function goBack() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "/";
+            }
+        }
+    </script>
+</body>
+
+</html>

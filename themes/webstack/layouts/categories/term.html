@@ -117,8 +117,9 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{ .Params.sitelink }}" target="_blank" class="togo text-center text-muted is-views"
-                    data-toggle="tooltip" data-placement="right" title="直达跳转" rel="nofollow">
+                <a href="/redirect/?target={{ .Params.sitelink | urlquery }}" target="_blank"
+                    class="togo text-center text-muted is-views" data-toggle="tooltip" data-placement="right"
+                    title="直达跳转" rel="nofollow">
                     <i class="iconfont icon-goto"></i>
                 </a>
             </div>
