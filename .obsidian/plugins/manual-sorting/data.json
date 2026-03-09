@@ -65,6 +65,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/YouTube MP3 Playlist Downloader Online.md",
         "content/bookmarks/delphitools.md",
         "content/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）.md",
         "content/bookmarks/可能是全网最保姆级的 Obsidian 图床教程了.md",
@@ -446,6 +447,7 @@
     },
     "public": {
       "children": [
+        "public/redirect",
         "public/api",
         "public/submit",
         "public/about",
@@ -2634,6 +2636,11 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/可能是全网最保姆级的-Obsidian-图床教程了",
+        "public/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境文科生小白友好教程",
+        "public/bookmarks/Annas-Archive-LibGen-Library-Genesis-Sci-Hub-Z-Library-in-one-place-安娜的档案",
+        "public/bookmarks/delphitools",
+        "public/bookmarks/YouTube-MP3-Playlist-Downloader-Online",
         "public/bookmarks/Thread-by-@yuashwe",
         "public/bookmarks/Thread-by-@yuashwe-1",
         "public/bookmarks/cobalt",
@@ -3388,6 +3395,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/可能是全网最保姆级的-Obsidian-图床教程了": {
+      "children": [
+        "public/bookmarks/可能是全网最保姆级的-Obsidian-图床教程了/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/辣豆瓣": {
       "children": [
         "public/bookmarks/辣豆瓣/index.html"
@@ -3541,6 +3554,12 @@
     "public/bookmarks/人工智能工具竞技场": {
       "children": [
         "public/bookmarks/人工智能工具竞技场/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境文科生小白友好教程": {
+      "children": [
+        "public/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境文科生小白友好教程/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4102,6 +4121,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Annas-Archive-LibGen-Library-Genesis-Sci-Hub-Z-Library-in-one-place-安娜的档案": {
+      "children": [
+        "public/bookmarks/Annas-Archive-LibGen-Library-Genesis-Sci-Hub-Z-Library-in-one-place-安娜的档案/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Astira": {
       "children": [
         "public/bookmarks/Astira/index.html"
@@ -4327,6 +4352,12 @@
     "public/bookmarks/Defillama": {
       "children": [
         "public/bookmarks/Defillama/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/delphitools": {
+      "children": [
+        "public/bookmarks/delphitools/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5122,6 +5153,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/YouTube-MP3-Playlist-Downloader-Online": {
+      "children": [
+        "public/bookmarks/YouTube-MP3-Playlist-Downloader-Online/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/YouTube-Video-Downloader": {
       "children": [
         "public/bookmarks/YouTube-Video-Downloader/index.html"
@@ -5287,8 +5324,16 @@
       ],
       "sortOrder": "custom"
     },
+    "public/redirect": {
+      "children": [
+        "public/redirect/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category": {
       "children": [
+        "public/sub-category/生成器",
+        "public/sub-category/Obsidian教程",
         "public/sub-category/资源站",
         "public/sub-category/AI应用",
         "public/sub-category/测试",
@@ -5332,6 +5377,13 @@
       "children": [
         "public/sub-category/默认/index.html",
         "public/sub-category/默认/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/生成器": {
+      "children": [
+        "public/sub-category/生成器/index.html",
+        "public/sub-category/生成器/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5391,6 +5443,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/Obsidian教程": {
+      "children": [
+        "public/sub-category/Obsidian教程/index.html",
+        "public/sub-category/Obsidian教程/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/PDF工具": {
       "children": [
         "public/sub-category/PDF工具/index.html",
@@ -5406,6 +5465,12 @@
     },
     "public/tags": {
       "children": [
+        "public/tags/安娜",
+        "public/tags/电子术",
+        "public/tags/图床",
+        "public/tags/自建",
+        "public/tags/Obsidian",
+        "public/tags/Youtube",
         "public/tags/标签测试",
         "public/tags/标签测试推特",
         "public/tags/推特标签",
@@ -5841,6 +5906,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/安娜": {
+      "children": [
+        "public/tags/安娜/index.html",
+        "public/tags/安娜/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/标签测试": {
       "children": [
         "public/tags/标签测试/index.html",
@@ -5855,6 +5927,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/电子术": {
+      "children": [
+        "public/tags/电子术/index.html",
+        "public/tags/电子术/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/默认分类": {
       "children": [
         "public/tags/默认分类/index.html",
@@ -5862,10 +5941,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/图床": {
+      "children": [
+        "public/tags/图床/index.html",
+        "public/tags/图床/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/推特标签": {
       "children": [
         "public/tags/推特标签/index.html",
         "public/tags/推特标签/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/自建": {
+      "children": [
+        "public/tags/自建/index.html",
+        "public/tags/自建/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7108,6 +7201,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/Obsidian": {
+      "children": [
+        "public/tags/Obsidian/index.html",
+        "public/tags/Obsidian/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/onion": {
       "children": [
         "public/tags/onion/index.html",
@@ -8053,6 +8153,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/Youtube": {
+      "children": [
+        "public/tags/Youtube/index.html",
+        "public/tags/Youtube/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/youtube4kdownloader": {
       "children": [
         "public/tags/youtube4kdownloader/index.html",
@@ -8248,6 +8355,7 @@
     },
     "static": {
       "children": [
+        "static/redirect",
         "static/api",
         "static/submit",
         "static/robots.txt"
@@ -8257,6 +8365,12 @@
     "static/api": {
       "children": [
         "static/api/submit.php"
+      ],
+      "sortOrder": "custom"
+    },
+    "static/redirect": {
+      "children": [
+        "static/redirect/index.html"
       ],
       "sortOrder": "custom"
     },
