@@ -65,6 +65,14 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/AI分身计划-海报A版.pdf",
+        "content/bookmarks/AI分身计划-海报A版.png",
+        "content/bookmarks/AI分身计划-海报B版.pdf",
+        "content/bookmarks/AI分身计划-海报B版.png",
+        "content/bookmarks/AI分身计划-营销策划.html",
+        "content/bookmarks/AI分身计划-营销策划 (1).html",
+        "content/bookmarks/AI分身计划-B版(无金额).html",
+        "content/bookmarks/Free Public APIs.md",
         "content/bookmarks/YouTube MP3 Playlist Downloader Online.md",
         "content/bookmarks/delphitools.md",
         "content/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）.md",
@@ -2636,6 +2644,14 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/AI分身计划-营销策划",
+        "public/bookmarks/AI分身计划-营销策划-1",
+        "public/bookmarks/AI分身计划-B版无金额",
+        "public/bookmarks/Free-Public-APIs",
+        "public/bookmarks/AI分身计划-海报A版.pdf",
+        "public/bookmarks/AI分身计划-海报A版.png",
+        "public/bookmarks/AI分身计划-海报B版.pdf",
+        "public/bookmarks/AI分身计划-海报B版.png",
         "public/bookmarks/可能是全网最保姆级的-Obsidian-图床教程了",
         "public/bookmarks/如何用VPS搭建电脑端和移动端的稳定上网环境文科生小白友好教程",
         "public/bookmarks/Annas-Archive-LibGen-Library-Genesis-Sci-Hub-Z-Library-in-one-place-安娜的档案",
@@ -4079,6 +4095,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/AI分身计划-营销策划": {
+      "children": [
+        "public/bookmarks/AI分身计划-营销策划/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AI分身计划-营销策划-1": {
+      "children": [
+        "public/bookmarks/AI分身计划-营销策划-1/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AI分身计划-B版无金额": {
+      "children": [
+        "public/bookmarks/AI分身计划-B版无金额/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/AI人工智慧工具大全": {
       "children": [
         "public/bookmarks/AI人工智慧工具大全/index.html"
@@ -4442,6 +4476,12 @@
     "public/bookmarks/Free-ChatGPT-Site-List": {
       "children": [
         "public/bookmarks/Free-ChatGPT-Site-List/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Free-Public-APIs": {
+      "children": [
+        "public/bookmarks/Free-Public-APIs/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5191,6 +5231,7 @@
     },
     "public/categories": {
       "children": [
+        "public/categories/技术支持",
         "public/categories/网络资源",
         "public/categories/AI人工智能",
         "public/categories/教程",
@@ -5209,6 +5250,13 @@
         "public/categories/PDF工具",
         "public/categories/index.html",
         "public/categories/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/技术支持": {
+      "children": [
+        "public/categories/技术支持/index.html",
+        "public/categories/技术支持/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5332,6 +5380,7 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/API接口",
         "public/sub-category/生成器",
         "public/sub-category/Obsidian教程",
         "public/sub-category/资源站",
@@ -5440,6 +5489,13 @@
       "children": [
         "public/sub-category/AI应用/index.html",
         "public/sub-category/AI应用/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/API接口": {
+      "children": [
+        "public/sub-category/API接口/index.html",
+        "public/sub-category/API接口/index.xml"
       ],
       "sortOrder": "custom"
     },
