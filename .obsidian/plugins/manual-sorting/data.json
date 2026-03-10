@@ -65,6 +65,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/Stellarium Web Online Star Map.md",
         "content/bookmarks/不想看片.md",
         "content/bookmarks/Limingdao 黎明岛.md",
         "content/bookmarks/Free Public APIs.md",
