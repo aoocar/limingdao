@@ -65,6 +65,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/智能留学择校平台.md",
         "content/bookmarks/The fast way to gain traffic on Twitter (X).md",
         "content/bookmarks/发现优质的免费AI工具与网站.md",
         "content/bookmarks/AIBoom.Tools.md",
