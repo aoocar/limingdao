@@ -1,12 +1,12 @@
 ---
-title: "微信 Markdown 编辑器 | Doocs 开源社区"
-categories: "在线工具"
-"sub-category": "编辑器"
-sitelink: "https://md.doocs.org/"
-description: "Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器"
+title: 微信 Markdown 编辑器 | Doocs 开源社区
+categories: 在线工具
+sub-category: 在线编辑
+sitelink: https://md.doocs.org/
+description: Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "10"
 recommend: "2"
 ---
