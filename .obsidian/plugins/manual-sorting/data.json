@@ -65,6 +65,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/咸鱼.md",
         "content/bookmarks/志愿空间.md",
         "content/bookmarks/微信 Markdown 编辑器  Doocs 开源社区.md",
         "content/bookmarks/Arya - 在线 Markdown 编辑器.md",
