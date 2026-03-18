@@ -11,7 +11,7 @@
   "newWorkBlackDomains": "",
   "deleteSource": false,
   "imageDesc": "origin",
-  "remoteServerMode": true,
+  "remoteServerMode": false,
   "uploadedImages": [
     {
       "isEncrypted": 1,
