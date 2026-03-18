@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "小红书笔记",
         "skills",
         "未命名.base",
         "未命名 1.base",
@@ -39,6 +40,24 @@
         "render.log",
         "test.html",
         "vercel.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "小红书笔记": {
+      "children": [
+        "小红书笔记/images",
+        "小红书笔记/小红书笔记.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "小红书笔记/images": {
+      "children": [
+        "小红书笔记/images/小红书笔记.md",
+        "小红书笔记/images/小红书笔记-1.jpg",
+        "小红书笔记/images/小红书笔记-2.jpg",
+        "小红书笔记/images/小红书笔记-3.jpg",
+        "小红书笔记/images/小红书笔记-4.jpg",
+        "小红书笔记/images/小红书笔记-5.jpg"
       ],
       "sortOrder": "custom"
     },
