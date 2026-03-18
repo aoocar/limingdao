@@ -1,0 +1,34 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo",
+  "uploadServer": "http://127.0.0.1:36677/upload",
+  "deleteServer": "http://127.0.0.1:36677/delete",
+  "imageSizeSuffix": "",
+  "picgoCorePath": "",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": true,
+  "newWorkBlackDomains": "",
+  "deleteSource": false,
+  "imageDesc": "origin",
+  "remoteServerMode": false,
+  "uploadedImages": [
+    {
+      "isEncrypted": 1,
+      "EncryptedData": "99f4a266e15d81eded8a5857b5fc7cac:3cc2608c630dbc890ab54553afe3f79dcab2e9f1ad1d95a9a8262be568b95f2b36a5c7ef2794af6ca6e4469ef35b63e5c83797c8d4755fe74169dca337a0635a875ca743de1bd2d665d1e4ea4c748d52463f7e3964450a2ec8440f55ab822f13e36114b9ccd3349750dfeaef68a030c0b29209e3681de0c95b236d702535989105fe2ed7208b68351345b99c56dfbdd072a8d23932bf53a0e9441a3f2b35b6fbd1a7f6ad1f5729842f0e440c148197b00ceae361b2ef06943b99afbef2f85e3704f851c830d1940f726961a59655ed4fcdf76fe5ff2b51e5880662ebebdf8579af6e61525c8ce7330f9391c9270138b37fc5cab54c17c8c845542a1657fb10b8d83392bb18919b74e83a45aeb004899605ea0c8866c4ae5c28b96a1d15d2f4448f69957c417b9611f62f902f839779c03d5ed295a59da8c6956a1849d398ac11651254ef77eaeea0c27ab2743914340d7562e3a424d7ffec4fd5666082ba18861e20a0df6bc47d46649de9e9190533e735819d463374f62b99003a0c04816191ee9dc4b95c39087056a5702f7574374c85eaf1f982fae80f5eab9899f7be48d1a00ef823aacab1e2a558c6db7d7b5387ce70d00f1fbec70eb52af14ba2e437bb2fe0d149aadf92117c40d71a9f55b1fa154f6985504bc0b547c65cb73acca72741950b6c10ba8abe0ae17f59fc9acc5f3c0efb2990c9b489fbeb0024955ed46ac4e5abcb60e3b9bd05000ef73c9a9725cd941bae3da7f065aca9870cf4adeb1deb7ed6b83c6abb9d46d4980c21f92b3f7f1d134e7692c052b870c7751e4ae31e9c17181453f2326794de825d59b52222262917b741e8cd71e062945fe932b3eca1e0fc7c2092881b58699fc65235640c9bb7fea3ccb64eead212b76f5443de0fc6f1dc2d54fc50198e050ec5a0614ea9343fbc7fc32b0c94a4f08818582d1b337f1fe91da9af27b630413ae1a5ec0b6560d179e660d5edfa053b06da3ac27acff8e3e4edac59352e46ddf0534df699ccd52ccfb9b7a67e38bc3bdec49fd272c185a9f60a073c45b1c05ea6bd0ae657ff6156799ddf3ee39c6400031c5ed369636202ce6217ac490726a127f4d48c49f1cfef1a563411023be634ba5afccbbc434b74e53ca341b46ce226f9ad06101df7db6061a19ec273238dcf0b1e60126be269f9dcd0a1ef5e031de1876206949a82cbbdcbf759d3c92b63ffd1601739cf275b1ce52a0c22b171e41a3f5da0dc48e9bdddb09feaa017d2e76608be4ef13117f7c8bc59fad04df6cf85f21395a0c5ce5efc69e799cadbbbca056ff68e7dc21e2d893fc025f6c2b01ea33c447966518e67fc226c09f56ae25d3dbe5c1f41d0f1699aeb4d42d71ace931a7200bd7dddd4e778c143ab0c84ec0c2644646169e257d2705e5601310efbc18106d9efc39f7640a48511f20d39e5c77695a734283b646acb92bb55bfa50c748f00a5edbd5aefbdca9230ac9904d4c136cd54f54bd5d72f818195ce07b51debbc9c15b1369cd04b38aacba5ad4fc25add4f5732eb20d4a5972dcdcda83a3c449cfa29b01da7488b7c7804f4882b440ba98f201b46a24e859997c07da1390dd8d914a1781ce5b4f0b940770d88bfd16fe1c498213465ff",
+      "fileName": "Generated Image September 04, 2025 - 9_54PM.webp",
+      "width": 672,
+      "height": 1536,
+      "filePath": "C:\\Users\\aoobe\\AppData\\Roaming\\piclist\\piclistTemp\\Generated Image September 04, 2025 - 9_54PM.webp",
+      "extname": ".webp",
+      "mimeType": "image/webp",
+      "imgUrl": "https://img.aoobee.com/2026/03/6a0b78fbeffb237e17718170cee99dfa.webp",
+      "url": "https://img.aoobee.com/2026/03/6a0b78fbeffb237e17718170cee99dfa.webp",
+      "type": "aws-s3-plist",
+      "shortUrl": "",
+      "id": "1f47942b-e867-494d-be33-1bcb5a192dd2",
+      "createdAt": 1773836686348,
+      "updatedAt": 1773836686348
+    }
+  ]
+}
