@@ -45,8 +45,7 @@
     },
     "小红书笔记": {
       "children": [
-        "小红书笔记/images",
-        "小红书笔记/小红书笔记.md"
+        "小红书笔记/images"
       ],
       "sortOrder": "custom"
     },
@@ -84,6 +83,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/小红书笔记.md",
         "content/bookmarks/NEXUS AI — 智能未来研究院.md",
         "content/bookmarks/咸鱼.md",
         "content/bookmarks/志愿空间.md",
