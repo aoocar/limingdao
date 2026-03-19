@@ -1,12 +1,12 @@
 ---
-title: "NEXUS AI — 智能未来研究院"
-categories: "商业合作"
-"sub-category": "AI"
-sitelink: "https://aoobee.com/"
+title: NEXUS AI — 智能未来研究院
+categories: 商业合作
+sub-category: 自营
+sitelink: https://aoobee.com/
 description:
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "10"
 recommend: "2"
 ---
