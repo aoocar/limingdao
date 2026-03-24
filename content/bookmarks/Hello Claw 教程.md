@@ -1,11 +1,11 @@
 ---
-title: "Hello Claw 教程"
-sitelink: "https://datawhalechina.github.io/hello-claw/cn/adopt/intro/"
-description: "Datawhale 开源教程，从零领养到构建 AI 助手"
-categories: "AI导航"
-sub-category: "教程合集"
+title: Hello Claw 教程
+sitelink: https://datawhalechina.github.io/hello-claw/cn/adopt/intro/
+description: Datawhale 开源教程，从零领养到构建 AI 助手
+categories: 网络资源
+sub-category: 教程合集
 tags:
-  - "hello-claw-教程"
+  - hello-claw-教程
 weight: 10
 recommend: 2
 ---

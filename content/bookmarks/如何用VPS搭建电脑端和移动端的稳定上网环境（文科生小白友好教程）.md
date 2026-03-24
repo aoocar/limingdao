@@ -1,12 +1,11 @@
 ---
-title: "如何用VPS搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）"
-categories: "教程"
-"sub-category": "默认"
-sitelink: "https://x.com/gengdaJ/status/2029570219354845577"
-description: "关注Binance华语，洞悉行情节奏，劲享币安重重好礼，让你的邻家小编不下岗！注册立拿100U：https://t.co/SLuxJUoDEi商业合作： https://t.co/aPXd3SWVfx #Binance #BNB"
+title: 如何用VPS搭建电脑端和移动端的稳定上网环境（文科生小白友好教程）
+categories: 网络资源
+sub-category: 教程
+sitelink: https://x.com/gengdaJ/status/2029570219354845577
+description:
 logo:
 tags:
-  - "自建"
 weight: "10"
 recommend: "0"
 ---

@@ -1,11 +1,11 @@
 ---
-title: "OpenClaw 从入门到精通"
-sitelink: "https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe"
-description: "持续更新的OpenClaw知识库文档，文档大部分都是基于实际体验测试来手动编写的"
-categories: "AI导航"
-sub-category: "教程合集"
+title: OpenClaw 从入门到精通
+sitelink: https://my.feishu.cn/docx/P6zsdsgYco6i4XxLeIccvlpvnQe
+description: 持续更新的OpenClaw知识库文档，文档大部分都是基于实际体验测试来手动编写的
+categories: 网络资源
+sub-category: 教程合集
 tags:
-  - "openclaw-从入门到精通"
+  - openclaw-从入门到精通
 weight: 10
 recommend: 2
 ---

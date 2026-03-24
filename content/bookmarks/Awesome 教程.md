@@ -1,11 +1,11 @@
 ---
-title: "Awesome 教程"
-sitelink: "https://awesome.tryopenclaw.asia/"
-description: "从零开始玩转 OpenClaw，最全面的中文教程"
-categories: "AI导航"
-sub-category: "教程合集"
+title: Awesome 教程
+sitelink: https://awesome.tryopenclaw.asia/
+description: 从零开始玩转 OpenClaw，最全面的中文教程
+categories: 网络资源
+sub-category: 教程合集
 tags:
-  - "awesome-教程"
+  - awesome-教程
 weight: 10
 recommend: 2
 ---
