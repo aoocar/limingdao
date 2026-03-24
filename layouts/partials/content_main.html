@@ -1,0 +1,99 @@
+<div id="content" class="content-site customize-site">
+
+    {{ range $category_name, $taxonomy := .Site.Taxonomies.categories }}
+    <div class="d-flex flex-fill align-items-center mb-4">
+        <h4 class="text-gray text-lg m-0">
+            <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 $category_name }}"></i>
+            {{ $category_name }}
+        </h4>
+        <div class="flex-fill"></div>
+        <a class='btn-move text-xs' href="/categories/{{ $category_name | urlize }}/">查看更多 <i
+                class="iconfont icon-arrow-r-m"></i></a>
+    </div>
+
+    <div class="row">
+        {{ range first 6 $taxonomy }}
+        <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+            <div class="url-body default">
+
+                <a href="{{ .RelPermalink }}" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom"
+                    title="查看详情：{{ .Params.description }}">
+                    <div class="card-body">
+                        <div class="url-content d-flex align-items-center">
+                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                {{ if .Params.logo }}
+                                <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else if .Params.sitelink }}
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else }}
+                                <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
+                                {{ end }}
+                            </div>
+                            <div class="url-info flex-fill">
+                                                                {{ $url := .Params.sitelink }}
+                                {{ $statusData := "" }}
+                                {{ if and $url (isset $.Site.Data "sitelink_status") }}
+                                  {{ $statusData = index $.Site.Data.sitelink_status $url }}
+                                {{ end }}
+                                {{ $status := "unknown" }}
+                                {{ if $statusData }}
+                                  {{ $status = index $statusData "status" }}
+                                {{ end }}
+                                
+                                {{ $statusColor := "transparent" }}
+                                {{ $statusTitle := "未检测状态" }}
+                                {{ if eq $status "fast" }}
+                                  {{ $statusColor = "#10b981" }}
+                                  {{ $statusTitle = "服务器极速" }}
+                                {{ else if eq $status "normal" }}
+                                  {{ $statusColor = "#f59e0b" }}
+                                  {{ $statusTitle = "服务器正常" }}
+                                {{ else if eq $status "slow" }}
+                                  {{ $statusColor = "#ef4444" }}
+                                  {{ $statusTitle = "服务器缓慢" }}
+                                {{ else if eq $status "offline" }}
+                                  {{ $statusColor = "#9ca3af" }}
+                                  {{ $statusTitle = "服务器离线或阻挡检测" }}
+                                {{ end }}
+
+                                <div class="text-sm overflowClip_1 d-flex align-items-center">
+                                    {{ if ne $statusColor "transparent" }}
+                                    <span class="site-status-dot mr-2" style="display:inline-block; width:8px; min-width:8px; height:8px; border-radius:50%; background-color:{{ $statusColor }}; box-shadow: 0 0 4px {{ $statusColor }};" data-toggle="tooltip" data-placement="top" title="{{ $statusTitle }}"></span>
+                                    {{ end }}
+                                    <strong class="text-truncate">{{ .Title }}</strong>
+                                </div>
+                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/redirect/?target={{ .Params.sitelink | urlquery }}" target="_blank"
+                    class="togo text-center text-muted is-views" data-toggle="tooltip" data-placement="right"
+                    title="直达跳转" rel="nofollow">
+                    <i class="iconfont icon-goto"></i>
+                </a>
+
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <br />
+    {{ end }}
+
+    <h4 class="text-gray text-lg mb-4 mt-5">
+        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
+    </h4>
+    <div class="friendlink text-xs card">
+        <div class="card-body">
+            {{ range .Site.Data.friendlinks }}
+            <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>

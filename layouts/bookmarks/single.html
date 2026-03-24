@@ -1,0 +1,271 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar_empty.html" . }}
+{{ partial "content_header.html" . }}
+
+<style>
+    .page-container {
+        padding-left: 0 !important;
+    }
+
+    .header-mini-btn {
+        display: none !important;
+    }
+</style>
+<div class="page-body boxed-container">
+    <main role="main" class="flex-shrink-0">
+        <div class="container" style="max-width: 1000px; padding-top: 40px;">
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="mb-3">
+                <ol class="breadcrumb bg-transparent p-0 m-0" style="font-size: 0.9rem;">
+                    <li class="breadcrumb-item"><a href="/"><i class="fa fa-home mr-1"></i>首页</a></li>
+                    {{ with .Params.category }}
+                    <li class="breadcrumb-item"><a href="/categories/{{ . | urlize }}/"><i
+                                class="iconfont icon-classification mr-1"></i>{{ . }}</a>
+                    </li>
+                    {{ end }}
+                    {{ with (index .Params "sub-category") }}
+                    <li class="breadcrumb-item"><a href="/sub-category/{{ . | urlize }}/"><i
+                                class="iconfont icon-tag mr-1"></i>{{ . }}</a></li>
+                    {{ end }}
+                    <li class="breadcrumb-item active" aria-current="page"><i
+                            class="iconfont icon-book-mark-line mr-1"></i>{{ .Title }}</li>
+                </ol>
+            </nav>
+
+            <!-- Site Hero Card -->
+            <div class="card mb-4 site-hero-card"
+                style="border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <div class="card-body p-4 p-md-5">
+                    <div class="row align-items-center">
+                        <div class="col-auto mb-4 mb-md-0 text-center">
+                            <div class="hero-logo-wrapper"
+                                style="width: 140px; height: 140px; border-radius: 20px; overflow: hidden; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                                {{ if .Params.logo }}
+                                <img src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else if .Params.sitelink }}
+                                {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse .Params.sitelink).Host }}
+                                {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                {{ $faviconUrl = print $faviconUrl ".png" }}
+                                {{ end }}
+                                <img src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;"
+                                    onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                {{ else }}
+                                <img src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}"
+                                    style="max-width: 100%; max-height: 100%;">
+                                {{ end }}
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h1 class="font-weight-bold mb-2">{{ .Title }}</h1>
+                            <p class="text-muted mb-3" style="font-size: 1.1rem; line-height: 1.6;">{{
+                                .Params.description }}</p>
+
+                            <div class="site-tags mb-4">
+                                {{ with .Params.category }}
+                                <a href="/categories/{{ . | urlize }}/"
+                                    class="badge badge-light p-2 text-muted mr-2 hover-red"><i
+                                        class="iconfont icon-classification mr-1"></i>{{ . }}</a>
+                                {{ end }}
+                                {{ with (index .Params "sub-category") }}
+                                <a href="/sub-category/{{ . | urlize }}/"
+                                    class="badge badge-light p-2 text-muted mr-2 hover-red"><i
+                                        class="iconfont icon-tag mr-1"></i>{{ . }}</a>
+                                {{ end }}
+                                {{ if .Params.tags }}
+                                {{ range .Params.tags }}
+                                <a href="/tags/{{ . | urlize }}/"
+                                    class="badge badge-secondary p-1 px-2 text-xs mr-1 hover-red"
+                                    style="opacity: 0.6;">#{{ . }}</a>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+
+                            <div>
+                                <a href="/redirect/?target={{ .Params.sitelink | urlquery }}" target="_blank"
+                                    class="btn btn-primary btn-lg"
+                                    style="border-radius: 30px; padding: 10px 40px; background-color: #f1404b; border-color: #f1404b; box-shadow: 0 4px 10px rgba(241, 64, 75, 0.4);">
+                                    <i class="iconfont icon-goto mr-2"></i> 直达网站
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Markdown Content -->
+            <div class="card mb-5" style="border-radius: 12px; padding: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.02);">
+                <h3 class="font-weight-bold mb-4 border-bottom pb-3"><i
+                        class="iconfont icon-book-mark-line mr-2 text-primary"
+                        style="color:#f1404b!important;"></i>站点详情介绍</h3>
+                <div class="content">
+                    {{ if .Content }}
+                    {{ .Content | markdownify | safeHTML }}
+                    {{ else }}
+                    <p class="text-muted py-4">站长还在赶稿中，暂无详细介绍...</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Related Sites -->
+            {{ $currentCat2 := index .Params "sub-category" }}
+            {{ $currentUrl := .RelPermalink }}
+            {{ $allPages := where .Site.RegularPages "Section" "bookmarks" }}
+
+            {{ $relatedPages := slice }}
+            {{ range $allPages }}
+            {{ if and (eq (index .Params "sub-category") $currentCat2) (ne .RelPermalink $currentUrl) }}
+            {{ $relatedPages = $relatedPages | append . }}
+            {{ end }}
+            {{ end }}
+
+            {{ if gt (len $relatedPages) 0 }}
+            <h4 class="font-weight-bold text-gray mb-4 mt-5"><i class="iconfont icon-link mr-2"></i>相关导航推荐</h4>
+            <div class="row">
+                {{ range first 6 $relatedPages }}
+                <div class="url-card col-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
+                    <div class="url-body default">
+                        <a href="{{ .RelPermalink }}" class="card no-c mb-4" data-toggle="tooltip"
+                            data-placement="bottom" title="查看详情：{{ .Params.description }}">
+                            <div class="card-body">
+                                <div class="url-content d-flex align-items-center">
+                                    <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                        {{ if .Params.logo }}
+                                        <img class="lazy" src="{{ .Params.logo }}" alt="{{ .Title }}"
+                                            onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                        {{ else if .Params.sitelink }}
+                                        {{ $faviconUrl := print $.Site.Params.faviconAPI (urls.Parse
+                                        .Params.sitelink).Host }}
+                                        {{ if in $.Site.Params.faviconAPI "iowen.cn" }}
+                                        {{ $faviconUrl = print $faviconUrl ".png" }}
+                                        {{ end }}
+                                        <img class="lazy" src="{{ $faviconUrl }}" alt="{{ .Title }}"
+                                            onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'">
+                                        {{ else }}
+                                        <img class="lazy" src="{{ $.Site.Params.defaultLogo }}" alt="{{ .Title }}">
+                                        {{ end }}
+                                    </div>
+                                    <div class="url-info flex-fill">
+                                                                        {{ $url := .Params.sitelink }}
+                                {{ $statusData := "" }}
+                                {{ if and $url (isset $.Site.Data "sitelink_status") }}
+                                  {{ $statusData = index $.Site.Data.sitelink_status $url }}
+                                {{ end }}
+                                {{ $status := "unknown" }}
+                                {{ if $statusData }}
+                                  {{ $status = index $statusData "status" }}
+                                {{ end }}
+                                
+                                {{ $statusColor := "transparent" }}
+                                {{ $statusTitle := "未检测状态" }}
+                                {{ if eq $status "fast" }}
+                                  {{ $statusColor = "#10b981" }}
+                                  {{ $statusTitle = "服务器极速" }}
+                                {{ else if eq $status "normal" }}
+                                  {{ $statusColor = "#f59e0b" }}
+                                  {{ $statusTitle = "服务器正常" }}
+                                {{ else if eq $status "slow" }}
+                                  {{ $statusColor = "#ef4444" }}
+                                  {{ $statusTitle = "服务器缓慢" }}
+                                {{ else if eq $status "offline" }}
+                                  {{ $statusColor = "#9ca3af" }}
+                                  {{ $statusTitle = "服务器离线或阻挡检测" }}
+                                {{ end }}
+
+                                <div class="text-sm overflowClip_1 d-flex align-items-center">
+                                    {{ if ne $statusColor "transparent" }}
+                                    <span class="site-status-dot mr-2" style="display:inline-block; width:8px; min-width:8px; height:8px; border-radius:50%; background-color:{{ $statusColor }}; box-shadow: 0 0 4px {{ $statusColor }};" data-toggle="tooltip" data-placement="top" title="{{ $statusTitle }}"></span>
+                                    {{ end }}
+                                    <strong class="text-truncate">{{ .Title }}</strong>
+                                </div>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">{{ .Params.description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/redirect/?target={{ .Params.sitelink | urlquery }}" target="_blank"
+                            class="togo text-center text-muted is-views" data-toggle="tooltip" data-placement="right"
+                            title="直达跳转" rel="nofollow">
+                            <i class="iconfont icon-goto"></i>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+
+        </div>
+    </main>
+</div>
+<style>
+    .hover-red:hover {
+        background-color: #f1404b !important;
+        color: white !important;
+    }
+
+    .content {
+        font-size: 16px;
+        color: #444;
+    }
+
+    .io-black-mode .content {
+        color: #ccc;
+    }
+
+    .io-black-mode .site-hero-card {
+        background: #2c2e2f;
+        border: none;
+    }
+
+    .io-black-mode .hero-logo-wrapper {
+        background: #1a1c1d !important;
+        box-shadow: none !important;
+        border: 1px solid #3a3f41;
+    }
+
+    .io-black-mode .card {
+        background: #2c2e2f;
+        border: none;
+    }
+
+    .content a {
+        color: #f1404b;
+    }
+
+    .content a:hover {
+        color: #d0303a;
+        text-decoration: underline;
+    }
+
+    .content h1,
+    .content h2,
+    .content h3,
+    .content h4 {
+        margin: 25px 0 15px 0;
+        font-weight: bold;
+    }
+
+    .content p {
+        line-height: 1.8;
+        margin: 15px 0;
+    }
+
+    .breadcrumb-item a {
+        color: #f1404b;
+    }
+
+    .breadcrumb-item a:hover {
+        color: #d0303a;
+    }
+
+    /* Reset global link style inside content */
+    .content ul li {
+        margin-bottom: 8px;
+    }
+</style>
+
+{{ partial "content_footer.html" . }}
+{{ partial "footer.html" . }}
