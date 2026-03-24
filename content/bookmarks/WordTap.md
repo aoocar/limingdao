@@ -1,11 +1,11 @@
 ---
-title: "WordTap"
-sitelink: "https://wordtap.net/"
-description: "点击进入 新语言 无论您是学习英语、日语、西班牙语、希伯来语、阿拉伯语、意大利语、法语、德语、俄语还是波兰语，您都可以通过游戏来学习词汇。WordTap 是免费的！"
-categories: "教育导航"
-sub-category: "默认"
+title: WordTap
+sitelink: https://wordtap.net/
+description: 点击进入 新语言 无论您是学习英语、日语、西班牙语、希伯来语、阿拉伯语、意大利语、法语、德语、俄语还是波兰语，您都可以通过游戏来学习词汇。WordTap 是免费的！
+categories: 网络资源
+sub-category: 教育资源
 tags:
-  - "wordtap"
+  - wordtap
 weight: 10
 recommend: 2
 ---

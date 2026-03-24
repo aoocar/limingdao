@@ -1,11 +1,11 @@
 ---
-title: "OpenStax"
-sitelink: "https://openstax.org/"
-description: "快来看这个? OpenStax 免费大学教科书数据库！  这个宝藏库是盖茨夫妇亲自搞的，全都是合法、正版的学习资料，还可以随便下载PDF和epub格式的电子版教材！"
-categories: "教育导航"
-sub-category: "默认"
+title: OpenStax
+sitelink: https://openstax.org/
+description: 快来看这个? OpenStax 免费大学教科书数据库！  这个宝藏库是盖茨夫妇亲自搞的，全都是合法、正版的学习资料，还可以随便下载PDF和epub格式的电子版教材！
+categories: 网络资源
+sub-category: 教育资源
 tags:
-  - "openstax"
+  - openstax
 weight: 10
 recommend: 2
 ---
