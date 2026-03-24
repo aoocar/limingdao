@@ -1,11 +1,11 @@
 ---
-title: "swufe-xiongmin/free_premium_ai: 收录可以免费使用能力较强的AI的合集，尽量筛选较为稳定的平台，但希望合理预期，免费，稳定，高性能是不可能三角A list of highly capable AI models you can use for free. We’ve tried to select the most stable platforms, but keep in mind the \"impossible triangle\": you can’t always have free, stable, and high performance all at once."
-categories: "AI导航"
-"sub-category": "Github"
+title: 'swufe-xiongmin/free_premium_ai: 收录可以免费使用能力较强的AI的合集，尽量筛选较为稳定的平台，但希望合理预期，免费，稳定，高性能是不可能三角A list of highly capable AI models you can use for free. We’ve tried to select the most stable platforms, but keep in mind the "impossible triangle": you can’t always have free, stable, and high performance all at once.'
+categories: AI导航
+sub-category: Github
 weight: "10"
-recommend:
-sitelink: "https://github.com/swufe-xiongmin/free_premium_ai"
-description: "收录可以免费使用能力较强的AI的合集，尽量筛选较为稳定的平台，但希望合理预期，免费，稳定，高性能是不可能三角A list of highly capable AI models you can use for free. We’ve tried to select the most stable platforms, but keep in mind the \"impossible triangle\": you can’t always have free, stable, and high performance all at once. - swufe-xiongmin/free_premium_ai"
+recommend: 2
+sitelink: https://github.com/swufe-xiongmin/free_premium_ai
+description: '收录可以免费使用能力较强的AI的合集，尽量筛选较为稳定的平台，但希望合理预期，免费，稳定，高性能是不可能三角A list of highly capable AI models you can use for free. We’ve tried to select the most stable platforms, but keep in mind the "impossible triangle": you can’t always have free, stable, and high performance all at once. - swufe-xiongmin/free_premium_ai'
 logo:
 tags:
 ---

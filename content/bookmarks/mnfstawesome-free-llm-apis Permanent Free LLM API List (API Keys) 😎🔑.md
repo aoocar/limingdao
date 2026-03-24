@@ -1,11 +1,11 @@
 ---
 title: "mnfst/awesome-free-llm-apis: Permanent Free LLM API List (API Keys) 😎🔑"
-categories: "AI导航"
-"sub-category": "github"
+categories: AI导航
+sub-category: Github
 weight: "10"
 recommend: "2"
-sitelink: "https://github.com/mnfst/awesome-free-llm-apis"
-description: "Permanent Free LLM API List (API Keys) 😎🔑. Contribute to mnfst/awesome-free-llm-apis development by creating an account on GitHub."
+sitelink: https://github.com/mnfst/awesome-free-llm-apis
+description: Permanent Free LLM API List (API Keys) 😎🔑. Contribute to mnfst/awesome-free-llm-apis development by creating an account on GitHub.
 logo:
 tags:
 ---
