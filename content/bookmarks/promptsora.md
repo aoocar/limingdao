@@ -1,10 +1,9 @@
 ---
-title: "promptsora"
-sitelink: "https://promptsora.com/"
-categories: "AI导航"
-sub-category: "AI视频生成"
+title: promptsora
+sitelink: https://promptsora.com/
+categories: AI导航
+sub-category: AI视频生成
 tags:
-  - "promptsora"
 weight: 10
 recommend: 2
 ---

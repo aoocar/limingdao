@@ -1,13 +1,14 @@
 ---
-title: "从零开始，7天掌握你的AI私人助理"
-categories: "教程"
-"sub-category": "AI教程"
-sitelink: "https://openclaw101.dev/zh"
-description: "从零开始，7天掌握你的AI私人助理。教程、技能和社区资源一站式获取。"
+title: 从零开始，7天掌握你的AI私人助理
+categories: 网络资源
+sub-category: 教程
+sitelink: https://openclaw101.dev/zh
+description: 从零开始，7天掌握你的AI私人助理。教程、技能和社区资源一站式获取。
 logo:
 tags:
-  - "openclaw"
-  - "ai"
+  - openclaw
+  - ai
+  - AI教程
 weight: "10"
 recommend: "2"
 ---

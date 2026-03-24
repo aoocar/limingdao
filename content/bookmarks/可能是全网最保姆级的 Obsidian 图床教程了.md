@@ -1,13 +1,14 @@
 ---
-title: "可能是全网最保姆级的 Obsidian 图床教程了"
-categories: "教程"
-"sub-category": "Obsidian教程"
-sitelink: "https://x.com/alin_zone/status/2029762985628160110"
+title: 可能是全网最保姆级的 Obsidian 图床教程了
+categories: 网络资源
+sub-category: 教程
+sitelink: https://x.com/alin_zone/status/2029762985628160110
 description: "关注Binance华语，洞悉行情节奏，劲享币安重重好礼，让你的邻家小编不下岗！注册立拿100U：https://t.co/SLuxJUoDEi商业合作： https://t.co/aPXd3SWVfx #Binance #BNB"
 logo:
 tags:
-  - "Obsidian"
-  - "图床"
+  - Obsidian
+  - 图床
+  - Obsidian教程
 weight: "10"
 recommend: "2"
 ---
