@@ -1,7 +1,7 @@
 ---
 title: RuTracker.org
 categories: 网络资源
-sub-category: 资源站
+sub-category: 资源分享
 sitelink: https://rutracker.org/forum/index.php
 description: Крупнейший русскоязычный битторрент трекер
 logo:

@@ -1,7 +1,7 @@
 ---
 title: NEXUS AI — 智能未来研究院
 categories: 商业合作
-sub-category: 自营
+sub-category: 营销
 sitelink: https://aoobee.com/
 description:
 logo:

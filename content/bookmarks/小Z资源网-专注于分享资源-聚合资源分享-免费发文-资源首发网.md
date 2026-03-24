@@ -1,12 +1,12 @@
 ---
-title: "小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网"
-categories: "网络资源"
-"sub-category": "资源站"
-sitelink: "https://zibovip.top/"
-description: "资源吧_分享各种资源，解决技术难题，优秀的资源发布平台，提供完整的资源，技术，IT开发社区."
+title: 小Z资源网-专注于分享资源-聚合资源分享-免费发文-资源首发网
+categories: 网络资源
+sub-category: 资源分享
+sitelink: https://zibovip.top/
+description: 资源吧_分享各种资源，解决技术难题，优秀的资源发布平台，提供完整的资源，技术，IT开发社区.
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "6"
 recommend: "2"
 ---
