@@ -1,12 +1,12 @@
 ---
-title: "探索学习、写作与创作的 AI 技能 - YouMind 技能"
-categories: "AI人工智能"
-"sub-category": "应用"
-sitelink: "https://youmind.com/zh-CN/skills"
-description: "发现数百个可复用的 AI 技能，用于研究、内容创作、社交媒体和演示文稿。无需编程——直接运行，即刻获得结果。"
+title: 探索学习、写作与创作的 AI 技能 - YouMind 技能
+categories: AI导航
+sub-category: 应用
+sitelink: https://youmind.com/zh-CN/skills
+description: 发现数百个可复用的 AI 技能，用于研究、内容创作、社交媒体和演示文稿。无需编程——直接运行，即刻获得结果。
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "10"
 recommend: "2"
 ---

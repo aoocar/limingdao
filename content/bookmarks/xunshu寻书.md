@@ -1,11 +1,10 @@
 ---
-title: "xunshu寻书"
-sitelink: "https://www.xunshu.xyz/"
-description: "xunshu寻书-免费电子书聚合搜索引擎 找书不求人"
-categories: "网盘搜索"
-sub-category: "默认"
+title: xunshu寻书
+sitelink: https://www.xunshu.xyz/
+description: xunshu寻书-免费电子书聚合搜索引擎 找书不求人
+categories: 网络资源
+sub-category: 电子书刊
 tags:
-  - "xunshu"
 weight: 10
 recommend: 2
 ---
