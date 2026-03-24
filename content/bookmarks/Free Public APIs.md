@@ -1,12 +1,12 @@
 ---
-title: "Free Public APIs"
-categories: "技术支持"
-"sub-category": "API接口"
-sitelink: "https://www.freepublicapis.com/"
-description: "A collection of Free Public APIs for Students and Developers. Tested every single day."
+title: Free Public APIs
+categories: 网络资源
+sub-category: API接口
+sitelink: https://www.freepublicapis.com/
+description: A collection of Free Public APIs for Students and Developers. Tested every single day.
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "10"
 recommend: "2"
 ---

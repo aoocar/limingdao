@@ -1,12 +1,12 @@
 ---
-title: "Practice English listening with dictation exercises - dailydictation.com"
-categories: "教育学习"
-"sub-category": "在线课程"
-sitelink: "https://dailydictation.com/"
-description: "Online dictation exercises for learners to improve English listening skills quickly. All levels from basic, intermediate to advanced. 100% Free."
+title: Practice English listening with dictation exercises - dailydictation.com
+categories: 网络资源
+sub-category: 教育资源
+sitelink: https://dailydictation.com/
+description: Online dictation exercises for learners to improve English listening skills quickly. All levels from basic, intermediate to advanced. 100% Free.
 logo:
 tags:
-  - "默认分类"
+  - 默认分类
 weight: "10"
 recommend: "2"
 ---

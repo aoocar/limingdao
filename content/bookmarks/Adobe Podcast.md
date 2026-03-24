@@ -1,11 +1,11 @@
 ---
-title: "Adobe Podcast"
-sitelink: "https://podcast.adobe.com/"
-description: "Adobe Podcast AI工作室 是一个专门用于制作Podcast播客的神器"
-categories: "音频工具"
-sub-category: "默认"
+title: Adobe Podcast
+sitelink: https://podcast.adobe.com/
+description: Adobe Podcast AI工作室 是一个专门用于制作Podcast播客的神器
+categories: 在线工具
+sub-category: 音频工具
 tags:
-  - "adobe-podcast"
+  - adobe-podcast
 weight: 10
 recommend: 2
 ---

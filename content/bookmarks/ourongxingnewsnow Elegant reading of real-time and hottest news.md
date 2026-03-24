@@ -1,11 +1,11 @@
 ---
 title: "ourongxing/newsnow: Elegant reading of real-time and hottest news"
-categories: "工具"
-"sub-category": "自媒体"
+categories: 在线工具
+sub-category: 自媒体
 weight: "10"
 recommend: "2"
-sitelink: "https://github.com/ourongxing/newsnow"
-description: "Elegant reading of real-time and hottest news. Contribute to ourongxing/newsnow development by creating an account on GitHub."
+sitelink: https://github.com/ourongxing/newsnow
+description: Elegant reading of real-time and hottest news. Contribute to ourongxing/newsnow development by creating an account on GitHub.
 logo:
 tags:
 ---
