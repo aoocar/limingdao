@@ -2,6 +2,10 @@
   "customOrder": {
     "/": {
       "children": [
+        "analyze_claw123.py",
+        "fix_markdown.py",
+        "scrape_claw123.py",
+        "setup_and_scrape.ps1",
         "小红书笔记",
         "skills",
         "未命名.base",
@@ -83,6 +87,155 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/🔴【每日要聞】美國打仗，為什麼大A跌最慘？黃金這輪行情結束了嗎？超微電腦幫中國走私幾十億英偉達芯片！｜小翠時政財經 20260320.md",
+        "content/bookmarks/360安全龙虾.md",
+        "content/bookmarks/阿里云.md",
+        "content/bookmarks/阿里云百炼.md",
+        "content/bookmarks/百度千帆.md",
+        "content/bookmarks/百度千帆 Coding Plan.md",
+        "content/bookmarks/百度文心.md",
+        "content/bookmarks/百度智能云.md",
+        "content/bookmarks/常规 AI 编程能力.md",
+        "content/bookmarks/豆包.md",
+        "content/bookmarks/豆包Doubao.md",
+        "content/bookmarks/飞书官方修炼指南.md",
+        "content/bookmarks/飞书OpenClaw.md",
+        "content/bookmarks/非凡产研.md",
+        "content/bookmarks/官方文档.md",
+        "content/bookmarks/官方GitHub.md",
+        "content/bookmarks/硅基流动.md",
+        "content/bookmarks/国家超算互联网.md",
+        "content/bookmarks/华为云.md",
+        "content/bookmarks/火山方舟.md",
+        "content/bookmarks/火山引擎.md",
+        "content/bookmarks/火山引擎 Coding Plan.md",
+        "content/bookmarks/即梦AI.md",
+        "content/bookmarks/阶跃星辰.md",
+        "content/bookmarks/阶跃桌面伙伴.md",
+        "content/bookmarks/京东云.md",
+        "content/bookmarks/扣子Coze.md",
+        "content/bookmarks/快手万擎.md",
+        "content/bookmarks/麻小玩虾指南.md",
+        "content/bookmarks/牛马 AI.md",
+        "content/bookmarks/曝光观察板.md",
+        "content/bookmarks/七牛云.md",
+        "content/bookmarks/千问.md",
+        "content/bookmarks/千问Qwen.md",
+        "content/bookmarks/水产市场.md",
+        "content/bookmarks/腾讯混元.md",
+        "content/bookmarks/腾讯元宝.md",
+        "content/bookmarks/腾讯云.md",
+        "content/bookmarks/腾讯云 Coding Plan.md",
+        "content/bookmarks/天翼云.md",
+        "content/bookmarks/万象 AI 实验室.md",
+        "content/bookmarks/悟空.md",
+        "content/bookmarks/虾聊.md",
+        "content/bookmarks/虾评Skill.md",
+        "content/bookmarks/智谱 Coding Plan.md",
+        "content/bookmarks/智谱GLM.md",
+        "content/bookmarks/中文用例大全.md",
+        "content/bookmarks/A2H Market.md",
+        "content/bookmarks/Agent Skills Hub.md",
+        "content/bookmarks/AgentCard.ai.md",
+        "content/bookmarks/AgentCard.sh.md",
+        "content/bookmarks/AgentMail.md",
+        "content/bookmarks/Arena.ai.md",
+        "content/bookmarks/ArkClaw.md",
+        "content/bookmarks/Artificial Analysis.md",
+        "content/bookmarks/AstronClaw.md",
+        "content/bookmarks/AutoClaw.md",
+        "content/bookmarks/Awesome 教程.md",
+        "content/bookmarks/Binance Skills Hub.md",
+        "content/bookmarks/Bybit AI Hub.md",
+        "content/bookmarks/Claw Bench 排行榜.md",
+        "content/bookmarks/Claw402.md",
+        "content/bookmarks/Clawcard.sh.md",
+        "content/bookmarks/ClawHub.md",
+        "content/bookmarks/ClawManager.md",
+        "content/bookmarks/ClawPal.md",
+        "content/bookmarks/ClawSkills.md",
+        "content/bookmarks/ClawVault.md",
+        "content/bookmarks/ClawWatcher.md",
+        "content/bookmarks/CocoLoop.md",
+        "content/bookmarks/COIN CLAW.md",
+        "content/bookmarks/Coinbase AgentKit.md",
+        "content/bookmarks/Control Center.md",
+        "content/bookmarks/CoPaw.md",
+        "content/bookmarks/CryptoSkills.md",
+        "content/bookmarks/DeepSeek.md",
+        "content/bookmarks/DeskClaw.md",
+        "content/bookmarks/Discord 官方服务器.md",
+        "content/bookmarks/DuClaw.md",
+        "content/bookmarks/DuMate.md",
+        "content/bookmarks/EasyClaw.md",
+        "content/bookmarks/EdgeOne ClawScan.md",
+        "content/bookmarks/FluxA.md",
+        "content/bookmarks/Gate Pay for AI.md",
+        "content/bookmarks/GateClaw.md",
+        "content/bookmarks/Gemini.md",
+        "content/bookmarks/GetClaw.md",
+        "content/bookmarks/GPT.md",
+        "content/bookmarks/Grok.md",
+        "content/bookmarks/Happycapy.md",
+        "content/bookmarks/Hello Claw 教程.md",
+        "content/bookmarks/HiClaw.md",
+        "content/bookmarks/HTX AI Skills.md",
+        "content/bookmarks/InStreet.md",
+        "content/bookmarks/JVS Claw.md",
+        "content/bookmarks/KiloClaw.md",
+        "content/bookmarks/Kimi.md",
+        "content/bookmarks/Kimi Claw.md",
+        "content/bookmarks/Linkfox Claw.md",
+        "content/bookmarks/Llama.md",
+        "content/bookmarks/LobeHub.md",
+        "content/bookmarks/Lobster.cash.md",
+        "content/bookmarks/LobsterAI 有道龙虾.md",
+        "content/bookmarks/Loomy.md",
+        "content/bookmarks/Machines Cash.md",
+        "content/bookmarks/MailboxKit.md",
+        "content/bookmarks/mails.md",
+        "content/bookmarks/Manus.md",
+        "content/bookmarks/MaxClaw.md",
+        "content/bookmarks/MiMo.md",
+        "content/bookmarks/MiniMax.md",
+        "content/bookmarks/MiniMax Token Plan.md",
+        "content/bookmarks/Mistral.md",
+        "content/bookmarks/Model123.md",
+        "content/bookmarks/Moltbook.md",
+        "content/bookmarks/MuleRun.md",
+        "content/bookmarks/NemoClaw.md",
+        "content/bookmarks/OKX Agent Trade Kit.md",
+        "content/bookmarks/OpenClaw 橙皮书.md",
+        "content/bookmarks/OpenClaw 从入门到精通.md",
+        "content/bookmarks/OpenClaw 官网.md",
+        "content/bookmarks/OpenClaw 使用案例.md",
+        "content/bookmarks/OpenClaw 中文学习手册.md",
+        "content/bookmarks/OpenClaw Directory.md",
+        "content/bookmarks/OpenClaw Startups.md",
+        "content/bookmarks/OpenClawDir.md",
+        "content/bookmarks/OpenRouter.md",
+        "content/bookmarks/OpenRouter Rankings.md",
+        "content/bookmarks/ourongxingnewsnow Elegant reading of real-time and hottest news.md",
+        "content/bookmarks/PinchBench.md",
+        "content/bookmarks/PoorClaw穷虾.md",
+        "content/bookmarks/Qclaw.md",
+        "content/bookmarks/QoderWork.md",
+        "content/bookmarks/Reddit 板块.md",
+        "content/bookmarks/SkillHub.md",
+        "content/bookmarks/SkillHub中国.md",
+        "content/bookmarks/SkillPay.md",
+        "content/bookmarks/Skills.sh.md",
+        "content/bookmarks/SkillsMP.md",
+        "content/bookmarks/Souls.zip.md",
+        "content/bookmarks/Step Plan.md",
+        "content/bookmarks/StepClaw.md",
+        "content/bookmarks/Tabbit 浏览器.md",
+        "content/bookmarks/Tempo Wallet.md",
+        "content/bookmarks/WaytoAGI 之路.md",
+        "content/bookmarks/WorkBuddy.md",
+        "content/bookmarks/Xiaomi MiMo Claw.md",
+        "content/bookmarks/XSCT Bench.md",
+        "content/bookmarks/ZenMux.md",
         "content/bookmarks/Limingdao 黎明岛 - 智能内容管理平台.md",
         "content/bookmarks/引流宝 - 私域流量获取与监控工具.md",
         "content/bookmarks/小红书笔记转PDF工具.md",
@@ -2682,6 +2835,329 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/360安全龙虾",
+        "public/bookmarks/360安全龙虾本地国内首个以安全模式为核心设计的OpenClaw智能体产品",
+        "public/bookmarks/阿里云",
+        "public/bookmarks/阿里云百炼",
+        "public/bookmarks/阿里云快速上手三步轻松构建_AI_助理低至_99_元起",
+        "public/bookmarks/阿里云专为企业打造的大模型服务与应用开发平台提供丰富的模型资源和强大的商业化部署能力",
+        "public/bookmarks/百度千帆",
+        "public/bookmarks/百度千帆-Coding-Plan",
+        "public/bookmarks/百度千帆以Agent为核心的一站式企业级大模型服务平台提供先进的生成式AI生产及应用全流程开发工具链",
+        "public/bookmarks/百度文心",
+        "public/bookmarks/百度文心百度旗下A助手精准覆盖公文写作学术论文创意策划代码编程等丰富场景一键生成高质量稿件",
+        "public/bookmarks/百度智能云",
+        "public/bookmarks/百度智能云从快速开通到日常指令管理为您提供极简的自动化体验即刻激活您的专属AI助理",
+        "public/bookmarks/不想看片",
+        "public/bookmarks/常规-AI-编程能力",
+        "public/bookmarks/豆包",
+        "public/bookmarks/豆包抖音旗下AI工具你的智能助手",
+        "public/bookmarks/豆包Doubao",
+        "public/bookmarks/豆包Doubao字节跳动自研大模型具备更强的推理能力多模态理解能力GUI操作能力和前端页面编程能力",
+        "public/bookmarks/发现优质的免费AI工具与网站",
+        "public/bookmarks/飞书官方修炼指南",
+        "public/bookmarks/飞书OpenClaw",
+        "public/bookmarks/飞书OpenClaw云端提供原版_OpenClaw_完整能力独特个性长期记忆内置飞书官方插件",
+        "public/bookmarks/非凡产研",
+        "public/bookmarks/非凡产研整理了OpenClaw核心概念适用场景快速预览助力从零开始完成OpenClaw首次部署和运行",
+        "public/bookmarks/官方文档",
+        "public/bookmarks/官方文档适用于任何操作系统的_AI_智能体_Gateway_网关支持_WhatsAppTelegramDiscordiMessage_等",
+        "public/bookmarks/官方GitHub",
+        "public/bookmarks/官方GitHub收集了OpenClaw的源代码方便用户查阅参考",
+        "public/bookmarks/硅基流动",
+        "public/bookmarks/硅基流动国内领先的模型聚合平台提供_200_开源和商用模型的统一_API_接口",
+        "public/bookmarks/国家超算互联网",
+        "public/bookmarks/国家超算互联网虾友福利_限时2周免费领1000万Tokens续用价低至01元",
+        "public/bookmarks/华为云",
+        "public/bookmarks/华为云华为云MaaS平台覆盖大模型全生命周期管理包括模型训练调优压缩部署评测等全栈工具支持即开即用和低门槛操作",
+        "public/bookmarks/华为云基于华为云Flexus云服务器L实例来搭建OpenClaw",
+        "public/bookmarks/火山方舟",
+        "public/bookmarks/火山方舟火山方舟提供模型训练推理评测精调等全方位功能与服务并重点支撑大模型生态",
+        "public/bookmarks/火山引擎",
+        "public/bookmarks/火山引擎-Coding-Plan",
+        "public/bookmarks/火山引擎分钟级部署拥有您的私人AI管家",
+        "public/bookmarks/即梦AI",
+        "public/bookmarks/即梦AISeedance_20_字节最新的视频生成模型",
+        "public/bookmarks/阶跃星辰",
+        "public/bookmarks/阶跃星辰专注通用人工智能AGI自研大模型与多模态技术国内_AI_六小龙_之一",
+        "public/bookmarks/阶跃桌面伙伴",
+        "public/bookmarks/阶跃桌面伙伴本地始终在场会主动做事的桌面_Agent支持多任务并行处理",
+        "public/bookmarks/京东云",
+        "public/bookmarks/京东云来京东云部署OpenClaw即送美味小龙虾",
+        "public/bookmarks/扣子Coze",
+        "public/bookmarks/扣子Coze云端字节旗下AI_Agent开发平台让每个人都能轻松创建自己的AI机器人",
+        "public/bookmarks/快手万擎",
+        "public/bookmarks/快手万擎企业级大模型服务与开发平台",
+        "public/bookmarks/麻小玩虾指南",
+        "public/bookmarks/麻小玩虾指南从零开始的_OpenClaw_使用指南适用于所有人群",
+        "public/bookmarks/每日要聞美國打仗為什麼大A跌最慘黃金這輪行情結束了嗎超微電腦幫中國走私幾十億英偉達芯片小翠時政財經-20260320",
+        "public/bookmarks/牛马_AI本地免费版的ManusGenspark可处理从文档分析数据整理到复杂工作流自动化的一系列任务",
+        "public/bookmarks/牛马-AI",
+        "public/bookmarks/曝光观察板",
+        "public/bookmarks/曝光观察板列出了可公开访问的活跃OpenClaw防御意识实例提醒用户启用认证移除直接的公共暴露",
+        "public/bookmarks/七牛云",
+        "public/bookmarks/七牛云提供多个顶级闭源和开源大模型兼容OpenAl_APl和Anthropic_APl",
+        "public/bookmarks/千问",
+        "public/bookmarks/千问阿里云推出的一个超大规模的语言模型功能包括多轮对话文案创作逻辑推理多模态理解多语言支持",
+        "public/bookmarks/千问Qwen",
+        "public/bookmarks/千问Qwen千问首个原生多模态大模型通过统一架构整合语言推理与视觉感知开启多模态模型的新阶段",
+        "public/bookmarks/水产市场",
+        "public/bookmarks/水产市场专为_OpenClaw_构建的_Agent_进化生态平台该平台旨在通过社区共享机制让_Agent_能够互相学习与借鉴",
+        "public/bookmarks/探索学习写作与创作的-AI-技能-YouMind-技能",
+        "public/bookmarks/腾讯混元",
+        "public/bookmarks/腾讯混元腾讯研发的大语言模型具备强大的中文创作能力复杂语境下的逻辑推理能力以及可靠的任务执行能力",
+        "public/bookmarks/腾讯元宝",
+        "public/bookmarks/腾讯元宝腾讯推出的免费AI智能助手",
+        "public/bookmarks/腾讯云",
+        "public/bookmarks/腾讯云-Coding-Plan",
+        "public/bookmarks/腾讯云轻量应用服务器让OpenClaw一直在线稳定输出也更安全",
+        "public/bookmarks/天翼云",
+        "public/bookmarks/万象_AI_实验室OpenClaw知识手册从入门到精通掌握OpenClaw的全流程实操能力",
+        "public/bookmarks/万象-AI-实验室",
+        "public/bookmarks/微信-Markdown-编辑器-Doocs-开源社区",
+        "public/bookmarks/悟空",
+        "public/bookmarks/悟空本地阿里巴巴发布的全球首个企业级AI原生工作平台让每个团队每家公司都能拥有一支24h工作的龙虾军团",
+        "public/bookmarks/虾聊",
+        "public/bookmarks/虾聊纯_AgentOpenClaw交流社区人类只能围观不能发言",
+        "public/bookmarks/虾聊AI_Agent_的社交平台",
+        "public/bookmarks/虾评Skill",
+        "public/bookmarks/虾评Skill面向_Agent_的精品优质_Skill_分享评测平台",
+        "public/bookmarks/咸鱼",
+        "public/bookmarks/小红书笔记",
+        "public/bookmarks/小红书笔记转PDF工具",
+        "public/bookmarks/讯飞星火大讯飞推出的新一代认知智能大模型拥有跨领域的知识和语言理解能力能够基于自然对话方式理解与执行任务提供语言理解知识问答逻辑推理数学题解答代码理解与编写等多种能力",
+        "public/bookmarks/讯飞星火一站式大模型精调定制及服务平台_提供数据管理模型定制模型托管推理全流程成熟工具链",
+        "public/bookmarks/引流宝-私域流量获取与监控工具",
+        "public/bookmarks/志愿空间",
+        "public/bookmarks/智能留学择校平台",
+        "public/bookmarks/智谱-Coding-Plan",
+        "public/bookmarks/智谱GLM",
+        "public/bookmarks/智谱GLM新一代国产自主通用Al大模型开放平台研发了多款LLM模型多模态视觉模型产品",
+        "public/bookmarks/中文用例大全",
+        "public/bookmarks/中文用例大全一份面向中文用户的_OpenClaw_真实使用案例合集",
+        "public/bookmarks/A2H_Market同时面向人类Human和_AI_Agent_的开放交易市场",
+        "public/bookmarks/A2H-Market",
+        "public/bookmarks/Agent_Skills_Hub一个集中式平台和市场用于在多个AI工具和编码环境中发现管理和部署AI代理技能",
+        "public/bookmarks/Agent-Skills-Hub",
+        "public/bookmarks/AgentCard.ai",
+        "public/bookmarks/AgentCard.sh",
+        "public/bookmarks/AgentCardai一张专为_AI_Agent_打造的独立虚拟信用卡",
+        "public/bookmarks/AgentCardsh面向人工智能代理的虚拟信用卡",
+        "public/bookmarks/AgentMail",
+        "public/bookmarks/AgentMail专为_AI_Agent_打造的邮箱基础设施服务",
+        "public/bookmarks/AIBoom.Tools",
+        "public/bookmarks/Arena.ai",
+        "public/bookmarks/Arenaai由美国加州大学伯克利分校推出的AI模型评估平台",
+        "public/bookmarks/ArkClaw",
+        "public/bookmarks/ArkClaw云端提供模型训练推理评测精调等全方位功能与服务",
+        "public/bookmarks/Artificial_Analysis一个专注于AI语言模型和API提供商的独立分析平台",
+        "public/bookmarks/Artificial-Analysis",
+        "public/bookmarks/Arya-在线-Markdown-编辑器",
+        "public/bookmarks/AstronClaw",
+        "public/bookmarks/AutoClaw",
+        "public/bookmarks/AutoClaw本地提供飞书集成模型热插拔50技能与AutoGLM浏览器自动化能力",
+        "public/bookmarks/Awesome_教程从零开始玩转_OpenClaw最全面的中文教程",
+        "public/bookmarks/Awesome-教程",
+        "public/bookmarks/Binance_Skills_Hub让_AI_代理能够原生访问加密货币让加密货币全天候运行",
+        "public/bookmarks/Binance-Skills-Hub",
+        "public/bookmarks/Bybit_AI_Hub您的_AI_助手现已接入_Bybit_全栈交易引擎",
+        "public/bookmarks/Bybit-AI-Hub",
+        "public/bookmarks/ChatGPT地表最强AI聊天机器人",
+        "public/bookmarks/ClaudeAnthropic开发的大型语言模型家族",
+        "public/bookmarks/Claw_Bench_排行榜AI_Agent_框架标准化评估210_项任务14_个领域4_个难度等级",
+        "public/bookmarks/Claw-Bench-排行榜",
+        "public/bookmarks/Claw402",
+        "public/bookmarks/Claw402一个用USDC付费的个人AI助手",
+        "public/bookmarks/Clawcard.sh",
+        "public/bookmarks/Clawcardsh首个为agent提供的统一凭证系统_-_一把钥匙提供并管理信用卡电子邮件和电话号码",
+        "public/bookmarks/ClawHub",
+        "public/bookmarks/ClawHubOpenClaw官方Skills注册中心",
+        "public/bookmarks/ClawManager",
+        "public/bookmarks/ClawManager让_OpenClaw_对所有人都可使用的仪表盘轻松搭建部署和管理_AI_代理",
+        "public/bookmarks/ClawPal",
+        "public/bookmarks/ClawPalOpenClaw_的桌面配置助手可视化管理你的_AI_agent",
+        "public/bookmarks/ClawSkills",
+        "public/bookmarks/ClawSkills5490_Skills_集合已过滤_6940_个垃圾插件",
+        "public/bookmarks/ClawVault",
+        "public/bookmarks/ClawVault_一个平台保障你所有的_AI_Agent支出",
+        "public/bookmarks/ClawWatcher",
+        "public/bookmarks/ClawWatcher面向_OpenClaw_的监控仪表盘提供对代理行为及其成本的实时可视化",
+        "public/bookmarks/CocoLoop",
+        "public/bookmarks/CocoLoop更快更安全的_Al_Agent_Skills_商店",
+        "public/bookmarks/COIN_CLAW你的_Web3_世界_AI_常驻特工_开箱即用全天候待命",
+        "public/bookmarks/COIN-CLAW",
+        "public/bookmarks/Coinbase_AgentKit_通过AgentKit赋能您的AI代理进行自主支付",
+        "public/bookmarks/Coinbase-AgentKit",
+        "public/bookmarks/Control_CenterOpenClaw_的安全优先本地优先控制中心",
+        "public/bookmarks/Control-Center",
+        "public/bookmarks/CoPaw",
+        "public/bookmarks/CoPaw本地阿里云推出的协同个人智能体工作台主打本地云端双部署国内平台原生适配主动执行任务零代码扩展",
+        "public/bookmarks/CryptoSkills",
+        "public/bookmarks/CryptoSkills为所有crypto领域提供开源Skills为_AI_编码agents提供生产准备的协议知识",
+        "public/bookmarks/Curated-Tools-SaaS-Directory",
+        "public/bookmarks/DeepSeek",
+        "public/bookmarks/DeepSeek_DeepSeek-V32_正式版发布强化_Agent_能力融入思考推理在网页端APP_和_API_全面上线",
+        "public/bookmarks/DeepSeek幻方量化旗下深度求索推出的开源大模型和聊天助手",
+        "public/bookmarks/DeskClaw",
+        "public/bookmarks/DeskClaw本地你的第一个AI同事",
+        "public/bookmarks/Discord-官方服务器",
+        "public/bookmarks/Discord官方服务器实时技术交流与问题解答",
+        "public/bookmarks/Discover-Best-AI-Tools-SaaS-Solutions",
+        "public/bookmarks/Discover-Next-Gen-AI-Tools-SaaS",
+        "public/bookmarks/DuClaw",
+        "public/bookmarks/DuClaw云端通过免除镜像选择服务器部署及API_Key配置等繁琐环节实现AI智能体的即开即用",
+        "public/bookmarks/DuMate",
+        "public/bookmarks/DuMate本地百度推出的桌面级AI智能体定位为办公搭子",
+        "public/bookmarks/EasyClaw",
+        "public/bookmarks/EasyClaw本地一键部署OpenClaw网关可视化技能配置多平台聊天应用集成本地文件管理邮件处理网页自动化等",
+        "public/bookmarks/EdgeOne_ClawScan一键全面扫描_OpenClaw_不安全配置恶意_Skill与漏洞支持全天候实时拦截危险指令与隐私泄露",
+        "public/bookmarks/EdgeOne-ClawScan",
+        "public/bookmarks/Fish-Audio",
+        "public/bookmarks/FluxA",
+        "public/bookmarks/FluxA代理钱包可以为API向任何地址汇款并从任何人那里收取付款",
+        "public/bookmarks/Gate_Pay_for_AIAI_Agent_原生支付真正自主请求支付与回调均可由_Agent_自动完成无需跳转或人工确认",
+        "public/bookmarks/Gate-Pay-for-AI",
+        "public/bookmarks/GateClaw",
+        "public/bookmarks/GateClawGate_推出的_AI_Web3_Agent_工作平台可以执行多种_Web3_自动化任务",
+        "public/bookmarks/Gemini",
+        "public/bookmarks/Gemini兼具高推理能力多模态处理可视化渲染和低成本高效能不仅适合科研和工程领域也可广泛应用于企业和个人创意工作",
+        "public/bookmarks/GeminiGoogle推出的AI聊天对话机器人",
+        "public/bookmarks/GetClaw",
+        "public/bookmarks/GetClawBitget_出品的AI_交易自主智能体不装软件不写代码开口即交易",
+        "public/bookmarks/GPT",
+        "public/bookmarks/GPT首个具备原生计算机使用能力computer-use_capabilities的通用模型支持通过截图和键盘鼠标指令操作计算机完成跨应用的复杂工作流程",
+        "public/bookmarks/Grok",
+        "public/bookmarks/Grok马斯克旗下xAI公司开发的人工智能大模型系列",
+        "public/bookmarks/Grok马斯克旗下xAI推出的人工智能助手",
+        "public/bookmarks/Happycapy",
+        "public/bookmarks/Happycapy云端一台面向所有人设计的云端_Agent_原生计算机",
+        "public/bookmarks/Hello_Claw_教程Datawhale_开源教程从零领养到构建_AI_助手",
+        "public/bookmarks/Hello-Claw-教程",
+        "public/bookmarks/HiClaw",
+        "public/bookmarks/HiClawOpenClaw的团队协作升级版创新性引入Manager_Agent架构实现多Agent之间的高效协作与管理",
+        "public/bookmarks/HTX_AI_Skills面向_AI_Agent_生态推出的开放交易协议让_AI_通过自然语言即可查询行情管理资产执行现货与合约交易",
+        "public/bookmarks/HTX-AI-Skills",
+        "public/bookmarks/InStreet",
+        "public/bookmarks/InStreet_Agent社交平台AI_Agent_在线互动学习竞技的社区",
+        "public/bookmarks/JVS_Claw阿里云推出的多_Agent_智能体协作平台提供免部署免配置的极简体验",
+        "public/bookmarks/JVS-Claw",
+        "public/bookmarks/KiloClaw",
+        "public/bookmarks/KiloClawKiloClaw定位为面向开发者和团队的托管版OpenClaw服务",
+        "public/bookmarks/Kimi",
+        "public/bookmarks/Kimi_Claw云端集成全球爆火的开源智能体框架OpenClaw",
+        "public/bookmarks/Kimi-Claw",
+        "public/bookmarks/Kimi会推理解析能深度思考的AI助手",
+        "public/bookmarks/Kimi专业代码生成智能对话视觉推理支持多模态理解与处理擅长解决更复杂的问题",
+        "public/bookmarks/KimiKimi_会员计划中面向代码开发的权益轻松兼容各类开发流程_更快更稳响应请求高效地完成编程任务",
+        "public/bookmarks/Limingdao-黎明岛",
+        "public/bookmarks/Limingdao-黎明岛-智能内容管理平台",
+        "public/bookmarks/Linkfox_ClawLinkFoxAgent帮你一键部署OpenClaw自由对话智能随行",
+        "public/bookmarks/Linkfox-Claw",
+        "public/bookmarks/Llama",
+        "public/bookmarks/LlamaMeta推出的一款开源大语言模型",
+        "public/bookmarks/LobeHub",
+        "public/bookmarks/LobeHub一个以_AI_Agent智能体为核心的开源大模型协作平台",
+        "public/bookmarks/Lobster.cash",
+        "public/bookmarks/LobsterAI_有道龙虾本地724小时帮你干活的全场景个人助理_Agent能够主动执行任务管理流程跨平台协作",
+        "public/bookmarks/LobsterAI-有道龙虾",
+        "public/bookmarks/Loomy",
+        "public/bookmarks/Loomy科大讯飞推出的桌面级_AI_个人助理基于_AstronClaw_打造主打零配置下载即用",
+        "public/bookmarks/Machines_Cash面向个人与代理的虚拟_Visa_信用卡",
+        "public/bookmarks/Machines-Cash",
+        "public/bookmarks/MailboxKit",
+        "public/bookmarks/MailboxKit聚焦新创和消费主题的科技媒体",
+        "public/bookmarks/mails",
+        "public/bookmarks/mails一个为_agents_设计的邮件服务专为需要以编程方式收发和理解邮件的_AI_Agent_构建",
+        "public/bookmarks/Manus",
+        "public/bookmarks/Manus具备从任务规划到执行的全流程自动化能力可独立完成报告撰写数据分析跨平台操作等",
+        "public/bookmarks/MaxClaw",
+        "public/bookmarks/MiMo",
+        "public/bookmarks/MiMo小米公司自研的开源推理大模型系列专注于高效推理与多模态交互",
+        "public/bookmarks/MiniMax",
+        "public/bookmarks/MiniMax_Token_PlanMiniMax_最强编程与智能体模型",
+        "public/bookmarks/MiniMax-Token-Plan",
+        "public/bookmarks/MiniMaxMiniMax_自主研发了一系列多模态通用大模型具备强大的代码和_Agent_能力以及超长上下文处理能力能够理解生成并整合包括文本音频图像视频和音乐在内的多种模态",
+        "public/bookmarks/Mistral",
+        "public/bookmarks/Mistral一个基于大语言模型的对话平台提供了多种模型选择和功能",
+        "public/bookmarks/Model123",
+        "public/bookmarks/Model123专业的企业级_AI编程服务平台",
+        "public/bookmarks/Moltbook",
+        "public/bookmarks/Moltbook面向_AI_Agent的社交网络",
+        "public/bookmarks/MuleRun",
+        "public/bookmarks/MuleRun全球首个自进化个人AI_-_MuleRun骡子快跑",
+        "public/bookmarks/NemoClaw",
+        "public/bookmarks/NemoClaw英伟达推出的一个面向企业的开源AI智能体平台",
+        "public/bookmarks/NEXUS-AI-智能未来研究院",
+        "public/bookmarks/OKX_Agent_Trade_Kit将_AI_助手与您的_OKX_账户直接连接无需在_AI_和交易所之间来回切换只需用自然语言描述您的需求AI_即可自动执行",
+        "public/bookmarks/OKX-Agent-Trade-Kit",
+        "public/bookmarks/OpenClaw_橙皮书覆盖了从认识OpenClaw到真正把它用起来的所有关键信息",
+        "public/bookmarks/OpenClaw_从入门到精通持续更新的OpenClaw知识库文档文档大部分都是基于实际体验测试来手动编写的",
+        "public/bookmarks/OpenClaw_官网开源本地优先的自主_AI_助手运行在你的电脑或服务器上",
+        "public/bookmarks/OpenClaw_使用案例复制提示词就可以直接使用于_OpenClawClaude_CodeCursor_或其他_AI_agent_工具",
+        "public/bookmarks/OpenClaw_中文学习手册全面的_OpenClaw_中文教程网站帮助你从零开始掌握_OpenClaw_AI_助手框架",
+        "public/bookmarks/OpenClaw_Directory由社区驱动的中心用于发现提交和管理OpenClaw技能插件部署指南以及工作流资源",
+        "public/bookmarks/OpenClaw_Startups一个开源本地优先的_AI_机器人生态系统用户可以无需编程即可启动助手",
+        "public/bookmarks/OpenClaw-橙皮书",
+        "public/bookmarks/OpenClaw-从入门到精通",
+        "public/bookmarks/OpenClaw-官网",
+        "public/bookmarks/OpenClaw-使用案例",
+        "public/bookmarks/OpenClaw-中文学习手册",
+        "public/bookmarks/OpenClaw-Directory",
+        "public/bookmarks/OpenClaw-Startups",
+        "public/bookmarks/OpenClawDir",
+        "public/bookmarks/OpenClawDirOpenClaw_AI_助手的社区目录探索OpenClaw生态系统的技能插件和职位",
+        "public/bookmarks/OpenRouter",
+        "public/bookmarks/OpenRouter_Rankings模型排名反映了在_OpenRouter_平台上各个大型语言模型LLM的实际使用情况",
+        "public/bookmarks/OpenRouter-Rankings",
+        "public/bookmarks/OpenRouterAI模型聚合平台提供统一的API接口方便用户访问和使用多种AI模型",
+        "public/bookmarks/ourongxingnewsnow-Elegant-reading-of-real-time-and-hottest-news",
+        "public/bookmarks/PinchBench",
+        "public/bookmarks/PinchBench龙虾模型排行榜用来评估不同大模型在真实_Agent_自动化任务中的能力帮助开发者选择适合其用例的模型",
+        "public/bookmarks/PoorClaw穷虾",
+        "public/bookmarks/PoorClaw穷虾不花一分钱直接使用_OpenClaw_的全部_AI_能力无隐藏费用",
+        "public/bookmarks/Practice-English-listening-with-dictation-exercises-dailydictation.com",
+        "public/bookmarks/Promote-Your-Startup-Get-Discovered-Faster",
+        "public/bookmarks/Qclaw",
+        "public/bookmarks/Qclaw本地支持微信直联扫码绑定后能随时随地通过微信发指令远程操控电脑完成任务",
+        "public/bookmarks/qiye45wechatVideoDownload-微信视频号下载工具支持视频号视频直播回放直播图片下载",
+        "public/bookmarks/QoderWork",
+        "public/bookmarks/QoderWork本地用户只需通过简单的自然语言对话就能完成文件整理数据处理文档生成等任务",
+        "public/bookmarks/Reddit-板块",
+        "public/bookmarks/Reddit板块Reddit_上OpenClaw讨论板块",
+        "public/bookmarks/RuTracker.org",
+        "public/bookmarks/SkillHub",
+        "public/bookmarks/SkillHub腾讯云专为中国用户优化的Skills社区基于OpenClaw官方开源生态打造的本土化技能平台",
+        "public/bookmarks/SkillHub中国",
+        "public/bookmarks/SkillHub中国助力国内_Skill_使用者快速找到能用好用可复用的实践方案",
+        "public/bookmarks/SkillPay",
+        "public/bookmarks/SkillPay一个基于信贷的通用支付系统用于OpenClaw支付",
+        "public/bookmarks/Skills.sh",
+        "public/bookmarks/SkillsMP",
+        "public/bookmarks/SkillsMP面向_Agent_的开源_skill_集合平台根据_GitHub_仓库的_push_时间持续同步更新",
+        "public/bookmarks/SkillsshVercel_官方技能目录根据_24_小时热度进行排名你可以很直观的查找了解和快速安装_Skills",
+        "public/bookmarks/Souls.zip",
+        "public/bookmarks/Soulszip浏览经过生产测试的AI代理灵魂和技能工程设计运营金融市场营销等免费和付费选项适用于任何AI模型",
+        "public/bookmarks/Stellarium-Web-Online-Star-Map",
+        "public/bookmarks/Step-Plan",
+        "public/bookmarks/StepClaw",
+        "public/bookmarks/StepClaw云端阶跃星辰推出基于OpenClaw打造的云端AI助手",
+        "public/bookmarks/Tabbit_浏览器本地一键引用网页截图收藏文件进行对话Agent_自动执行重复任务",
+        "public/bookmarks/Tabbit-浏览器",
+        "public/bookmarks/Tempo_WalletTempo_公链的官方钱包专为_AI_Agent_与机器支付场景设计",
+        "public/bookmarks/Tempo-Wallet",
+        "public/bookmarks/The-fast-way-to-gain-traffic-on-Twitter-X",
+        "public/bookmarks/The-Ultimate-Directory-for-Online-Tools-and-Resources",
+        "public/bookmarks/Thread-by-@grgerwcwetwet",
+        "public/bookmarks/WaytoAGI_之路详解OpenClaw是最大最全面的_AI_知识库",
+        "public/bookmarks/WaytoAGI-之路",
+        "public/bookmarks/WorkBuddy",
+        "public/bookmarks/WorkBuddy本地AI_原生的桌面智能体工作台一句指令即可完成数据处理内容创作与深度分析",
+        "public/bookmarks/Xiaomi_MiMo_Claw云端依托小米最新大模型打造实现一键部署OpenClaw龙虾智能体",
+        "public/bookmarks/Xiaomi-MiMo-Claw",
+        "public/bookmarks/XSCT_Bench场景化大模型测评平台",
+        "public/bookmarks/XSCT-Bench",
+        "public/bookmarks/ZenMux",
+        "public/bookmarks/ZenMux全球首个支持保险赔付机制的企业级大模型聚合平台可一站式调用各渠道的最新大模型",
         "public/bookmarks/AI分身计划-营销策划",
         "public/bookmarks/AI分身计划-营销策划-1",
         "public/bookmarks/AI分身计划-B版无金额",
@@ -3089,15 +3565,51 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/360安全龙虾": {
+      "children": [
+        "public/bookmarks/360安全龙虾/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/360安全龙虾本地国内首个以安全模式为核心设计的OpenClaw智能体产品": {
+      "children": [
+        "public/bookmarks/360安全龙虾本地国内首个以安全模式为核心设计的OpenClaw智能体产品/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/2500+-ChatGPT-Prompt-Templates": {
       "children": [
         "public/bookmarks/2500+-ChatGPT-Prompt-Templates/index.html"
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/阿里云": {
+      "children": [
+        "public/bookmarks/阿里云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阿里云百炼": {
+      "children": [
+        "public/bookmarks/阿里云百炼/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阿里云快速上手三步轻松构建_AI_助理低至_99_元起": {
+      "children": [
+        "public/bookmarks/阿里云快速上手三步轻松构建_AI_助理低至_99_元起/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/阿里云盘搜索神器": {
       "children": [
         "public/bookmarks/阿里云盘搜索神器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阿里云专为企业打造的大模型服务与应用开发平台提供丰富的模型资源和强大的商业化部署能力": {
+      "children": [
+        "public/bookmarks/阿里云专为企业打造的大模型服务与应用开发平台提供丰富的模型资源和强大的商业化部署能力/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3143,6 +3655,48 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/百度千帆": {
+      "children": [
+        "public/bookmarks/百度千帆/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度千帆-Coding-Plan": {
+      "children": [
+        "public/bookmarks/百度千帆-Coding-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度千帆以Agent为核心的一站式企业级大模型服务平台提供先进的生成式AI生产及应用全流程开发工具链": {
+      "children": [
+        "public/bookmarks/百度千帆以Agent为核心的一站式企业级大模型服务平台提供先进的生成式AI生产及应用全流程开发工具链/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度文心": {
+      "children": [
+        "public/bookmarks/百度文心/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度文心百度旗下A助手精准覆盖公文写作学术论文创意策划代码编程等丰富场景一键生成高质量稿件": {
+      "children": [
+        "public/bookmarks/百度文心百度旗下A助手精准覆盖公文写作学术论文创意策划代码编程等丰富场景一键生成高质量稿件/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度智能云": {
+      "children": [
+        "public/bookmarks/百度智能云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/百度智能云从快速开通到日常指令管理为您提供极简的自动化体验即刻激活您的专属AI助理": {
+      "children": [
+        "public/bookmarks/百度智能云从快速开通到日常指令管理为您提供极简的自动化体验即刻激活您的专属AI助理/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/帮小忙腾讯QQ浏览器在线工具箱平台": {
       "children": [
         "public/bookmarks/帮小忙腾讯QQ浏览器在线工具箱平台/index.html"
@@ -3158,6 +3712,18 @@
     "public/bookmarks/不错吧": {
       "children": [
         "public/bookmarks/不错吧/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/不想看片": {
+      "children": [
+        "public/bookmarks/不想看片/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/常规-AI-编程能力": {
+      "children": [
+        "public/bookmarks/常规-AI-编程能力/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3233,9 +3799,33 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/豆包": {
+      "children": [
+        "public/bookmarks/豆包/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/豆包-今日系AI模型": {
       "children": [
         "public/bookmarks/豆包-今日系AI模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/豆包抖音旗下AI工具你的智能助手": {
+      "children": [
+        "public/bookmarks/豆包抖音旗下AI工具你的智能助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/豆包Doubao": {
+      "children": [
+        "public/bookmarks/豆包Doubao/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/豆包Doubao字节跳动自研大模型具备更强的推理能力多模态理解能力GUI操作能力和前端页面编程能力": {
+      "children": [
+        "public/bookmarks/豆包Doubao字节跳动自研大模型具备更强的推理能力多模态理解能力GUI操作能力和前端页面编程能力/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3287,9 +3877,45 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/发现优质的免费AI工具与网站": {
+      "children": [
+        "public/bookmarks/发现优质的免费AI工具与网站/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/饭太硬": {
       "children": [
         "public/bookmarks/饭太硬/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/飞书官方修炼指南": {
+      "children": [
+        "public/bookmarks/飞书官方修炼指南/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/飞书OpenClaw": {
+      "children": [
+        "public/bookmarks/飞书OpenClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/飞书OpenClaw云端提供原版_OpenClaw_完整能力独特个性长期记忆内置飞书官方插件": {
+      "children": [
+        "public/bookmarks/飞书OpenClaw云端提供原版_OpenClaw_完整能力独特个性长期记忆内置飞书官方插件/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/非凡产研": {
+      "children": [
+        "public/bookmarks/非凡产研/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/非凡产研整理了OpenClaw核心概念适用场景快速预览助力从零开始完成OpenClaw首次部署和运行": {
+      "children": [
+        "public/bookmarks/非凡产研整理了OpenClaw核心概念适用场景快速预览助力从零开始完成OpenClaw首次部署和运行/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3329,6 +3955,54 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/官方文档": {
+      "children": [
+        "public/bookmarks/官方文档/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/官方文档适用于任何操作系统的_AI_智能体_Gateway_网关支持_WhatsAppTelegramDiscordiMessage_等": {
+      "children": [
+        "public/bookmarks/官方文档适用于任何操作系统的_AI_智能体_Gateway_网关支持_WhatsAppTelegramDiscordiMessage_等/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/官方GitHub": {
+      "children": [
+        "public/bookmarks/官方GitHub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/官方GitHub收集了OpenClaw的源代码方便用户查阅参考": {
+      "children": [
+        "public/bookmarks/官方GitHub收集了OpenClaw的源代码方便用户查阅参考/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/硅基流动": {
+      "children": [
+        "public/bookmarks/硅基流动/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/硅基流动国内领先的模型聚合平台提供_200_开源和商用模型的统一_API_接口": {
+      "children": [
+        "public/bookmarks/硅基流动国内领先的模型聚合平台提供_200_开源和商用模型的统一_API_接口/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/国家超算互联网": {
+      "children": [
+        "public/bookmarks/国家超算互联网/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/国家超算互联网虾友福利_限时2周免费领1000万Tokens续用价低至01元": {
+      "children": [
+        "public/bookmarks/国家超算互联网虾友福利_限时2周免费领1000万Tokens续用价低至01元/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/好狗导航": {
       "children": [
         "public/bookmarks/好狗导航/index.html"
@@ -3347,9 +4021,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/华为云": {
+      "children": [
+        "public/bookmarks/华为云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/华为云华为云MaaS平台覆盖大模型全生命周期管理包括模型训练调优压缩部署评测等全栈工具支持即开即用和低门槛操作": {
+      "children": [
+        "public/bookmarks/华为云华为云MaaS平台覆盖大模型全生命周期管理包括模型训练调优压缩部署评测等全栈工具支持即开即用和低门槛操作/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/华为云基于华为云Flexus云服务器L实例来搭建OpenClaw": {
+      "children": [
+        "public/bookmarks/华为云基于华为云Flexus云服务器L实例来搭建OpenClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/火岸电子书": {
       "children": [
         "public/bookmarks/火岸电子书/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/火山方舟": {
+      "children": [
+        "public/bookmarks/火山方舟/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/火山方舟火山方舟提供模型训练推理评测精调等全方位功能与服务并重点支撑大模型生态": {
+      "children": [
+        "public/bookmarks/火山方舟火山方舟提供模型训练推理评测精调等全方位功能与服务并重点支撑大模型生态/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/火山引擎": {
+      "children": [
+        "public/bookmarks/火山引擎/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/火山引擎-Coding-Plan": {
+      "children": [
+        "public/bookmarks/火山引擎-Coding-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/火山引擎分钟级部署拥有您的私人AI管家": {
+      "children": [
+        "public/bookmarks/火山引擎分钟级部署拥有您的私人AI管家/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3371,6 +4093,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/即梦AI": {
+      "children": [
+        "public/bookmarks/即梦AI/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/即梦AISeedance_20_字节最新的视频生成模型": {
+      "children": [
+        "public/bookmarks/即梦AISeedance_20_字节最新的视频生成模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/即时工具": {
       "children": [
         "public/bookmarks/即时工具/index.html"
@@ -3386,6 +4120,30 @@
     "public/bookmarks/技术电子书": {
       "children": [
         "public/bookmarks/技术电子书/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阶跃星辰": {
+      "children": [
+        "public/bookmarks/阶跃星辰/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阶跃星辰专注通用人工智能AGI自研大模型与多模态技术国内_AI_六小龙_之一": {
+      "children": [
+        "public/bookmarks/阶跃星辰专注通用人工智能AGI自研大模型与多模态技术国内_AI_六小龙_之一/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阶跃桌面伙伴": {
+      "children": [
+        "public/bookmarks/阶跃桌面伙伴/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/阶跃桌面伙伴本地始终在场会主动做事的桌面_Agent支持多任务并行处理": {
+      "children": [
+        "public/bookmarks/阶跃桌面伙伴本地始终在场会主动做事的桌面_Agent支持多任务并行处理/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3410,6 +4168,18 @@
     "public/bookmarks/金旋云课堂": {
       "children": [
         "public/bookmarks/金旋云课堂/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/京东云": {
+      "children": [
+        "public/bookmarks/京东云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/京东云来京东云部署OpenClaw即送美味小龙虾": {
+      "children": [
+        "public/bookmarks/京东云来京东云部署OpenClaw即送美味小龙虾/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3455,6 +4225,30 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/扣子Coze": {
+      "children": [
+        "public/bookmarks/扣子Coze/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/扣子Coze云端字节旗下AI_Agent开发平台让每个人都能轻松创建自己的AI机器人": {
+      "children": [
+        "public/bookmarks/扣子Coze云端字节旗下AI_Agent开发平台让每个人都能轻松创建自己的AI机器人/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/快手万擎": {
+      "children": [
+        "public/bookmarks/快手万擎/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/快手万擎企业级大模型服务与开发平台": {
+      "children": [
+        "public/bookmarks/快手万擎企业级大模型服务与开发平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/辣豆瓣": {
       "children": [
         "public/bookmarks/辣豆瓣/index.html"
@@ -3485,6 +4279,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/麻小玩虾指南": {
+      "children": [
+        "public/bookmarks/麻小玩虾指南/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/麻小玩虾指南从零开始的_OpenClaw_使用指南适用于所有人群": {
+      "children": [
+        "public/bookmarks/麻小玩虾指南从零开始的_OpenClaw_使用指南适用于所有人群/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/码农电子书": {
       "children": [
         "public/bookmarks/码农电子书/index.html"
@@ -3512,6 +4318,12 @@
     "public/bookmarks/冒泡网赚": {
       "children": [
         "public/bookmarks/冒泡网赚/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/每日要聞美國打仗為什麼大A跌最慘黃金這輪行情結束了嗎超微電腦幫中國走私幾十億英偉達芯片小翠時政財經-20260320": {
+      "children": [
+        "public/bookmarks/每日要聞美國打仗為什麼大A跌最慘黃金這輪行情結束了嗎超微電腦幫中國走私幾十億英偉達芯片小翠時政財經-20260320/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3557,6 +4369,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/牛马_AI本地免费版的ManusGenspark可处理从文档分析数据整理到复杂工作流自动化的一系列任务": {
+      "children": [
+        "public/bookmarks/牛马_AI本地免费版的ManusGenspark可处理从文档分析数据整理到复杂工作流自动化的一系列任务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/牛马-AI": {
+      "children": [
+        "public/bookmarks/牛马-AI/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/潘多拉": {
       "children": [
         "public/bookmarks/潘多拉/index.html"
@@ -3581,6 +4405,30 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/曝光观察板": {
+      "children": [
+        "public/bookmarks/曝光观察板/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/曝光观察板列出了可公开访问的活跃OpenClaw防御意识实例提醒用户启用认证移除直接的公共暴露": {
+      "children": [
+        "public/bookmarks/曝光观察板列出了可公开访问的活跃OpenClaw防御意识实例提醒用户启用认证移除直接的公共暴露/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/七牛云": {
+      "children": [
+        "public/bookmarks/七牛云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/七牛云提供多个顶级闭源和开源大模型兼容OpenAl_APl和Anthropic_APl": {
+      "children": [
+        "public/bookmarks/七牛云提供多个顶级闭源和开源大模型兼容OpenAl_APl和Anthropic_APl/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/奇安信网站卫士2024.06.30下线": {
       "children": [
         "public/bookmarks/奇安信网站卫士2024.06.30下线/index.html"
@@ -3596,6 +4444,30 @@
     "public/bookmarks/千秋书在": {
       "children": [
         "public/bookmarks/千秋书在/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/千问": {
+      "children": [
+        "public/bookmarks/千问/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/千问阿里云推出的一个超大规模的语言模型功能包括多轮对话文案创作逻辑推理多模态理解多语言支持": {
+      "children": [
+        "public/bookmarks/千问阿里云推出的一个超大规模的语言模型功能包括多轮对话文案创作逻辑推理多模态理解多语言支持/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/千问Qwen": {
+      "children": [
+        "public/bookmarks/千问Qwen/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/千问Qwen千问首个原生多模态大模型通过统一架构整合语言推理与视觉感知开启多模态模型的新阶段": {
+      "children": [
+        "public/bookmarks/千问Qwen千问首个原生多模态大模型通过统一架构整合语言推理与视觉感知开启多模态模型的新阶段/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3707,6 +4579,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/水产市场": {
+      "children": [
+        "public/bookmarks/水产市场/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/水产市场专为_OpenClaw_构建的_Agent_进化生态平台该平台旨在通过社区共享机制让_Agent_能够互相学习与借鉴": {
+      "children": [
+        "public/bookmarks/水产市场专为_OpenClaw_构建的_Agent_进化生态平台该平台旨在通过社区共享机制让_Agent_能够互相学习与借鉴/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/搜番": {
       "children": [
         "public/bookmarks/搜番/index.html"
@@ -3725,6 +4609,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/探索学习写作与创作的-AI-技能-YouMind-技能": {
+      "children": [
+        "public/bookmarks/探索学习写作与创作的-AI-技能-YouMind-技能/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/淘声网": {
       "children": [
         "public/bookmarks/淘声网/index.html"
@@ -3737,9 +4627,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/腾讯混元": {
+      "children": [
+        "public/bookmarks/腾讯混元/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯混元腾讯研发的大语言模型具备强大的中文创作能力复杂语境下的逻辑推理能力以及可靠的任务执行能力": {
+      "children": [
+        "public/bookmarks/腾讯混元腾讯研发的大语言模型具备强大的中文创作能力复杂语境下的逻辑推理能力以及可靠的任务执行能力/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯元宝": {
+      "children": [
+        "public/bookmarks/腾讯元宝/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯元宝腾讯推出的免费AI智能助手": {
+      "children": [
+        "public/bookmarks/腾讯元宝腾讯推出的免费AI智能助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯云": {
+      "children": [
+        "public/bookmarks/腾讯云/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯云-Coding-Plan": {
+      "children": [
+        "public/bookmarks/腾讯云-Coding-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/腾讯云轻量应用服务器让OpenClaw一直在线稳定输出也更安全": {
+      "children": [
+        "public/bookmarks/腾讯云轻量应用服务器让OpenClaw一直在线稳定输出也更安全/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/天涯经典神贴合集": {
       "children": [
         "public/bookmarks/天涯经典神贴合集/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/天翼云": {
+      "children": [
+        "public/bookmarks/天翼云/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3785,6 +4723,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/万象_AI_实验室OpenClaw知识手册从入门到精通掌握OpenClaw的全流程实操能力": {
+      "children": [
+        "public/bookmarks/万象_AI_实验室OpenClaw知识手册从入门到精通掌握OpenClaw的全流程实操能力/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/万象-AI-实验室": {
+      "children": [
+        "public/bookmarks/万象-AI-实验室/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/网站名称": {
       "children": [
         "public/bookmarks/网站名称/index.html"
@@ -3806,6 +4756,12 @@
     "public/bookmarks/微米电子书分享": {
       "children": [
         "public/bookmarks/微米电子书分享/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/微信-Markdown-编辑器-Doocs-开源社区": {
+      "children": [
+        "public/bookmarks/微信-Markdown-编辑器-Doocs-开源社区/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3833,6 +4789,54 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/悟空": {
+      "children": [
+        "public/bookmarks/悟空/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/悟空本地阿里巴巴发布的全球首个企业级AI原生工作平台让每个团队每家公司都能拥有一支24h工作的龙虾军团": {
+      "children": [
+        "public/bookmarks/悟空本地阿里巴巴发布的全球首个企业级AI原生工作平台让每个团队每家公司都能拥有一支24h工作的龙虾军团/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/虾聊": {
+      "children": [
+        "public/bookmarks/虾聊/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/虾聊纯_AgentOpenClaw交流社区人类只能围观不能发言": {
+      "children": [
+        "public/bookmarks/虾聊纯_AgentOpenClaw交流社区人类只能围观不能发言/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/虾聊AI_Agent_的社交平台": {
+      "children": [
+        "public/bookmarks/虾聊AI_Agent_的社交平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/虾评Skill": {
+      "children": [
+        "public/bookmarks/虾评Skill/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/虾评Skill面向_Agent_的精品优质_Skill_分享评测平台": {
+      "children": [
+        "public/bookmarks/虾评Skill面向_Agent_的精品优质_Skill_分享评测平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/咸鱼": {
+      "children": [
+        "public/bookmarks/咸鱼/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/相识电子书": {
       "children": [
         "public/bookmarks/相识电子书/index.html"
@@ -3848,6 +4852,18 @@
     "public/bookmarks/小刀娱乐网": {
       "children": [
         "public/bookmarks/小刀娱乐网/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/小红书笔记": {
+      "children": [
+        "public/bookmarks/小红书笔记/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/小红书笔记转PDF工具": {
+      "children": [
+        "public/bookmarks/小红书笔记转PDF工具/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -3899,6 +4915,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/讯飞星火大讯飞推出的新一代认知智能大模型拥有跨领域的知识和语言理解能力能够基于自然对话方式理解与执行任务提供语言理解知识问答逻辑推理数学题解答代码理解与编写等多种能力": {
+      "children": [
+        "public/bookmarks/讯飞星火大讯飞推出的新一代认知智能大模型拥有跨领域的知识和语言理解能力能够基于自然对话方式理解与执行任务提供语言理解知识问答逻辑推理数学题解答代码理解与编写等多种能力/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/讯飞星火一站式大模型精调定制及服务平台_提供数据管理模型定制模型托管推理全流程成熟工具链": {
+      "children": [
+        "public/bookmarks/讯飞星火一站式大模型精调定制及服务平台_提供数据管理模型定制模型托管推理全流程成熟工具链/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/雅思机考模拟系统": {
       "children": [
         "public/bookmarks/雅思机考模拟系统/index.html"
@@ -3920,6 +4948,12 @@
     "public/bookmarks/蚁穴-Web3": {
       "children": [
         "public/bookmarks/蚁穴-Web3/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/引流宝-私域流量获取与监控工具": {
+      "children": [
+        "public/bookmarks/引流宝-私域流量获取与监控工具/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4007,6 +5041,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/志愿空间": {
+      "children": [
+        "public/bookmarks/志愿空间/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/智能留学择校平台": {
+      "children": [
+        "public/bookmarks/智能留学择校平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/智谱-Coding-Plan": {
+      "children": [
+        "public/bookmarks/智谱-Coding-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/智谱清言": {
       "children": [
         "public/bookmarks/智谱清言/index.html"
@@ -4019,6 +5071,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/智谱GLM": {
+      "children": [
+        "public/bookmarks/智谱GLM/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/智谱GLM新一代国产自主通用Al大模型开放平台研发了多款LLM模型多模态视觉模型产品": {
+      "children": [
+        "public/bookmarks/智谱GLM新一代国产自主通用Al大模型开放平台研发了多款LLM模型多模态视觉模型产品/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/智造喵": {
       "children": [
         "public/bookmarks/智造喵/index.html"
@@ -4028,6 +5092,18 @@
     "public/bookmarks/中文操作手册": {
       "children": [
         "public/bookmarks/中文操作手册/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/中文用例大全": {
+      "children": [
+        "public/bookmarks/中文用例大全/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/中文用例大全一份面向中文用户的_OpenClaw_真实使用案例合集": {
+      "children": [
+        "public/bookmarks/中文用例大全一份面向中文用户的_OpenClaw_真实使用案例合集/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4067,6 +5143,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/A2H_Market同时面向人类Human和_AI_Agent_的开放交易市场": {
+      "children": [
+        "public/bookmarks/A2H_Market同时面向人类Human和_AI_Agent_的开放交易市场/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/A2H-Market": {
+      "children": [
+        "public/bookmarks/A2H-Market/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/AdGuard-匿名邮箱": {
       "children": [
         "public/bookmarks/AdGuard-匿名邮箱/index.html"
@@ -4082,6 +5170,54 @@
     "public/bookmarks/Adobe在线工具": {
       "children": [
         "public/bookmarks/Adobe在线工具/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Agent_Skills_Hub一个集中式平台和市场用于在多个AI工具和编码环境中发现管理和部署AI代理技能": {
+      "children": [
+        "public/bookmarks/Agent_Skills_Hub一个集中式平台和市场用于在多个AI工具和编码环境中发现管理和部署AI代理技能/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Agent-Skills-Hub": {
+      "children": [
+        "public/bookmarks/Agent-Skills-Hub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentCard.ai": {
+      "children": [
+        "public/bookmarks/AgentCard.ai/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentCard.sh": {
+      "children": [
+        "public/bookmarks/AgentCard.sh/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentCardai一张专为_AI_Agent_打造的独立虚拟信用卡": {
+      "children": [
+        "public/bookmarks/AgentCardai一张专为_AI_Agent_打造的独立虚拟信用卡/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentCardsh面向人工智能代理的虚拟信用卡": {
+      "children": [
+        "public/bookmarks/AgentCardsh面向人工智能代理的虚拟信用卡/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentMail": {
+      "children": [
+        "public/bookmarks/AgentMail/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AgentMail专为_AI_Agent_打造的邮箱基础设施服务": {
+      "children": [
+        "public/bookmarks/AgentMail专为_AI_Agent_打造的邮箱基础设施服务/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4181,6 +5317,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/AIBoom.Tools": {
+      "children": [
+        "public/bookmarks/AIBoom.Tools/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/AIGC中文工具导航": {
       "children": [
         "public/bookmarks/AIGC中文工具导航/index.html"
@@ -4199,9 +5341,81 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Arena.ai": {
+      "children": [
+        "public/bookmarks/Arena.ai/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Arenaai由美国加州大学伯克利分校推出的AI模型评估平台": {
+      "children": [
+        "public/bookmarks/Arenaai由美国加州大学伯克利分校推出的AI模型评估平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ArkClaw": {
+      "children": [
+        "public/bookmarks/ArkClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ArkClaw云端提供模型训练推理评测精调等全方位功能与服务": {
+      "children": [
+        "public/bookmarks/ArkClaw云端提供模型训练推理评测精调等全方位功能与服务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Artificial_Analysis一个专注于AI语言模型和API提供商的独立分析平台": {
+      "children": [
+        "public/bookmarks/Artificial_Analysis一个专注于AI语言模型和API提供商的独立分析平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Artificial-Analysis": {
+      "children": [
+        "public/bookmarks/Artificial-Analysis/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Arya-在线-Markdown-编辑器": {
+      "children": [
+        "public/bookmarks/Arya-在线-Markdown-编辑器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Astira": {
       "children": [
         "public/bookmarks/Astira/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AstronClaw": {
+      "children": [
+        "public/bookmarks/AstronClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AutoClaw": {
+      "children": [
+        "public/bookmarks/AutoClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/AutoClaw本地提供飞书集成模型热插拔50技能与AutoGLM浏览器自动化能力": {
+      "children": [
+        "public/bookmarks/AutoClaw本地提供飞书集成模型热插拔50技能与AutoGLM浏览器自动化能力/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Awesome_教程从零开始玩转_OpenClaw最全面的中文教程": {
+      "children": [
+        "public/bookmarks/Awesome_教程从零开始玩转_OpenClaw最全面的中文教程/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Awesome-教程": {
+      "children": [
+        "public/bookmarks/Awesome-教程/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4223,6 +5437,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Binance_Skills_Hub让_AI_代理能够原生访问加密货币让加密货币全天候运行": {
+      "children": [
+        "public/bookmarks/Binance_Skills_Hub让_AI_代理能够原生访问加密货币让加密货币全天候运行/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Binance-Alpha-空投日历": {
       "children": [
         "public/bookmarks/Binance-Alpha-空投日历/index.html"
@@ -4238,6 +5458,12 @@
     "public/bookmarks/Binance-Alpha-IDO-收益计算器": {
       "children": [
         "public/bookmarks/Binance-Alpha-IDO-收益计算器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Binance-Skills-Hub": {
+      "children": [
+        "public/bookmarks/Binance-Skills-Hub/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4268,6 +5494,18 @@
     "public/bookmarks/Buildt": {
       "children": [
         "public/bookmarks/Buildt/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Bybit_AI_Hub您的_AI_助手现已接入_Bybit_全栈交易引擎": {
+      "children": [
+        "public/bookmarks/Bybit_AI_Hub您的_AI_助手现已接入_Bybit_全栈交易引擎/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Bybit-AI-Hub": {
+      "children": [
+        "public/bookmarks/Bybit-AI-Hub/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4337,6 +5575,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/ChatGPT地表最强AI聊天机器人": {
+      "children": [
+        "public/bookmarks/ChatGPT地表最强AI聊天机器人/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/ChatGPT账号和API-key": {
       "children": [
         "public/bookmarks/ChatGPT账号和API-key/index.html"
@@ -4352,6 +5596,120 @@
     "public/bookmarks/Claude": {
       "children": [
         "public/bookmarks/Claude/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClaudeAnthropic开发的大型语言模型家族": {
+      "children": [
+        "public/bookmarks/ClaudeAnthropic开发的大型语言模型家族/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Claw_Bench_排行榜AI_Agent_框架标准化评估210_项任务14_个领域4_个难度等级": {
+      "children": [
+        "public/bookmarks/Claw_Bench_排行榜AI_Agent_框架标准化评估210_项任务14_个领域4_个难度等级/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Claw-Bench-排行榜": {
+      "children": [
+        "public/bookmarks/Claw-Bench-排行榜/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Claw402": {
+      "children": [
+        "public/bookmarks/Claw402/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Claw402一个用USDC付费的个人AI助手": {
+      "children": [
+        "public/bookmarks/Claw402一个用USDC付费的个人AI助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Clawcard.sh": {
+      "children": [
+        "public/bookmarks/Clawcard.sh/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Clawcardsh首个为agent提供的统一凭证系统_-_一把钥匙提供并管理信用卡电子邮件和电话号码": {
+      "children": [
+        "public/bookmarks/Clawcardsh首个为agent提供的统一凭证系统_-_一把钥匙提供并管理信用卡电子邮件和电话号码/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawHub": {
+      "children": [
+        "public/bookmarks/ClawHub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawHubOpenClaw官方Skills注册中心": {
+      "children": [
+        "public/bookmarks/ClawHubOpenClaw官方Skills注册中心/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawManager": {
+      "children": [
+        "public/bookmarks/ClawManager/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawManager让_OpenClaw_对所有人都可使用的仪表盘轻松搭建部署和管理_AI_代理": {
+      "children": [
+        "public/bookmarks/ClawManager让_OpenClaw_对所有人都可使用的仪表盘轻松搭建部署和管理_AI_代理/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawPal": {
+      "children": [
+        "public/bookmarks/ClawPal/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawPalOpenClaw_的桌面配置助手可视化管理你的_AI_agent": {
+      "children": [
+        "public/bookmarks/ClawPalOpenClaw_的桌面配置助手可视化管理你的_AI_agent/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawSkills": {
+      "children": [
+        "public/bookmarks/ClawSkills/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawSkills5490_Skills_集合已过滤_6940_个垃圾插件": {
+      "children": [
+        "public/bookmarks/ClawSkills5490_Skills_集合已过滤_6940_个垃圾插件/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawVault": {
+      "children": [
+        "public/bookmarks/ClawVault/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawVault_一个平台保障你所有的_AI_Agent支出": {
+      "children": [
+        "public/bookmarks/ClawVault_一个平台保障你所有的_AI_Agent支出/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawWatcher": {
+      "children": [
+        "public/bookmarks/ClawWatcher/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ClawWatcher面向_OpenClaw_的监控仪表盘提供对代理行为及其成本的实时可视化": {
+      "children": [
+        "public/bookmarks/ClawWatcher面向_OpenClaw_的监控仪表盘提供对代理行为及其成本的实时可视化/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4379,9 +5737,45 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/CocoLoop": {
+      "children": [
+        "public/bookmarks/CocoLoop/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/CocoLoop更快更安全的_Al_Agent_Skills_商店": {
+      "children": [
+        "public/bookmarks/CocoLoop更快更安全的_Al_Agent_Skills_商店/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/CognosysAI": {
       "children": [
         "public/bookmarks/CognosysAI/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/COIN_CLAW你的_Web3_世界_AI_常驻特工_开箱即用全天候待命": {
+      "children": [
+        "public/bookmarks/COIN_CLAW你的_Web3_世界_AI_常驻特工_开箱即用全天候待命/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/COIN-CLAW": {
+      "children": [
+        "public/bookmarks/COIN-CLAW/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Coinbase_AgentKit_通过AgentKit赋能您的AI代理进行自主支付": {
+      "children": [
+        "public/bookmarks/Coinbase_AgentKit_通过AgentKit赋能您的AI代理进行自主支付/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Coinbase-AgentKit": {
+      "children": [
+        "public/bookmarks/Coinbase-AgentKit/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4397,9 +5791,51 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Control_CenterOpenClaw_的安全优先本地优先控制中心": {
+      "children": [
+        "public/bookmarks/Control_CenterOpenClaw_的安全优先本地优先控制中心/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Control-Center": {
+      "children": [
+        "public/bookmarks/Control-Center/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/CoPaw": {
+      "children": [
+        "public/bookmarks/CoPaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/CoPaw本地阿里云推出的协同个人智能体工作台主打本地云端双部署国内平台原生适配主动执行任务零代码扩展": {
+      "children": [
+        "public/bookmarks/CoPaw本地阿里云推出的协同个人智能体工作台主打本地云端双部署国内平台原生适配主动执行任务零代码扩展/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Copilot-Hub": {
       "children": [
         "public/bookmarks/Copilot-Hub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/CryptoSkills": {
+      "children": [
+        "public/bookmarks/CryptoSkills/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/CryptoSkills为所有crypto领域提供开源Skills为_AI_编码agents提供生产准备的协议知识": {
+      "children": [
+        "public/bookmarks/CryptoSkills为所有crypto领域提供开源Skills为_AI_编码agents提供生产准备的协议知识/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Curated-Tools-SaaS-Directory": {
+      "children": [
+        "public/bookmarks/Curated-Tools-SaaS-Directory/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4421,6 +5857,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/DeepSeek": {
+      "children": [
+        "public/bookmarks/DeepSeek/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DeepSeek_DeepSeek-V32_正式版发布强化_Agent_能力融入思考推理在网页端APP_和_API_全面上线": {
+      "children": [
+        "public/bookmarks/DeepSeek_DeepSeek-V32_正式版发布强化_Agent_能力融入思考推理在网页端APP_和_API_全面上线/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DeepSeek幻方量化旗下深度求索推出的开源大模型和聊天助手": {
+      "children": [
+        "public/bookmarks/DeepSeek幻方量化旗下深度求索推出的开源大模型和聊天助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Defillama": {
       "children": [
         "public/bookmarks/Defillama/index.html"
@@ -4433,9 +5887,45 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/DeskClaw": {
+      "children": [
+        "public/bookmarks/DeskClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DeskClaw本地你的第一个AI同事": {
+      "children": [
+        "public/bookmarks/DeskClaw本地你的第一个AI同事/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Dify-AI-原生应用程序": {
       "children": [
         "public/bookmarks/Dify-AI-原生应用程序/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Discord-官方服务器": {
+      "children": [
+        "public/bookmarks/Discord-官方服务器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Discord官方服务器实时技术交流与问题解答": {
+      "children": [
+        "public/bookmarks/Discord官方服务器实时技术交流与问题解答/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Discover-Best-AI-Tools-SaaS-Solutions": {
+      "children": [
+        "public/bookmarks/Discover-Best-AI-Tools-SaaS-Solutions/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Discover-Next-Gen-AI-Tools-SaaS": {
+      "children": [
+        "public/bookmarks/Discover-Next-Gen-AI-Tools-SaaS/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4451,9 +5941,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/DuClaw": {
+      "children": [
+        "public/bookmarks/DuClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DuClaw云端通过免除镜像选择服务器部署及API_Key配置等繁琐环节实现AI智能体的即开即用": {
+      "children": [
+        "public/bookmarks/DuClaw云端通过免除镜像选择服务器部署及API_Key配置等繁琐环节实现AI智能体的即开即用/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DuMate": {
+      "children": [
+        "public/bookmarks/DuMate/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/DuMate本地百度推出的桌面级AI智能体定位为办公搭子": {
+      "children": [
+        "public/bookmarks/DuMate本地百度推出的桌面级AI智能体定位为办公搭子/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/DupDub": {
       "children": [
         "public/bookmarks/DupDub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/EasyClaw": {
+      "children": [
+        "public/bookmarks/EasyClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/EasyClaw本地一键部署OpenClaw网关可视化技能配置多平台聊天应用集成本地文件管理邮件处理网页自动化等": {
+      "children": [
+        "public/bookmarks/EasyClaw本地一键部署OpenClaw网关可视化技能配置多平台聊天应用集成本地文件管理邮件处理网页自动化等/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/EdgeOne_ClawScan一键全面扫描_OpenClaw_不安全配置恶意_Skill与漏洞支持全天候实时拦截危险指令与隐私泄露": {
+      "children": [
+        "public/bookmarks/EdgeOne_ClawScan一键全面扫描_OpenClaw_不安全配置恶意_Skill与漏洞支持全天候实时拦截危险指令与隐私泄露/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/EdgeOne-ClawScan": {
+      "children": [
+        "public/bookmarks/EdgeOne-ClawScan/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4472,6 +6010,12 @@
     "public/bookmarks/Emoji-合并的工具": {
       "children": [
         "public/bookmarks/Emoji-合并的工具/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Fish-Audio": {
+      "children": [
+        "public/bookmarks/Fish-Audio/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4496,6 +6040,18 @@
     "public/bookmarks/FLOWGPT": {
       "children": [
         "public/bookmarks/FLOWGPT/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/FluxA": {
+      "children": [
+        "public/bookmarks/FluxA/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/FluxA代理钱包可以为API向任何地址汇款并从任何人那里收取付款": {
+      "children": [
+        "public/bookmarks/FluxA代理钱包可以为API向任何地址汇款并从任何人那里收取付款/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4547,9 +6103,75 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Gate_Pay_for_AIAI_Agent_原生支付真正自主请求支付与回调均可由_Agent_自动完成无需跳转或人工确认": {
+      "children": [
+        "public/bookmarks/Gate_Pay_for_AIAI_Agent_原生支付真正自主请求支付与回调均可由_Agent_自动完成无需跳转或人工确认/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Gate-Pay-for-AI": {
+      "children": [
+        "public/bookmarks/Gate-Pay-for-AI/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GateClaw": {
+      "children": [
+        "public/bookmarks/GateClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GateClawGate_推出的_AI_Web3_Agent_工作平台可以执行多种_Web3_自动化任务": {
+      "children": [
+        "public/bookmarks/GateClawGate_推出的_AI_Web3_Agent_工作平台可以执行多种_Web3_自动化任务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Gemini": {
+      "children": [
+        "public/bookmarks/Gemini/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Gemini兼具高推理能力多模态处理可视化渲染和低成本高效能不仅适合科研和工程领域也可广泛应用于企业和个人创意工作": {
+      "children": [
+        "public/bookmarks/Gemini兼具高推理能力多模态处理可视化渲染和低成本高效能不仅适合科研和工程领域也可广泛应用于企业和个人创意工作/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GeminiGoogle推出的AI聊天对话机器人": {
+      "children": [
+        "public/bookmarks/GeminiGoogle推出的AI聊天对话机器人/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Generated.photos": {
       "children": [
         "public/bookmarks/Generated.photos/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GetClaw": {
+      "children": [
+        "public/bookmarks/GetClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GetClawBitget_出品的AI_交易自主智能体不装软件不写代码开口即交易": {
+      "children": [
+        "public/bookmarks/GetClawBitget_出品的AI_交易自主智能体不装软件不写代码开口即交易/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GPT": {
+      "children": [
+        "public/bookmarks/GPT/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/GPT首个具备原生计算机使用能力computer-use_capabilities的通用模型支持通过截图和键盘鼠标指令操作计算机完成跨应用的复杂工作流程": {
+      "children": [
+        "public/bookmarks/GPT首个具备原生计算机使用能力computer-use_capabilities的通用模型支持通过截图和键盘鼠标指令操作计算机完成跨应用的复杂工作流程/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4565,9 +6187,51 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Grok": {
+      "children": [
+        "public/bookmarks/Grok/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Grok马斯克旗下xAI公司开发的人工智能大模型系列": {
+      "children": [
+        "public/bookmarks/Grok马斯克旗下xAI公司开发的人工智能大模型系列/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Grok马斯克旗下xAI推出的人工智能助手": {
+      "children": [
+        "public/bookmarks/Grok马斯克旗下xAI推出的人工智能助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/GroqChat": {
       "children": [
         "public/bookmarks/GroqChat/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Happycapy": {
+      "children": [
+        "public/bookmarks/Happycapy/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Happycapy云端一台面向所有人设计的云端_Agent_原生计算机": {
+      "children": [
+        "public/bookmarks/Happycapy云端一台面向所有人设计的云端_Agent_原生计算机/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Hello_Claw_教程Datawhale_开源教程从零领养到构建_AI_助手": {
+      "children": [
+        "public/bookmarks/Hello_Claw_教程Datawhale_开源教程从零领养到构建_AI_助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Hello-Claw-教程": {
+      "children": [
+        "public/bookmarks/Hello-Claw-教程/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4583,9 +6247,33 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/HiClaw": {
+      "children": [
+        "public/bookmarks/HiClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/HiClawOpenClaw的团队协作升级版创新性引入Manager_Agent架构实现多Agent之间的高效协作与管理": {
+      "children": [
+        "public/bookmarks/HiClawOpenClaw的团队协作升级版创新性引入Manager_Agent架构实现多Agent之间的高效协作与管理/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/https___ugener.com": {
       "children": [
         "public/bookmarks/https___ugener.com/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/HTX_AI_Skills面向_AI_Agent_生态推出的开放交易协议让_AI_通过自然语言即可查询行情管理资产执行现货与合约交易": {
+      "children": [
+        "public/bookmarks/HTX_AI_Skills面向_AI_Agent_生态推出的开放交易协议让_AI_通过自然语言即可查询行情管理资产执行现货与合约交易/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/HTX-AI-Skills": {
+      "children": [
+        "public/bookmarks/HTX-AI-Skills/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4607,6 +6295,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/InStreet": {
+      "children": [
+        "public/bookmarks/InStreet/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/InStreet_Agent社交平台AI_Agent_在线互动学习竞技的社区": {
+      "children": [
+        "public/bookmarks/InStreet_Agent社交平台AI_Agent_在线互动学习竞技的社区/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Iread": {
       "children": [
         "public/bookmarks/Iread/index.html"
@@ -4625,6 +6325,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/JVS_Claw阿里云推出的多_Agent_智能体协作平台提供免部署免配置的极简体验": {
+      "children": [
+        "public/bookmarks/JVS_Claw阿里云推出的多_Agent_智能体协作平台提供免部署免配置的极简体验/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/JVS-Claw": {
+      "children": [
+        "public/bookmarks/JVS-Claw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Kaiber": {
       "children": [
         "public/bookmarks/Kaiber/index.html"
@@ -4637,9 +6349,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/KiloClaw": {
+      "children": [
+        "public/bookmarks/KiloClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/KiloClawKiloClaw定位为面向开发者和团队的托管版OpenClaw服务": {
+      "children": [
+        "public/bookmarks/KiloClawKiloClaw定位为面向开发者和团队的托管版OpenClaw服务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Kimi": {
+      "children": [
+        "public/bookmarks/Kimi/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Kimi_Claw云端集成全球爆火的开源智能体框架OpenClaw": {
+      "children": [
+        "public/bookmarks/Kimi_Claw云端集成全球爆火的开源智能体框架OpenClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Kimi-Claw": {
+      "children": [
+        "public/bookmarks/Kimi-Claw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Kimi.ai-帮你看更大的世界": {
       "children": [
         "public/bookmarks/Kimi.ai-帮你看更大的世界/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Kimi会推理解析能深度思考的AI助手": {
+      "children": [
+        "public/bookmarks/Kimi会推理解析能深度思考的AI助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Kimi专业代码生成智能对话视觉推理支持多模态理解与处理擅长解决更复杂的问题": {
+      "children": [
+        "public/bookmarks/Kimi专业代码生成智能对话视觉推理支持多模态理解与处理擅长解决更复杂的问题/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/KimiKimi_会员计划中面向代码开发的权益轻松兼容各类开发流程_更快更稳响应请求高效地完成编程任务": {
+      "children": [
+        "public/bookmarks/KimiKimi_会员计划中面向代码开发的权益轻松兼容各类开发流程_更快更稳响应请求高效地完成编程任务/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4703,9 +6463,45 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Limingdao-黎明岛": {
+      "children": [
+        "public/bookmarks/Limingdao-黎明岛/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Limingdao-黎明岛-智能内容管理平台": {
+      "children": [
+        "public/bookmarks/Limingdao-黎明岛-智能内容管理平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Linkfox_ClawLinkFoxAgent帮你一键部署OpenClaw自由对话智能随行": {
+      "children": [
+        "public/bookmarks/Linkfox_ClawLinkFoxAgent帮你一键部署OpenClaw自由对话智能随行/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Linkfox-Claw": {
+      "children": [
+        "public/bookmarks/Linkfox-Claw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Linum": {
       "children": [
         "public/bookmarks/Linum/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Llama": {
+      "children": [
+        "public/bookmarks/Llama/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/LlamaMeta推出的一款开源大语言模型": {
+      "children": [
+        "public/bookmarks/LlamaMeta推出的一款开源大语言模型/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4727,9 +6523,63 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/LobeHub": {
+      "children": [
+        "public/bookmarks/LobeHub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/LobeHub一个以_AI_Agent智能体为核心的开源大模型协作平台": {
+      "children": [
+        "public/bookmarks/LobeHub一个以_AI_Agent智能体为核心的开源大模型协作平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Lobster.cash": {
+      "children": [
+        "public/bookmarks/Lobster.cash/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/LobsterAI_有道龙虾本地724小时帮你干活的全场景个人助理_Agent能够主动执行任务管理流程跨平台协作": {
+      "children": [
+        "public/bookmarks/LobsterAI_有道龙虾本地724小时帮你干活的全场景个人助理_Agent能够主动执行任务管理流程跨平台协作/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/LobsterAI-有道龙虾": {
+      "children": [
+        "public/bookmarks/LobsterAI-有道龙虾/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Loomy": {
+      "children": [
+        "public/bookmarks/Loomy/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Loomy科大讯飞推出的桌面级_AI_个人助理基于_AstronClaw_打造主打零配置下载即用": {
+      "children": [
+        "public/bookmarks/Loomy科大讯飞推出的桌面级_AI_个人助理基于_AstronClaw_打造主打零配置下载即用/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Mac毒-Mac软件下载网站奶酪网": {
       "children": [
         "public/bookmarks/Mac毒-Mac软件下载网站奶酪网/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Machines_Cash面向个人与代理的虚拟_Visa_信用卡": {
+      "children": [
+        "public/bookmarks/Machines_Cash面向个人与代理的虚拟_Visa_信用卡/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Machines-Cash": {
+      "children": [
+        "public/bookmarks/Machines-Cash/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4739,15 +6589,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/MailboxKit": {
+      "children": [
+        "public/bookmarks/MailboxKit/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MailboxKit聚焦新创和消费主题的科技媒体": {
+      "children": [
+        "public/bookmarks/MailboxKit聚焦新创和消费主题的科技媒体/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/mails": {
+      "children": [
+        "public/bookmarks/mails/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/mails一个为_agents_设计的邮件服务专为需要以编程方式收发和理解邮件的_AI_Agent_构建": {
+      "children": [
+        "public/bookmarks/mails一个为_agents_设计的邮件服务专为需要以编程方式收发和理解邮件的_AI_Agent_构建/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Mango-AI-AI視訊生成器-Mango-Animate": {
       "children": [
         "public/bookmarks/Mango-AI-AI視訊生成器-Mango-Animate/index.html"
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Manus": {
+      "children": [
+        "public/bookmarks/Manus/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Manus具备从任务规划到执行的全流程自动化能力可独立完成报告撰写数据分析跨平台操作等": {
+      "children": [
+        "public/bookmarks/Manus具备从任务规划到执行的全流程自动化能力可独立完成报告撰写数据分析跨平台操作等/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Marketsy": {
       "children": [
         "public/bookmarks/Marketsy/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MaxClaw": {
+      "children": [
+        "public/bookmarks/MaxClaw/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4775,9 +6667,69 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/MiMo": {
+      "children": [
+        "public/bookmarks/MiMo/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MiMo小米公司自研的开源推理大模型系列专注于高效推理与多模态交互": {
+      "children": [
+        "public/bookmarks/MiMo小米公司自研的开源推理大模型系列专注于高效推理与多模态交互/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MiniMax": {
+      "children": [
+        "public/bookmarks/MiniMax/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MiniMax_Token_PlanMiniMax_最强编程与智能体模型": {
+      "children": [
+        "public/bookmarks/MiniMax_Token_PlanMiniMax_最强编程与智能体模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MiniMax-Token-Plan": {
+      "children": [
+        "public/bookmarks/MiniMax-Token-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MiniMaxMiniMax_自主研发了一系列多模态通用大模型具备强大的代码和_Agent_能力以及超长上下文处理能力能够理解生成并整合包括文本音频图像视频和音乐在内的多种模态": {
+      "children": [
+        "public/bookmarks/MiniMaxMiniMax_自主研发了一系列多模态通用大模型具备强大的代码和_Agent_能力以及超长上下文处理能力能够理解生成并整合包括文本音频图像视频和音乐在内的多种模态/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Mistral": {
+      "children": [
+        "public/bookmarks/Mistral/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Mistral一个基于大语言模型的对话平台提供了多种模型选择和功能": {
+      "children": [
+        "public/bookmarks/Mistral一个基于大语言模型的对话平台提供了多种模型选择和功能/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/mitce": {
       "children": [
         "public/bookmarks/mitce/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Model123": {
+      "children": [
+        "public/bookmarks/Model123/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Model123专业的企业级_AI编程服务平台": {
+      "children": [
+        "public/bookmarks/Model123专业的企业级_AI编程服务平台/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4787,15 +6739,57 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Moltbook": {
+      "children": [
+        "public/bookmarks/Moltbook/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Moltbook面向_AI_Agent的社交网络": {
+      "children": [
+        "public/bookmarks/Moltbook面向_AI_Agent的社交网络/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Moreread": {
       "children": [
         "public/bookmarks/Moreread/index.html"
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/MuleRun": {
+      "children": [
+        "public/bookmarks/MuleRun/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/MuleRun全球首个自进化个人AI_-_MuleRun骡子快跑": {
+      "children": [
+        "public/bookmarks/MuleRun全球首个自进化个人AI_-_MuleRun骡子快跑/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/MyShell": {
       "children": [
         "public/bookmarks/MyShell/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/NemoClaw": {
+      "children": [
+        "public/bookmarks/NemoClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/NemoClaw英伟达推出的一个面向企业的开源AI智能体平台": {
+      "children": [
+        "public/bookmarks/NemoClaw英伟达推出的一个面向企业的开源AI智能体平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/NEXUS-AI-智能未来研究院": {
+      "children": [
+        "public/bookmarks/NEXUS-AI-智能未来研究院/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4817,9 +6811,141 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/OKX_Agent_Trade_Kit将_AI_助手与您的_OKX_账户直接连接无需在_AI_和交易所之间来回切换只需用自然语言描述您的需求AI_即可自动执行": {
+      "children": [
+        "public/bookmarks/OKX_Agent_Trade_Kit将_AI_助手与您的_OKX_账户直接连接无需在_AI_和交易所之间来回切换只需用自然语言描述您的需求AI_即可自动执行/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OKX-Agent-Trade-Kit": {
+      "children": [
+        "public/bookmarks/OKX-Agent-Trade-Kit/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Open-Assistant-开源AI模型": {
       "children": [
         "public/bookmarks/Open-Assistant-开源AI模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_橙皮书覆盖了从认识OpenClaw到真正把它用起来的所有关键信息": {
+      "children": [
+        "public/bookmarks/OpenClaw_橙皮书覆盖了从认识OpenClaw到真正把它用起来的所有关键信息/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_从入门到精通持续更新的OpenClaw知识库文档文档大部分都是基于实际体验测试来手动编写的": {
+      "children": [
+        "public/bookmarks/OpenClaw_从入门到精通持续更新的OpenClaw知识库文档文档大部分都是基于实际体验测试来手动编写的/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_官网开源本地优先的自主_AI_助手运行在你的电脑或服务器上": {
+      "children": [
+        "public/bookmarks/OpenClaw_官网开源本地优先的自主_AI_助手运行在你的电脑或服务器上/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_使用案例复制提示词就可以直接使用于_OpenClawClaude_CodeCursor_或其他_AI_agent_工具": {
+      "children": [
+        "public/bookmarks/OpenClaw_使用案例复制提示词就可以直接使用于_OpenClawClaude_CodeCursor_或其他_AI_agent_工具/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_中文学习手册全面的_OpenClaw_中文教程网站帮助你从零开始掌握_OpenClaw_AI_助手框架": {
+      "children": [
+        "public/bookmarks/OpenClaw_中文学习手册全面的_OpenClaw_中文教程网站帮助你从零开始掌握_OpenClaw_AI_助手框架/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_Directory由社区驱动的中心用于发现提交和管理OpenClaw技能插件部署指南以及工作流资源": {
+      "children": [
+        "public/bookmarks/OpenClaw_Directory由社区驱动的中心用于发现提交和管理OpenClaw技能插件部署指南以及工作流资源/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw_Startups一个开源本地优先的_AI_机器人生态系统用户可以无需编程即可启动助手": {
+      "children": [
+        "public/bookmarks/OpenClaw_Startups一个开源本地优先的_AI_机器人生态系统用户可以无需编程即可启动助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-橙皮书": {
+      "children": [
+        "public/bookmarks/OpenClaw-橙皮书/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-从入门到精通": {
+      "children": [
+        "public/bookmarks/OpenClaw-从入门到精通/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-官网": {
+      "children": [
+        "public/bookmarks/OpenClaw-官网/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-使用案例": {
+      "children": [
+        "public/bookmarks/OpenClaw-使用案例/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-中文学习手册": {
+      "children": [
+        "public/bookmarks/OpenClaw-中文学习手册/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-Directory": {
+      "children": [
+        "public/bookmarks/OpenClaw-Directory/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClaw-Startups": {
+      "children": [
+        "public/bookmarks/OpenClaw-Startups/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClawDir": {
+      "children": [
+        "public/bookmarks/OpenClawDir/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenClawDirOpenClaw_AI_助手的社区目录探索OpenClaw生态系统的技能插件和职位": {
+      "children": [
+        "public/bookmarks/OpenClawDirOpenClaw_AI_助手的社区目录探索OpenClaw生态系统的技能插件和职位/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenRouter": {
+      "children": [
+        "public/bookmarks/OpenRouter/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenRouter_Rankings模型排名反映了在_OpenRouter_平台上各个大型语言模型LLM的实际使用情况": {
+      "children": [
+        "public/bookmarks/OpenRouter_Rankings模型排名反映了在_OpenRouter_平台上各个大型语言模型LLM的实际使用情况/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenRouter-Rankings": {
+      "children": [
+        "public/bookmarks/OpenRouter-Rankings/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/OpenRouterAI模型聚合平台提供统一的API接口方便用户访问和使用多种AI模型": {
+      "children": [
+        "public/bookmarks/OpenRouterAI模型聚合平台提供统一的API接口方便用户访问和使用多种AI模型/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4832,6 +6958,12 @@
     "public/bookmarks/Opus-Clip-短视频创作": {
       "children": [
         "public/bookmarks/Opus-Clip-短视频创作/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ourongxingnewsnow-Elegant-reading-of-real-time-and-hottest-news": {
+      "children": [
+        "public/bookmarks/ourongxingnewsnow-Elegant-reading-of-real-time-and-hottest-news/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4877,6 +7009,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/PinchBench": {
+      "children": [
+        "public/bookmarks/PinchBench/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/PinchBench龙虾模型排行榜用来评估不同大模型在真实_Agent_自动化任务中的能力帮助开发者选择适合其用例的模型": {
+      "children": [
+        "public/bookmarks/PinchBench龙虾模型排行榜用来评估不同大模型在真实_Agent_自动化任务中的能力帮助开发者选择适合其用例的模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/PipiGPT.co": {
       "children": [
         "public/bookmarks/PipiGPT.co/index.html"
@@ -4904,6 +7048,30 @@
     "public/bookmarks/POE": {
       "children": [
         "public/bookmarks/POE/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/PoorClaw穷虾": {
+      "children": [
+        "public/bookmarks/PoorClaw穷虾/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/PoorClaw穷虾不花一分钱直接使用_OpenClaw_的全部_AI_能力无隐藏费用": {
+      "children": [
+        "public/bookmarks/PoorClaw穷虾不花一分钱直接使用_OpenClaw_的全部_AI_能力无隐藏费用/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Practice-English-listening-with-dictation-exercises-dailydictation.com": {
+      "children": [
+        "public/bookmarks/Practice-English-listening-with-dictation-exercises-dailydictation.com/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Promote-Your-Startup-Get-Discovered-Faster": {
+      "children": [
+        "public/bookmarks/Promote-Your-Startup-Get-Discovered-Faster/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -4937,6 +7105,36 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Qclaw": {
+      "children": [
+        "public/bookmarks/Qclaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Qclaw本地支持微信直联扫码绑定后能随时随地通过微信发指令远程操控电脑完成任务": {
+      "children": [
+        "public/bookmarks/Qclaw本地支持微信直联扫码绑定后能随时随地通过微信发指令远程操控电脑完成任务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/qiye45wechatVideoDownload-微信视频号下载工具支持视频号视频直播回放直播图片下载": {
+      "children": [
+        "public/bookmarks/qiye45wechatVideoDownload-微信视频号下载工具支持视频号视频直播回放直播图片下载/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/QoderWork": {
+      "children": [
+        "public/bookmarks/QoderWork/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/QoderWork本地用户只需通过简单的自然语言对话就能完成文件整理数据处理文档生成等任务": {
+      "children": [
+        "public/bookmarks/QoderWork本地用户只需通过简单的自然语言对话就能完成文件整理数据处理文档生成等任务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/QQ皇族馆": {
       "children": [
         "public/bookmarks/QQ皇族馆/index.html"
@@ -4967,6 +7165,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Reddit-板块": {
+      "children": [
+        "public/bookmarks/Reddit-板块/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Reddit板块Reddit_上OpenClaw讨论板块": {
+      "children": [
+        "public/bookmarks/Reddit板块Reddit_上OpenClaw讨论板块/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/rejoice博客": {
       "children": [
         "public/bookmarks/rejoice博客/index.html"
@@ -4982,6 +7192,12 @@
     "public/bookmarks/Runway-TV": {
       "children": [
         "public/bookmarks/Runway-TV/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/RuTracker.org": {
+      "children": [
+        "public/bookmarks/RuTracker.org/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5009,6 +7225,66 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/SkillHub": {
+      "children": [
+        "public/bookmarks/SkillHub/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillHub腾讯云专为中国用户优化的Skills社区基于OpenClaw官方开源生态打造的本土化技能平台": {
+      "children": [
+        "public/bookmarks/SkillHub腾讯云专为中国用户优化的Skills社区基于OpenClaw官方开源生态打造的本土化技能平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillHub中国": {
+      "children": [
+        "public/bookmarks/SkillHub中国/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillHub中国助力国内_Skill_使用者快速找到能用好用可复用的实践方案": {
+      "children": [
+        "public/bookmarks/SkillHub中国助力国内_Skill_使用者快速找到能用好用可复用的实践方案/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillPay": {
+      "children": [
+        "public/bookmarks/SkillPay/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillPay一个基于信贷的通用支付系统用于OpenClaw支付": {
+      "children": [
+        "public/bookmarks/SkillPay一个基于信贷的通用支付系统用于OpenClaw支付/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Skills.sh": {
+      "children": [
+        "public/bookmarks/Skills.sh/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillsMP": {
+      "children": [
+        "public/bookmarks/SkillsMP/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillsMP面向_Agent_的开源_skill_集合平台根据_GitHub_仓库的_push_时间持续同步更新": {
+      "children": [
+        "public/bookmarks/SkillsMP面向_Agent_的开源_skill_集合平台根据_GitHub_仓库的_push_时间持续同步更新/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/SkillsshVercel_官方技能目录根据_24_小时热度进行排名你可以很直观的查找了解和快速安装_Skills": {
+      "children": [
+        "public/bookmarks/SkillsshVercel_官方技能目录根据_24_小时热度进行排名你可以很直观的查找了解和快速安装_Skills/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/SMS-ACTIVATE": {
       "children": [
         "public/bookmarks/SMS-ACTIVATE/index.html"
@@ -5030,6 +7306,18 @@
     "public/bookmarks/Sora-AI-视频生成器": {
       "children": [
         "public/bookmarks/Sora-AI-视频生成器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Souls.zip": {
+      "children": [
+        "public/bookmarks/Souls.zip/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Soulszip浏览经过生产测试的AI代理灵魂和技能工程设计运营金融市场营销等免费和付费选项适用于任何AI模型": {
+      "children": [
+        "public/bookmarks/Soulszip浏览经过生产测试的AI代理灵魂和技能工程设计运营金融市场营销等免费和付费选项适用于任何AI模型/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5057,6 +7345,30 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Stellarium-Web-Online-Star-Map": {
+      "children": [
+        "public/bookmarks/Stellarium-Web-Online-Star-Map/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Step-Plan": {
+      "children": [
+        "public/bookmarks/Step-Plan/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/StepClaw": {
+      "children": [
+        "public/bookmarks/StepClaw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/StepClaw云端阶跃星辰推出基于OpenClaw打造的云端AI助手": {
+      "children": [
+        "public/bookmarks/StepClaw云端阶跃星辰推出基于OpenClaw打造的云端AI助手/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Sync-labs": {
       "children": [
         "public/bookmarks/Sync-labs/index.html"
@@ -5069,6 +7381,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Tabbit_浏览器本地一键引用网页截图收藏文件进行对话Agent_自动执行重复任务": {
+      "children": [
+        "public/bookmarks/Tabbit_浏览器本地一键引用网页截图收藏文件进行对话Agent_自动执行重复任务/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Tabbit-浏览器": {
+      "children": [
+        "public/bookmarks/Tabbit-浏览器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/talkme": {
       "children": [
         "public/bookmarks/talkme/index.html"
@@ -5078,6 +7402,36 @@
     "public/bookmarks/Telegraph图床": {
       "children": [
         "public/bookmarks/Telegraph图床/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Tempo_WalletTempo_公链的官方钱包专为_AI_Agent_与机器支付场景设计": {
+      "children": [
+        "public/bookmarks/Tempo_WalletTempo_公链的官方钱包专为_AI_Agent_与机器支付场景设计/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Tempo-Wallet": {
+      "children": [
+        "public/bookmarks/Tempo-Wallet/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/The-fast-way-to-gain-traffic-on-Twitter-X": {
+      "children": [
+        "public/bookmarks/The-fast-way-to-gain-traffic-on-Twitter-X/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/The-Ultimate-Directory-for-Online-Tools-and-Resources": {
+      "children": [
+        "public/bookmarks/The-Ultimate-Directory-for-Online-Tools-and-Resources/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Thread-by-@grgerwcwetwet": {
+      "children": [
+        "public/bookmarks/Thread-by-@grgerwcwetwet/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5177,6 +7531,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/WaytoAGI_之路详解OpenClaw是最大最全面的_AI_知识库": {
+      "children": [
+        "public/bookmarks/WaytoAGI_之路详解OpenClaw是最大最全面的_AI_知识库/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/WaytoAGI-之路": {
+      "children": [
+        "public/bookmarks/WaytoAGI-之路/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/WebsiteHunt": {
       "children": [
         "public/bookmarks/WebsiteHunt/index.html"
@@ -5207,6 +7573,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/WorkBuddy": {
+      "children": [
+        "public/bookmarks/WorkBuddy/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/WorkBuddy本地AI_原生的桌面智能体工作台一句指令即可完成数据处理内容创作与深度分析": {
+      "children": [
+        "public/bookmarks/WorkBuddy本地AI_原生的桌面智能体工作台一句指令即可完成数据处理内容创作与深度分析/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/XAudioPro": {
       "children": [
         "public/bookmarks/XAudioPro/index.html"
@@ -5216,6 +7594,30 @@
     "public/bookmarks/XiaoHu.AI学院": {
       "children": [
         "public/bookmarks/XiaoHu.AI学院/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Xiaomi_MiMo_Claw云端依托小米最新大模型打造实现一键部署OpenClaw龙虾智能体": {
+      "children": [
+        "public/bookmarks/Xiaomi_MiMo_Claw云端依托小米最新大模型打造实现一键部署OpenClaw龙虾智能体/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/Xiaomi-MiMo-Claw": {
+      "children": [
+        "public/bookmarks/Xiaomi-MiMo-Claw/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/XSCT_Bench场景化大模型测评平台": {
+      "children": [
+        "public/bookmarks/XSCT_Bench场景化大模型测评平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/XSCT-Bench": {
+      "children": [
+        "public/bookmarks/XSCT-Bench/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -5249,6 +7651,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/ZenMux": {
+      "children": [
+        "public/bookmarks/ZenMux/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/ZenMux全球首个支持保险赔付机制的企业级大模型聚合平台可一站式调用各渠道的最新大模型": {
+      "children": [
+        "public/bookmarks/ZenMux全球首个支持保险赔付机制的企业级大模型聚合平台可一站式调用各渠道的最新大模型/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/ZHOU.XIAOYU": {
       "children": [
         "public/bookmarks/ZHOU.XIAOYU/index.html"
@@ -5269,6 +7683,15 @@
     },
     "public/categories": {
       "children": [
+        "public/categories/高考志愿",
+        "public/categories/工具",
+        "public/categories/教育",
+        "public/categories/教育学习",
+        "public/categories/奇妙世界",
+        "public/categories/商业合作",
+        "public/categories/行业导航",
+        "public/categories/在线资源",
+        "public/categories/Youtube",
         "public/categories/技术支持",
         "public/categories/网络资源",
         "public/categories/AI人工智能",
@@ -5291,6 +7714,20 @@
       ],
       "sortOrder": "custom"
     },
+    "public/categories/高考志愿": {
+      "children": [
+        "public/categories/高考志愿/index.html",
+        "public/categories/高考志愿/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/工具": {
+      "children": [
+        "public/categories/工具/index.xml",
+        "public/categories/工具/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/categories/技术支持": {
       "children": [
         "public/categories/技术支持/index.html",
@@ -5305,10 +7742,38 @@
       ],
       "sortOrder": "custom"
     },
+    "public/categories/教育": {
+      "children": [
+        "public/categories/教育/index.html",
+        "public/categories/教育/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/categories/教育导航": {
       "children": [
         "public/categories/教育导航/index.html",
         "public/categories/教育导航/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/教育学习": {
+      "children": [
+        "public/categories/教育学习/index.html",
+        "public/categories/教育学习/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/奇妙世界": {
+      "children": [
+        "public/categories/奇妙世界/index.html",
+        "public/categories/奇妙世界/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/商业合作": {
+      "children": [
+        "public/categories/商业合作/index.html",
+        "public/categories/商业合作/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5347,6 +7812,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/categories/行业导航": {
+      "children": [
+        "public/categories/行业导航/index.xml",
+        "public/categories/行业导航/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/categories/音频工具": {
       "children": [
         "public/categories/音频工具/index.html",
@@ -5372,6 +7844,13 @@
       "children": [
         "public/categories/在线工具/index.html",
         "public/categories/在线工具/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/在线资源": {
+      "children": [
+        "public/categories/在线资源/index.html",
+        "public/categories/在线资源/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5410,6 +7889,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/categories/Youtube": {
+      "children": [
+        "public/categories/Youtube/index.html",
+        "public/categories/Youtube/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/redirect": {
       "children": [
         "public/redirect/index.html"
@@ -5418,6 +7904,33 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/百虾大战",
+        "public/sub-category/币圈生态",
+        "public/sub-category/编程工具",
+        "public/sub-category/常用AI",
+        "public/sub-category/大学",
+        "public/sub-category/教程合集",
+        "public/sub-category/下载工具",
+        "public/sub-category/咸鱼",
+        "public/sub-category/音频",
+        "public/sub-category/应用",
+        "public/sub-category/营销",
+        "public/sub-category/娱乐休闲",
+        "public/sub-category/云端部署",
+        "public/sub-category/云服务",
+        "public/sub-category/在线编辑",
+        "public/sub-category/在线课程",
+        "public/sub-category/支付工具",
+        "public/sub-category/资讯",
+        "public/sub-category/自媒体",
+        "public/sub-category/自营",
+        "public/sub-category/综合导航",
+        "public/sub-category/Agent生态",
+        "public/sub-category/Agent支付",
+        "public/sub-category/AI大模型",
+        "public/sub-category/Coding-Plan",
+        "public/sub-category/Maas平台",
+        "public/sub-category/Skills市场",
         "public/sub-category/API接口",
         "public/sub-category/生成器",
         "public/sub-category/Obsidian教程",
@@ -5439,6 +7952,27 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/百虾大战": {
+      "children": [
+        "public/sub-category/百虾大战/index.html",
+        "public/sub-category/百虾大战/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/币圈生态": {
+      "children": [
+        "public/sub-category/币圈生态/index.html",
+        "public/sub-category/币圈生态/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/编程工具": {
+      "children": [
+        "public/sub-category/编程工具/index.html",
+        "public/sub-category/编程工具/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/测试": {
       "children": [
         "public/sub-category/测试/index.html",
@@ -5446,10 +7980,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/常用AI": {
+      "children": [
+        "public/sub-category/常用AI/index.html",
+        "public/sub-category/常用AI/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/大学": {
+      "children": [
+        "public/sub-category/大学/index.html",
+        "public/sub-category/大学/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/电子书刊": {
       "children": [
         "public/sub-category/电子书刊/index.html",
         "public/sub-category/电子书刊/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/教程合集": {
+      "children": [
+        "public/sub-category/教程合集/index.html",
+        "public/sub-category/教程合集/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5474,6 +8029,76 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/下载工具": {
+      "children": [
+        "public/sub-category/下载工具/index.html",
+        "public/sub-category/下载工具/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/咸鱼": {
+      "children": [
+        "public/sub-category/咸鱼/index.html",
+        "public/sub-category/咸鱼/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/音频": {
+      "children": [
+        "public/sub-category/音频/index.html",
+        "public/sub-category/音频/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/应用": {
+      "children": [
+        "public/sub-category/应用/index.html",
+        "public/sub-category/应用/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/营销": {
+      "children": [
+        "public/sub-category/营销/index.html",
+        "public/sub-category/营销/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/娱乐休闲": {
+      "children": [
+        "public/sub-category/娱乐休闲/index.html",
+        "public/sub-category/娱乐休闲/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/云端部署": {
+      "children": [
+        "public/sub-category/云端部署/index.html",
+        "public/sub-category/云端部署/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/云服务": {
+      "children": [
+        "public/sub-category/云服务/index.html",
+        "public/sub-category/云服务/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/在线编辑": {
+      "children": [
+        "public/sub-category/在线编辑/index.html",
+        "public/sub-category/在线编辑/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/在线课程": {
+      "children": [
+        "public/sub-category/在线课程/index.html",
+        "public/sub-category/在线课程/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/在线下载": {
       "children": [
         "public/sub-category/在线下载/index.html",
@@ -5488,10 +8113,66 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/支付工具": {
+      "children": [
+        "public/sub-category/支付工具/index.html",
+        "public/sub-category/支付工具/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/资讯": {
+      "children": [
+        "public/sub-category/资讯/index.html",
+        "public/sub-category/资讯/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/资源站": {
       "children": [
         "public/sub-category/资源站/index.html",
         "public/sub-category/资源站/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/自媒体": {
+      "children": [
+        "public/sub-category/自媒体/index.html",
+        "public/sub-category/自媒体/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/自营": {
+      "children": [
+        "public/sub-category/自营/index.html",
+        "public/sub-category/自营/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/综合导航": {
+      "children": [
+        "public/sub-category/综合导航/index.html",
+        "public/sub-category/综合导航/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/Agent生态": {
+      "children": [
+        "public/sub-category/Agent生态/index.html",
+        "public/sub-category/Agent生态/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/Agent支付": {
+      "children": [
+        "public/sub-category/Agent支付/index.html",
+        "public/sub-category/Agent支付/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/AI大模型": {
+      "children": [
+        "public/sub-category/AI大模型/index.html",
+        "public/sub-category/AI大模型/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -5537,6 +8218,20 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/Coding-Plan": {
+      "children": [
+        "public/sub-category/Coding-Plan/index.html",
+        "public/sub-category/Coding-Plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/Maas平台": {
+      "children": [
+        "public/sub-category/Maas平台/index.html",
+        "public/sub-category/Maas平台/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/Obsidian教程": {
       "children": [
         "public/sub-category/Obsidian教程/index.html",
@@ -5551,6 +8246,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/Skills市场": {
+      "children": [
+        "public/sub-category/Skills市场/index.html",
+        "public/sub-category/Skills市场/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/submit": {
       "children": [
         "public/submit/index.html"
@@ -5559,6 +8261,158 @@
     },
     "public/tags": {
       "children": [
+        "public/tags/360安全龙虾",
+        "public/tags/阿里云",
+        "public/tags/阿里云百炼",
+        "public/tags/百度千帆",
+        "public/tags/百度千帆-coding-plan",
+        "public/tags/百度文心",
+        "public/tags/百度智能云",
+        "public/tags/常规-ai-编程能力",
+        "public/tags/豆包",
+        "public/tags/豆包doubao",
+        "public/tags/飞书官方修炼指南",
+        "public/tags/飞书openclaw",
+        "public/tags/非凡产研",
+        "public/tags/官方文档",
+        "public/tags/官方github",
+        "public/tags/硅基流动",
+        "public/tags/国家超算互联网",
+        "public/tags/华为云",
+        "public/tags/火山方舟",
+        "public/tags/火山引擎",
+        "public/tags/火山引擎-coding-plan",
+        "public/tags/即梦ai",
+        "public/tags/阶跃星辰",
+        "public/tags/阶跃桌面伙伴",
+        "public/tags/京东云",
+        "public/tags/扣子coze",
+        "public/tags/快手万擎",
+        "public/tags/麻小玩虾指南",
+        "public/tags/牛马-ai",
+        "public/tags/曝光观察板",
+        "public/tags/七牛云",
+        "public/tags/千问",
+        "public/tags/千问qwen",
+        "public/tags/水产市场",
+        "public/tags/腾讯混元",
+        "public/tags/腾讯元宝",
+        "public/tags/腾讯云",
+        "public/tags/腾讯云-coding-plan",
+        "public/tags/天翼云",
+        "public/tags/万象-ai-实验室",
+        "public/tags/悟空",
+        "public/tags/虾聊",
+        "public/tags/虾评skill",
+        "public/tags/小红书",
+        "public/tags/智谱-coding-plan",
+        "public/tags/智谱glm",
+        "public/tags/中文用例大全",
+        "public/tags/a2h-market",
+        "public/tags/agent-skills-hub",
+        "public/tags/agentcardai",
+        "public/tags/agentcardsh",
+        "public/tags/agentmail",
+        "public/tags/AI-Agent",
+        "public/tags/arenaai",
+        "public/tags/arkclaw",
+        "public/tags/artificial-analysis",
+        "public/tags/astronclaw",
+        "public/tags/autoclaw",
+        "public/tags/awesome-教程",
+        "public/tags/binance-skills-hub",
+        "public/tags/bybit-ai-hub",
+        "public/tags/claw-bench-排行榜",
+        "public/tags/claw402",
+        "public/tags/clawcardsh",
+        "public/tags/clawhub",
+        "public/tags/clawmanager",
+        "public/tags/clawpal",
+        "public/tags/clawskills",
+        "public/tags/clawvault",
+        "public/tags/clawwatcher",
+        "public/tags/cocoloop",
+        "public/tags/coin-claw",
+        "public/tags/coinbase-agentkit",
+        "public/tags/control-center",
+        "public/tags/copaw",
+        "public/tags/cryptoskills",
+        "public/tags/deepseek",
+        "public/tags/deskclaw",
+        "public/tags/discord-官方服务器",
+        "public/tags/duclaw",
+        "public/tags/dumate",
+        "public/tags/easyclaw",
+        "public/tags/edgeone-clawscan",
+        "public/tags/fluxa",
+        "public/tags/gate-pay-for-ai",
+        "public/tags/gateclaw",
+        "public/tags/gemini",
+        "public/tags/getclaw",
+        "public/tags/grok",
+        "public/tags/happycapy",
+        "public/tags/hello-claw-教程",
+        "public/tags/hiclaw",
+        "public/tags/htx-ai-skills",
+        "public/tags/instreet",
+        "public/tags/jvs-claw",
+        "public/tags/kiloclaw",
+        "public/tags/kimi",
+        "public/tags/kimi-claw",
+        "public/tags/linkfox-claw",
+        "public/tags/llama",
+        "public/tags/LLM",
+        "public/tags/lobehub",
+        "public/tags/lobsterai-有道龙虾",
+        "public/tags/lobstercash",
+        "public/tags/loomy",
+        "public/tags/machines-cash",
+        "public/tags/mailboxkit",
+        "public/tags/mails",
+        "public/tags/manus",
+        "public/tags/markdown",
+        "public/tags/maxclaw",
+        "public/tags/mimo",
+        "public/tags/minimax",
+        "public/tags/minimax-token-plan",
+        "public/tags/mistral",
+        "public/tags/model123",
+        "public/tags/moltbook",
+        "public/tags/mulerun",
+        "public/tags/nemoclaw",
+        "public/tags/okx-agent-trade-kit",
+        "public/tags/openclaw-橙皮书",
+        "public/tags/openclaw-从入门到精通",
+        "public/tags/openclaw-官网",
+        "public/tags/openclaw-使用案例",
+        "public/tags/openclaw-中文学习手册",
+        "public/tags/openclaw-directory",
+        "public/tags/openclaw-startups",
+        "public/tags/openclawdir",
+        "public/tags/openrouter",
+        "public/tags/openrouter-rankings",
+        "public/tags/pinchbench",
+        "public/tags/poorclaw穷虾",
+        "public/tags/qclaw",
+        "public/tags/qoderwork",
+        "public/tags/reddit-板块",
+        "public/tags/skillhub",
+        "public/tags/skillhub中国",
+        "public/tags/skillpay",
+        "public/tags/skillsmp",
+        "public/tags/skillssh",
+        "public/tags/soulszip",
+        "public/tags/step-plan",
+        "public/tags/stepclaw",
+        "public/tags/tabbit-浏览器",
+        "public/tags/tempo-wallet",
+        "public/tags/tool",
+        "public/tags/tutorial",
+        "public/tags/waytoagi-之路",
+        "public/tags/workbuddy",
+        "public/tags/xiaomi-mimo-claw",
+        "public/tags/xsct-bench",
+        "public/tags/zenmux",
         "public/tags/安娜",
         "public/tags/电子术",
         "public/tags/图床",
@@ -5972,6 +8826,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/360安全龙虾": {
+      "children": [
+        "public/tags/360安全龙虾/index.html",
+        "public/tags/360安全龙虾/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/1622": {
       "children": [
         "public/tags/1622/index.html",
@@ -6000,10 +8861,52 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/阿里云": {
+      "children": [
+        "public/tags/阿里云/index.html",
+        "public/tags/阿里云/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/阿里云百炼": {
+      "children": [
+        "public/tags/阿里云百炼/index.html",
+        "public/tags/阿里云百炼/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/安娜": {
       "children": [
         "public/tags/安娜/index.html",
         "public/tags/安娜/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/百度千帆": {
+      "children": [
+        "public/tags/百度千帆/index.html",
+        "public/tags/百度千帆/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/百度千帆-coding-plan": {
+      "children": [
+        "public/tags/百度千帆-coding-plan/index.html",
+        "public/tags/百度千帆-coding-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/百度文心": {
+      "children": [
+        "public/tags/百度文心/index.html",
+        "public/tags/百度文心/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/百度智能云": {
+      "children": [
+        "public/tags/百度智能云/index.html",
+        "public/tags/百度智能云/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6021,6 +8924,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/常规-ai-编程能力": {
+      "children": [
+        "public/tags/常规-ai-编程能力/index.html",
+        "public/tags/常规-ai-编程能力/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/电子术": {
       "children": [
         "public/tags/电子术/index.html",
@@ -6028,10 +8938,227 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/豆包": {
+      "children": [
+        "public/tags/豆包/index.html",
+        "public/tags/豆包/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/豆包doubao": {
+      "children": [
+        "public/tags/豆包doubao/index.html",
+        "public/tags/豆包doubao/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/飞书官方修炼指南": {
+      "children": [
+        "public/tags/飞书官方修炼指南/index.html",
+        "public/tags/飞书官方修炼指南/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/飞书openclaw": {
+      "children": [
+        "public/tags/飞书openclaw/index.html",
+        "public/tags/飞书openclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/非凡产研": {
+      "children": [
+        "public/tags/非凡产研/index.html",
+        "public/tags/非凡产研/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/官方文档": {
+      "children": [
+        "public/tags/官方文档/index.xml",
+        "public/tags/官方文档/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/官方github": {
+      "children": [
+        "public/tags/官方github/index.html",
+        "public/tags/官方github/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/硅基流动": {
+      "children": [
+        "public/tags/硅基流动/index.html",
+        "public/tags/硅基流动/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/国家超算互联网": {
+      "children": [
+        "public/tags/国家超算互联网/index.html",
+        "public/tags/国家超算互联网/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/华为云": {
+      "children": [
+        "public/tags/华为云/index.html",
+        "public/tags/华为云/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/火山方舟": {
+      "children": [
+        "public/tags/火山方舟/index.html",
+        "public/tags/火山方舟/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/火山引擎": {
+      "children": [
+        "public/tags/火山引擎/index.html",
+        "public/tags/火山引擎/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/火山引擎-coding-plan": {
+      "children": [
+        "public/tags/火山引擎-coding-plan/index.html",
+        "public/tags/火山引擎-coding-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/即梦ai": {
+      "children": [
+        "public/tags/即梦ai/index.html",
+        "public/tags/即梦ai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/阶跃星辰": {
+      "children": [
+        "public/tags/阶跃星辰/index.html",
+        "public/tags/阶跃星辰/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/阶跃桌面伙伴": {
+      "children": [
+        "public/tags/阶跃桌面伙伴/index.html",
+        "public/tags/阶跃桌面伙伴/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/京东云": {
+      "children": [
+        "public/tags/京东云/index.html",
+        "public/tags/京东云/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/扣子coze": {
+      "children": [
+        "public/tags/扣子coze/index.html",
+        "public/tags/扣子coze/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/快手万擎": {
+      "children": [
+        "public/tags/快手万擎/index.html",
+        "public/tags/快手万擎/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/麻小玩虾指南": {
+      "children": [
+        "public/tags/麻小玩虾指南/index.html",
+        "public/tags/麻小玩虾指南/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/默认分类": {
       "children": [
         "public/tags/默认分类/index.html",
         "public/tags/默认分类/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/牛马-ai": {
+      "children": [
+        "public/tags/牛马-ai/index.html",
+        "public/tags/牛马-ai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/曝光观察板": {
+      "children": [
+        "public/tags/曝光观察板/index.html",
+        "public/tags/曝光观察板/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/七牛云": {
+      "children": [
+        "public/tags/七牛云/index.html",
+        "public/tags/七牛云/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/千问": {
+      "children": [
+        "public/tags/千问/index.html",
+        "public/tags/千问/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/千问qwen": {
+      "children": [
+        "public/tags/千问qwen/index.html",
+        "public/tags/千问qwen/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/水产市场": {
+      "children": [
+        "public/tags/水产市场/index.html",
+        "public/tags/水产市场/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/腾讯混元": {
+      "children": [
+        "public/tags/腾讯混元/index.html",
+        "public/tags/腾讯混元/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/腾讯元宝": {
+      "children": [
+        "public/tags/腾讯元宝/index.html",
+        "public/tags/腾讯元宝/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/腾讯云": {
+      "children": [
+        "public/tags/腾讯云/index.html",
+        "public/tags/腾讯云/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/腾讯云-coding-plan": {
+      "children": [
+        "public/tags/腾讯云-coding-plan/index.html",
+        "public/tags/腾讯云-coding-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/天翼云": {
+      "children": [
+        "public/tags/天翼云/index.html",
+        "public/tags/天翼云/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6049,10 +9176,73 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/万象-ai-实验室": {
+      "children": [
+        "public/tags/万象-ai-实验室/index.html",
+        "public/tags/万象-ai-实验室/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/悟空": {
+      "children": [
+        "public/tags/悟空/index.html",
+        "public/tags/悟空/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/虾聊": {
+      "children": [
+        "public/tags/虾聊/index.html",
+        "public/tags/虾聊/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/虾评skill": {
+      "children": [
+        "public/tags/虾评skill/index.html",
+        "public/tags/虾评skill/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/小红书": {
+      "children": [
+        "public/tags/小红书/index.html",
+        "public/tags/小红书/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/智谱-coding-plan": {
+      "children": [
+        "public/tags/智谱-coding-plan/index.html",
+        "public/tags/智谱-coding-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/智谱glm": {
+      "children": [
+        "public/tags/智谱glm/index.html",
+        "public/tags/智谱glm/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/中文用例大全": {
+      "children": [
+        "public/tags/中文用例大全/index.html",
+        "public/tags/中文用例大全/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/自建": {
       "children": [
         "public/tags/自建/index.html",
         "public/tags/自建/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/a2h-market": {
+      "children": [
+        "public/tags/a2h-market/index.html",
+        "public/tags/a2h-market/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6074,6 +9264,34 @@
       "children": [
         "public/tags/adobe-podcast/index.html",
         "public/tags/adobe-podcast/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/agent-skills-hub": {
+      "children": [
+        "public/tags/agent-skills-hub/index.html",
+        "public/tags/agent-skills-hub/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/agentcardai": {
+      "children": [
+        "public/tags/agentcardai/index.html",
+        "public/tags/agentcardai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/agentcardsh": {
+      "children": [
+        "public/tags/agentcardsh/index.html",
+        "public/tags/agentcardsh/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/agentmail": {
+      "children": [
+        "public/tags/agentmail/index.html",
+        "public/tags/agentmail/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6189,6 +9407,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/AI-Agent": {
+      "children": [
+        "public/tags/AI-Agent/index.html",
+        "public/tags/AI-Agent/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/ai-anything": {
       "children": [
         "public/tags/ai-anything/index.html",
@@ -6273,10 +9498,52 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/arenaai": {
+      "children": [
+        "public/tags/arenaai/index.html",
+        "public/tags/arenaai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/arkclaw": {
+      "children": [
+        "public/tags/arkclaw/index.html",
+        "public/tags/arkclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/artificial-analysis": {
+      "children": [
+        "public/tags/artificial-analysis/index.html",
+        "public/tags/artificial-analysis/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/astira": {
       "children": [
         "public/tags/astira/index.html",
         "public/tags/astira/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/astronclaw": {
+      "children": [
+        "public/tags/astronclaw/index.html",
+        "public/tags/astronclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/autoclaw": {
+      "children": [
+        "public/tags/autoclaw/index.html",
+        "public/tags/autoclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/awesome-教程": {
+      "children": [
+        "public/tags/awesome-教程/index.html",
+        "public/tags/awesome-教程/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6305,6 +9572,13 @@
       "children": [
         "public/tags/beatoven-aiai/index.html",
         "public/tags/beatoven-aiai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/binance-skills-hub": {
+      "children": [
+        "public/tags/binance-skills-hub/index.html",
+        "public/tags/binance-skills-hub/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6347,6 +9621,13 @@
       "children": [
         "public/tags/buildt/index.html",
         "public/tags/buildt/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/bybit-ai-hub": {
+      "children": [
+        "public/tags/bybit-ai-hub/index.html",
+        "public/tags/bybit-ai-hub/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6483,6 +9764,69 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/claw-bench-排行榜": {
+      "children": [
+        "public/tags/claw-bench-排行榜/index.html",
+        "public/tags/claw-bench-排行榜/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/claw402": {
+      "children": [
+        "public/tags/claw402/index.html",
+        "public/tags/claw402/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawcardsh": {
+      "children": [
+        "public/tags/clawcardsh/index.html",
+        "public/tags/clawcardsh/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawhub": {
+      "children": [
+        "public/tags/clawhub/index.html",
+        "public/tags/clawhub/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawmanager": {
+      "children": [
+        "public/tags/clawmanager/index.html",
+        "public/tags/clawmanager/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawpal": {
+      "children": [
+        "public/tags/clawpal/index.html",
+        "public/tags/clawpal/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawskills": {
+      "children": [
+        "public/tags/clawskills/index.html",
+        "public/tags/clawskills/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawvault": {
+      "children": [
+        "public/tags/clawvault/index.html",
+        "public/tags/clawvault/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/clawwatcher": {
+      "children": [
+        "public/tags/clawwatcher/index.html",
+        "public/tags/clawwatcher/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/clickprompt": {
       "children": [
         "public/tags/clickprompt/index.html",
@@ -6504,10 +9848,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/cocoloop": {
+      "children": [
+        "public/tags/cocoloop/index.html",
+        "public/tags/cocoloop/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/cognosysai": {
       "children": [
         "public/tags/cognosysai/index.html",
         "public/tags/cognosysai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/coin-claw": {
+      "children": [
+        "public/tags/coin-claw/index.html",
+        "public/tags/coin-claw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/coinbase-agentkit": {
+      "children": [
+        "public/tags/coinbase-agentkit/index.html",
+        "public/tags/coinbase-agentkit/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6525,10 +9890,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/control-center": {
+      "children": [
+        "public/tags/control-center/index.html",
+        "public/tags/control-center/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/copaw": {
+      "children": [
+        "public/tags/copaw/index.html",
+        "public/tags/copaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/copilot-hub": {
       "children": [
         "public/tags/copilot-hub/index.html",
         "public/tags/copilot-hub/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/cryptoskills": {
+      "children": [
+        "public/tags/cryptoskills/index.html",
+        "public/tags/cryptoskills/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6553,10 +9939,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/deepseek": {
+      "children": [
+        "public/tags/deepseek/index.html",
+        "public/tags/deepseek/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/defillama": {
       "children": [
         "public/tags/defillama/index.html",
         "public/tags/defillama/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/deskclaw": {
+      "children": [
+        "public/tags/deskclaw/index.html",
+        "public/tags/deskclaw/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6595,6 +9995,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/discord-官方服务器": {
+      "children": [
+        "public/tags/discord-官方服务器/index.html",
+        "public/tags/discord-官方服务器/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/do-gpt": {
       "children": [
         "public/tags/do-gpt/index.html",
@@ -6613,6 +10020,20 @@
       "children": [
         "public/tags/downloadpanda/index.html",
         "public/tags/downloadpanda/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/duclaw": {
+      "children": [
+        "public/tags/duclaw/index.html",
+        "public/tags/duclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/dumate": {
+      "children": [
+        "public/tags/dumate/index.html",
+        "public/tags/dumate/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6648,6 +10069,20 @@
       "children": [
         "public/tags/duzhege-dunixiangdu/index.html",
         "public/tags/duzhege-dunixiangdu/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/easyclaw": {
+      "children": [
+        "public/tags/easyclaw/index.html",
+        "public/tags/easyclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/edgeone-clawscan": {
+      "children": [
+        "public/tags/edgeone-clawscan/index.html",
+        "public/tags/edgeone-clawscan/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6721,6 +10156,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/fluxa": {
+      "children": [
+        "public/tags/fluxa/index.html",
+        "public/tags/fluxa/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/forefront-ai": {
       "children": [
         "public/tags/forefront-ai/index.html",
@@ -6784,10 +10226,38 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/gate-pay-for-ai": {
+      "children": [
+        "public/tags/gate-pay-for-ai/index.html",
+        "public/tags/gate-pay-for-ai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/gateclaw": {
+      "children": [
+        "public/tags/gateclaw/index.html",
+        "public/tags/gateclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/gemini": {
+      "children": [
+        "public/tags/gemini/index.html",
+        "public/tags/gemini/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/generated-photos": {
       "children": [
         "public/tags/generated-photos/index.html",
         "public/tags/generated-photos/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/getclaw": {
+      "children": [
+        "public/tags/getclaw/index.html",
+        "public/tags/getclaw/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6805,6 +10275,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/grok": {
+      "children": [
+        "public/tags/grok/index.html",
+        "public/tags/grok/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/groqchat": {
       "children": [
         "public/tags/groqchat/index.html",
@@ -6819,10 +10296,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/happycapy": {
+      "children": [
+        "public/tags/happycapy/index.html",
+        "public/tags/happycapy/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/hedanku": {
       "children": [
         "public/tags/hedanku/index.html",
         "public/tags/hedanku/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/hello-claw-教程": {
+      "children": [
+        "public/tags/hello-claw-教程/index.html",
+        "public/tags/hello-claw-教程/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6840,10 +10331,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/hiclaw": {
+      "children": [
+        "public/tags/hiclaw/index.html",
+        "public/tags/hiclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/https-ugener-com": {
       "children": [
         "public/tags/https-ugener-com/index.html",
         "public/tags/https-ugener-com/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/htx-ai-skills": {
+      "children": [
+        "public/tags/htx-ai-skills/index.html",
+        "public/tags/htx-ai-skills/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6879,6 +10384,13 @@
       "children": [
         "public/tags/infinityfree/index.html",
         "public/tags/infinityfree/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/instreet": {
+      "children": [
+        "public/tags/instreet/index.html",
+        "public/tags/instreet/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -6980,6 +10492,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/jvs-claw": {
+      "children": [
+        "public/tags/jvs-claw/index.html",
+        "public/tags/jvs-claw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/k": {
       "children": [
         "public/tags/k/index.html",
@@ -7001,10 +10520,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/kiloclaw": {
+      "children": [
+        "public/tags/kiloclaw/index.html",
+        "public/tags/kiloclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/kimi": {
+      "children": [
+        "public/tags/kimi/index.html",
+        "public/tags/kimi/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/kimi-ai": {
       "children": [
         "public/tags/kimi-ai/index.html",
         "public/tags/kimi-ai/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/kimi-claw": {
+      "children": [
+        "public/tags/kimi-claw/index.html",
+        "public/tags/kimi-claw/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7106,10 +10646,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/linkfox-claw": {
+      "children": [
+        "public/tags/linkfox-claw/index.html",
+        "public/tags/linkfox-claw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/linum": {
       "children": [
         "public/tags/linum/index.html",
         "public/tags/linum/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/llama": {
+      "children": [
+        "public/tags/llama/index.html",
+        "public/tags/llama/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7127,6 +10681,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/LLM": {
+      "children": [
+        "public/tags/LLM/index.html",
+        "public/tags/LLM/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/lmsys": {
       "children": [
         "public/tags/lmsys/index.html",
@@ -7134,10 +10695,45 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/lobehub": {
+      "children": [
+        "public/tags/lobehub/index.html",
+        "public/tags/lobehub/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/lobsterai-有道龙虾": {
+      "children": [
+        "public/tags/lobsterai-有道龙虾/index.html",
+        "public/tags/lobsterai-有道龙虾/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/lobstercash": {
+      "children": [
+        "public/tags/lobstercash/index.html",
+        "public/tags/lobstercash/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/loomy": {
+      "children": [
+        "public/tags/loomy/index.xml",
+        "public/tags/loomy/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/mac-mac": {
       "children": [
         "public/tags/mac-mac/index.html",
         "public/tags/mac-mac/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/machines-cash": {
+      "children": [
+        "public/tags/machines-cash/index.html",
+        "public/tags/machines-cash/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7152,6 +10748,20 @@
       "children": [
         "public/tags/magicflow/index.html",
         "public/tags/magicflow/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/mailboxkit": {
+      "children": [
+        "public/tags/mailboxkit/index.html",
+        "public/tags/mailboxkit/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/mails": {
+      "children": [
+        "public/tags/mails/index.html",
+        "public/tags/mails/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7176,6 +10786,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/manus": {
+      "children": [
+        "public/tags/manus/index.html",
+        "public/tags/manus/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/maoliyunsousuoguanwang": {
       "children": [
         "public/tags/maoliyunsousuoguanwang/index.html",
@@ -7190,10 +10807,24 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/markdown": {
+      "children": [
+        "public/tags/markdown/index.html",
+        "public/tags/markdown/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/marketsy": {
       "children": [
         "public/tags/marketsy/index.html",
         "public/tags/marketsy/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/maxclaw": {
+      "children": [
+        "public/tags/maxclaw/index.html",
+        "public/tags/maxclaw/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7239,6 +10870,34 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/mimo": {
+      "children": [
+        "public/tags/mimo/index.html",
+        "public/tags/mimo/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/minimax": {
+      "children": [
+        "public/tags/minimax/index.html",
+        "public/tags/minimax/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/minimax-token-plan": {
+      "children": [
+        "public/tags/minimax-token-plan/index.html",
+        "public/tags/minimax-token-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/mistral": {
+      "children": [
+        "public/tags/mistral/index.html",
+        "public/tags/mistral/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/mitce": {
       "children": [
         "public/tags/mitce/index.html",
@@ -7246,10 +10905,31 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/model123": {
+      "children": [
+        "public/tags/model123/index.html",
+        "public/tags/model123/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/moltbook": {
+      "children": [
+        "public/tags/moltbook/index.html",
+        "public/tags/moltbook/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/moreread": {
       "children": [
         "public/tags/moreread/index.html",
         "public/tags/moreread/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/mulerun": {
+      "children": [
+        "public/tags/mulerun/index.html",
+        "public/tags/mulerun/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7271,6 +10951,13 @@
       "children": [
         "public/tags/neikuwang/index.html",
         "public/tags/neikuwang/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/nemoclaw": {
+      "children": [
+        "public/tags/nemoclaw/index.html",
+        "public/tags/nemoclaw/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7302,6 +10989,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/okx-agent-trade-kit": {
+      "children": [
+        "public/tags/okx-agent-trade-kit/index.html",
+        "public/tags/okx-agent-trade-kit/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/onion": {
       "children": [
         "public/tags/onion/index.html",
@@ -7320,6 +11014,76 @@
       "children": [
         "public/tags/openclaw/index.html",
         "public/tags/openclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-橙皮书": {
+      "children": [
+        "public/tags/openclaw-橙皮书/index.html",
+        "public/tags/openclaw-橙皮书/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-从入门到精通": {
+      "children": [
+        "public/tags/openclaw-从入门到精通/index.html",
+        "public/tags/openclaw-从入门到精通/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-官网": {
+      "children": [
+        "public/tags/openclaw-官网/index.html",
+        "public/tags/openclaw-官网/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-使用案例": {
+      "children": [
+        "public/tags/openclaw-使用案例/index.html",
+        "public/tags/openclaw-使用案例/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-中文学习手册": {
+      "children": [
+        "public/tags/openclaw-中文学习手册/index.html",
+        "public/tags/openclaw-中文学习手册/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-directory": {
+      "children": [
+        "public/tags/openclaw-directory/index.html",
+        "public/tags/openclaw-directory/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclaw-startups": {
+      "children": [
+        "public/tags/openclaw-startups/index.html",
+        "public/tags/openclaw-startups/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openclawdir": {
+      "children": [
+        "public/tags/openclawdir/index.html",
+        "public/tags/openclawdir/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openrouter": {
+      "children": [
+        "public/tags/openrouter/index.html",
+        "public/tags/openrouter/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/openrouter-rankings": {
+      "children": [
+        "public/tags/openrouter-rankings/index.html",
+        "public/tags/openrouter-rankings/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7414,6 +11178,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/pinchbench": {
+      "children": [
+        "public/tags/pinchbench/index.html",
+        "public/tags/pinchbench/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/pinzimu": {
       "children": [
         "public/tags/pinzimu/index.html",
@@ -7453,6 +11224,13 @@
       "children": [
         "public/tags/poe/index.html",
         "public/tags/poe/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/poorclaw穷虾": {
+      "children": [
+        "public/tags/poorclaw穷虾/index.html",
+        "public/tags/poorclaw穷虾/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7498,6 +11276,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/qclaw": {
+      "children": [
+        "public/tags/qclaw/index.html",
+        "public/tags/qclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/qianqiushuzai": {
       "children": [
         "public/tags/qianqiushuzai/index.html",
@@ -7516,6 +11301,13 @@
       "children": [
         "public/tags/qimiaosousuo/index.html",
         "public/tags/qimiaosousuo/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/qoderwork": {
+      "children": [
+        "public/tags/qoderwork/index.html",
+        "public/tags/qoderwork/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7558,6 +11350,13 @@
       "children": [
         "public/tags/recipe-p-com/index.html",
         "public/tags/recipe-p-com/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/reddit-板块": {
+      "children": [
+        "public/tags/reddit-板块/index.html",
+        "public/tags/reddit-板块/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7708,6 +11507,41 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/skillhub": {
+      "children": [
+        "public/tags/skillhub/index.html",
+        "public/tags/skillhub/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/skillhub中国": {
+      "children": [
+        "public/tags/skillhub中国/index.html",
+        "public/tags/skillhub中国/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/skillpay": {
+      "children": [
+        "public/tags/skillpay/index.html",
+        "public/tags/skillpay/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/skillsmp": {
+      "children": [
+        "public/tags/skillsmp/index.html",
+        "public/tags/skillsmp/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/skillssh": {
+      "children": [
+        "public/tags/skillssh/index.html",
+        "public/tags/skillssh/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/sms-activate": {
       "children": [
         "public/tags/sms-activate/index.html",
@@ -7750,6 +11584,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/soulszip": {
+      "children": [
+        "public/tags/soulszip/index.html",
+        "public/tags/soulszip/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/souyunpanguanwang": {
       "children": [
         "public/tags/souyunpanguanwang/index.html",
@@ -7785,6 +11626,20 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/step-plan": {
+      "children": [
+        "public/tags/step-plan/index.html",
+        "public/tags/step-plan/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/stepclaw": {
+      "children": [
+        "public/tags/stepclaw/index.html",
+        "public/tags/stepclaw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/sync-labs": {
       "children": [
         "public/tags/sync-labs/index.xml",
@@ -7796,6 +11651,13 @@
       "children": [
         "public/tags/synclabs-so/index.html",
         "public/tags/synclabs-so/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/tabbit-浏览器": {
+      "children": [
+        "public/tags/tabbit-浏览器/index.html",
+        "public/tags/tabbit-浏览器/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7855,6 +11717,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/tempo-wallet": {
+      "children": [
+        "public/tags/tempo-wallet/index.html",
+        "public/tags/tempo-wallet/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/tianyajingdianshentieheji": {
       "children": [
         "public/tags/tianyajingdianshentieheji/index.html",
@@ -7894,6 +11763,13 @@
       "children": [
         "public/tags/tongyiqianwen-ali/index.html",
         "public/tags/tongyiqianwen-ali/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/tool": {
+      "children": [
+        "public/tags/tool/index.html",
+        "public/tags/tool/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -7950,6 +11826,13 @@
       "children": [
         "public/tags/tushuwang/index.html",
         "public/tags/tushuwang/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/tutorial": {
+      "children": [
+        "public/tags/tutorial/index.html",
+        "public/tags/tutorial/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -8044,6 +11927,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/waytoagi-之路": {
+      "children": [
+        "public/tags/waytoagi-之路/index.html",
+        "public/tags/waytoagi-之路/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/web3": {
       "children": [
         "public/tags/web3/index.html",
@@ -8114,6 +12004,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/workbuddy": {
+      "children": [
+        "public/tags/workbuddy/index.html",
+        "public/tags/workbuddy/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/wuwumanhua": {
       "children": [
         "public/tags/wuwumanhua/index.html",
@@ -8163,6 +12060,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/tags/xiaomi-mimo-claw": {
+      "children": [
+        "public/tags/xiaomi-mimo-claw/index.html",
+        "public/tags/xiaomi-mimo-claw/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
     "public/tags/xinjuchang": {
       "children": [
         "public/tags/xinjuchang/index.html",
@@ -8181,6 +12085,13 @@
       "children": [
         "public/tags/xinyongkashengchengqi/index.html",
         "public/tags/xinyongkashengchengqi/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/xsct-bench": {
+      "children": [
+        "public/tags/xsct-bench/index.html",
+        "public/tags/xsct-bench/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -8286,6 +12197,13 @@
       "children": [
         "public/tags/zaixianmeijutiantangzaixianrijutuijianzaixianhanjuwang/index.html",
         "public/tags/zaixianmeijutiantangzaixianrijutuijianzaixianhanjuwang/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/tags/zenmux": {
+      "children": [
+        "public/tags/zenmux/index.html",
+        "public/tags/zenmux/index.xml"
       ],
       "sortOrder": "custom"
     },
