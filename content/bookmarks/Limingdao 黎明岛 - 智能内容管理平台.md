@@ -1,11 +1,11 @@
 ---
-title: "Limingdao 黎明岛 - 智能内容管理平台"
-categories: "商业合作"
-"sub-category": "自营"
+title: Limingdao 黎明岛 - 智能内容管理平台
+categories: 商业合作
+sub-category: 运营
 weight: "10"
 recommend: "2"
-sitelink: "https://www.mimiby.com/"
-description: "智能内容管理平台 | 知识库"
+sitelink: https://www.mimiby.com/
+description: 智能内容管理平台 | 知识库
 logo:
 tags:
 ---
