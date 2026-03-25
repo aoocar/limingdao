@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {"name": "AI写作", "url": "/tool/all/AI%E5%86%99%E4%BD%9C", "sub_categories": []},
+    {"name": "AI图像", "url": "/tool/all/AI%E5%9B%BE%E5%83%8F", "sub_categories": ["常用AI图像工具","AI图片优化修复","AI图片背景移除","AI图片无损放大","AI 3D模型生成","AI商品图生成","AI图片插画生成","AI图片物体抹除"]},
+    {"name": "AI视频创作", "url": "/tool/all/AI%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C", "sub_categories": []},
+    {"name": "AI办公", "url": "/tool/all/AI%E5%8A%9E%E5%85%AC", "sub_categories": ["AI PPT","AI文档工具","AI思维导图","AI表格数据处理","AI语言翻译","AI会议工具","AI招聘求职","AI效率提升","AI法律助手"]},
+    {"name": "AI开发平台", "url": "/tool/all/AI%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0", "sub_categories": ["AI编程工具","AI开源项目","AI开发框架","AI开放平台","AI训练模型","AI-SQL数据库","AI低(无)代码编程","AI国际导航","AI开发课堂"]},
+    {"name": "AI智能体", "url": "/tool/all/AI%E6%99%BA%E8%83%BD%E4%BD%93", "sub_categories": []},
+    {"name": "AI聊天对话", "url": "/tool/all/AI%E8%81%8A%E5%A4%A9%E5%AF%B9%E8%AF%9D", "sub_categories": []},
+    {"name": "AI音频音乐", "url": "/tool/all/AI%E9%9F%B3%E9%A2%91%E9%9F%B3%E4%B9%90", "sub_categories": []},
+    {"name": "AI商业设计", "url": "/tool/all/AI%E5%95%86%E4%B8%9A%E8%AE%BE%E8%AE%A1", "sub_categories": []},
+    {"name": "AI大模型", "url": "/tool/all/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B", "sub_categories": []},
+    {"name": "AI学习平台", "url": "/tool/all/AI%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0", "sub_categories": []},
+    {"name": "AI搜索引擎", "url": "/tool/all/AI%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E", "sub_categories": []},
+    {"name": "AI内容检测", "url": "/tool/all/AI%E5%86%85%E5%AE%B9%E6%A3%80%E6%B5%8B", "sub_categories": []},
+    {"name": "AI应用", "url": "/tool/all/AI%E5%BA%94%E7%94%A8", "sub_categories": []}
+  ],
+  "test_tools": [
+    {
+      "title": "Muset",
+      "sitelink": "https://muset.cn",
+      "description": "帮助深度创作者保持心流状态——助您将零散的想法转化为可发布的成品。",
+      "categories": "AI写作",
+      "sub_category": "",
+      "tags": ["AI写作", "创作工具", "心流"]
+    },
+    {
+      "title": "满血DeepSeek-问小白",
+      "sitelink": "https://www.wenxiaobai.com",
+      "description": "免费无限量使用DeepSeek R1模型，支持联网搜索！",
+      "categories": "AI写作",
+      "sub_category": "",
+      "tags": ["AI写作", "DeepSeek", "AI搜索"]
+    },
+    {
+      "title": "可灵AI",
+      "sitelink": "https://klingai.com",
+      "description": "快手推出的AI图像和视频创作平台",
+      "categories": "AI图像",
+      "sub_category": "常用AI图像工具",
+      "tags": ["AI图像", "视频生成", "快手"]
+    },
+    {
+      "title": "星流AI",
+      "sitelink": "https://www.liblibai.com",
+      "description": "LiblibAI推出的一站式AI图像生成平台",
+      "categories": "AI图像",
+      "sub_category": "AI图片插画生成",
+      "tags": ["AI图像", "图像生成", "LiblibAI"]
+    },
+    {
+      "title": "内容特工队",
+      "sitelink": "https://www.aicontentteam.com",
+      "description": "全球首款移动端AI营销视频生成智能体",
+      "categories": "AI视频创作",
+      "sub_category": "",
+      "tags": ["AI视频", "营销", "智能体"]
+    }
+  ]
+}
