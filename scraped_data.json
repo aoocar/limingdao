@@ -1,0 +1,1679 @@
+{
+  "categories": [
+    "主页",
+    "社区",
+    "AI工具",
+    "AI知识库",
+    "AI提示词",
+    "MCP",
+    "Skills",
+    "AI学习资源",
+    "AI资讯",
+    "GitHub开源",
+    "AI写作",
+    "AI图像",
+    "AI视频创作",
+    "AI办公",
+    "AI开发平台",
+    "AI智能体",
+    "AI聊天对话",
+    "AI音频音乐",
+    "AI商业设计",
+    "AI大模型",
+    "AI学习平台",
+    "AI搜索引擎",
+    "AI内容检测",
+    "AI应用"
+  ],
+  "tools": [
+    {
+      "title": "鱼皮AI导航",
+      "url": "https://ai.codefather.cn/"
+    },
+    {
+      "title": "社区",
+      "url": "https://ai.codefather.cn/essay"
+    },
+    {
+      "title": "AI工具",
+      "url": "https://ai.codefather.cn/tool"
+    },
+    {
+      "title": "AI知识库",
+      "url": "https://ai.codefather.cn/library/1936010874183520257"
+    },
+    {
+      "title": "AI提示词",
+      "url": "https://ai.codefather.cn/painting"
+    },
+    {
+      "title": "MCP",
+      "url": "https://ai.codefather.cn/mcp"
+    },
+    {
+      "title": "Skills",
+      "url": "https://ai.codefather.cn/skills"
+    },
+    {
+      "title": "AI学习资源",
+      "url": "https://ai.codefather.cn/resource/learn"
+    },
+    {
+      "title": "AI资讯",
+      "url": "https://ai.codefather.cn/news"
+    },
+    {
+      "title": "GitHub开源",
+      "url": "https://github.com/liyupi/ai-guide"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%86%99%E4%BD%9C"
+    },
+    {
+      "title": "Muset\n帮助深度创作者保持心流状态——助您将零散的想法转化为可发布的成品。",
+      "url": "https://ai.codefather.cn/tool/1983423688002134019"
+    },
+    {
+      "title": "满血DeepSeek-问小白\n免费无限量使用DeepSeek R1模型，支持联网搜索！",
+      "url": "https://ai.codefather.cn/tool/1965402622974386192"
+    },
+    {
+      "title": "蛙蛙写作\n创作各种类型、风格、主题的小说，无论是科幻、悬疑、奇幻，还是现实、幽默、言情",
+      "url": "https://ai.codefather.cn/tool/1965402622974386191"
+    },
+    {
+      "title": "讯飞文书 – 免费体验\n国产大模型AI公文写作工具，一款依托于星火大模型技术，专为广大公文材料撰稿人打造的高效写作平台。",
+      "url": "https://ai.codefather.cn/tool/1965402622974386190"
+    },
+    {
+      "title": "稿定AI文案\n满血版DeepSeek驱动，将「设计」从「专业技能」转化为「语言表达」—— 无需掌握 PS、AI，只需告诉 AI「我想要什么」，就能获得「可用、可改、可商用」的视觉内容。",
+      "url": "https://ai.codefather.cn/tool/1965402622974386189"
+    },
+    {
+      "title": "析易-AI论文_数据分析\nAI论文辅助、文献综述、SCI高清作图，零代码机器学习、数据清洗、数理统计等，一键生成报告、导出模型、预测结果，点点鼠标就能搞定数据分析。",
+      "url": "https://ai.codefather.cn/tool/1965402622974386188"
+    },
+    {
+      "title": "笔灵AI写作\n全能型AI写作工具，AI文章撰写、AI论文写作、AI小说写作、文章降重降AI等",
+      "url": "https://ai.codefather.cn/tool/1965402622974386187"
+    },
+    {
+      "title": "讯飞星火\n讯飞星火AI助手，高性能AI语言模型，具备多模态理解和生成能力，服务于企业服务、智能硬件、智慧政务、智慧金融、智慧生活和智慧医疗等多个领域。",
+      "url": "https://ai.codefather.cn/tool/1965402622974386186"
+    },
+    {
+      "title": "万能小in一键论文\n3分钟4万字130+应用，只需标题，快速生成文献综述、开题报告、PPT、工作总结等",
+      "url": "https://ai.codefather.cn/tool/1965402622974386182"
+    },
+    {
+      "title": "Paperpal\n英文论文写作助手 免费写作及润色AI工具，兼备翻译及投稿检查等强大功能，大幅节省写作时长",
+      "url": "https://ai.codefather.cn/tool/1965402622974386181"
+    },
+    {
+      "title": "讯飞绘文\n选题、配图、成文，一站式创作，让内容运营更高效",
+      "url": "https://ai.codefather.cn/tool/1965402622974386180"
+    },
+    {
+      "title": "茅茅虫AI论文助手\n帮助用户生成论文灵感、提供论文开题思路、辅助论文答辩以及进行论文查重等功能。",
+      "url": "https://ai.codefather.cn/tool/1965402622974386179"
+    },
+    {
+      "title": "PaperFake AI写论文\n一键AI生成3万字论文，查重率、aigc率双重担保",
+      "url": "https://ai.codefather.cn/tool/1965402622974386178"
+    },
+    {
+      "title": "小鱼AI写作 – 免费\n满足自媒体人和办公人写作创作的在线智能AI写作平台，可以用AI自动生成高质量原创内容，内容创作覆盖多种类型，满足不同场景、人群的AI创作需求以及提供个性化的自定",
+      "url": "https://ai.codefather.cn/tool/1965402622974386177"
+    },
+    {
+      "title": "AI内容管家-免费100篇\nAI驱动的SEO挖词、写作、发布工具",
+      "url": "https://ai.codefather.cn/tool/1965402622970191895"
+    },
+    {
+      "title": "慧言AI\n一站式AI解决方案，全能聚合平台",
+      "url": "https://ai.codefather.cn/tool/1965402622970191894"
+    },
+    {
+      "title": "豆包AI写作助手\n抖音旗下AI助手-豆包，是一款基于云雀模型构建的多功能人工智能工具和免费AI聊天机器人，能够理解用户需求并提供个性化服务。",
+      "url": "https://ai.codefather.cn/tool/1965402622970191893"
+    },
+    {
+      "title": "迅捷AI写作\nAI智能文字处理软件",
+      "url": "https://ai.codefather.cn/tool/1965402622970191892"
+    },
+    {
+      "title": "酷宣AI\n快速生成高颜值文章，多平台同步",
+      "url": "https://ai.codefather.cn/tool/1965402622970191891"
+    },
+    {
+      "title": "新华妙笔AI\n新华社出品体制内办公学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402622970191890"
+    },
+    {
+      "title": "百度文库AI助手\n智能PPT、智能创作、智能编辑、智能总结四大AI能力，全面提升文档生产力",
+      "url": "https://ai.codefather.cn/tool/1965402622970191889"
+    },
+    {
+      "title": "橙篇\n百度推出的全新的综合AI应用",
+      "url": "https://ai.codefather.cn/tool/1965402622970191888"
+    },
+    {
+      "title": "文字游侠-AI一键写头条\n全网最牛逼的AI一键写头条文章全自动工具！",
+      "url": "https://ai.codefather.cn/tool/1965402622970191887"
+    },
+    {
+      "title": "智谱AI写作助手\n工作总结/代码撰写/PPT制作,一站式解决！智谱清言AI助手是一个基于GLM模型开发的人工智能助手，它拥有千亿参数，并支持多轮对话。",
+      "url": "https://ai.codefather.cn/tool/1965402622970191886"
+    },
+    {
+      "title": "VM技术库-IT运维专用\n一个综合性的IT运维资源库",
+      "url": "https://ai.codefather.cn/tool/1965402622970191885"
+    },
+    {
+      "title": "墨狐AI写小说\nDeepSeek写小说，5分钟生成万字，墨狐AI写作，造就人人都是小说家！",
+      "url": "https://ai.codefather.cn/tool/1965402622970191884"
+    },
+    {
+      "title": "边界AI平台\n全功能AIGC平台，你想要的工具全部都有！",
+      "url": "https://ai.codefather.cn/tool/1965402622970191883"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%9B%BE%E5%83%8F"
+    },
+    {
+      "title": "可灵AI\n快手推出的AI图像和视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796364"
+    },
+    {
+      "title": "星流AI\nLiblibAI推出的一站式AI图像生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623616114704"
+    },
+    {
+      "title": "稿定AI\n一站式AI设计工具集，免费AI绘图、图片转AI绘画、AI抠图消除",
+      "url": "https://ai.codefather.cn/tool/1965402623616114703"
+    },
+    {
+      "title": "即梦\n抖音旗下免费AI图片创作工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977357"
+    },
+    {
+      "title": "堆友AI反应堆\n阿里堆友推出的多风格AI绘画生成器",
+      "url": "https://ai.codefather.cn/tool/1965402623569977356"
+    },
+    {
+      "title": "光子AI\n专为电商商家推出的AI商拍工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977355"
+    },
+    {
+      "title": "阿贝智能\n一站式AI绘本创作平台，副业变现必备",
+      "url": "https://ai.codefather.cn/tool/1965402623569977354"
+    },
+    {
+      "title": "Midjourney\nAI图像和插画生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977353"
+    },
+    {
+      "title": "Stable Diffusion\nStabilityAI推出的文本到图像生成AI",
+      "url": "https://ai.codefather.cn/tool/1965402623569977352"
+    },
+    {
+      "title": "LiblibAI·哩布哩布AI\n国内领先的AI图像创作平台和模型社区",
+      "url": "https://ai.codefather.cn/tool/1965402623569977351"
+    },
+    {
+      "title": "Civitai\n免费的AI图像绘画作品和模型分享平台和社区",
+      "url": "https://ai.codefather.cn/tool/1965402623569977350"
+    },
+    {
+      "title": "吐司AI\nAI绘画模型社区和在线生图平台",
+      "url": "https://ai.codefather.cn/tool/1965402623569977349"
+    },
+    {
+      "title": "RunningHub\n基于云端ComfyUI的AI图像与视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623569977348"
+    },
+    {
+      "title": "通义万相\n阿里推出的AI创意内容生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623569977347"
+    },
+    {
+      "title": "秒画\n商汤科技推出的免费AI作画和图片生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623569977346"
+    },
+    {
+      "title": "insMind\n稿定面向全球市场推出的AI图片编辑工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977345"
+    },
+    {
+      "title": "AI改图神器\nAI在线图像编辑工具",
+      "url": "https://ai.codefather.cn/tool/1965402623565783058"
+    },
+    {
+      "title": "炉米Lumi\n字节跳动推出的AIGC图像创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623565783057"
+    },
+    {
+      "title": "Krea AI\n实时AI图像、视频生成和编辑平台",
+      "url": "https://ai.codefather.cn/tool/1965402623565783056"
+    },
+    {
+      "title": "Kira\nAI 图像生成与编辑工具",
+      "url": "https://ai.codefather.cn/tool/1965402623565783055"
+    },
+    {
+      "title": "Ribbet.ai\n免费的多功能AI图片处理工具箱",
+      "url": "https://ai.codefather.cn/tool/1965402623565783053"
+    },
+    {
+      "title": "万相营造\n阿里旗下推出的多模态AI创意生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623565783052"
+    },
+    {
+      "title": "WHEE\n美图推出的AI图片和绘画创作生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623565783051"
+    },
+    {
+      "title": "奇域AI\n中式审美国风AI绘画创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623565783050"
+    },
+    {
+      "title": "悟空图像PhotoSir\n新一代专业图像处理软件，更智能、更高效、更好用",
+      "url": "https://ai.codefather.cn/tool/1965402623565783049"
+    },
+    {
+      "title": "360智图\n360推出的AI作图平台，支持智能抠图、智能消除、智能放大、智能配图",
+      "url": "https://ai.codefather.cn/tool/1965402623565783048"
+    },
+    {
+      "title": "像素蛋糕\n像甜科技推出的AI图像后期软件",
+      "url": "https://ai.codefather.cn/tool/1965402623565783047"
+    },
+    {
+      "title": "如果相机\n仅需1张照片，快速生成AI写真照片",
+      "url": "https://ai.codefather.cn/tool/1965402623565783046"
+    },
+    {
+      "title": "remove.bg\n强大的AI图片背景移除工具",
+      "url": "https://ai.codefather.cn/tool/1965402623565783045"
+    },
+    {
+      "title": "ARC\n腾讯旗下ARC实验室推出的免费AI图片处理工具",
+      "url": "https://ai.codefather.cn/tool/1965402623565783044"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C"
+    },
+    {
+      "title": "内容特工队\n全球首款移动端AI营销视频生成智能体",
+      "url": "https://ai.codefather.cn/tool/1983423688086020099"
+    },
+    {
+      "title": "造点AI\n夸克团队推出的AI图像与视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1983423688086020098"
+    },
+    {
+      "title": "萌动AI\n全球首个二次元/动漫专用 AI 创作工具",
+      "url": "https://ai.codefather.cn/tool/1983423688081825800"
+    },
+    {
+      "title": "磁力开创\n快手推出的AI创意生产平台",
+      "url": "https://ai.codefather.cn/tool/1983423688081825799"
+    },
+    {
+      "title": "HitPaw\n专注于AI视频、图像和音频处理工具",
+      "url": "https://ai.codefather.cn/tool/1983423688081825798"
+    },
+    {
+      "title": "SekoTalk\n商汤科技推出的AI对口型工具",
+      "url": "https://ai.codefather.cn/tool/1983423688081825797"
+    },
+    {
+      "title": "通义灵眸\n阿里通义推出的AI数字人生产平台",
+      "url": "https://ai.codefather.cn/tool/1983423688081825796"
+    },
+    {
+      "title": "讯飞绘镜\n科大讯飞推出的AI短视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796376"
+    },
+    {
+      "title": "Vidu\n生数科技推出的AI视频生成大模型",
+      "url": "https://ai.codefather.cn/tool/1965402623997796375"
+    },
+    {
+      "title": "Keevx\n开箱即用的AI数字人视频创作工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796374"
+    },
+    {
+      "title": "SoundView\nAI视频本地化工具，支持视频配音和翻译",
+      "url": "https://ai.codefather.cn/tool/1965402623997796373"
+    },
+    {
+      "title": "创一AI\nAI音视频创作工具，支持AI短片、AI角色和作图配音等",
+      "url": "https://ai.codefather.cn/tool/1965402623997796372"
+    },
+    {
+      "title": "绘蛙AI视频\n绘蛙推出的AI图生视频工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796371"
+    },
+    {
+      "title": "有言\n一站式AI视频创作和3D数字人生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796370"
+    },
+    {
+      "title": "白日梦\n领先AI创作平台，可生成最长50分钟的视频。人物一致性强，支持最新的Nano Banana。",
+      "url": "https://ai.codefather.cn/tool/1965402623997796369"
+    },
+    {
+      "title": "巨日禄\n一站式AI动漫视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796368"
+    },
+    {
+      "title": "HeyGen\n专业的AI数字人视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796367"
+    },
+    {
+      "title": "蝉镜\nAI数字人视频生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796366"
+    },
+    {
+      "title": "光子AI视频\n光子AI推出的AI视频生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796365"
+    },
+    {
+      "title": "海螺视频\nMiniMax公司推出的AI视频生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796363"
+    },
+    {
+      "title": "腾讯混元AI视频\n腾讯推出的AI视频生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796362"
+    },
+    {
+      "title": "通义万相AI视频\n通义万相AI视频是阿里推出的...",
+      "url": "https://ai.codefather.cn/tool/1965402623997796361"
+    },
+    {
+      "title": "智谱清影\n智谱推出的免费AI视频生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796360"
+    },
+    {
+      "title": "JoyPix\nAI数字人创作工具，支持声音克隆",
+      "url": "https://ai.codefather.cn/tool/1965402623997796359"
+    },
+    {
+      "title": "Higgsfield\nAI视频生成工具，支持专业运镜效果",
+      "url": "https://ai.codefather.cn/tool/1965402623997796358"
+    },
+    {
+      "title": "Pollo AI\n一站式AI图像和视频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623997796357"
+    },
+    {
+      "title": "Runway\nAI视频工具，绿幕抠除、视频生成、动态捕捉等功能",
+      "url": "https://ai.codefather.cn/tool/1965402623997796356"
+    },
+    {
+      "title": "Sora\nOpenAI推出的AI视频生成模型",
+      "url": "https://ai.codefather.cn/tool/1965402623997796355"
+    },
+    {
+      "title": "Pika\nPika Labs推出的AI视频生成和编辑工具",
+      "url": "https://ai.codefather.cn/tool/1965402623997796354"
+    },
+    {
+      "title": "腾讯智影\n腾讯推出的AI智能创作工具",
+      "url": "https://ai.codefather.cn/tool/1965402623993602065"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%8A%9E%E5%85%AC"
+    },
+    {
+      "title": "Pi智能演示文档\nAI演示文档创作与共享平台",
+      "url": "https://ai.codefather.cn/tool/1983423688069242882"
+    },
+    {
+      "title": "咔片PPT\nAI PPT制作工具，设计美化全流程自动化",
+      "url": "https://ai.codefather.cn/tool/1965402623528034309"
+    },
+    {
+      "title": "博思AIPPT\nPPT效率神器，AI一键生成PPT",
+      "url": "https://ai.codefather.cn/tool/1965402623528034308"
+    },
+    {
+      "title": "文多多AiPPT\nAI一键生成PPT，支持AI配图和智能资料整合",
+      "url": "https://ai.codefather.cn/tool/1965402623528034307"
+    },
+    {
+      "title": "Pi-AI原生PPT\nAI演示文档创作与共享平台",
+      "url": "https://ai.codefather.cn/tool/1965402623528034306"
+    },
+    {
+      "title": "iSlide AIPPT\nAI一键设计精美PPT，只需一句标题",
+      "url": "https://ai.codefather.cn/tool/1965402623523840023"
+    },
+    {
+      "title": "扣子PPT\n扣子空间推出的AI一键生成PPT服务",
+      "url": "https://ai.codefather.cn/tool/1965402623523840022"
+    },
+    {
+      "title": "稿定PPT\n稿定推出的PPT模板资源库",
+      "url": "https://ai.codefather.cn/tool/1965402623523840021"
+    },
+    {
+      "title": "笔格AIPPT\n高效的AI PPT生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840020"
+    },
+    {
+      "title": "笔灵AIPPT\n一键生成PPT和千字演讲稿",
+      "url": "https://ai.codefather.cn/tool/1965402623523840019"
+    },
+    {
+      "title": "讯飞智文\n一键生成PPT和Word",
+      "url": "https://ai.codefather.cn/tool/1965402623523840018"
+    },
+    {
+      "title": "百度文库AI助手\n基于文心一言的一站式智能文档助手",
+      "url": "https://ai.codefather.cn/tool/1965402623523840017"
+    },
+    {
+      "title": "Gamma\nAI幻灯片演示生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840016"
+    },
+    {
+      "title": "Napkin\n将文本内容快速转换成演示图像的AI办公工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840015"
+    },
+    {
+      "title": "PicDoc\nAI文本转图表工具，一键生成多种视觉图表",
+      "url": "https://ai.codefather.cn/tool/1965402623523840014"
+    },
+    {
+      "title": "VoxDeck\n创新的AI演示文稿生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840013"
+    },
+    {
+      "title": "AiBiao\nAI文生图表工具，支持生成柱状图、折线图、饼图等",
+      "url": "https://ai.codefather.cn/tool/1965402623523840012"
+    },
+    {
+      "title": "美图AI PPT\n美图秀秀推出的免费在线AI生成PPT设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840011"
+    },
+    {
+      "title": "Kimi PPT助手\nKimi全新自研的PPT助手，一键生成PPT",
+      "url": "https://ai.codefather.cn/tool/1965402623523840010"
+    },
+    {
+      "title": "清言PPT\n智谱清言联合AiPPT推出的PPT生成智能体",
+      "url": "https://ai.codefather.cn/tool/1965402623523840009"
+    },
+    {
+      "title": "万兴智演\n万兴科技推出的AI PPT和演示制作软件",
+      "url": "https://ai.codefather.cn/tool/1965402623523840008"
+    },
+    {
+      "title": "歌者AI\n彩漩PPT推出的AI PPT生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840007"
+    },
+    {
+      "title": "ChatBA\nAI幻灯片生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840006"
+    },
+    {
+      "title": "Decktopus AI\nAI驱动的在线演示文稿生成器",
+      "url": "https://ai.codefather.cn/tool/1965402623523840005"
+    },
+    {
+      "title": "Powerpresent AI\nAI演示文稿生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623523840004"
+    },
+    {
+      "title": "希沃白板\n专为互动教学设计的AI课件生成器",
+      "url": "https://ai.codefather.cn/tool/1965402623523840003"
+    },
+    {
+      "title": "秒出PPT\n一键生成PPT，智能辅助编辑",
+      "url": "https://ai.codefather.cn/tool/1965402623523840002"
+    },
+    {
+      "title": "GAIPPT\nAI智能美化PPT工具，上传PPT一键美化",
+      "url": "https://ai.codefather.cn/tool/1965402623519645721"
+    },
+    {
+      "title": "beautiful.ai\nAI创建展示幻灯片",
+      "url": "https://ai.codefather.cn/tool/1965402623519645720"
+    },
+    {
+      "title": "麦当秀MindShow\nAI在线PPT制作工具，支持Markdown等多种格式",
+      "url": "https://ai.codefather.cn/tool/1965402623519645719"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0"
+    },
+    {
+      "title": "码上飞-AI生成小程序\n免费生成小程序/app/网站等各类应用",
+      "url": "https://ai.codefather.cn/tool/1965402622873722889"
+    },
+    {
+      "title": "小浣熊AI助手\n代码小浣熊Raccoon是商汤科技最新推出的一个智能AI编程助手和工具，由商汤自研的大模型驱动，支持多种编程语言和多项任务能力，可为开发人员带来全新的编程体验。",
+      "url": "https://ai.codefather.cn/tool/1965402622873722888"
+    },
+    {
+      "title": "豆包AI编程\n豆包推出的AI编程新功能，旨在通过AI技术简化编程流程，提升开发效率。该功能支持一键上传本地代码文件和实时引入GitHub开源仓库，提供沉浸式代码阅读体验和精准圈选代码提问功能",
+      "url": "https://ai.codefather.cn/tool/1965402622873722887"
+    },
+    {
+      "title": "NoCode\n通过简单操作（如拖放、AI 对话等）无需编写代码，即可快速创建应用、工具、网站及管理系统，覆盖个人生活、商业经营、企业管理等多场景，显著降低了软件开发的技术门槛。",
+      "url": "https://ai.codefather.cn/tool/1965402622873722886"
+    },
+    {
+      "title": "CodingSee-AI伴学\n专为中国少儿编程设计的软件，它集成了多种实用功能，为孩子们提供了一个全面的编程学习平台。",
+      "url": "https://ai.codefather.cn/tool/1965402622873722885"
+    },
+    {
+      "title": "驭码CodeRider\n驭码CodeRider是极狐GitLab推出的AI编程与软件智能研发助手，专为提升程序员的编码效率和研发效能而设计。",
+      "url": "https://ai.codefather.cn/tool/1965402622873722883"
+    },
+    {
+      "title": "图像大厨Imgcook\n图像大厨Imgcook阿里巴巴出品...",
+      "url": "https://ai.codefather.cn/tool/1965402622873722882"
+    },
+    {
+      "title": "速码大师codingM\n核心定位是为企业提供多维度的管理解决方案，涵盖公文、项目、资产、活动、业务及综合管理等多个领域",
+      "url": "https://ai.codefather.cn/tool/1965402622869528592"
+    },
+    {
+      "title": "天壤小白\n天壤小白大模型应用开发平台，提供一站式的大模型开发服务和全面的赋能，为开发者和零编程基础人员轻松创建个性化的AI应用。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528591"
+    },
+    {
+      "title": "GitHub Copilot\nGitHub Copilot 经过数十亿行代码的训练，将自然语言提示转化为跨数十种语言的编码建议。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528590"
+    },
+    {
+      "title": "CodeWhisperer\nAmazon Q 开发者版，亚马逊推出的一款人工智能代码生成工具，旨在帮助开发者更高效地编写代码。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528589"
+    },
+    {
+      "title": "通义灵码\n基于通义大模型的智能编码辅助工具",
+      "url": "https://ai.codefather.cn/tool/1965402622869528588"
+    },
+    {
+      "title": "Bolt.new\n一个为全栈 Web 开发者设计的高效工具，它通过简化开发流程，使得从创建到部署的整个过程更加快捷和方便。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528586"
+    },
+    {
+      "title": "Plandex\nPlandex是一个基于终端的开源 AI 编程引擎，可帮助程序员完成复杂的软件编程开发任务、解决不良输出并最大限度地提高生产力。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528585"
+    },
+    {
+      "title": "SoloLearn\nSoloLearn 是一个在线学习平台，提供编程、设计、数据科学、移动开发等领域的课程和教程。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528582"
+    },
+    {
+      "title": "Open Voice OS\n一个社区驱动的开源语音 AI 平台，用于使用 NLP、可自定义的 UI 以及对隐私和安全的关注跨设备创建自定义语音控制界面。",
+      "url": "https://ai.codefather.cn/tool/1965402622869528578"
+    },
+    {
+      "title": "CodeGeeX\n自动代码生成、代码翻译、自动编写注释等功能，支持20多种编程语言",
+      "url": "https://ai.codefather.cn/tool/1965402622865334285"
+    },
+    {
+      "title": "JamGPT\nJamGPT是Bug报告工具Jam最新推出的AI Debug助手，JamGPT可帮助开发人员分析所有的Bug报告细节，在你开始阅读之前就找到相关原因和解决方案。",
+      "url": "https://ai.codefather.cn/tool/1965402622865334284"
+    },
+    {
+      "title": "CodeFuse\n蚂蚁自研智能研发助手",
+      "url": "https://ai.codefather.cn/tool/1965402622865334283"
+    },
+    {
+      "title": "HeyCLI\n自然语言转义为CLI命令",
+      "url": "https://ai.codefather.cn/tool/1965402622865334282"
+    },
+    {
+      "title": "Visual Studio IntelliCode\nVisual Studio AI辅助开发",
+      "url": "https://ai.codefather.cn/tool/1965402622865334280"
+    },
+    {
+      "title": "BitoAI\n将生成代码的速度提高 10 倍",
+      "url": "https://ai.codefather.cn/tool/1965402622865334279"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E6%99%BA%E8%83%BD%E4%BD%93"
+    },
+    {
+      "title": "Tbox\n蚂蚁集团旗下多智能体协同的通用 AI Agent",
+      "url": "https://ai.codefather.cn/tool/1983423688081825795"
+    },
+    {
+      "title": "爱派AiPy\n本地Manus、国内能用、内网能用，开源免费",
+      "url": "https://ai.codefather.cn/tool/1983423688081825794"
+    },
+    {
+      "title": "Opera Neon\nOpera推出的全新AI Agent浏览器",
+      "url": "https://ai.codefather.cn/tool/1983423688077631494"
+    },
+    {
+      "title": "酷宣AI\n超级智能体，一站式AI内容创作",
+      "url": "https://ai.codefather.cn/tool/1983423688077631493"
+    },
+    {
+      "title": "月亮树AI选品\n亚马逊AI选品智能体，亿级实时商品大数据",
+      "url": "https://ai.codefather.cn/tool/1983423688077631492"
+    },
+    {
+      "title": "Teamo\n夕小瑶团队推出的多Agent协作AI智能体",
+      "url": "https://ai.codefather.cn/tool/1983423688077631491"
+    },
+    {
+      "title": "混沌Deep Innovation\n混沌学园推出的战略咨询AI智能体",
+      "url": "https://ai.codefather.cn/tool/1983423688077631490"
+    },
+    {
+      "title": "Bloom\nPowerdrill推出的首款AI决策智能体",
+      "url": "https://ai.codefather.cn/tool/1983423688073437189"
+    },
+    {
+      "title": "小美APP\n美团推出的AI生活小秘书应用",
+      "url": "https://ai.codefather.cn/tool/1983423688006328321"
+    },
+    {
+      "title": "Seele AI\n全球首个端到端AI 3D游戏生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623641280515"
+    },
+    {
+      "title": "扣子-AI办公\n全面免费开放，提供专业AI Agent服务",
+      "url": "https://ai.codefather.cn/tool/1965402623641280514"
+    },
+    {
+      "title": "Flowith\n画布式AI智能体工具",
+      "url": "https://ai.codefather.cn/tool/1965402623637086223"
+    },
+    {
+      "title": "Manus\nMonica团队推出的全球首款通用型 AI Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623637086222"
+    },
+    {
+      "title": "Operator\nOpenAI推出的AI智能体，能推理、联网自主执行任务",
+      "url": "https://ai.codefather.cn/tool/1965402623637086221"
+    },
+    {
+      "title": "稿定AI社区\n稿定推出的设计Agent和AI创意社区",
+      "url": "https://ai.codefather.cn/tool/1965402623637086220"
+    },
+    {
+      "title": "星辰Agent\n科大讯飞推出的AI智能体开发平台",
+      "url": "https://ai.codefather.cn/tool/1965402623637086219"
+    },
+    {
+      "title": "金灵AI\n专业的金融深度投研AI Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623637086218"
+    },
+    {
+      "title": "Skywork\n昆仑万维面向全球推出的天工超级智能体",
+      "url": "https://ai.codefather.cn/tool/1965402623637086217"
+    },
+    {
+      "title": "TabTab\n首个全链路 Data Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623637086216"
+    },
+    {
+      "title": "MuleRun\n全球首个 AI Agent 市场，类似eBay",
+      "url": "https://ai.codefather.cn/tool/1965402623637086215"
+    },
+    {
+      "title": "MasterAgent\n全球首个L4级多智能体生成与协作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623637086214"
+    },
+    {
+      "title": "Agnes AI\n专为办公场景设计的团队协作型AI Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623637086213"
+    },
+    {
+      "title": "SciMaster\n上交大联合深势科技推出的通用科研Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623637086212"
+    },
+    {
+      "title": "Zeabur\n专为氛围编程设计的云部署AI 智能体",
+      "url": "https://ai.codefather.cn/tool/1965402623637086211"
+    },
+    {
+      "title": "MyShell\n构建、共享和拥有AI Agents的开发平台",
+      "url": "https://ai.codefather.cn/tool/1965402623637086210"
+    },
+    {
+      "title": "FinGenius\n全球首个A股AI金融博弈智能体应用",
+      "url": "https://ai.codefather.cn/tool/1965402623632891924"
+    },
+    {
+      "title": "RoboNeo\n美图推出的专注影像与设计的AI智能体",
+      "url": "https://ai.codefather.cn/tool/1965402623632891923"
+    },
+    {
+      "title": "MiniMax Agent\nMiniMax推出的通用型AI Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623632891922"
+    },
+    {
+      "title": "如此AI员工\n国内首个全链路营销获客AI Agent",
+      "url": "https://ai.codefather.cn/tool/1965402623632891921"
+    },
+    {
+      "title": "Dia\nArc 团队推出的 AI 原生浏览器",
+      "url": "https://ai.codefather.cn/tool/1965402623632891920"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E5%AF%B9%E8%AF%9D"
+    },
+    {
+      "title": "百灵大模型\n蚂蚁集团推出的 Ling-1T 大模型对话体验平台",
+      "url": "https://ai.codefather.cn/tool/1983423688073437188"
+    },
+    {
+      "title": "讯飞星火\nAI智能助手，支持PPT生成、深度推理",
+      "url": "https://ai.codefather.cn/tool/1965402623628697617"
+    },
+    {
+      "title": "逗逗AI\nAI游戏陪玩，支持原神、黑神话、LOL！",
+      "url": "https://ai.codefather.cn/tool/1965402623628697616"
+    },
+    {
+      "title": "ChatGPT\nOpenAI 推出的AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623628697615"
+    },
+    {
+      "title": "Claude\nAnthropic公司推出的对话式AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697614"
+    },
+    {
+      "title": "Kimi智能助手\n月之暗面推出的AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697613"
+    },
+    {
+      "title": "DeepSeek\n幻方量化推出的AI智能助手和开源大模型",
+      "url": "https://ai.codefather.cn/tool/1965402623628697612"
+    },
+    {
+      "title": "腾讯元宝\n腾讯推出的免费AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697611"
+    },
+    {
+      "title": "通义\n阿里推出的自研大模型，通情、达义，你的全能AI助手！",
+      "url": "https://ai.codefather.cn/tool/1965402623628697610"
+    },
+    {
+      "title": "MiniMax\nMiniMax推出的AI智能问答助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697609"
+    },
+    {
+      "title": "Gemini\nGoogle推出的AI聊天对话机器人Gemini",
+      "url": "https://ai.codefather.cn/tool/1965402623628697608"
+    },
+    {
+      "title": "Z.ai\n智谱面向全球推出的最新模型体验平台",
+      "url": "https://ai.codefather.cn/tool/1965402623628697607"
+    },
+    {
+      "title": "Qwen Chat\n阿里通义推出的 Qwen 最新模型体验平台",
+      "url": "https://ai.codefather.cn/tool/1965402623628697606"
+    },
+    {
+      "title": "文心一言\n百度推出的基于文心大模型的AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697605"
+    },
+    {
+      "title": "Grok\n马斯克旗下xAI推出的人工智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697604"
+    },
+    {
+      "title": "智谱清言\n智谱推出的全能AI助手",
+      "url": "https://ai.codefather.cn/tool/1965402623628697603"
+    },
+    {
+      "title": "华为小艺\n华为旗下小艺AI助手网页端，已接入DeepSeek-R1",
+      "url": "https://ai.codefather.cn/tool/1965402623628697602"
+    },
+    {
+      "title": "书生大模型\n上海人工智能实验室推出的系列AI模型",
+      "url": "https://ai.codefather.cn/tool/1965402623628697601"
+    },
+    {
+      "title": "Poe\n问答社区Quora推出的问答机器人工具",
+      "url": "https://ai.codefather.cn/tool/1965402623624503315"
+    },
+    {
+      "title": "阶跃AI\n阶跃星辰推出的支持多模态的AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623624503314"
+    },
+    {
+      "title": "百小应\n百川智能推出的免费AI助手",
+      "url": "https://ai.codefather.cn/tool/1965402623624503313"
+    },
+    {
+      "title": "天工AI\n昆仑万维推出的AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623624503312"
+    },
+    {
+      "title": "Copilot\n微软推出的网页版Copilot助手",
+      "url": "https://ai.codefather.cn/tool/1965402623624503311"
+    },
+    {
+      "title": "Character.AI\n创建虚拟角色并与其对话",
+      "url": "https://ai.codefather.cn/tool/1965402623624503310"
+    },
+    {
+      "title": "J1 Assistant\n罗永浩旗下 Jarvis 项目推出的 AI 智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623624503309"
+    },
+    {
+      "title": "Meta AI助手\nMeta推出的免费AI聊天助手",
+      "url": "https://ai.codefather.cn/tool/1965402623624503308"
+    },
+    {
+      "title": "Bing新必应\n微软推出的新版结合了ChatGPT功能的必应",
+      "url": "https://ai.codefather.cn/tool/1965402623624503307"
+    },
+    {
+      "title": "Koko AI\nSeele公司推出的「AI+3D」情感陪伴产品",
+      "url": "https://ai.codefather.cn/tool/1965402623624503306"
+    },
+    {
+      "title": "Me.bot\n心识宇宙推出的个性化AI伴侣产品",
+      "url": "https://ai.codefather.cn/tool/1965402623624503305"
+    },
+    {
+      "title": "Saylo\nAI驱动的故事角色扮演游戏应用，沉浸式的剧本互动体验",
+      "url": "https://ai.codefather.cn/tool/1965402623624503304"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E9%9F%B3%E9%A2%91%E9%9F%B3%E4%B9%90"
+    },
+    {
+      "title": "Tunee\n首个对话式音乐创作AI智能体",
+      "url": "https://ai.codefather.cn/tool/1983423688069242886"
+    },
+    {
+      "title": "音秘\n百度推出的AI播客创作工具",
+      "url": "https://ai.codefather.cn/tool/1983423688069242885"
+    },
+    {
+      "title": "魔音工坊\nAI配音工具，轻松配出媲美真人的声音",
+      "url": "https://ai.codefather.cn/tool/1965402623603531783"
+    },
+    {
+      "title": "讯飞智作\n科大讯飞推出的AI转语音和配音工具",
+      "url": "https://ai.codefather.cn/tool/1965402623603531782"
+    },
+    {
+      "title": "听脑AI\nAI语音录音记录助手",
+      "url": "https://ai.codefather.cn/tool/1965402623603531781"
+    },
+    {
+      "title": "Suno\n高质量的AI音乐创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623603531780"
+    },
+    {
+      "title": "海绵音乐\n字节跳动推出的免费AI音乐创作和发现平台",
+      "url": "https://ai.codefather.cn/tool/1965402623603531779"
+    },
+    {
+      "title": "音疯\n昆仑万维推出的AI音乐创作平台，一键生成原创歌曲",
+      "url": "https://ai.codefather.cn/tool/1965402623603531778"
+    },
+    {
+      "title": "ElevenLabs\nAI文本转语音，支持包含中文在内的28种语言",
+      "url": "https://ai.codefather.cn/tool/1965402623603531777"
+    },
+    {
+      "title": "琅琅配音\n智能文本转语音工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337493"
+    },
+    {
+      "title": "千音漫语\nAI声音创作助手，支持声音克隆",
+      "url": "https://ai.codefather.cn/tool/1965402623599337492"
+    },
+    {
+      "title": "Noiz AI\nAI配音工具，支持文本转语音和声音克隆",
+      "url": "https://ai.codefather.cn/tool/1965402623599337491"
+    },
+    {
+      "title": "MiniMax Audio\nMiniMax推出的AI语音合成工具，支持声音克隆",
+      "url": "https://ai.codefather.cn/tool/1965402623599337490"
+    },
+    {
+      "title": "Mureka\n昆仑万维推出的 AI 音乐商用创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623599337489"
+    },
+    {
+      "title": "NotebookLM\n谷歌推出的AI笔记应用，5分钟生成一段对话播客",
+      "url": "https://ai.codefather.cn/tool/1965402623599337488"
+    },
+    {
+      "title": "天谱乐\n唱鸭团队推出的首个多模态音乐生成大模型",
+      "url": "https://ai.codefather.cn/tool/1965402623599337487"
+    },
+    {
+      "title": "音剪\n喜马拉雅推出的一站式AI音频创作平台",
+      "url": "https://ai.codefather.cn/tool/1965402623599337486"
+    },
+    {
+      "title": "简单听记\n百度网盘推出的AI语音转文字工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337485"
+    },
+    {
+      "title": "讯飞听见\n科大讯飞推出的在线AI语音转文字工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337484"
+    },
+    {
+      "title": "MemoAI\n免费的AI语音转文字工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337483"
+    },
+    {
+      "title": "Reecho睿声\n超拟真的中英文AI语音克隆/生成平台",
+      "url": "https://ai.codefather.cn/tool/1965402623599337482"
+    },
+    {
+      "title": "Udio\n免费的AI音乐创作工具，每月可生成1200首歌曲",
+      "url": "https://ai.codefather.cn/tool/1965402623599337481"
+    },
+    {
+      "title": "网易天音\n网易推出的一站式AI音乐创作工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337480"
+    },
+    {
+      "title": "TME Studio\n腾讯音乐推出的智能音乐创作助手",
+      "url": "https://ai.codefather.cn/tool/1965402623599337479"
+    },
+    {
+      "title": "Lyrics Into Song AI\n在线AI音乐创作工具，输入歌词创建个性化歌曲",
+      "url": "https://ai.codefather.cn/tool/1965402623599337478"
+    },
+    {
+      "title": "Stable Audio\nStability AI最新推出的音乐生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337477"
+    },
+    {
+      "title": "TextToSpeech\n完全免费的AI文字转语音工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337476"
+    },
+    {
+      "title": "TTSMaker\n马克配音（MakVoice）推出的免费AI文字转语音工具",
+      "url": "https://ai.codefather.cn/tool/1965402623599337475"
+    },
+    {
+      "title": "LOVO AI\n专业的AI文字转语音工具，支持500+声音和100种语言",
+      "url": "https://ai.codefather.cn/tool/1965402623599337474"
+    },
+    {
+      "title": "Uberduck\n开源的AI语音生成社区，5000多种不同的声音",
+      "url": "https://ai.codefather.cn/tool/1965402623595143192"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%95%86%E4%B8%9A%E8%AE%BE%E8%AE%A1"
+    },
+    {
+      "title": "Calicat\nProcessOn团队推出的一站式产设研协作平台",
+      "url": "https://ai.codefather.cn/tool/1983423688073437187"
+    },
+    {
+      "title": "美间AI\n新一代AI画布式创意设计平台",
+      "url": "https://ai.codefather.cn/tool/1983423688073437186"
+    },
+    {
+      "title": "墨刀AI\nAI秒生原型稿",
+      "url": "https://ai.codefather.cn/tool/1965402623616114702"
+    },
+    {
+      "title": "Pic Copilot\n阿里国际推出的AI电商设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114701"
+    },
+    {
+      "title": "Recraft AI\n免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画",
+      "url": "https://ai.codefather.cn/tool/1965402623616114700"
+    },
+    {
+      "title": "Figma AI\nFigma推出的原生AI设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114699"
+    },
+    {
+      "title": "GemDesign\nAI原生高保真原型设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114698"
+    },
+    {
+      "title": "Holopix AI\n专为游戏、动漫、插画设计打造的AI设计平台",
+      "url": "https://ai.codefather.cn/tool/1965402623616114697"
+    },
+    {
+      "title": "创客贴AI\nAI辅助的智能在线设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114696"
+    },
+    {
+      "title": "蚂上有创意\n支付宝推出的AI设计工具，面向商家提供电商设计服务",
+      "url": "https://ai.codefather.cn/tool/1965402623616114695"
+    },
+    {
+      "title": "爱设计\nAI在线设计平台，提供多端在线拖拽设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114694"
+    },
+    {
+      "title": "魔力工作室\nCanva可画推出的一站式AI创作套件",
+      "url": "https://ai.codefather.cn/tool/1965402623616114693"
+    },
+    {
+      "title": "Microsoft Designer\n微软推出的在线设计海报和宣传图工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114692"
+    },
+    {
+      "title": "Onlook\n开源AI视觉编辑工具，设计修改自动同步代码",
+      "url": "https://ai.codefather.cn/tool/1965402623616114691"
+    },
+    {
+      "title": "燕雀光年\nAI LOGO设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623616114690"
+    },
+    {
+      "title": "标小智LOGO生成器\nAI Logo设计平台，一键生成企业Logo",
+      "url": "https://ai.codefather.cn/tool/1965402623611920406"
+    },
+    {
+      "title": "Looka\nAI在线设计和生成logo",
+      "url": "https://ai.codefather.cn/tool/1965402623611920405"
+    },
+    {
+      "title": "智绘设计\n腾讯推出的智能设计平台，让内容更精彩",
+      "url": "https://ai.codefather.cn/tool/1965402623611920404"
+    },
+    {
+      "title": "MasterGo AI\n国产产品设计工具MasterGo推出的智能UI设计助手",
+      "url": "https://ai.codefather.cn/tool/1965402623611920403"
+    },
+    {
+      "title": "居然设计家\n居然之家联合阿里推出的AI家装设计平台",
+      "url": "https://ai.codefather.cn/tool/1965402623611920402"
+    },
+    {
+      "title": "FigJam AI\nFigma推出的AI白板协作设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623611920401"
+    },
+    {
+      "title": "鹿班\n阿里推出的智能设计商品图和海报的平台",
+      "url": "https://ai.codefather.cn/tool/1965402623611920400"
+    },
+    {
+      "title": "Magic Design\n在线设计工具Canva推出的AI设计工具",
+      "url": "https://ai.codefather.cn/tool/1965402623611920399"
+    },
+    {
+      "title": "简单设计\n免费的在线设计、图片处理工具",
+      "url": "https://ai.codefather.cn/tool/1965402623611920398"
+    },
+    {
+      "title": "135 AI排版\n公众号AI图文排版和智能文案生成工具",
+      "url": "https://ai.codefather.cn/tool/1965402623611920397"
+    },
+    {
+      "title": "笔格设计\nAI设计工具合集，包括文生图、智能消除等",
+      "url": "https://ai.codefather.cn/tool/1965402623611920396"
+    },
+    {
+      "title": "AI设计神器\n一站式创意图片设计编辑平台",
+      "url": "https://ai.codefather.cn/tool/1965402623611920395"
+    },
+    {
+      "title": "Logoai\nAI LOGO创建设计平台，一站式品牌打造",
+      "url": "https://ai.codefather.cn/tool/1965402623611920394"
+    },
+    {
+      "title": "豆绘AI\nAI绘图设计平台，一键生成720°VR全景图",
+      "url": "https://ai.codefather.cn/tool/1965402623611920393"
+    },
+    {
+      "title": "千图网\n在线设计图片素材平台",
+      "url": "https://ai.codefather.cn/tool/1965402623611920392"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    },
+    {
+      "title": "讯飞星火认知大模型\n讯飞星火认知大模型是由科大讯飞发布的大模型，具有7大核心能力，包括文本生成、语言理解、知识问答、逻辑推理、数学能力、代码能力、多模交互，对标ChatGPT。",
+      "url": "https://ai.codefather.cn/tool/1965402622903083009"
+    },
+    {
+      "title": "腾讯混元\n腾讯混元大模型是由腾讯研发的大语言模型，具备跨领域知识和自然语言理解能力，实现基于人机自然语言对话的方式，理解用户指令并执行任务，帮助用户实现人获取信息，知识和灵感。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888721"
+    },
+    {
+      "title": "智谱清言ChatGLM\n智谱清言是一款基于人工智能技术的对话助手，遵循中国政府的立场和社会主义价值观，提供多领域知识问答、信息检索、文本生成等服务。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888720"
+    },
+    {
+      "title": "MiniMax大语言模型\n它基于海量中文数据训练而成，拥有超过1000亿个参数，能够处理上百TB的文本数据。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888719"
+    },
+    {
+      "title": "左医医疗大语言模型\n左手医生通过开放平台赋能医疗健康行业，为医疗机构、信息化厂商、医药企业、连锁药店、健康管理机构、智能硬件等合作伙伴提供多种类型的高质量智能医生服务。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888716"
+    },
+    {
+      "title": "同济大学CivilGPT\n同济大学TAIER实验室自主研发的“知识大模型”，它融合了土木、建筑、规划、交通、测绘、环境、力学、材料、机械、经管等十个学科的知识",
+      "url": "https://ai.codefather.cn/tool/1965402622898888715"
+    },
+    {
+      "title": "慧政大模型\n一个综合性的智慧政务工具，它通过智能化的手段，帮助政务工作人员提高工作效率，优化决策过程，并创造高质量的政务内容。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888714"
+    },
+    {
+      "title": "商汤商量SenseChat\n商汤商量SenseChat是由商汤科技推出的语言大模型，提供对话和文档理解服务，能够处理百科问答、图片理解、数学解答、代码编写等多种任务。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888713"
+    },
+    {
+      "title": "八斗智能\n八斗智能的语义理解模型是一个强大的工具，它通过大规模预训练和行业特定的迁移学习，能够提供高度准确的语义理解服务。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888712"
+    },
+    {
+      "title": "阶跃星辰\n通过其领先的多模态理解和内容生成技术，为用户提供了一个高效、智能的工具",
+      "url": "https://ai.codefather.cn/tool/1965402622898888711"
+    },
+    {
+      "title": "原子回声AtomGPT大模型\n原子回声AtomGPT大模型是一个不断学习和进步的中文大模型项目，它通过向用户展示模型的学习过程，提供了一个参与和观察模型成长的平台。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888710"
+    },
+    {
+      "title": "博看大模型\n博看大模型是吉林外国语大学推出的一款多功能图书馆服务AI，它通过智能对话和信息检索功能，为用户提供了一个方便快捷的图书馆信息获取渠道。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888709"
+    },
+    {
+      "title": "语鲸大模型\n语鲸大模型是一个多功能的AI语言处理工具，它通过先进的算法和持续的学习，为用户提供高效、准确的语言服务。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888708"
+    },
+    {
+      "title": "文心大模型\n文心大模型是一种知识增强的自然语言处理（NLP）模型，由百度开发。它在技术开放日上首次亮相，展示了其在AI领域的最新技术突破和产业应用实践。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888706"
+    },
+    {
+      "title": "蓝心大模型BlueLM\n蓝心大模型（BlueLM）是vivo推出的自研通用大模型矩阵，包含十亿、百亿、千亿三个参数量级共5款，主要面向端侧和云端服务，用于复杂逻辑推理等应用场景。",
+      "url": "https://ai.codefather.cn/tool/1965402622898888705"
+    },
+    {
+      "title": "盘古大模型\n盘古大模型是华为云推出的全面AI解决方案，覆盖了自然语言处理、计算机视觉、多模态学习、预测分析和科学计算等多个领域。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694417"
+    },
+    {
+      "title": "元象大模型XChat\n元象大模型XChat是元象XVERSE推出的高性能AI产品，它通过自研技术，能够满足不同复杂度任务的需求，并在中文领域表现突出。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694416"
+    },
+    {
+      "title": "封神榜-IDEA研究院\n封神榜-IDEA研究院是一套致力于中文认知智能的研究项目，它通过一系列先进的语言模型和多模态模型，推动了中文自然语言处理技术的发展。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694414"
+    },
+    {
+      "title": "KwaiYii快意大模型\nKwaiYii快意大模型是快手AI团队研发的大规模语言模型，它在多个权威Benchmark上展现出卓越的性能，尤其在中英文跨学科专业能力、数理逻辑及代码能力方面表现突出。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694413"
+    },
+    {
+      "title": "TechGPT-东北大学\nTechGPT是一个强大的垂直领域大语言模型，具备处理专业领域文本的能力，并在信息抽取、智能问答和序列生成等方面表现出色。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694411"
+    },
+    {
+      "title": "轩辕大模型\n国内首个开源的千亿级中文对话大模型",
+      "url": "https://ai.codefather.cn/tool/1965402622894694410"
+    },
+    {
+      "title": "TigerBot\nTigerBot是一个功能丰富、持续进化的大型语言模型，它通过不断的技术创新和社区贡献，为用户提供了一个强大的多语言多任务处理能力。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694409"
+    },
+    {
+      "title": "OpenBMB\nOpenBMB作为一个大型的中英文双语基础模型，通过在大规模语料库上的预训练，具备了优秀的语言处理能力。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694408"
+    },
+    {
+      "title": "悟道·天鹰（Aquila）\n悟道·天鹰（Aquila）是智源研究院开源的中英双语语言大模型，具备强大的语言理解和生成能力。模型在设计上注重商用和数据合规性，同时提供持续的开源更新和技术支持。",
+      "url": "https://ai.codefather.cn/tool/1965402622894694407"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0"
+    },
+    {
+      "title": "AI大学堂\n科大讯飞推出的在线AI学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402623578365963"
+    },
+    {
+      "title": "堆友AI学习\n堆友AI推出的AI设计知识学习网站",
+      "url": "https://ai.codefather.cn/tool/1965402623578365962"
+    },
+    {
+      "title": "AI分享圈\n最好最全的AI免费资源分享网站",
+      "url": "https://ai.codefather.cn/tool/1965402623578365961"
+    },
+    {
+      "title": "OpenAI Academy\nOpenAI 推出的免费 AI 学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402623578365960"
+    },
+    {
+      "title": "Day of AI\n麻省理工学院（MIT）推出的免费AI学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402623578365959"
+    },
+    {
+      "title": "fast.ai\n免费开源的深度学习和AI学习网站，让每个人都参与到AI！",
+      "url": "https://ai.codefather.cn/tool/1965402623578365958"
+    },
+    {
+      "title": "学吧导航\n学习爱好者首选的学霸导航网站",
+      "url": "https://ai.codefather.cn/tool/1965402623578365957"
+    },
+    {
+      "title": "Coursera\n知名MOOC平台，提供众多人工智能和机器学习课程",
+      "url": "https://ai.codefather.cn/tool/1965402623578365956"
+    },
+    {
+      "title": "Elements of AI\n免费在线AI通识学习课程",
+      "url": "https://ai.codefather.cn/tool/1965402623578365955"
+    },
+    {
+      "title": "DeepLearning.AI\n深度学习和人工智能学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402623578365954"
+    },
+    {
+      "title": "动手学深度学习\n结合理论与实践的深度学习教材和课程",
+      "url": "https://ai.codefather.cn/tool/1965402623574171670"
+    },
+    {
+      "title": "MachineLearningMastery\n免费在线的机器学习平台，提供从基础到高级全面教程",
+      "url": "https://ai.codefather.cn/tool/1965402623574171669"
+    },
+    {
+      "title": "Generative AI for Beginners\n微软推出的面向初学者的免费生成式人工智能课程",
+      "url": "https://ai.codefather.cn/tool/1965402623574171668"
+    },
+    {
+      "title": "ML for Beginners\n微软推出的免费开源的机器学习课程，GitHub标星7万+",
+      "url": "https://ai.codefather.cn/tool/1965402623574171667"
+    },
+    {
+      "title": "Kaggle\n机器学习和数据科学社区",
+      "url": "https://ai.codefather.cn/tool/1965402623574171666"
+    },
+    {
+      "title": "神经网络入门\nBrilliant推出的Introduction to Neural Networks课程",
+      "url": "https://ai.codefather.cn/tool/1965402623574171665"
+    },
+    {
+      "title": "Trancy\nAI驱动的语言学习工具",
+      "url": "https://ai.codefather.cn/tool/1965402623574171664"
+    },
+    {
+      "title": "Reading Coach\n微软推出的免费个性化AI阅读学习教练",
+      "url": "https://ai.codefather.cn/tool/1965402623574171663"
+    },
+    {
+      "title": "飞桨AI Studio\n百度推出的AI学习与实训社区",
+      "url": "https://ai.codefather.cn/tool/1965402623574171662"
+    },
+    {
+      "title": "腾讯扣叮\n腾讯推出的青少年编程教育平台",
+      "url": "https://ai.codefather.cn/tool/1965402623574171661"
+    },
+    {
+      "title": "阿里云AI学习路线\n阿里云推出的人工智能学习路线（学+测）",
+      "url": "https://ai.codefather.cn/tool/1965402623574171660"
+    },
+    {
+      "title": "Udacity AI学院\nUdacity推出的School of AI，从入门到高级",
+      "url": "https://ai.codefather.cn/tool/1965402623574171659"
+    },
+    {
+      "title": "Google AI\nGoogle AI学习平台",
+      "url": "https://ai.codefather.cn/tool/1965402623574171658"
+    },
+    {
+      "title": "ShowMeAI知识社区\n人工智能领域的资料库和学习社区",
+      "url": "https://ai.codefather.cn/tool/1965402623574171657"
+    },
+    {
+      "title": "txyz\nAI文献阅读和学术研究辅助平台",
+      "url": "https://ai.codefather.cn/tool/1965402623574171656"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E"
+    },
+    {
+      "title": "WisPaper\n复旦团队推出的 AI 学术搜索工具",
+      "url": "https://ai.codefather.cn/tool/1983423688069242884"
+    },
+    {
+      "title": "纳米AI\n360推出的新一代超级AI搜索工具",
+      "url": "https://ai.codefather.cn/tool/1983423688069242883"
+    },
+    {
+      "title": "Deepsearch APP\nAI搜索助手应用",
+      "url": "https://ai.codefather.cn/tool/1983423688035688450"
+    },
+    {
+      "title": "问小白\nDeepSeek-R1满血版免费不限次，支持联网搜索",
+      "url": "https://ai.codefather.cn/tool/1965402623628697618"
+    },
+    {
+      "title": "夸克AI\n集AI搜索、网盘、文档、创作等功能于一体的应用",
+      "url": "https://ai.codefather.cn/tool/1965402623586754569"
+    },
+    {
+      "title": "Perplexity\n强大的对话式AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623586754568"
+    },
+    {
+      "title": "SearchGPT\nOpenAI最新推出的AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623586754567"
+    },
+    {
+      "title": "Devv\n面向程序员的新一代AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623586754566"
+    },
+    {
+      "title": "AMiner\n智谱AI推出的大模型学术平台",
+      "url": "https://ai.codefather.cn/tool/1965402623586754565"
+    },
+    {
+      "title": "心流\n阿里旗下推出的AI搜索助手",
+      "url": "https://ai.codefather.cn/tool/1965402623586754564"
+    },
+    {
+      "title": "玻尔\n新一代科研知识库与AI学术搜索平台",
+      "url": "https://ai.codefather.cn/tool/1965402623586754563"
+    },
+    {
+      "title": "点点\n小红书推出的 AI 搜索应用，主打生活场景",
+      "url": "https://ai.codefather.cn/tool/1965402623586754562"
+    },
+    {
+      "title": "知乎直答\n知乎推出的AI搜索引擎，直达问题答案",
+      "url": "https://ai.codefather.cn/tool/1965402623586754561"
+    },
+    {
+      "title": "纳米搜索\n360公司推出的AI搜索应用，一切皆可生成视频",
+      "url": "https://ai.codefather.cn/tool/1965402623582560273"
+    },
+    {
+      "title": "百度AI探索版\n百度推出的深度AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560272"
+    },
+    {
+      "title": "Felo\n免费AI智能搜索引擎，支持社交联网搜索和多语种问答结果",
+      "url": "https://ai.codefather.cn/tool/1965402623582560271"
+    },
+    {
+      "title": "360AI搜索\n360推出的新一代AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560270"
+    },
+    {
+      "title": "天工AI搜索\n昆仑万维最新推出的结合大模型的AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560269"
+    },
+    {
+      "title": "Exa AI\n专门为AI模型设计的搜索引擎平台",
+      "url": "https://ai.codefather.cn/tool/1965402623582560268"
+    },
+    {
+      "title": "Reddo\n全球产品信息AI搜索引擎，能语义化搜索任何公开的产品与公司",
+      "url": "https://ai.codefather.cn/tool/1965402623582560267"
+    },
+    {
+      "title": "博查AI搜索\n支持多模型的AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560266"
+    },
+    {
+      "title": "博简智慧专利\nAI专利查新检索与撰写平台",
+      "url": "https://ai.codefather.cn/tool/1965402623582560265"
+    },
+    {
+      "title": "链企AI\n链企智能推出的AI商业搜索和AI标书写作工具",
+      "url": "https://ai.codefather.cn/tool/1965402623582560264"
+    },
+    {
+      "title": "问问小宇宙\n小宇宙推出的AI搜索产品",
+      "url": "https://ai.codefather.cn/tool/1965402623582560263"
+    },
+    {
+      "title": "Dexa AI\nAI播客搜索工具",
+      "url": "https://ai.codefather.cn/tool/1965402623582560262"
+    },
+    {
+      "title": "CuspAI\n剑桥大学推出的材料学专业AI搜索工具",
+      "url": "https://ai.codefather.cn/tool/1965402623582560261"
+    },
+    {
+      "title": "XAnswer\n支持生成思维导图的免费AI搜索工具",
+      "url": "https://ai.codefather.cn/tool/1965402623582560260"
+    },
+    {
+      "title": "Glean\n专为职场人设计的AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560259"
+    },
+    {
+      "title": "AlphaSense\n专为金融专业人士设计的AI搜索工具",
+      "url": "https://ai.codefather.cn/tool/1965402623582560258"
+    },
+    {
+      "title": "Globe Explorer\n结构化AI知识搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623582560257"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%86%85%E5%AE%B9%E6%A3%80%E6%B5%8B"
+    },
+    {
+      "title": "朱雀AI检测\n腾讯推出的AI图像和文本鉴别工具",
+      "url": "https://ai.codefather.cn/tool/1965402623574171655"
+    },
+    {
+      "title": "GPTZero\n超过百万人都在用的免费AI内容检测工具",
+      "url": "https://ai.codefather.cn/tool/1965402623574171654"
+    },
+    {
+      "title": "StudyCorgi ChatGPT Detector\n免费的检测论文是否由ChatGPT生成的工具",
+      "url": "https://ai.codefather.cn/tool/1965402623574171653"
+    },
+    {
+      "title": "AISEO AI Content Detector\nAISEO推出的AI内容检测器",
+      "url": "https://ai.codefather.cn/tool/1965402623574171652"
+    },
+    {
+      "title": "Proofig\nAI检测科研图像是否造假抄袭",
+      "url": "https://ai.codefather.cn/tool/1965402623574171651"
+    },
+    {
+      "title": "Writecream AI Content Detector\nWritecream推出的AI内容检测工具",
+      "url": "https://ai.codefather.cn/tool/1965402623574171650"
+    },
+    {
+      "title": "Smodin AI Content Detector\n多语种AI内容检测工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977366"
+    },
+    {
+      "title": "Sapling AI Content Detector\nSapling.ai推出的免费在线AI内容检测工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977365"
+    },
+    {
+      "title": "挖错网\nAI内容审核校对平台，一键检测内容自动纠错",
+      "url": "https://ai.codefather.cn/tool/1965402623569977364"
+    },
+    {
+      "title": "团象\nAI内容检测与优化平台",
+      "url": "https://ai.codefather.cn/tool/1965402623569977363"
+    },
+    {
+      "title": "AI Content Detector\nWriter推出的AI内容检测工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977362"
+    },
+    {
+      "title": "Originality.AI\n原创度和AI内容检测",
+      "url": "https://ai.codefather.cn/tool/1965402623569977361"
+    },
+    {
+      "title": "CopyLeaks\nAI内容检测和分级",
+      "url": "https://ai.codefather.cn/tool/1965402623569977360"
+    },
+    {
+      "title": "Winston AI\n强大的AI内容检测解决方案",
+      "url": "https://ai.codefather.cn/tool/1965402623569977359"
+    },
+    {
+      "title": "CheckforAi\n免费在线检测AI内容工具",
+      "url": "https://ai.codefather.cn/tool/1965402623569977358"
+    },
+    {
+      "title": "全部",
+      "url": "https://ai.codefather.cn/tool/all/AI%E5%BA%94%E7%94%A8"
+    },
+    {
+      "title": "白日梦Online APP\nAI沉浸式互动内容平台",
+      "url": "https://ai.codefather.cn/tool/1983423688052465670"
+    },
+    {
+      "title": "论论APP\nAI科研学术信息应用",
+      "url": "https://ai.codefather.cn/tool/1983423688052465669"
+    },
+    {
+      "title": "MoFlow APP\nAI心理健康和情绪管理应用",
+      "url": "https://ai.codefather.cn/tool/1983423688052465668"
+    },
+    {
+      "title": "问玥APP\nAI八字与情绪陪伴应用",
+      "url": "https://ai.codefather.cn/tool/1983423688052465667"
+    },
+    {
+      "title": "万象有灵APP\nAI虚拟情绪陪伴应用",
+      "url": "https://ai.codefather.cn/tool/1983423688052465666"
+    },
+    {
+      "title": "张大妈APP\nAI智能购物管家应用",
+      "url": "https://ai.codefather.cn/tool/1983423688048271364"
+    },
+    {
+      "title": "Gooh旅记APP\nAI旅行攻略规划应用",
+      "url": "https://ai.codefather.cn/tool/1983423688048271363"
+    },
+    {
+      "title": "他她它APP\n京东推出的AI万能助手应用",
+      "url": "https://ai.codefather.cn/tool/1983423688048271362"
+    },
+    {
+      "title": "Acho APP\nAI社交助理应用",
+      "url": "https://ai.codefather.cn/tool/1983423688044077060"
+    },
+    {
+      "title": "指北旅行APP\nAI智能旅行应用",
+      "url": "https://ai.codefather.cn/tool/1983423688044077059"
+    },
+    {
+      "title": "Planori APP\nAI个人计划管理应用",
+      "url": "https://ai.codefather.cn/tool/1983423688044077058"
+    },
+    {
+      "title": "ChatGPT APP\nOpenAI推出的AI聊天机器人和智能对话工具",
+      "url": "https://ai.codefather.cn/tool/1965402623498674182"
+    },
+    {
+      "title": "DeepSeek APP\n深度求索公司推出的AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623498674181"
+    },
+    {
+      "title": "豆包APP\n字节跳动推出的AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623498674180"
+    },
+    {
+      "title": "Kimi智能助手APP\n月之暗面推出的支持超长上下文的AI聊天助手",
+      "url": "https://ai.codefather.cn/tool/1965402623498674179"
+    },
+    {
+      "title": "智谱清言APP\n智谱AI推出的智能对话应用，基于ChatGLM大模型",
+      "url": "https://ai.codefather.cn/tool/1965402623498674178"
+    },
+    {
+      "title": "问小白APP\n元石科技公司推出的AI智能助手",
+      "url": "https://ai.codefather.cn/tool/1965402623494479901"
+    },
+    {
+      "title": "文小言APP\n百度推出的AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623494479900"
+    },
+    {
+      "title": "通义APP\n阿里推出的大模型聊天助手",
+      "url": "https://ai.codefather.cn/tool/1965402623494479899"
+    },
+    {
+      "title": "天工AI\n昆仑万维推出的大模型助手和AI搜索引擎",
+      "url": "https://ai.codefather.cn/tool/1965402623494479898"
+    },
+    {
+      "title": "腾讯元宝APP\n腾讯推出的AI智能助手应用",
+      "url": "https://ai.codefather.cn/tool/1965402623494479897"
+    },
+    {
+      "title": "猫箱APP（原话炉）\n字节跳动推出的AI社交对话APP",
+      "url": "https://ai.codefather.cn/tool/1965402623494479896"
+    },
+    {
+      "title": "讯飞星火APP\n科大讯飞推出的认知智能大模型和AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623494479895"
+    },
+    {
+      "title": "Wow APP\n美团旗下推出的AI聊天和虚拟社交软件",
+      "url": "https://ai.codefather.cn/tool/1965402623494479894"
+    },
+    {
+      "title": "Microsoft Copilot APP\n微软推出的AI聊天机器人和对话助手",
+      "url": "https://ai.codefather.cn/tool/1965402623494479893"
+    },
+    {
+      "title": "紫东太初APP\n中科院和武智院推出的多模态AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623494479892"
+    },
+    {
+      "title": "星野APP\nMiniMax推出的AI虚拟社交和角色对话平台",
+      "url": "https://ai.codefather.cn/tool/1965402623494479891"
+    },
+    {
+      "title": "Character AI APP\n自定义AI角色对话聊天平台",
+      "url": "https://ai.codefather.cn/tool/1965402623494479890"
+    },
+    {
+      "title": "Claude APP\nAnthropic推出的AI聊天机器人",
+      "url": "https://ai.codefather.cn/tool/1965402623494479889"
+    },
+    {
+      "title": "未伴APP\n腾讯推出的AI虚拟伴侣应用",
+      "url": "https://ai.codefather.cn/tool/1965402623494479888"
+    },
+    {
+      "title": "站长：程序员鱼皮",
+      "url": "https://space.bilibili.com/12890453"
+    },
+    {
+      "title": "老鱼简历",
+      "url": "https://www.laoyujianli.com/"
+    },
+    {
+      "title": "商务合作",
+      "url": "https://yuyuanweb.feishu.cn/wiki/AOzgw1mOliX6SskAVEicK6u7nDA"
+    },
+    {
+      "title": "增值电信业务经营许可证",
+      "url": "https://yuyuanweb.yuque.com/org-wiki-yuyuanweb-zvq1bg/peng0p/ug1kps2sfulwfyf0"
+    },
+    {
+      "title": "沪ICP备19026706号-6",
+      "url": "https://beian.miit.gov.cn/"
+    }
+  ],
+  "total_tools": 412
+}
