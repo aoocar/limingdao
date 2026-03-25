@@ -1,16 +1,50 @@
 ---
 title: "Stable Audio"
-sitelink: ""
-description: "Stable Audio-免费人工智能AI音乐生产器 可商用"
-categories: "AI导航"
-sub-category: "AI音频创作"
+sitelink: "https://stableaudio.com/"
+description: "由Stable Diffusion开发者Stability AI打造的Stable Audio，是一款革命性的智能音乐生成平台。它通过前沿的人工智能技术，让每个人都能轻松创作专业级音乐作品和音效设计。无需复杂的音乐制作知识，只需输入文字描述，就能获得独特的音频内容。"
+categories: "AI音频音乐"
+sub-category: ""
 tags:
-  - "stable-audio"
+  - "AI音频音乐"
 weight: 10
 recommend: 2
 ---
-<h1 class="post-title mb-2 mb-lg-3">Stable Audio-免费人工智能AI音乐生产器 可商用</h1>
-<h2><span id="Stable_Audio_shi_shen_me">Stable Audio是什么</span></h2>
-Stable Audio是一款由Stability AI 推出的免费人工智能AI音乐生产器，用于音乐和声音效果的生成人工智能，根据用户提供的文本提示生成音乐和声音效果，无论是初学者还是专业人士，都可以使用人工智能制作原创音乐和音效，而且还支持商用。Stable Audio 背后的 AI 模型是根据我们的合作伙伴AudioSparx 的音乐进行训练的。
+## Stable Audio：AI赋能的音乐创作新纪元
 
-<img class="alignnone size-full wp-image-1050" src="https://1984a.com/wp-content/uploads/2023/09/1dcf8-微信截图_20230917232521.jpg" alt="" width="1918" height="921" />
+由Stable Diffusion开发者Stability AI打造的Stable Audio，是一款革命性的智能音乐生成平台。它通过前沿的人工智能技术，让每个人都能轻松创作专业级音乐作品和音效设计。无需复杂的音乐制作知识，只需输入文字描述，就能获得独特的音频内容。
+
+## 极简操作 无限创意
+
+  1. 访问stableaudio.com官网，体验平台提供的音乐范例或直接开始创作
+  2. 使用邮箱或Google账号快速注册登录
+  3. 在创作界面输入音乐风格描述（可包含流派、乐器、情绪等元素）
+  4. 自由调节音轨时长（45秒或90秒版本）
+  5. 一键生成后即可试听或下载成品
+
+
+
+## 灵活的订阅方案
+
+我们提供两种使用方案，满足不同创作需求：
+
+  * 免费版：每月可生成20段45秒音频，适合个人创作练习
+  * 专业版：仅需11.99美元/月，即可获得： 
+    * 500段商用授权音频
+    * 最长90秒的音轨时长
+    * 更高质量的音频输出
+
+
+
+## 完善的版权政策
+
+  * 免费用户：可将生成音频用于非商业音乐创作
+  * 专业用户：获得完整商用授权，适用于： 
+    * 视频配乐
+    * 游戏音效
+    * 播客背景音乐
+    * 商业项目制作
+  * 所有用户均不得将生成的音频用于AI模型训练
+
+
+
+Stable Audio采用极简的现代化设计，直观的操作界面配合流畅的交互体验，让音乐创作变得前所未有的轻松有趣。无论您是专业音乐人、内容创作者，还是音乐爱好者，都能在这里找到属于自己的创作乐趣。

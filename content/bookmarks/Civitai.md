@@ -1,15 +1,41 @@
 ---
 title: "Civitai"
 sitelink: "https://civitai.com/"
-description: "Civitai | Stable Diffusion models, embeddings, LoRAs and more"
-categories: "AI导航"
-sub-category: "默认"
+description: "Civitai是专为AI艺术爱好者打造的创意社区平台，汇聚了全球最活跃的Stable Diffusion模型创作者和使用者。在这里，你可以发现、分享和下载各种定制化AI模型，与志同道合的创作者交流互动，共同探索人工智能艺术的无限可能。"
+categories: "AI图像"
+sub-category: "常用AI图像工具"
 tags:
-  - "civitai"
+  - "AI图像"
+  - "常用AI图像工具"
 weight: 10
 recommend: 2
 ---
-Civitai is a platform for Stable Diffusion AI Art models. Browse a collection of thousands of models from a growing number of creators. Join an engaged community in reviewing models and sharing images with prompts to get you started.
-<div id="gtx-trans" style="position: absolute; left: 131px; top: 18px;">
-<div class="gtx-trans-icon"></div>
-</div>
+## Civitai：AI艺术创作的灵感源泉
+
+Civitai是专为AI艺术爱好者打造的创意社区平台，汇聚了全球最活跃的Stable Diffusion模型创作者和使用者。在这里，你可以发现、分享和下载各种定制化AI模型，与志同道合的创作者交流互动，共同探索人工智能艺术的无限可能。
+
+## 平台核心价值
+
+  * **庞大的模型资源库** ：平台汇集了数万种风格各异的SD模型，涵盖从写实摄影到奇幻插画的各种艺术风格，满足不同创作需求
+  * **一站式创作生态** ：不仅提供模型下载，还支持直接链接主流AI绘画平台，实现从灵感获取到作品生成的无缝衔接
+  * **活跃的创作者社区** ：每月吸引上千万访问者，形成全球最具活力的AI艺术交流圈，激发创作灵感
+  * **智能内容发现系统** ：配备精准的搜索和推荐算法，帮助用户快速找到所需模型和创作灵感
+
+
+
+## 特色功能解析
+
+  1. **模型共享中心** ：用户可以上传自己训练的专属模型，或下载他人分享的优质模型，构建个性化创作工具库
+  2. **作品展示平台** ：提供专业画廊功能，展示AI生成的艺术作品，获得社区反馈和建议
+  3. **实时互动社区** ：支持作品评论、点赞和收藏，建立创作者之间的联系网络
+  4. **内容安全机制** ：采用多重审核体系，包括AI自动识别、社区监督和人工审核，确保内容质量
+
+
+
+## 常见疑问解答
+
+**Q：Civitai适合哪些用户？** A：无论是AI艺术初学者、专业设计师，还是技术开发者，都能在这里找到适合的资源和交流空间。
+
+**Q：使用平台需要付费吗？** A：目前所有基础功能完全免费开放，用户可以无门槛地浏览和下载各类资源。
+
+**Q：如何保证内容质量？** A：平台采用智能分类标签系统，结合用户评分机制，确保优质内容能够脱颖而出。

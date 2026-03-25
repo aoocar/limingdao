@@ -1,17 +1,41 @@
 ---
 title: "Lepton AI"
-sitelink: "https://www.lepton.ai/"
-description: "Build AI The Simple Way | Lepton AI"
-categories: "AI导航"
-sub-category: "默认"
+sitelink: "https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/"
+description: "Lepton AI是由AI领域专家打造的下一代云原生人工智能平台，致力于让AI技术触手可及。我们通过创新的技术架构和开发者友好的工具链，帮助用户快速实现AI应用的落地与规模化。"
+categories: "AI开发平台"
+sub-category: "AI编程工具"
 tags:
-  - "lepton-ai"
+  - "AI开发平台"
+  - "AI编程工具"
 weight: 10
 recommend: 2
 ---
-Build AI The Simple Way | Lepton AI
+## Lepton AI：智能云平台的创新力量
 
-Run AI applications efficiently, at scale, and in minutes with a cloud native platform.
-<div id="gtx-trans" style="position: absolute; left: 616px; top: 67.6493px;">
-<div class="gtx-trans-icon"></div>
-</div>
+Lepton AI是由AI领域专家打造的下一代云原生人工智能平台，致力于让AI技术触手可及。我们通过创新的技术架构和开发者友好的工具链，帮助用户快速实现AI应用的落地与规模化。
+
+## 核心优势
+
+  * **极简开发体验** ：提供直观的Python SDK，三行代码即可完成复杂AI模型的部署
+  * **弹性云资源** ：集成高性能CPU/GPU集群，支持模型服务的动态扩展
+  * **多样化AI工具** ：涵盖语音处理、创意生成、文本转换等前沿AI应用场景
+  * **多模态模型支持** ：兼容主流开源模型框架，满足不同领域的技术需求
+
+
+
+## 技术亮点
+
+  * **无缝集成生态** ：与HuggingFace等主流模型库深度对接，实现模型一键导入
+  * **开源协作支持** ：可直接从GitHub仓库构建专属AI服务
+  * **企业级云架构** ：具备高可用、高安全特性，支撑业务关键型AI应用
+  * **智能部署引擎** ：命令行工具让模型上线过程变得简单高效
+
+
+
+## 典型应用场景
+
+开发者通过Lepton AI平台可以快速构建各类AI服务：从语音识别的WhisperX应用到创意视觉的Illusion Diffusion项目，都能在分钟级别完成部署。我们的云服务架构确保应用可以随业务需求弹性扩展。
+
+## 平台价值
+
+Lepton AI重新定义了AI应用的开发范式。无论是个人开发者还是企业团队，都能在这个平台上找到最适合的AI解决方案。我们简化技术复杂性，让创新者专注于业务价值的创造，共同推动AI技术的普惠化发展。

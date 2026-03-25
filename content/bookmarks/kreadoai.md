@@ -1,46 +1,71 @@
 ---
-title: "kreadoai"
-sitelink: "https://www.kreadoai.com/"
-description: "只需输入文本或关键词，即可创作真实/虚拟人物的多语言口播视频，"
-categories: "AI导航"
-sub-category: "AI视频生成"
+title: "KreadoAI"
+sitelink: "https://www.kreadoai.com/zh"
+description: "KreadoAI是一款基于人工智能技术的视频内容生成平台，专为数字化营销时代打造。通过先进的AI算法，平台能够将文字内容转化为生动逼真的数字人视频，大幅降低视频制作门槛。"
+categories: "AI视频创作"
+sub-category: ""
 tags:
-  - "kreadoai"
+  - "AI视频创作"
 weight: 10
 recommend: 2
 ---
-<div class="title" data-v-035d2530="">多语言AI视频创作</div>
-<div class="desc" data-v-035d2530="">只需输入文本或关键词，即可创作真实/虚拟人物的多语言口播视频，
-为创作者提供AI赋能</div>
-<div class="create-btn" data-v-035d2530="">
-<div class="cont-top-desc" data-v-035d2530="">
-<div class="title" data-v-035d2530="">多语言AI视频创作</div>
-<div class="desc" data-v-035d2530="">只需输入文本或关键词，即可创作真实/虚拟人物的多语言口播视频，
-为创作者提供AI赋能</div>
-<div class="create-btn" data-v-035d2530="">免费创建</div>
-</div>
-<div class="examples-image-text" data-v-035d2530="">
-<div class="examples-image examplesImageAnimation" data-v-035d2530="">
-<div class="title" data-v-035d2530="">140种多语言
-真人实拍模特/虚拟人物
-融合口播视频创作</div>
-<div class="image" data-v-035d2530=""><img src="https://1984a.com/wp-content/uploads/2023/08/oral-seeding.webp" alt="" data-v-035d2530="" /></div>
-</div>
-<div class="examples-text examplesTextAnimation" data-v-035d2530="">
-<div class="title" data-v-035d2530="">AI 生成营销文案内容
-帮助您提升营销效果</div>
-<div class="keywords" data-v-035d2530="">Keywords : <span data-v-035d2530="">Christmas</span></div>
-<div class="keywords-desc" data-v-035d2530="">May your <span data-v-035d2530="">Christmas</span> be filled with love and laughter.</div>
-<div class="keywords-desc" data-v-035d2530="">May the blessings of <span data-v-035d2530="">Christmas</span> fill you heart with hope and joy！</div>
-<div class="keywords-desc" data-v-035d2530="">Here is wishing you all a Merry <span data-v-035d2530="">Christmas</span> and a New Year bright with joy and success.</div>
-<div class="keywords-desc" data-v-035d2530="">Here is wishing you all a Merry <span data-v-035d2530="">Christmas</span> and a New Year bright with joy and success.</div>
-</div>
-</div>
-<div class="ai-person aiPersonAnimation" data-v-035d2530="">
-<div class="text" data-v-035d2530="">
-<div class="title" data-v-035d2530="">自定义 AI生成虚拟人物与多语言口播视频创作</div>
-<div class="desc" data-v-035d2530="">你可输入任意描述性的关键词，系统会帮助你生成你想要的虚拟人物形象。</div>
-</div>
-<div class="image" data-v-035d2530=""><img src="https://1984a.com/wp-content/uploads/2023/08/person.webp" alt="" data-v-035d2530="" /></div>
-</div>
-</div>
+## KreadoAI：智能视频创作的新纪元
+
+KreadoAI是一款基于人工智能技术的视频内容生成平台，专为数字化营销时代打造。通过先进的AI算法，平台能够将文字内容转化为生动逼真的数字人视频，大幅降低视频制作门槛。
+
+## 核心技术亮点
+
+  * **智能数字人系统** ：平台内置700+数字人形象库，涵盖不同年龄、职业和风格，配合1600+语音选项，让您的视频呈现多样化表达
+  * **真人克隆技术** ：仅需5分钟素材，即可1:1复刻真人形象和声音，支持多语言无缝切换
+  * **智能内容转换** ：支持PPT一键转视频、AI文案生成等功能，让内容创作更高效
+  * **专业级视频编辑** ：提供智能抠图、背景替换、多场景切换等后期处理功能
+
+
+
+## 创新应用场景
+
+### 营销推广
+
+快速生成多语言广告视频，满足全球化营销需求
+
+### 教育培训
+
+将教学资料转化为生动视频课程，提升学习效果
+
+### 电商直播
+
+打造24小时不间断的虚拟主播，降低运营成本
+
+### 企业宣传
+
+高效制作专业的企业形象视频和产品展示内容
+
+## 用户友好体验
+
+  1. **极简操作流程** ：三步完成视频创作 - 选形象、输文本、生成
+  2. **云端协作** ：支持团队多人协作编辑，实时共享项目进度
+  3. **智能优化** ：自动匹配最佳语音语调，确保视频呈现效果
+  4. **多平台适配** ：生成内容可直接用于社交媒体、官网等各类渠道
+
+
+
+## 灵活付费方案
+
+平台提供阶梯式付费方案，满足不同规模用户需求：
+
+  * 免费版：体验基础功能
+  * 专业版：解锁更多高级功能
+  * 企业定制：专属解决方案
+
+
+
+## 为什么选择KreadoAI？
+
+  1. **技术领先** ：采用最新生成式AI技术，保持行业前沿
+  2. **效率革命** ：传统需要数天的视频制作，现在只需几分钟
+  3. **成本优势** ：大幅降低人力、设备和时间成本
+  4. **持续更新** ：定期新增数字人形象和功能模块
+
+
+
+无论您是个人创作者、中小企业还是大型机构，KreadoAI都能为您提供最智能的视频创作解决方案，让创意更快实现。
