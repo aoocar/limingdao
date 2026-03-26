@@ -712,6 +712,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/美国免税州地址生成器  免费生成真实免税州地址、邮编、电话 - MockAddress.md",
         "content/bookmarks/135 AI排版.md",
         "content/bookmarks/360智脑.md",
         "content/bookmarks/360智图.md",
@@ -4108,6 +4109,7 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/美国免税州地址生成器-免费生成真实免税州地址邮编电话-MockAddress",
         "public/bookmarks/135-AI排版",
         "public/bookmarks/360智脑",
         "public/bookmarks/360智图",
@@ -6927,6 +6929,12 @@
     "public/bookmarks/美国地址生成器": {
       "children": [
         "public/bookmarks/美国地址生成器/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/美国免税州地址生成器-免费生成真实免税州地址邮编电话-MockAddress": {
+      "children": [
+        "public/bookmarks/美国免税州地址生成器-免费生成真实免税州地址邮编电话-MockAddress/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -17943,6 +17951,7 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/模拟虚拟",
         "public/sub-category/常用AI图像工具",
         "public/sub-category/降AIGC率",
         "public/sub-category/AI办公",
@@ -18119,6 +18128,13 @@
       "children": [
         "public/sub-category/教育资源/index.html",
         "public/sub-category/教育资源/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/模拟虚拟": {
+      "children": [
+        "public/sub-category/模拟虚拟/index.html",
+        "public/sub-category/模拟虚拟/index.xml"
       ],
       "sortOrder": "custom"
     },
