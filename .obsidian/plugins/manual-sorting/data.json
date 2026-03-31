@@ -712,6 +712,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/prompts.chat - AI Prompts Community.md",
         "content/bookmarks/这个 开源Skill，自动排版，发送到公众号草稿，不花一分钱.md",
         "content/bookmarks/Prompt Packs.md",
         "content/bookmarks/美国免税州地址生成器  免费生成真实免税州地址、邮编、电话 - MockAddress.md",
