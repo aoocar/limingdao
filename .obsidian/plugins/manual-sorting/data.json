@@ -713,6 +713,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/500.im - 发布页.md",
         "content/bookmarks/开源视频工具全景图 2026.md",
         "content/bookmarks/i8K影视导航 - 最全免费在线影视网站导航.md",
         "content/bookmarks/prompts.chat - AI Prompts Community.md",
