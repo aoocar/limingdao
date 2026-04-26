@@ -713,6 +713,7 @@
     },
     "content/bookmarks": {
       "children": [
+        "content/bookmarks/i8K影视导航 - 最全免费在线影视网站导航 1.md",
         "content/bookmarks/Organize, discover and share your prompts.md",
         "content/bookmarks/在线接收带有验证码的短信  来自 180 多个国家的临时号码.md",
         "content/bookmarks/新樱花通信.md",
@@ -4109,6 +4110,17 @@
     },
     "public/bookmarks": {
       "children": [
+        "public/bookmarks/500.im-发布页",
+        "public/bookmarks/开源视频工具全景图-2026",
+        "public/bookmarks/新樱花通信",
+        "public/bookmarks/在线接收带有验证码的短信-来自-180-多个国家的临时号码",
+        "public/bookmarks/这个-开源Skill自动排版发送到公众号草稿不花一分钱",
+        "public/bookmarks/i8K影视导航-最全免费在线影视网站导航",
+        "public/bookmarks/i8K影视导航-最全免费在线影视网站导航-1",
+        "public/bookmarks/Nano-Banana-Pro提示词图库-AI图片提示词分享平台",
+        "public/bookmarks/Organize-discover-and-share-your-prompts",
+        "public/bookmarks/Prompt-Packs",
+        "public/bookmarks/prompts.chat-AI-Prompts-Community",
         "public/bookmarks/美国免税州地址生成器-免费生成真实免税州地址邮编电话-MockAddress",
         "public/bookmarks/135-AI排版",
         "public/bookmarks/360智脑",
@@ -5486,6 +5498,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/500.im-发布页": {
+      "children": [
+        "public/bookmarks/500.im-发布页/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/2500+-ChatGPT-Prompt-Templates": {
       "children": [
         "public/bookmarks/2500+-ChatGPT-Prompt-Templates/index.html"
@@ -6647,6 +6665,12 @@
     "public/bookmarks/咔片PPT": {
       "children": [
         "public/bookmarks/咔片PPT/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/开源视频工具全景图-2026": {
+      "children": [
+        "public/bookmarks/开源视频工具全景图-2026/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -8162,6 +8186,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/新樱花通信": {
+      "children": [
+        "public/bookmarks/新樱花通信/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/信用卡生成器": {
       "children": [
         "public/bookmarks/信用卡生成器/index.html"
@@ -8474,6 +8504,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/在线接收带有验证码的短信-来自-180-多个国家的临时号码": {
+      "children": [
+        "public/bookmarks/在线接收带有验证码的短信-来自-180-多个国家的临时号码/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/在线美剧天堂在线日剧推荐在线韩剧网": {
       "children": [
         "public/bookmarks/在线美剧天堂在线日剧推荐在线韩剧网/index.html"
@@ -8519,6 +8555,12 @@
     "public/bookmarks/找我呀": {
       "children": [
         "public/bookmarks/找我呀/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/这个-开源Skill自动排版发送到公众号草稿不花一分钱": {
+      "children": [
+        "public/bookmarks/这个-开源Skill自动排版发送到公众号草稿不花一分钱/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -14994,6 +15036,18 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/i8K影视导航-最全免费在线影视网站导航": {
+      "children": [
+        "public/bookmarks/i8K影视导航-最全免费在线影视网站导航/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/i8K影视导航-最全免费在线影视网站导航-1": {
+      "children": [
+        "public/bookmarks/i8K影视导航-最全免费在线影视网站导航-1/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/iAsk-AI": {
       "children": [
         "public/bookmarks/iAsk-AI/index.html"
@@ -15918,6 +15972,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Nano-Banana-Pro提示词图库-AI图片提示词分享平台": {
+      "children": [
+        "public/bookmarks/Nano-Banana-Pro提示词图库-AI图片提示词分享平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Napkin": {
       "children": [
         "public/bookmarks/Napkin/index.html"
@@ -16188,6 +16248,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Organize-discover-and-share-your-prompts": {
+      "children": [
+        "public/bookmarks/Organize-discover-and-share-your-prompts/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/Originality.AI": {
       "children": [
         "public/bookmarks/Originality.AI/index.html"
@@ -16428,6 +16494,12 @@
       ],
       "sortOrder": "custom"
     },
+    "public/bookmarks/Prompt-Packs": {
+      "children": [
+        "public/bookmarks/Prompt-Packs/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/bookmarks/prompt-patterns": {
       "children": [
         "public/bookmarks/prompt-patterns/index.html"
@@ -16443,6 +16515,12 @@
     "public/bookmarks/PromptPerfect": {
       "children": [
         "public/bookmarks/PromptPerfect/index.html"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/bookmarks/prompts.chat-AI-Prompts-Community": {
+      "children": [
+        "public/bookmarks/prompts.chat-AI-Prompts-Community/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -17594,6 +17672,7 @@
     },
     "public/categories": {
       "children": [
+        "public/categories/网络在原",
         "public/categories/AI办公",
         "public/categories/AI大模型",
         "public/categories/AI开发平台",
@@ -17730,6 +17809,13 @@
       "children": [
         "public/categories/网络创业网络生活/index.html",
         "public/categories/网络创业网络生活/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/categories/网络在原": {
+      "children": [
+        "public/categories/网络在原/index.html",
+        "public/categories/网络在原/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -17951,6 +18037,12 @@
     },
     "public/sub-category": {
       "children": [
+        "public/sub-category/18",
+        "public/sub-category/接码平台",
+        "public/sub-category/提示词Prompt",
+        "public/sub-category/影视娱乐",
+        "public/sub-category/Prompt",
+        "public/sub-category/Prompt提示词",
         "public/sub-category/模拟虚拟",
         "public/sub-category/常用AI图像工具",
         "public/sub-category/降AIGC率",
@@ -18037,6 +18129,13 @@
       "children": [
         "public/sub-category/-AI教程/index.html",
         "public/sub-category/-AI教程/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/18": {
+      "children": [
+        "public/sub-category/18/index.html",
+        "public/sub-category/18/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -18131,6 +18230,13 @@
       ],
       "sortOrder": "custom"
     },
+    "public/sub-category/接码平台": {
+      "children": [
+        "public/sub-category/接码平台/index.xml",
+        "public/sub-category/接码平台/index.html"
+      ],
+      "sortOrder": "custom"
+    },
     "public/sub-category/模拟虚拟": {
       "children": [
         "public/sub-category/模拟虚拟/index.html",
@@ -18163,6 +18269,13 @@
       "children": [
         "public/sub-category/生成器/index.html",
         "public/sub-category/生成器/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/提示词Prompt": {
+      "children": [
+        "public/sub-category/提示词Prompt/index.html",
+        "public/sub-category/提示词Prompt/index.xml"
       ],
       "sortOrder": "custom"
     },
@@ -18212,6 +18325,13 @@
       "children": [
         "public/sub-category/营销/index.html",
         "public/sub-category/营销/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/影视娱乐": {
+      "children": [
+        "public/sub-category/影视娱乐/index.xml",
+        "public/sub-category/影视娱乐/index.html"
       ],
       "sortOrder": "custom"
     },
@@ -18555,6 +18675,20 @@
       "children": [
         "public/sub-category/PDF工具/index.html",
         "public/sub-category/PDF工具/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/Prompt": {
+      "children": [
+        "public/sub-category/Prompt/index.html",
+        "public/sub-category/Prompt/index.xml"
+      ],
+      "sortOrder": "custom"
+    },
+    "public/sub-category/Prompt提示词": {
+      "children": [
+        "public/sub-category/Prompt提示词/index.html",
+        "public/sub-category/Prompt提示词/index.xml"
       ],
       "sortOrder": "custom"
     },
