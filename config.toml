@@ -10,7 +10,7 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params]
 
-    description   = "Limingdao 黎明岛 | 记录旧时代"
+    description   = "Limingdao 黎明岛 | 互联网工具资源知识引擎"
     upload        = "/submit/"      # 左侧导航栏的"网站提交" → 站内提交表单
     about         = "/about"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/aoocar/limingdao"  
